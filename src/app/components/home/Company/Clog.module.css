@@ -1,0 +1,120 @@
+.container {
+  /* width: 1000px; */
+  /* margin: 80px auto; */
+  width: 100%;
+  border-radius: 10px;
+  border: 0.6px solid var(--primary-color);
+  background: var(--whiteee);
+  box-shadow: 0px 5px 29.3px 0px rgba(0, 0, 0, 0.25);
+  padding: 20px 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 13px;
+  margin: 80px 0;
+}
+
+.container p {
+  color: var(--greyyy);
+  text-align: center;
+  font-size: var(--desktop_p-font-size);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: space-around;
+  /* gap: 25px 55px; */
+  gap: 25px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.textWithLines {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.textWithLines p {
+  margin: 0 15px;
+  white-space: nowrap;
+}
+
+.hrLeft,
+.hrRight {
+  flex: 1;
+  border: 0;
+  height: 1px;
+  background: var(--greyyy);
+}
+
+.hrLeft {
+  margin-right: 15px;
+  background: linear-gradient(to right, white, gray);
+}
+
+.hrRight {
+  margin-left: 15px;
+  background: linear-gradient(to left, white, gray);
+}
+
+@media screen and (max-width: 1181px) {
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    padding: 20px 10px;
+  }
+}
+
+@media screen and (max-width: 841px) {
+  .imageContainer {
+    gap: 10px 60px;
+  }
+}
+
+@media screen and (max-width: 761px) {
+  .imageContainer {
+    gap: 10px 40px;
+  }
+}
+
+@media screen and (max-width: 641px) {
+  .container p {
+    font-size: var(--desktop_p-font-size);
+  }
+
+  .imageContainer {
+    gap: 10px 20px;
+  }
+  .container {
+    margin: 35px 0;
+  }
+}
+
+@media screen and (max-width: 481px) {
+  .textWithLines p {
+    margin: 0;
+  }
+
+  .imageContainer {
+    gap: 10px;
+  }
+
+  .imageWrapper img {
+    width: 70px;
+    height: 20px;
+  }
+
+  .imageWrapper:last-child img {
+    height: 35px;
+  }
+}
+
+@media screen and (max-width: 361px) {
+  .container {
+    padding: 10px;
+  }
+}

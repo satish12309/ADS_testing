@@ -1,0 +1,285 @@
+.NewSevenSection {
+  border-radius: 50px;
+  background: var(--light-black);
+  width: 100%;
+  margin: 60px auto;
+  padding: 50px 80px;
+}
+
+.griContiner {
+  display: grid;
+  grid-template-columns: 62% 25%;
+  justify-content: center;
+}
+
+.fontDiv h4 {
+  color: var(--secondary-color);
+  font-size: var(--desktop_h4-font-size);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 153%;
+  /* 45.9px */
+}
+
+.fontDiv h3 {
+  color: var(--white);
+  font-size: var(--desktop_h3-font-size);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 153%;
+}
+
+.fontDiv p {
+  color: var(--white);
+  font-size: var(--desktop_p-font-size);
+  font-style: normal;
+  font-weight: 300;
+  line-height: 153%;
+  /* 33.66px */
+}
+
+.ryt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.rytImgWrapper {
+  position: absolute;
+  width: 220px;
+  height: 335px;
+  bottom: -50px;
+}
+
+.buttonDiv {
+  display: flex;
+  margin-top: 50px;
+  gap: 30px;
+}
+
+.green {
+  border-radius: 5px;
+  background: var(--p3, var(--parrot-green));
+  color: var(--white);
+  border: none;
+  padding: 6px 40px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 153%;
+  /* 30.6px */
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.green:hover {
+  background: var(--mint-green);
+  box-shadow: 0 0 15px rgba(4, 201, 136, 0.6);
+}
+
+.blue {
+  display: flex;
+  gap: 10px;
+  color: var(--primary-color);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 10px 22px;
+  border-radius: 5px;
+  background: var(--white);
+  border: none;
+  align-items: center;
+  cursor: pointer;
+  transition: color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blue:hover {
+  color: var(--royale-blue);
+  box-shadow: 0 0 15px rgba(104, 114, 121, 0.6);
+}
+
+.NewSevenSectionM {
+  display: none;
+}
+
+@media screen and (max-width: 1281px) {
+  /* .NewSevenSection {
+    margin: 13% 0;
+  } */
+}
+@media screen and (max-width: 1181px) {
+  .NewSevenSection {
+    padding: 50px;
+    margin: 80px auto;
+  }
+}
+
+@media screen and (max-width: 1081px) {
+  .NewSevenSection {
+    padding: 40px;
+  }
+
+  .rytImgWrapper {
+    bottom: -40px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 968px) {
+  .NewSevenSection {
+    /* max-width: 860px; */
+    padding: 40px;
+  }
+
+  .rytImgWrapper {
+    width: 210px;
+    height: 325px;
+    bottom: -40px;
+  }
+
+  .griContiner {
+    grid-gap: 20px;
+  }
+}
+
+@media screen and (max-width: 841px) {
+  .NewSevenSection {
+    /* margin: 50px auto; */
+    padding: 25px;
+  }
+
+  .rytImgWrapper {
+    width: 205px;
+    height: 320px;
+    bottom: -25px;
+  }
+
+  .blue {
+    padding: 10px 20px;
+  }
+}
+
+@media screen and (max-width: 761px) {
+  .NewSevenSection {
+    padding: 20px 15px;
+  }
+
+  .rytImgWrapper {
+    width: 195px;
+    height: 303px;
+    bottom: -20px;
+  }
+}
+
+@media screen and (max-width: 641px) {
+  .NewSevenSection {
+    display: none;
+  }
+
+  .NewSevenSectionM {
+    display: block;
+    border-radius: 30px;
+    background: var(--light-black);
+    padding: 20px;
+    margin: 35px auto;
+  }
+
+  .griContiner {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .NewSevenSectionM h4 {
+    font-size: var(--desktop_h4-font-size);
+  }
+
+  .NewSevenSectionM h3 {
+    font-size: var(--desktop_h3-font-size);
+  }
+
+  .NewSevenSectionM p {
+    color: var(--white);
+    font-size: var(--desktop_p-font-size);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 153%;
+    width: 241px;
+  }
+
+  .ryt img {
+    position: absolute;
+    width: 130px;
+    height: auto;
+    right: -10px;
+    bottom: -20px;
+  }
+
+  .ryt {
+    gap: 0;
+    position: relative;
+    display: block;
+  }
+
+  .buttonDiv {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .green {
+    padding: 9px;
+    font-size: 18px;
+    width: fit-content;
+  }
+
+  .blue {
+    gap: 8px;
+    font-size: 18px;
+    padding: 10px;
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 481px) {
+  .NewSevenSectionM h4 {
+    font-size: 20px;
+  }
+
+  .NewSevenSectionM h3 {
+    font-size: 22px;
+  }
+
+  .blue,
+  .green {
+    font-size: 16px;
+  }
+
+  .buttonDiv {
+    margin-top: 45px;
+  }
+
+  .fontDiv {
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+  }
+
+  .fontDiv h3 {
+    line-height: 120%;
+  }
+}
+
+@media screen and (max-width: 361px) {
+  .NewSevenSectionM {
+    margin: 20px auto;
+  }
+
+  .blue,
+  .green {
+    font-size: 14px;
+  }
+}

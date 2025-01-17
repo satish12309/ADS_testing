@@ -1,0 +1,10 @@
+.main {
+  background-color: #fff;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+}
+
+.swiper {
+  width: 100%;
+}

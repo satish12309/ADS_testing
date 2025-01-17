@@ -1,0 +1,462 @@
+.sectionWrapper {
+  width: 100%;
+  display: flex;
+  margin: auto;
+  margin-top: 120px;
+  flex-direction: column;
+  border-radius: 54px;
+  background: var(--light-black);
+  padding: 50px 0px 100px 0px;
+  gap: 40px;
+  position: relative;
+}
+
+.upskillHeading {
+  font-size: 45px;
+  color: var(--white);
+  display: flex;
+  font-weight: 400;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.spanHead {
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 16px;
+  text-decoration-color: var(--light-orange);
+}
+
+.toolBox p {
+  margin: 0;
+  color: var(--white);
+}
+
+.UpperBoxContainer {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  gap: 7rem;
+  margin: 2rem 5rem 2rem 7rem;
+  /* position: relative; */
+  /* flex-wrap: wrap; */
+}
+
+.upskillingData1Wrapper,
+.upskillingData2Wrapper {
+  width: 100%;
+  display: flex;
+  gap: 7rem;
+}
+
+.boxContainer {
+  color: var(--white);
+  width: 265px;
+  height: 250px;
+  position: relative;
+}
+
+.upperBox {
+  display: flex;
+  gap: 1.5rem;
+  padding: 0.4rem 0.6rem;
+  border: 1px solid var(--light-orange);
+  width: fit-content;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.upperBox h5 {
+  color: var(--light-orange);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.upperBox p {
+  margin: 0;
+  color: var(--white);
+}
+
+.boxTitle {
+  margin: -0.7rem 0 1rem;
+  line-height: 1.2;
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--white)
+}
+
+.boxContainer:nth-child(3) .boxTitle,
+.boxContainer:nth-child(6) .boxTitle {
+  margin: 0.7rem 0 1rem;
+
+}
+
+.textHead {
+  font-weight: 400;
+}
+
+.boxText {
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 1rem;
+  color: var(--white);
+}
+
+.toolBox {
+  position: absolute;
+  display: flex;
+  gap: 0.8rem;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0.6rem 0.8rem;
+  background: rgba(0, 114, 188, 0.15);
+  border-radius: 8px;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+}
+
+.toolIcon {
+  width: 100%;
+  height: auto;
+  /* color: var(--secondary-color); */
+}
+
+/* .toolPyIcon {
+  width: 70px;
+  height: 30px;
+}
+
+.toolIconsingle {
+  width: 200px;
+  height: auto;
+} */
+
+/* .dashDiv {
+  width: 200px;
+  height: 5px;
+  border-radius: 34px;
+  background: rgba(254, 122, 54, 0.25);
+  position: relative;
+  top: -20px;
+  left: 170px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 6px 4px;
+} */
+
+.Dashline {
+  border: 2px dashed white;
+  width: 200px;
+  height: 1px;
+  border-radius: 10px;
+}
+
+.boxDown {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  margin-top: 10px;
+  align-items: flex-start;
+}
+
+.bonus {
+  border-radius: 8px;
+  border: 1px solid var(--secondary-color);
+  background: rgba(255, 196, 54, 0.2);
+}
+
+.bonus h5 {
+  color: var(--secondary-color);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 158%;
+  /* 31.6px */
+}
+
+.boxdown h4 {
+  color: #cae5ff;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%;
+  /* 31.25px */
+}
+
+.svgLine {
+  position: relative;
+  left: 140px;
+  text-align: center;
+  top: -27px;
+}
+
+.svgLinetwo {
+  position: absolute;
+  right: -10px;
+  top: 160px;
+}
+
+.svgLinethree {
+  text-align: center;
+  z-index: 2;
+  position: absolute;
+  left: 6px;
+  bottom: -120px;
+}
+
+/* .svgLinetfourth {
+  position: absolute;
+  right: 155px;
+  top: 13px;
+}
+
+.svgLinetfourth img {
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.svgLinefifth {
+  position: relative;
+  left: 200px;
+  top: -30px;
+}
+
+.svgLinesixth {
+  position: relative;
+  right: 79px;
+  top: -33px;
+  z-index: 2;
+} */
+
+@media screen and (max-width: 1381px) {
+  .sectionWrapper {
+    gap: 20px;
+  }
+
+  .UpperBoxContainer {
+    margin: 2rem 4rem 2rem 5.5rem;
+  }
+
+  .upskillingData1Wrapper,
+  .upskillingData2Wrapper {
+    gap: 5rem;
+  }
+
+  .svgLine {
+    left: 111px;
+  }
+
+  .boxContainer .svgLine,
+  .boxContainer .svgLine {
+    width: 163px;
+    left: 173px;
+  }
+
+  .boxContainer .svgLine svg,
+  .boxContainer .svgLine svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  .svgLinetwo {
+    right: -50px;
+    top: 160px;
+  }
+
+  .svgLinethree {
+    left: -100px;
+    bottom: -147px;
+  }
+}
+
+@media screen and (max-width: 1281px) {
+  .boxTitle {
+    font-size: 16px;
+  }
+
+  .upskillingData1Wrapper .boxContainer .svgLine,
+  .upskillingData2Wrapper .boxContainer .svgLine {
+    width: 142px;
+  }
+
+  .upskillingData1Wrapper .boxContainer .svgLine {
+    left: 152px;
+  }
+
+  .upskillingData2Wrapper .boxContainer .svgLine {
+    left: 162px;
+  }
+
+  .svgLinetwo {
+    right: -90px;
+    top: 165px;
+  }
+
+  .svgLinetwo svg {
+    height: 400px;
+  }
+
+  .svgLinethree {
+    left: -82px;
+    bottom: -150px;
+  }
+
+  .svgLinethree svg {
+    height: 525px;
+    width: 390px;
+  }
+
+  .boxContainer {
+    width: 237px;
+  }
+
+}
+
+@media screen and (max-width: 1181px) {
+  .boxContainer {
+    width: 230px;
+  }
+
+  .UpperBoxContainer {
+    gap: 3rem 2rem;
+  }
+
+  .svgLine {
+    width: 129px;
+    left: 150px;
+  }
+
+  .svgLinetwo {
+    right: -90px;
+
+  }
+
+  .svgLinetwo svg {
+    height: 340px;
+  }
+}
+
+@media screen and (max-width: 1081px) {
+
+  .upskillingData1Wrapper,
+  .upskillingData2Wrapper {
+    gap: 3rem;
+  }
+
+  .boxText {
+    font-size: 12px;
+  }
+
+  .upskillingData1Wrapper .boxContainer .svgLine,
+  .upskillingData2Wrapper .boxContainer .svgLine {
+    width: 110px;
+    left: 165px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .upskillHeading {
+    font-size: 36px;
+  }
+
+  .upskillingData1Wrapper,
+  .upskillingData2Wrapper {
+    gap: 2rem;
+  }
+
+  .upskillingData1Wrapper .boxContainer .svgLine,
+  .upskillingData2Wrapper .boxContainer .svgLine {
+    width: 80px;
+  }
+
+  .upskillingData1Wrapper .boxContainer .svgLine {
+    left: 155px;
+  }
+
+  .svgLinetwo {
+    right: -70px;
+  }
+
+  .svgLinetwo svg {
+    width: 145px;
+  }
+
+  .svgLinethree {
+    left: -116px;
+  }
+}
+
+@media screen and (max-width: 968px) {
+  
+  .UpperBoxContainer {
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: visible ;
+    position: relative;
+    padding-left: 100px;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+
+  .upskillingData1Wrapper,
+  .upskillingData2Wrapper {
+    overflow-y: visible;
+    width: max-content;
+    gap: 5rem;
+  }
+
+  .svgLinetwo {
+    top: 0;
+    right: -390px;
+  }
+
+  .svgLinetwo svg {
+    height: 347px;
+    width: 145px;
+  }
+
+
+  .svgLine {
+    left: 150px;
+  }
+
+  .boxContainer {
+    width: 265px;
+  }
+
+  .upskillingData1Wrapper .boxContainer .svgLine,
+  .upskillingData2Wrapper .boxContainer .svgLine {
+    width: 140px;
+    left: 175px;
+  }
+
+  .sectionWrapper {
+    padding: 50px 0 70px;
+  }
+
+  .upskillHeading {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+
+  .svgLinethree svg {
+    overflow-y: visible;
+    height: 491px;
+    width: 285px;
+  }
+
+  .svgLinethree {
+    left: -55px;
+    bottom: -247px;
+    overflow: visible !important;
+    z-index: 100;
+
+  }
+}
+
+@media screen and (max-width: 641px) {
+  .sectionWrapper {
+    display: none;
+  }
+}

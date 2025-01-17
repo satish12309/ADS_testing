@@ -1,0 +1,28 @@
+{
+  "certificateNew": [
+    {
+      "id": 1,
+      "title": "Certification from iHUB DivyaSampark, IIT Roorkee",
+      "imageUrl": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ihub+_rrk.webp",
+      "imageWidth": 400,
+      "imageHeight": 400,
+      "description": [
+        "Executive Certification: Earned in Cyber Security from iHUB DivyaSampark, IIT Roorkee.",
+        "Hands-On Experience: Practical learning at IIT Roorkee campus*",
+        "Top Faculty: Learn directly from IIT faculty."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "EC Council Certified ethical hacker Certificate",
+      "imageUrl": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ceh-cers.webp",
+      "imageWidth": 400,
+      "imageHeight": 400,
+      "description": [
+        "Gain an EC-Council certificate that is recognized globally.",
+        "Achieve the top credential in the field of cybersecurity.",
+        "Build a strong foundation to accelerate your career in cybersecurity."
+      ]
+    }
+  ]
+}

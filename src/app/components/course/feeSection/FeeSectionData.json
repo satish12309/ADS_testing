@@ -1,0 +1,27 @@
+{
+  "feeSection": {
+    "liveClasses": {
+      "title": "Live online classes",
+      "imgSrc": "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/check_icon.webp",
+      "imgAlt": "Zest",
+      "benefits": [
+        "Live online interactive sessions",
+        "1:1 online Doubt Session with experts",
+        "Online Capstone projects",
+        "Virtual Mock interviews"
+      ]
+    },
+    "hybridClasses": {
+      "title": "Hybrid Classes",
+      "tag": "popular",
+      "imgSrc": "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/check_icon_green.webp",
+      "imgAlt": "Zest",
+      "benefits": [
+        "All the benefits of Live Online Classes",
+        "Offline 1:1 classroom doubt sessions on weekends",
+        "Offline Mock Interviews with 3-5 members panel",
+        "Offline Classroom Capstone projects in Pune, Delhi, Bangalore, Chennai, Hyderabad, and Mumbai"
+      ]
+    }
+  }
+}

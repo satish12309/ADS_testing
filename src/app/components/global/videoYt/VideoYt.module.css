@@ -1,0 +1,171 @@
+.videomain {
+  margin-top: 10px;
+}
+
+.videomain {
+  position: relative;
+
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.videomain video {
+  width: 100%;
+  /* height: 600px; */
+
+  border-radius: 20px;
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.controlsContainer {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+  padding: 0 10px;
+}
+
+.playPauseButton {
+  background-color: var(--tertiary-color);
+  color: var(--whtie);
+  border: none;
+  padding: 10px 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  font-size: 26px;
+  text-align: center;
+}
+
+.trackbar {
+  width: auto;
+  appearance: none;
+  height: 5px;
+  background: linear-gradient(to right, red var(--progress, 0%), #ddd 0%);
+  outline: none;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+  cursor: pointer;
+  width: 100%;
+}
+
+.trackbarDiv {
+  border: 1.067px solid #04C988;
+  background: #FFF;
+
+  padding: 16px 30px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  width: 320px;
+}
+
+.trackbar:hover {
+  opacity: 1;
+}
+
+.trackbar::-webkit-slider-thumb {
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #333;
+  cursor: pointer;
+}
+
+.trackbar::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #333;
+  cursor: pointer;
+}
+
+.muteButton {
+  position: absolute;
+  right: 26px;
+  top: 30px;
+  font-size: 20px;
+  border-radius: 50%;
+  padding: 11px 12px;
+  border: none;
+  z-index: 1;
+  background-color: rgba(212,
+      210,
+      210,
+      0.7);
+  /* Light transparent white background */
+  color: #fff;
+  /* Optional: Change text color to black for better contrast */
+  cursor: pointer;
+  /* Optional: Change cursor to pointer to indicate it's clickable */
+}
+
+
+.videoContainer {
+  padding: 20px 20px 76px 20px;
+  border-radius: 35.203px;
+  border: 1.067px solid #0072BC;
+  background: #EDF6FF;
+}
+
+@media screen and (max-width:968px) {
+
+  .controlsContainer {
+    gap: 15px;
+  }
+
+  .playPauseButton {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 841px) {
+  .muteButton {
+    right: 25px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 641px) {
+  .videoContainer {
+    padding-bottom: 60px;
+    gap: 10px;
+    border-radius: 16px;
+  }
+
+  .trackbarDiv {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .trackbar {
+    width: 100%;
+  }
+
+  .playPauseButton {
+    font-size: 18px;
+  }
+
+  .videomain {
+    margin-top: 0;
+  }
+
+  .muteButton {
+    right: 27px;
+    top: 26px;
+    padding: 6px 7px;
+
+  }
+}

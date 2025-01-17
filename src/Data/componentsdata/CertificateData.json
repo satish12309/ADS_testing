@@ -1,0 +1,32 @@
+{
+    "certificateNew": [
+      {
+        "id": 1,
+        "title": "IBM Course Completion Certificate",
+        "imageUrl": "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/ibm_Cert_new.webp",
+        "imageWidth": 400,
+        "imageHeight": 260,
+        "description": "Achieve an industry-recognized IBM certification, showcasing your proficiency in data science and AI."
+      },
+      {
+        "id": 2,
+        "title": "Microsoft Course Completion Certificate",
+        "imageUrl": "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/microsoft_Cert_new.webp",
+        "imageWidth": 400,
+        "imageHeight": 260,
+        "description": "Gain an internationally recognized Microsoft certification, proving your expertise in cloud technologies."
+      },
+      {
+        "id": 3,
+        "title": "Capstone Project Certificate from IBM",
+        "imageUrl": "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project_ibm_Cert_new.webp",
+        "imageWidth": 360,
+        "imageHeight": 240,
+        "description": [
+          "This certification boosts your credibility in the IT sector and enhances your career prospects.",
+          "Note: The certification is granted upon the successful completion of two capstone projects."
+        ]
+      }
+    ]
+  }
+  

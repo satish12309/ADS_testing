@@ -1,0 +1,483 @@
+.nav {
+  width: 100vw;
+  scroll-behavior: smooth;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  right: 0;
+  left: 0;
+  height: 80px;
+  padding: 0px 8% 0px 7%;
+  background: var(--white);
+}
+.logoWrapper img {
+  width: 255px !important;
+  height: 55px !important;
+}
+
+.left {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoWrapper {
+  position: relative;
+  width: 200px;
+  height: 50px;
+}
+
+/* .left button,
+.right button {
+  border-radius: 2.67px;
+  color: var(--white);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  padding: 8px 15px;
+  letter-spacing: 0.7px;
+}
+
+.right button {
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+.icon {
+  margin-left: 10px;
+}
+
+.ham {
+  display: inline;
+  justify-self: flex-start;
+  color: var(--primary-color);
+  cursor: pointer;
+  font-size: 28px;
+  margin: -5px 10px 0 5px;
+}
+
+.right span {
+  margin-right: 50px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.right a {
+  display: flex;
+  gap: 2px;
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--black);
+}
+
+.right span:hover {
+  color: var(--primary-color);
+  transform: scale(1) translate(-0%, -20%);
+  transition: all 0.5s ease-in-out;
+  scroll-behavior: smooth;
+}
+
+.hide {
+  display: none;
+}
+
+.ham {
+  display: none;
+} */
+
+/* Dropdown Button */
+/* .dropbtn {
+  background-color: var(--orange);
+  color: var(--white);
+  font-size: 18px;
+  margin-right: 10px;
+  border: 1px solid var(--orange);
+  box-shadow: var(--orange) 0px 0px 4px 0px !important;
+} */
+
+/* The container <div> - needed to position the dropdown content */
+/* .dropdown {
+  position: relative;
+  display: inline-block;
+} */
+
+/* Dropdown Content (Hidden by Default) */
+/* .dropdownContent {
+  display: none;
+  position: absolute;
+  background-color: var(--white);
+  max-width: fit-content;
+  z-index: 1;
+  margin-top: 3px;
+  font-size: 16px;
+} */
+
+/* Links inside the dropdown */
+/* .dropdownContent a {
+  color: var(--black);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  width: 400px;
+} */
+
+/* Change color of dropdown links on hover */
+/* .dropdownContent a:hover {
+  background-color: var(--orange);
+  color: var(--white);
+} */
+
+/* Show the dropdown menu on hover */
+/* .dropdown:hover .dropdownContent {
+  display: block;
+} */
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+/* .dropdown:hover .dropbtn {
+  background-color: var(--white);
+  color: var(--orange);
+  border: 1px solid var(--orange);
+}
+
+.megaMenu {
+  position: absolute;
+} */
+
+/* Styles for the button inside the Navbar */
+/* .requestBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  position: relative;
+  margin: 0;
+} */
+
+.requestBtn button {
+  background: linear-gradient(90deg, #e95407 0%, #d74900 100%);
+  color: var(--white);
+  border: none;
+  border-radius: 8px;
+  padding: 0.8rem 1.5rem;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease;
+  outline: none;
+  position: relative;
+}
+
+/* Add hover effect */
+.requestBtn button:hover {
+  background: var(--white);
+  /* Slight scaling for effect */
+  border: 1px solid var(--deep-orange);
+  color: var(--deep-orange);
+}
+
+/* .dropdownContainer {
+  position: relative;
+} */
+
+/* .dropdown {
+  position: absolute;
+  top: 25px;
+  left: -15px;
+  background: var(--white);
+  z-index: 1000;
+  border-radius: 10px;
+  width: 200px;
+} */
+
+/* Dropdown container for 'More' */
+/* .dropdownContainer {
+  position: relative;
+} */
+
+/* .moreLink {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: var(--black);
+  font-size: 16px;
+  font-weight: 800;
+} */
+
+/* .moreLink svg {
+  margin-left: 5px;
+} */
+
+/* Dropdown Links */
+/* .dropdown a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: var(--deep-grey);
+  font-size: 14px;
+  font-weight: 400;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  cursor: pointer;
+} */
+
+/* Hover effect for dropdown items */
+/* .dropdown a:hover {
+  background-color: var(--whitee);
+  color: var(--sky-blue);
+} */
+
+/* Adjust the dropdown arrow icon */
+/* .dropdown svg {
+  margin-left: 5px;
+} */
+
+/* Smooth transition effect for dropdown visibility */
+/* .dropdownContainer {
+  transition: opacity 0.3s ease;
+} */
+
+@media only screen and (max-width: 1381px) {
+  .nav {
+    padding: 0 7% 0 6.5%;
+  }
+}
+@media only screen and (max-width: 1181px) {
+  .nav {
+    padding: 0 7% 0 6.5%;
+  }
+
+  .left {
+    gap: 30px;
+  }
+}
+@media only screen and (max-width: 1081px) {
+  /* .right span {
+    margin-right: 12px;
+  }
+
+  .right {
+    gap: 10px;
+  } */
+
+  .nav {
+    height: 60px;
+  }
+
+  /* .left button {
+    padding: 8px 15px;
+    color: var(--white);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    border-radius: 2px;
+  } */
+
+  /* .left {
+    gap: 15px;
+  } */
+
+  .requestBtn button {
+    padding: 0.4rem 1.2rem;
+    /* font-size: 14px;
+    color: var(--primary-color);
+    background-color: transparent;
+    border: 2px solid var(--primary-color);
+    font-weight: 500; */
+  }
+}
+
+@media only screen and (max-width: 968px) {
+  .nav {
+    padding: 0 4% 0 3.5%;
+  }
+}
+/* @media only screen and (max-width: 968px) {
+
+  .requestBtn {
+    padding: 0;
+  }
+  
+  .left {
+    gap: 5px;
+  }
+
+  .requestBtn button {
+    padding: 10px;
+    font-size: 11px;
+  }
+
+  .right {
+    gap: 10px;
+  }
+
+  .right a,
+  .right span {
+    font-size: 14px;
+  }
+
+  .nav {
+    padding: 0px 40px 0px 30px;
+  }
+} */
+
+@media only screen and (max-width: 841px) {
+  .nav {
+    padding: 0 5% 0 3%;
+  }
+  .logoWrapper img {
+    width: 200px !important;
+    height: 45px !important;
+  }
+  /* .requestBtn button {
+    padding: 5px;
+    font-size: 12px;
+  } */
+
+  /* 
+  .right a,
+  .right span {
+    font-size: 12px;
+    align-items: center;
+  }
+
+  .right span {
+    margin: 0;
+  }
+
+  .left {
+    gap: 0;
+  }
+
+  .right {
+    gap: 10px;
+  } */
+
+  /* .nav {
+    padding: 0px 30px 0px 20px;
+    gap: 10px;
+  } */
+
+  /* .left button {
+    padding: 8px 10px;
+  } */
+}
+
+/* @media only screen and (max-width: 761px) {
+  .nav {
+    width: 100%;
+    padding: 0px 40px 0px 35px;
+  }
+
+  .logo {
+    width: 160px;
+  }
+
+  .left {
+    width: 60%;
+    gap: 0;
+    justify-content: space-between;
+  }
+
+  .megaMenu {
+    position: absolute;
+  }
+
+  .ham {
+    display: flex;
+    font-size: 28px;
+    margin-right: 10px;
+    margin-left: 5px;
+    margin-top: -5px;
+  }
+
+  .right {
+    display: none;
+  }
+
+  .dropdown {
+    display: none;
+  }
+
+  .mobileWrapper .mobileMenu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 65px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100vw;
+    height: max-content;
+    border-radius: 0 5px 5px 0;
+    background-color: var(--white);
+    flex-flow: column;
+    position: absolute;
+    z-index: 999;
+  }
+
+  .mobileWrapper .mobileMenu a {
+    text-decoration: none;
+    color: var(--black);
+  }
+
+  .mobileWrapper .mobileMenu span {
+    font-size: 18px;
+    padding: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+  }
+
+  .mobileWrapper .mobileMenu span:hover {
+    color: var(--white);
+    background-color: var(--light-blue);
+  }
+
+  .left img {
+    height: auto;
+  }
+} */
+
+@media only screen and (max-width: 481px) {
+  /* .nav{
+    padding: 0px 20px 0px 15px;
+  } */
+
+  /* .left {
+    width: max-content;
+  } */
+
+  .requestBtn button {
+    font-size: 14px;
+  }
+
+  .logoWrapper {
+    width: 145px;
+    height: 35px;
+  }
+}
+
+@media screen and (max-width: 361px) {
+  .requestBtn button {
+    padding: 0.2rem 0.5rem;
+  }
+
+  .left {
+    gap: 0;
+  }
+}
+
+/* @media only screen and (max-width: 801px) {
+  .left {
+    width: 100vw;
+    justify-content: space-between;
+  }
+  
+  .nav {
+    width: 100vw;
+  }
+  
+  .requestBtn {
+    display: none;
+  }
+} */

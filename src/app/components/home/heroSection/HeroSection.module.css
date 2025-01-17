@@ -1,0 +1,867 @@
+.container {
+  margin-top: 4%;
+  background: radial-gradient(
+      circle at 10% 10%,
+      /* Blue circle positioned at the top left */ rgba(6, 59, 92, 0.9) 1%,
+      /* Smaller blue circle */ transparent 30% /* Smooth transition to black */
+    ),
+    radial-gradient(
+      circle at 90% 80%,
+      /* Orange circle positioned at the bottom right */
+        rgba(254, 122, 54, 000.3) 1%,
+      /* Glowing orange circle */ transparent 40%
+        /* Smooth transition to black */
+    ),
+    #212121;
+  background-color: rgba(15, 14, 14, 0.954);
+  background-repeat: no-repeat;
+}
+
+.leftside {
+  display: flex;
+  flex-flow: column;
+  gap: 35px;
+}
+
+.listleft p {
+  color: var(--white);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 153%;
+  /* 45.9px */
+  margin-top: 0;
+}
+
+.listleft {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.gridConteiner {
+  display: grid;
+  grid-template-columns: 60% 30%;
+  width: 100%;
+  padding: 90px 0 50px 0;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.gridConteiner h1 {
+  font-size: var(--desktop_h1-font-size);
+  font-style: normal;
+  line-height: 126.5%;
+  letter-spacing: 0.6px;
+  color: var(--white);
+  font-weight: 600;
+  /* margin-top: -8px; */
+  font-family: "Open Sans", sans-serif;
+}
+.spantitle {
+  background: linear-gradient(90deg, #fe7a36 23.18%, #ffc436 65.33%);
+  background-clip: text;
+  font-weight: 600;
+  line-height: 125%;
+  letter-spacing: 0.55px;
+  color: transparent;
+  /* Keep this for desktop view */
+}
+
+.btn {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  background: linear-gradient(90deg, #0383ff 0%, #003456 100%);
+  border: none;
+  padding: 20px 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: var(--white);
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: rgba(10, 10, 10, 0.2) 0px 8px 24px;
+  transition: all 10s ease;
+  height: 38px;
+  width: max-content;
+  bottom: -23px;
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  /* Start from outside the button */
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  /* Glass-like effect */
+  border-radius: 1px;
+  backdrop-filter: blur(1px);
+  /* Adds a blur to create the glass effect */
+  transition: all 0.5s ease;
+  /* Smooth transition */
+}
+
+.btn:hover::before {
+  left: 100%;
+  /* Move to the other side */
+}
+
+.rytConteiner {
+  /* border-top-right-radius: 34px;
+  border-top-left-radius: 34px; */
+  border-radius: 34px 34px 0 0;
+
+  background: linear-gradient(0deg, #fbfbfb 0%, #fbfbfb 100%),
+    linear-gradient(0deg, #f5f5f5 0%, #f5f5f5 100%), #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 40px 30px 30px;
+  position: relative;
+}
+
+.rytConteiner h2 {
+  color: var(--light-grey);
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 0px;
+}
+
+.hr {
+  width: 100%;
+  height: 1px;
+}
+
+.spandiv {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.listryt {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.listryt span {
+  color: var(--light-black);
+  font-size: 14.377px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.listDown {
+  border-radius: 0px 0px 34px 34px;
+  background: linear-gradient(0deg, #e1e1e1 0%, #e1e1e1 100%),
+    linear-gradient(0deg, #f5f5f5 0%, #f5f5f5 100%), #f5f5f5;
+  padding: 12px 20px;
+  display: flex;
+}
+
+.bookFreebtn {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  gap: 6px;
+}
+
+.bookFreebtn button {
+  color: var(--white);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 6px;
+  background: var(--deep-blue);
+  border: none;
+  padding: 15px;
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  position: relative;
+  overflow: hidden;
+  transition: background 0.3s, box-shadow 0.5s ease;
+  cursor: pointer;
+}
+
+.bookFreebtn button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: rgba(39, 103, 180, 0.2);
+  /* Transparent white for glow */
+  transition: left 0.5s ease;
+  z-index: 0;
+}
+
+.bookFreebtn button:hover::before {
+  left: 0;
+}
+
+.bookFreebtn button:hover {
+  background: var(--deep-blue);
+  /* Keep the same background color */
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.6);
+  /* Glowing effect */
+  color: var(--light-green);
+}
+
+.bookFreebtn button span {
+  position: relative;
+  z-index: 1;
+  /* Ensure text is above the glowing effect */
+}
+
+.bookFreebtn p {
+  color: var(--black);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+  margin-top: 10px;
+}
+
+.greenTag {
+  width: fit-content;
+  float: right;
+  position: absolute;
+  top: -3px;
+  right: 20px;
+}
+
+.pointsDiv {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.orgleft {
+  font-style: normal;
+  font-weight: 600;
+  line-height: 153%;
+}
+.typelogo {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  justify-content: left;
+  align-items: center;
+  gap: 20px;
+  white-space: nowrap;
+}
+
+.logoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoContainer img {
+  height: auto;
+}
+
+.logoContainer::after {
+  content: "|";
+  font-size: 24px;
+  color: gray;
+  margin-left: 20px;
+}
+
+/* Remove the separator for the last item in the entire container */
+.logoContainer:last-child::after {
+  content: "";
+}
+
+.btnmblDiv {
+  display: none;
+}
+
+.mblImag {
+  display: none;
+}
+
+@media screen and (max-width: 1381px) {
+  .gridConteiner {
+    grid-template-columns: 60% 36%;
+  }
+
+  .gridConteiner h1 {
+    font-size: 38px;
+  }
+
+  /* .rytConteiner h2 {
+    font-size: 30px;
+  } */
+
+  /* .listDown{
+    padding: 20px;
+  } */
+
+  .listDown img {
+    margin-top: 6px;
+  }
+
+  .spandiv {
+    margin-top: 5px;
+  }
+}
+
+@media (max-width: 1281px) {
+  .gridConteiner h1 {
+    font-size: 36px;
+  }
+
+  .gridConteiner h2 {
+    font-size: 30px;
+  }
+
+  /* .btn {
+    gap: 15px;
+    width: 36%;
+  } */
+  .typelogo {
+    top: 0;
+  }
+}
+
+@media screen and (max-width: 1181px) {
+  .gridConteiner {
+    padding: 50px 0;
+  }
+
+  .gridConteiner h1 {
+    font-size: 34px;
+  }
+
+  .bookFreebtn {
+    grid-template-columns: 67% 30%;
+  }
+
+  .listleft p {
+    font-size: 18px;
+  }
+
+  .listryt span {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .bookFreebtn button {
+    font-size: 14px;
+  }
+
+  .typelogo {
+    width: 580px;
+  }
+
+  .desktopImg {
+    width: 100px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1081px) {
+  .container {
+    margin-top: 6%;
+  }
+
+  .gridConteiner h1 {
+    font-size: 31px;
+  }
+
+  .listleft p {
+    font-size: 19px;
+  }
+
+  .rytConteiner h2 {
+    font-size: 28px;
+  }
+
+  .bookFreebtn button {
+    font-size: 13px;
+  }
+
+  .rytConteiner {
+    padding: 30px 20px 20px;
+  }
+
+  /* .btn {
+    font-size: 14px;
+  } */
+
+  .typelogo {
+    width: 560px;
+  }
+
+  /* .hr {
+    width: 280px;
+  } */
+}
+
+@media screen and (max-width: 1024px) {
+  .rytConteiner {
+    padding: 30px 25px 25px;
+  }
+
+  .listryt span {
+    font-size: 14px;
+  }
+
+  .rytConteiner h2 {
+    font-size: 24px;
+  }
+
+  .gridConteiner h1 {
+    font-size: 29px;
+  }
+
+  .bookFreebtn {
+    grid-template-columns: 62% 30%;
+    /* gap: 14px; */
+  }
+
+  /* .btn {
+    width: 39%;
+  } */
+
+  .bookFreebtn button {
+    font-size: 12px;
+    padding: 13px 15px;
+  }
+
+  .listDown {
+    padding: 12px;
+  }
+
+  .typelogo {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 968px) {
+  .typelogo {
+    width: 430px;
+  }
+
+  .rytConteiner {
+    padding: 30px 15px 20px;
+  }
+
+  .desktopImg {
+    width: 70px;
+  }
+
+  .bookFreebtn {
+    grid-template-columns: 70% 30%;
+  }
+
+  .bookFreebtn button {
+    font-size: 12px;
+    padding: 13px 10px;
+  }
+
+  /* .btn {
+    width: 43%;
+    font-size: 12px;
+  } */
+
+  /* .hr {
+    width: 100%;
+  } */
+
+  .gridConteiner h1 {
+    font-size: 25px;
+  }
+
+  .listleft p {
+    font-size: 16px;
+  }
+
+  .rytConteiner h2 {
+    font-size: 22px;
+  }
+
+  .hr {
+    width: 90%;
+  }
+
+  .spandiv {
+    gap: 5px;
+  }
+
+  .listryt span {
+    font-size: 13px;
+  }
+
+  .gridConteiner {
+    grid-template-columns: 61% 36%;
+    padding: 50px 0 20px;
+  }
+
+  .bookFreebtn p {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 841px) {
+  .desktopImg {
+    width: 70px;
+  }
+
+  .bookFreebtn p {
+    font-size: 10px;
+    margin: 0;
+  }
+
+  .gridConteiner h1 {
+    font-size: 24px;
+  }
+
+  .rytConteiner {
+    padding: 20px 10px;
+  }
+
+  .rytConteiner h2 {
+    font-size: 21px;
+    margin-top: 10px;
+  }
+
+  /* .hr{
+    width: 100%;
+  } */
+  /* .bookFreebtn {
+    grid-template-columns: 63% 30%;
+  } */
+
+  .bookFreebtn button {
+    padding: 10px;
+    font-size: 11px;
+  }
+
+  .leftside {
+    gap: 30px;
+  }
+
+  .listryt span {
+    font-size: 12px;
+  }
+
+  .listryt img {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* .listDown {
+    padding: 23px 15px;
+  } */
+
+  /* .btn {
+    gap: 10px;
+    width: 47%;
+  } */
+
+  .typelogo {
+    width: 420px;
+    height: 30px;
+  }
+
+  .typelogo img {
+    height: 70% !important;
+    /* width: 80; */
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .gridConteiner {
+    /* grid-template-columns: 53% 40%; */
+    padding: 50px 0 30px;
+  }
+  .typelogo {
+    gap: 8px;
+  }
+  .logoContainer img {
+    width: 80%;
+  }
+  .listDown {
+    padding: 8px;
+  }
+
+  .bookFreebtn p {
+    font-size: 11px;
+  }
+
+  .rytConteiner {
+    padding: 20px 14px 10px;
+  }
+
+  .leftside {
+    gap: 20px;
+  }
+  .logoContainer::after {
+    margin-left: 10px;
+  }
+  .gridConteiner h1 {
+    font-size: 23px;
+  }
+
+  .listleft p {
+    font-size: 15px;
+  }
+
+  .rytConteiner h2 {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  .bookFreebtn button {
+    padding: 11px 8px;
+  }
+
+  .desktopImg {
+    width: 60px;
+    margin-left: -10px;
+  }
+
+  .spandiv {
+    margin-top: 0;
+  }
+
+  /* .btn {
+    width: 47%;
+  } */
+
+  .typelogo {
+    width: 410px;
+  }
+
+  .listryt span {
+    font-size: 12px;
+  }
+
+  .listryt img {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media screen and (max-width: 641px) {
+  .container {
+    margin-top: 12%;
+  }
+  .typelogo .logoContainer:nth-child(1) img {
+    width: 55px;
+  }
+  .typelogo .logoContainer:nth-child(4) img {
+    width: 100px;
+    height: 25px !important;
+  }
+
+  .bookFreebtn {
+    width: 100%;
+    grid-template-columns: 60% 20%;
+    gap: 70px;
+  }
+
+  .gridConteiner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    gap: 30px;
+    padding-bottom: 20px;
+  }
+
+  .gridConteiner h1 {
+    font-size: 26px;
+  }
+
+  .listleft {
+    margin: 20px 0;
+    gap: 20px;
+  }
+
+  .rytConteiner h2 {
+    font-size: 26px;
+  }
+
+  /* .hr{
+    width: 220px;
+  } */
+
+  .listDown {
+    padding: 11px 20px;
+  }
+
+  .bookFreebtn button {
+    font-size: 14px;
+  }
+
+  .bookFreebtn p {
+    font-size: 13px;
+  }
+
+  .btn {
+    display: none;
+  }
+
+  .spandiv {
+    margin-top: 10px;
+  }
+
+  .btnMbl {
+    display: flex;
+    border-radius: 12px;
+    background: linear-gradient(90deg, #0383ff 0%, #003456 100%);
+    border: none;
+    padding: 14px 20px;
+    align-items: center;
+    gap: 10px;
+    color: var(--white);
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: rgba(10, 10, 10, 0.2) 0px 8px 24px;
+    margin-top: 20px;
+    width: -moz-fit-content;
+    width: max-content;
+    margin-bottom: 20px;
+  }
+
+  .btnmblDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bookFreebtn img {
+    width: 100px;
+  }
+
+  .desktopImg {
+    display: none;
+  }
+
+  .mblImag {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .typelogo {
+    width: 100%;
+    height: 120px;
+  }
+}
+
+@media screen and (max-width: 481px) {
+  .logoContainer {
+    flex: 1 1 calc(33.33% - 20px); /* Adjust to fit three items per row */
+    max-width: calc(33.33% - 20px);
+  }
+
+  /* Remove the separator for the last item on each row */
+  .logoContainer:nth-child(3n)::after {
+    content: ""; /* Clear separator for every 3rd item */
+  }
+
+  .logoContainer:last-child::after {
+    content: ""; /* Clear separator for the last item overall */
+  }
+  .logoContainer:nth-child(3) img {
+    height: 22px !important;
+    width: 100px !important;
+  }
+  .logoContainer:nth-child(4) img {
+    height: 26px !important;
+    width: 130px !important;
+  }
+  .logoContainer:nth-child(1) img {
+    height: 22px !important;
+    width: 72px !important;
+  }
+  .logoContainer:nth-child(2) img {
+    height: 20px !important;
+    width: 84px !important;
+  }
+
+  .typelogo {
+    height: 100px;
+  }
+
+  .bookFreebtn {
+    grid-template-columns: 65% 20%;
+    gap: 25px;
+  }
+
+  .bookFreebtn button {
+    padding: 11px 17px;
+  }
+
+  .bookFreebtn p {
+    margin-top: 10px;
+  }
+
+  .bookFreebtn img {
+    width: 75px;
+  }
+
+  .listleft {
+    gap: 10px;
+    margin: 0;
+  }
+
+  .listDown {
+    padding: 10px 20px;
+  }
+
+  .listryt span {
+    font-size: 16px;
+  }
+
+  .rytConteiner h2 {
+    font-size: 28px;
+  }
+  .typelogo {
+    justify-content: space-around; /* Optional: Center align for smaller screens */
+  }
+
+  .logoContainer {
+    flex: 1 1 calc(33.33% - 20px); /* Make each logo take 1/3 of the row width */
+    max-width: calc(33.33% - 20px);
+  }
+}
+
+@media screen and (max-width: 360px) {
+  /* .gridConteiner h1 {
+    font-size: 24px;
+  } */
+
+  .rytConteiner h2 {
+    font-size: 22px;
+  }
+
+  .bookFreebtn p {
+    font-size: 10px;
+  }
+
+  .typelogo {
+    height: 85px;
+  }
+
+  .bookFreebtn button {
+    font-size: 11px;
+  }
+
+  .listryt span {
+    font-size: 14px;
+  }
+}

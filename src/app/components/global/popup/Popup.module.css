@@ -1,0 +1,332 @@
+.popup {
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.23);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99999;
+  overflow: hidden;
+}
+/* .leftPopup {
+  display: none;
+} */
+.RightPopup h5 {
+  margin-bottom: 2% !important;
+}
+.r .popupInner img {
+  width: 87%;
+}
+.image {
+  padding: auto;
+}
+/* .popupInner {
+  justify-content: center;
+} */
+.popupInners,
+.popupInner {
+  background: var(--white);
+  /* background-image: url("https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/popup-left.webp"); */
+  /* background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-origin: content-box; */
+  position: relative;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px 20px;
+  width: 65%;
+  height: fit-content;
+  text-align: center;
+  border-radius: 6px;
+  border: 3px solid #0089e1;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+  top: 5%;
+}
+.closeBtn {
+  position: absolute;
+  background-color: var(--white);
+  cursor: pointer;
+  border-radius: 50%;
+  color: #2d9cd7;
+  top: 5px;
+  right: 10px;
+  font-size: 25px;
+}
+/* .popupInnersW {
+  background-color:  var(--white);
+  position: relative;
+  display: grid;
+  grid-template-columns: 49% 49%;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 30px 40px;
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid #2d9cd7;
+  background-color:  var(--white);
+  text-align: center;
+} */
+/* .closeBtn {
+  position: absolute;
+  background-color:  var(--white);
+  cursor: pointer;
+  border-radius: 50%;
+  color: #2d9cd7;
+  top: 5px;
+  right: 10px;
+  font-size: 25px;
+} */
+/* .popupInners {
+  background:  var(--white);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-origin: content-box;
+  position: relative;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px 20px;
+  width: 65%;
+  height: fit-content;
+  text-align: center;
+  border-radius: 6px;
+  border: 3px solid #0089e1;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+} */
+/* .popup .popupInners .closeBtn {
+  position: absolute;
+  background-color:  var(--white);
+  cursor: pointer;
+  border-radius: 50%;
+  color: #2d9cd7;
+  top: 5px;
+  right: 10px;
+  font-size: 25px;
+} */
+
+@media (max-width: 1281px) {
+  .popupInners img,
+  .popupInner img {
+    width: 87%;
+    height: auto;
+  }
+  /* .popupInners img {
+    width: 87%;
+    height: auto;
+  } */
+  .popup {
+    /* position: fixed;
+    top: 0;
+    left: 0; */
+    /* width: 100vw;
+    height: 100vh; */
+    /* background-color: rgba(0, 0, 0, 0.23);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99999; */
+  }
+  .popupInners,
+  .popupInner {
+    /* background:  var(--white);
+    background-image: url("https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/popup-left.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-origin: content-box;
+    position: relative;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 20px; */
+    width: 65%;
+    /* height: fit-content;
+    text-align: center;
+    border-radius: 6px;
+    border: 3px solid #0089e1;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25); */
+  }
+  /* .closeBtn {
+    position: absolute;
+    background-color:  var(--white);
+    cursor: pointer;
+    border-radius: 50%;
+    color: #2d9cd7;
+    top: 5px;
+    right: 10px;
+    font-size: 25px;
+    font-size: 25px;
+  } */
+  /* .popup .popupInners {
+    background-color:  var(--white);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px 60px;
+    width: max-content;
+    border-radius: 5px;
+    border: 2px solid #2d9cd7;
+    max-width: 70%;
+    background-color:  var(--white);
+  } */
+  /* .popupInners .closeBtn {
+    position: absolute;
+    background-color:  var(--white);
+    cursor: pointer;
+    border-radius: 50%;
+    color: #2d9cd7;
+    top: 5px;
+    right: 10px;
+    font-size: 25px;
+  } */
+  /* .popup .popupInnersW {
+    background-image: url("https://d32and0ii3b8oy.cloudfront.net/web/s3_main/NewDesignImage/Form-Side-Image.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    position: relative;
+    display: grid;
+    grid-template-columns: 49% 49%;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px 40px;
+    width: 60%;
+    height: fit-content;
+    border-radius: 10px;
+    background-color:  var(--white);
+    text-align: center;
+  } */
+  /* .popup .popupInnersW .closeBtn {
+    position: absolute;
+    background-color:  var(--white);
+    cursor: pointer;
+    border-radius: 50%;
+    color: #2d9cd7;
+    top: 5px;
+    right: 10px;
+    font-size: 25px;
+  } */
+}
+@media (max-width: 1025px) {
+  /* .popupInner {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(190, 202, 218, 0.75);
+    padding: 30px 10px !important;
+  } */
+  /* .popupInners {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(190, 202, 218, 0.75);
+    background-image: none !important;
+    padding: 30px 10px;
+  } */
+  /* .popupInnersW {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(190, 202, 218, 0.75);
+    background-image: none !important;
+    padding: 30px 10px;
+  } */
+  /* .popupInner {
+    display: grid !important;
+    grid-template-columns: 40% 55%;
+    padding: 30px 10px !important;
+  } */
+}
+
+/* @media (max-width: 850px) {
+  .popupInner {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color:  var(--white);
+    background-image: none !important;
+    padding: 30px 10px;
+    display: flex !important;
+  }
+  .popupInners {
+    display: flex !important;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color:  var(--white);
+    background-image: none !important;
+    padding: 30px 10px;
+  }
+} */
+
+@media (max-width: 841px) {
+  .popupInners img,
+  .popupInner img {
+    width: 91%;
+  }
+}
+@media (max-width: 761px) {
+  .popupInners img,
+  .popupInner img {
+    display: none;
+  }
+  /* .RightPopup {
+    width: 68%;
+  } */
+  .popupInners,
+  .popupInner {
+    /* background-image: none !important; */
+    justify-content: center;
+    width: 80%;
+    padding: 25px 10px 30px 10px;
+    max-width: 100%;
+    /* display: flex !important; */
+    grid-template-columns: 100%;
+    /* align-items: center;
+    height: max-content;
+    text-align: center; */
+    /* background-color: var(-- var(--white)); */
+    /* margin-left: 10px;
+    margin-right: 10px; */
+  }
+}
+@media (max-width: 481px) {
+  /* .popup {
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.23);
+    overflow: hidden;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    z-index: 99999;
+  } */
+
+  /* .popup .popupInners {
+      padding: 30px 20px;
+      max-width: 100%;
+      backdrop-filter: blur(16px) saturate(180%);
+      -webkit-backdrop-filter: blur(16px) saturate(180%);
+      background-color:  var(--white);
+      margin-left: 10px;
+      margin-right: 10px;
+    } */
+
+  /* .popup .popupInnersW {
+    padding: 30px 20px;
+    max-width: 100%;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color:  var(--white);
+    margin-left: 10px;
+    margin-right: 10px;
+  } */
+}

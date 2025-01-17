@@ -1,0 +1,277 @@
+.h2 {
+  text-align: center;
+  color: var(--black);
+  font-size: var(--desktop_h2-font-size);
+  font-style: normal;
+  font-weight: 600;
+  /* line-height: 50px; */
+}
+
+.mainContainer {
+  width: 100%;
+  /* margin: 100px auto; */
+}
+
+.HeadDiv {
+  display: grid;
+  justify-content: center;
+  overflow-x: auto;
+  grid-gap: 18px;
+  padding: 50px 20px 20px;
+  align-items: center;
+  grid-template-columns: 26% 35% 32%;
+  justify-content: center;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  margin: 0 100px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 41px;
+  margin-top: 35px;
+}
+
+.inside {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left p {
+  color: var(--greeyy);
+  font-size: var(--desktop_p-font-size);
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+}
+
+.middle {
+  border-radius: 25px;
+  background: var(--light-black);
+  box-shadow: 3px 3px 13.5px 0px rgba(0, 0, 0, 0.25);
+  padding: 20px 20px 72px 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.middle hr {
+  border: 0.1px solid rgb(60, 59, 59);
+  width: 91%;
+  margin: auto;
+}
+
+.right hr {
+  border: 0.1px solid rgb(212, 212, 212);
+  width: 90%;
+  margin: auto;
+}
+
+.middle p {
+  color: var(--white);
+  font-size: var(--desktop_p-font-size);
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px;
+  /* 150% */
+  margin: 0;
+}
+
+.imgdiv {
+  text-align: center;
+  margin-bottom: 26px;
+}
+
+.right {
+  border-radius: 25px;
+  background: var(--cyan);
+  display: flex;
+  flex-direction: column;
+  padding: 29px 20px 40px 20px;
+  gap: 20px;
+}
+
+.right h4 {
+  color: var(--black);
+  font-size: var(--desktop_h4-font-size);
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: center;
+}
+
+.middleContent {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.rytInside {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.rytInside p {
+  color: var(--black);
+  font-size: var(--desktop_p-font-size);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0;
+  text-wrap: balance;
+}
+
+.scrollButtons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 968px) {
+  .HeadDiv {
+    grid-template-columns: 26% 35% 33%;
+    padding: 30px 0px 20px;
+    margin: 0 67px;
+  }
+
+  .h2 {
+    font-size: 34px;
+  }
+}
+
+@media screen and (max-width: 841px) {
+  .middle p {
+    font-size: 13px;
+  }
+
+  .rytInside p {
+    font-size: 13px;
+  }
+
+  .h2 {
+    font-size: 34px;
+  }
+
+  .imgdiv img {
+    width: 170px;
+    height: 35px;
+  }
+
+  .HeadDiv {
+    gap: 10px;
+    padding: 30px 0 20px;
+    margin: 0 55px;
+  }
+
+}
+
+@media screen and (max-width: 761px) {
+  .middle {
+    padding: 20px 15px 72px 21px;
+  }
+}
+
+/* Mobile responsiveness */
+
+@media screen and (max-width: 641px) {
+  .HeadDiv {
+    grid-template-columns: 35% 50% 45%;
+    justify-content: flex-start;
+    margin: 0 0 0 35px;
+  }
+
+  .h2 {
+    font-size: 28px;
+  }
+
+  .customScrollbar {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .middle p {
+    font-size: 14px;
+  }
+
+  .rytInside p {
+    font-size: 14px;
+  }
+
+  .rytInside {
+    margin-bottom: 10px;
+  }
+
+  .dotContainer {
+    display: flex;
+    gap: 10px;
+  }
+
+  .dotOne {
+    width: 10px;
+    height: 10px;
+    background-color: var(--medium-grey);
+    border-radius: 20px;
+    transition: background-color 0.3s;
+  }
+
+  .dotOne.active {
+    background-color: var(--light-ggrey);
+    width: 80px;
+    height: 10px;
+    border-radius: 20px;
+  }
+
+  .dot {
+    width: 10px;
+    height: 10px;
+    background-color: var(--medium-grey);
+    border-radius: 50%;
+    transition: background-color 0.3s;
+  }
+
+  .dot.active {
+    background-color: var(--ggrrey);
+    width: 80px;
+    height: 10px;
+    border-radius: 20px;
+  }
+
+  /* Custom scrollbar styling for the second component */
+
+  .left,
+  .middle,
+  .right {
+    scroll-snap-align: start;
+  }
+
+
+
+  .inside svg {
+    width: 80px;
+    height: 12px;
+  }
+}
+
+@media screen and (max-width: 481px) {
+
+  /* .mainContainer {
+    margin: 20px auto;
+  } */
+
+  .HeadDiv {
+    grid-template-columns: 54% 76% 68%;
+    margin: 0 0 0 20px
+  }
+
+  .h2 {
+    font-size: 29px;
+  }
+}

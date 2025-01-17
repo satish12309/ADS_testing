@@ -1,0 +1,444 @@
+/* Updated radial gradient for smoother transitions */
+.whyChooseSection {
+  background: radial-gradient(
+      circle at 10% 10%,
+      /* Blue circle positioned at the top left */ rgba(2, 49, 82, 0.9) 1%,
+      /* Larger blue circle */ transparent 40% /* Smoother transition */
+    ),
+    radial-gradient(
+      circle at 90% 80%,
+      /* Orange circle positioned at the bottom right */ rgba(142, 54, 7, 0.3)
+        2%,
+      /* Glowing orange circle */ transparent 30% /* Smoother transition */
+    ),
+    #212121;
+  position: relative;
+  overflow: hidden;
+  padding: 60px 0;
+  margin: 60px 0;
+}
+
+.containerMain {
+  width: 100%;
+}
+
+.header p {
+  color: var(--deep-cyan);
+  text-align: center;
+  font-size: 1.5rem;
+  /* Use rem for responsive font size */
+  font-style: normal;
+  font-weight: 500;
+}
+
+.header h2 {
+  color: rgba(255, 241, 234, 1);
+  text-align: center;
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  /* Responsive typography with clamp */
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  /* Flexible line height */
+}
+
+.header span {
+  font-weight: bold;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(255, 241, 234, 1);
+  /* Stroke width and color */
+}
+
+.columnDiv {
+  width: 760px;
+  margin: 115px auto;
+}
+
+.divContainer {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  opacity: 0.1;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  will-change: opacity, transform;
+}
+
+.divContainerANI {
+  gap: 2rem;
+  /* Rem-based gap for flexibility */
+  align-items: flex-start;
+}
+
+.divContainer h4 {
+  color: var(--white);
+  font-size: var(--desktop_h4-font-size);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.divContainer p {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.875rem;
+}
+
+.highlight {
+  opacity: 1;
+  transform: scale(1.05);
+}
+.domains {
+  display: none;
+}
+
+.Head {
+  text-align: center;
+  color: var(--white-deep);
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.Head span {
+  font-weight: 600;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  background: rgba(10, 10, 10, 0.9);
+  width: 100%;
+  margin: auto;
+  margin-top: 70px;
+  color: var(--black);
+  padding: 4.375rem 0 0;
+  overflow: hidden;
+}
+
+.svglogo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Animation Section */
+
+.downBox {
+  display: grid;
+  grid-template-columns: 45% 40%;
+  border-radius: 54px;
+  background: rgba(254, 122, 54, 0.1);
+  grid-gap: 20px;
+  grid-gap: 20px;
+  gap: 20px;
+  padding: 10px;
+  width: 434px;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.Contents h5 {
+  color: var(--white);
+  font-size: var(--desktop_h5-font-size);
+  /* Responsive font size */
+  font-style: normal;
+  font-weight: 600;
+}
+
+.pTag {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.45;
+}
+
+.insideBox {
+  display: flex;
+  gap: 1.25rem;
+  align-items: center;
+}
+
+.insideBox p {
+  color: var(--white);
+  font-size: var(--desktop_p-font-size);
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.3;
+  text-wrap: balance;
+}
+
+.noteP {
+  color: var(--white);
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.45;
+}
+
+.orgText {
+  color: var(--light-orange);
+  font-weight: 700;
+  line-height: 1.45;
+}
+
+.mainDivS {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.smalDiv {
+  padding: 6px 10px;
+  border-radius: 63px;
+  background: rgba(3, 131, 255, 0.2);
+  display: flex;
+  gap: 10px;
+  margin: 10px 0;
+  align-items: center;
+}
+
+.smalDiv span {
+  color: var(--white);
+  text-align: center;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.IBMDiv {
+  border-radius: 15px;
+  background: rgba(255, 196, 54, 0.1);
+  width: 250px;
+  padding: 1px 20px;
+  display: flex;
+  gap: 1.25rem;
+  margin: 20px 0;
+}
+
+.IBMDiv span {
+  color: var(--white);
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.downBoxDesign2 {
+  display: flex;
+  background: none;
+  width: 100%;
+  gap: 10px;
+}
+
+.downBoxDesign3 {
+  border-radius: 15px;
+  background: rgba(255, 196, 54, 0.1);
+  width: 200px;
+}
+
+.downBoxDefault {
+  display: none;
+}
+
+.insideBoxDesign2 {
+  border-radius: 63px;
+  background: rgba(3, 131, 255, 0.2);
+  padding: 4px 10px;
+  gap: 4px;
+}
+
+.insideBoxDesign2 p {
+  font-size: var(--desktop_p-font-size);
+  margin: 0;
+}
+
+.insideBoxDefault {
+  background-color: var(--greyy);
+  /* Default style for other insideBox elements */
+  padding: 5px;
+}
+
+.customSection {
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  background: rgba(255, 196, 54, 0.1);
+  width: -moz-fit-content;
+  width: 320px;
+  padding: 4px 20px;
+  justify-content: space-around;
+  align-items: center;
+  gap: 60px;
+  margin: 30px 0;
+}
+
+.customSection p {
+  width: 200px;
+  margin: 0;
+  color: var(--white);
+  font-size: var(--desktop_p-font-size);
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-wrap: balance;
+}
+
+.leftText {
+  width: 50%;
+  /* Adjust as per your layout */
+}
+
+.imageSection {
+  width: 50%;
+  /* Adjust as per your layout */
+}
+
+.leftText p {
+  font-size: var(--desktop_p-font-size);
+  /* Adjust text size */
+  line-height: 1.5;
+  margin-right: 20px;
+}
+
+/* Media Queries for smaller screens */
+
+@media screen and (max-width: 841px) {
+  .columnDiv {
+    padding: 20px;
+    width: 100%;
+    margin: 90px auto;
+  }
+
+  .whyChooseSection {
+    padding: 60px 0 30px 0;
+  }
+}
+
+@media screen and (max-width: 761px) {
+  .divContainer h4 {
+    font-size: 22px;
+  }
+
+  .divContainer p {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 641px) {
+  .whyChooseSection {
+    /* background: radial-gradient(
+        circle at 10% 10%,
+        rgba(6, 59, 92, 0.8) 1%,
+        transparent 30%
+      ),
+      radial-gradient(
+        circle at 90% 80%,
+        rgba(254, 122, 54, 0.2) 1%,
+        transparent 40%
+      ),
+      #212121; */
+    padding: 30px 0;
+    padding: 35px 0;
+  }
+
+  .columnDiv {
+    margin: 60px auto;
+  }
+
+  .header p {
+    font-size: 20px;
+    /* Adjusted for smaller screens */
+  }
+
+  .header h2 {
+    font-size: 2rem;
+  }
+
+  .divContainer {
+    margin: 30px;
+    gap: 10px;
+  }
+
+  .Contents h5 {
+    font-size: var(--desktop_h5-font-size);
+  }
+
+  .divContainer p {
+    font-size: var(--desktop_p-font-size);
+    line-height: 1.5;
+  }
+
+  .svglogo img {
+    width: 45px;
+    height: auto;
+  }
+
+  .downBoxDesign1 {
+    width: 100%;
+    height: fit-content;
+    padding: 4px;
+  }
+
+  .downBoxDesign2 {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: left;
+  }
+
+  .downBoxDesign2 p {
+    font-size: var(--desktop_p-font-size);
+  }
+
+  .downBoxDesign1 img {
+    height: auto;
+  }
+
+  .insideBoxDesign1 {
+    gap: 4px;
+  }
+
+  .insideBoxDesign1 p {
+    font-size: var(--desktop_p-font-size);
+  }
+
+  .insideBoxDesign2 {
+    gap: 4px;
+  }
+
+  .customSection {
+    width: 100%;
+    padding: 10px 3px;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .customSection p {
+    width: 100%;
+  }
+
+  .imageSection {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 481px) {
+  .divContainer {
+    margin: 30px 0;
+  }
+
+  .divContainer p {
+    font-size: 14px;
+  }
+
+  .divContainer h4 {
+    font-size: 18px;
+  }
+
+  .columnDiv {
+    margin: 20px auto;
+  }
+
+  .svglogo svg {
+    height: 150px;
+  }
+}

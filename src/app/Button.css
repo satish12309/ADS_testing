@@ -1,0 +1,354 @@
+@keyframes moveGlass {
+  0% {
+    left: -100%;
+  }
+
+
+  100% {
+    left: 100%;
+  }
+}
+
+/* Glass Effect Class */
+.glassEffect {
+  position: relative;
+  overflow: hidden;
+  transition: background 0.3s ease;
+}
+
+.glassEffect::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 200%;
+  height: 100%;
+  transition: left 0.4s ease-in-out;
+}
+
+.glassEffect:hover::before {
+  left: 100%;
+  animation: moveGlass 1s forwards;
+  background: linear-gradient(120deg,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(255, 255, 255, 0.8) 50%,
+      rgba(255, 255, 255, 0.2) 100%);
+}
+
+/* Button Styles */
+.greenButton {
+  background-color: #72bc00;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 20px;
+  cursor: pointer;
+  display: flex;
+  gap: 5px;
+  outline: none;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.greenButton:hover {
+  border: 1px solid #fff;
+}
+
+.OrangeButton {
+  border-radius: 10px;
+  background: linear-gradient(90deg, #e95407 0%, #d74900 100%);
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 16px;
+  border: 1px solid #000;
+  cursor: pointer;
+
+  gap: 5px;
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28.679px;
+  /* 143.396% */
+}
+
+.blackButton {
+  background-color: #000;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 20px;
+  cursor: pointer;
+  display: flex;
+  gap: 5px;
+  outline: none;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 800;
+  border: 1px solid #fff;
+}
+
+.blackButton:hover {
+  background-color: #72bc00;
+  border: none;
+}
+
+.button {
+  padding: 12px 15px;
+  outline: none;
+  border-radius: 10px;
+  background: #0383ff;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  gap: 5px;
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28.679px;
+  /* 143.396% */
+}
+
+.button:hover {
+  color: #fff;
+}
+
+.outLineBtn,
+.ButtonWhiteBg,
+.outLineBtn1 {
+  padding: 12px 20px;
+  border: 1px solid #0072bc;
+  color: #fff;
+  background-color: #0072bc;
+  cursor: pointer;
+  display: flex;
+  gap: 5px;
+  outline: none;
+  align-items: center;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.outLineBtn:hover,
+.ButtonWhiteBg:hover {
+  background-color: #0072bc;
+  color: white;
+}
+
+.ButtonWhiteBg {
+  color: #0072bc;
+  background-color: #fff;
+  font-weight: 400;
+}
+
+.nobannerButton,
+.whiteBgButton {
+  padding: 14px 85px;
+  border: 1px solid #0072bc;
+  color: #0072bc;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  gap: 5px;
+  outline: none;
+  align-items: center;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.nobannerButton:hover,
+.whiteBgButton:hover {
+  background-color: #0072bc;
+  color: white;
+}
+
+.whiteBgButton {
+  background-color: #fff;
+  color: #0072bc;
+}
+
+.bannerButton {
+  padding: 14px 65px;
+  outline: none;
+  background-color: #0072bc;
+  color: white;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  border-radius: 4px;
+  font-size: 12px;
+  border: 1px solid #0072bc;
+}
+
+.bannerButton:hover {
+  border: 1px solid #0072bc;
+  background-color: white;
+  color: #0072bc;
+}
+
+.purpleButton {
+  border-radius: 10px;
+  background: #7f59e8;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  display: flex;
+  gap: 5px;
+  outline: none;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.purpleButton:hover {
+  background-color: #7f59e8;
+}
+
+.grayButton {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 700;
+  border: 1px solid #212121;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  border: 1px solid #fff;
+}
+
+.grayButton::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 200%;
+  height: 100%;
+  transition: left 0.4s ease-in-out;
+}
+
+.grayButton:hover::before {
+  left: 100%;
+  animation: moveGlass 1s forwards;
+  background: linear-gradient(120deg,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(255, 255, 255, 0.8) 50%,
+      rgba(255, 255, 255, 0.2) 100%);
+}
+
+/* New Blue Button */
+.newBlueButton {
+  background-color: #0072bc;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 20px;
+  cursor: pointer;
+  display: flex;
+  gap: 5px;
+  outline: none;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.newBlueButton:hover {
+  background-color: #0072bc;
+  border: 1px solid #fff;
+}
+
+/* Responsive Styles */
+@media (max-width: 1281px) {
+
+  .button,
+  .outLineBtn {
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .grayButton {
+    font-size: 14px;
+  }
+
+  .button,
+  .outLineBtn {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 841px) {
+  .grayButton {
+    padding: 10px 15px;
+  }
+}
+
+@media (max-width: 761px) {
+  .grayButton {
+    /* padding: 16px 10px; */
+    padding: 10px;
+  }
+
+  .OrangeButton {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 641px) {
+
+  .button,
+  .outLineBtn {
+    font-size: 10px;
+
+  }
+
+  .button,
+  .grayButton {
+    /* font-size: 14px; */
+    /* padding: 10px; */
+    font-weight: 400;
+
+
+  }
+}
+
+@media (max-width: 481px) {
+  .bannerButton {
+    padding: 6px 50px;
+  }
+
+  .nobannerButton {
+    padding: 6px 50px;
+  }
+
+  .whiteBgButton {
+    padding: 6px 73px;
+  }
+
+  .purpleButton {
+    padding: 6px 10px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 361px) {
+  .grayButton {
+    padding: 8px;
+  }
+}
+
+@media (max-width: 401px) {
+
+  .grayButton {
+    line-height: 19.679px;
+    font-size: 13px;
+  }
+}

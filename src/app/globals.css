@@ -1,0 +1,517 @@
+/* Add this import statement at the beginning of your globals.css file */
+/* @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap"); */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import "./Button.css";
+
+html,
+#__next {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* Define your color variables */
+  --primary-color: #0072bc;
+  --secondary-color: #ffc436;
+  --tertiary-color: #72bc00;
+  --quaternary-color: #f98e00;
+  --quinary-color: #0c356a;
+  --senary-color: #eff3f6;
+  --septenary-color: #252525;
+  --white: #ffffff;
+  --black: #000000;
+  --cyan: #e5f1f8;
+  --brown: #fe7a3629;
+  --grey: #747272;
+  --red: #ff3131;
+  --orange: #ff9562;
+  --deep-orange: #e95407;
+  --deep-grey: #333;
+  --whitee: #f5f5f5;
+  --sky-blue: #0070f3;
+  --light-blue: #2d9cd7;
+  --light-grey: #4f4b4b;
+  --light-grayy:#646464;
+  --light-black: #212121;
+  --light-green: #35d028;
+  --deep-blue: #022646;
+  --light-deep-blue: #21415d;
+  --stone-color: #606060;
+  --light-bluee: #0383ff;
+  --dark-black: #00090f;
+  --red-official: #ff0000;
+  --dark-blue: #005f8a;
+  --dark-grey: #7a7a7a;
+  --light-white: #f7f7f7;
+  --medium-grey: #ccc;
+  --light-orange: #fe7a36;
+  --deeep-grey: #666;
+  --bluee: #007bff;
+  --light-blueee: #0056b3;
+  --deep-cyan: #36ddfe;
+  --white-deep: #fff1ea;
+  --greyy: #d3d3d3;
+  --deeep-grey: #727272;
+  --medium-greyy: #6c6c6c;
+  --medium-greey: #616161;
+  --light-whitee: #d9d9d9;
+  --daark-black: #141414;
+  --daark-grey: #848484;
+  --gray: #808080;
+  --grayy: #969494;
+  --ggrey: #999;
+  --bblack: #454545;
+  --gogreen: #454545;
+  --stonee: #454545;
+  --cement: #555555;
+  --wwhite: #dfdada;
+  --black-diamond: #383838;
+  --greyyy: #787878;
+  --whiteee: #f4f4f4;
+  --greeyy: #747474;
+  --ggrrey: #5f5d5d;
+  --light-ggrey: #525050;
+  --mint-green: #03b877;
+  --parrot-green: #04c988;
+  --royale-blue: #005a9b;
+  --light-greyy: #aeaeae;
+  --lightt-grey: #dedede;
+  --light-blackk: #909090;
+  --blue-grey: #767676;
+  --smokey: #afafaf;
+  --dark-smoke: #a8a8a8;
+  --darkest-smoke: #484848;
+  --carbon: #414141;
+  --cementt: #b3b3b3;
+  --green: #008000;
+  --carbon-black: #2e2e2e;
+  --deep-cyann: #36ddfe;
+  --cementtt: #d3d3d3;
+  --deepblack: #121212;
+  --ceementt: #d9e9f4;
+  --peacock-blue: #336ca8;
+  --kashmiri-stone: #555;
+  --kashmiri-blackstone: #f0f0f0;
+  --kashmiri-whitestone: #8a8a8a;
+  --blue-eyes: #16a0fb;
+  --kashmiri-diamond: #fefefe;
+
+  /* Define font sizes for desktop */
+  --desktop_h1-font-size: 42px;
+  --desktop_h2-font-size: 38px;
+  --desktop_h3-font-size: 30px;
+  --desktop_h4-font-size: 26px;
+  --desktop_h5-font-size: 20px;
+  --desktop_p-font-size: 16px;
+  --desktop_span-font-size: 14px;
+
+  /* Define font colour for desktop */
+  --desktop_h1-font-colour: #fff;
+  --desktop_h2-font-colour: #a4a4a4;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.containerWidth {
+  /* max-width: 1200px; */
+  width: 85%;
+  margin: auto;
+}
+
+h1 {
+  /* Use variable for color */
+  color: var(--senary-color);
+  /* Use variable for font size */
+  font-size: var(--desktop_h1-font-size);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 153%;
+  margin: 0;
+}
+
+h2 {
+  /* Use variable for font size */
+  font-size: var(--desktop_h2-font-size);
+  font-style: normal;
+  font-weight: 600;
+  margin: 0;
+}
+
+h3 {
+  /* Use variable for font size */
+  font-size: var(--desktop_h3-font-size);
+  font-style: normal;
+  font-weight: 600;
+  margin: 0;
+}
+
+.swiper {
+  width: 100%;
+}
+
+.flexBox {
+  display: flex;
+}
+
+.flexJustSpaceBetween {
+  justify-content: space-between;
+}
+
+.flexAlignCenter {
+  align-items: center;
+}
+.RightPopup h5 {
+  margin-bottom: 7%;
+}
+.popupModal {
+  display: grid;
+  grid-template-columns: 49% 49%;
+  background-color: white;
+}
+
+/* .whiteP {
+  background-color: transparent;
+  height: 600px;
+  width: 600px;
+} */
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+
+  h5 {
+    /* Use variable for font size */
+    font-size: var(--desktop_h5-font-size);
+    margin: 0;
+  }
+
+  h6 {
+    font-size: 16px;
+    /* Adjust font size for h6 */
+    margin: 0;
+  }
+
+  a {
+    color: var(--senary-color);
+    list-style: none;
+    text-decoration: none;
+  }
+
+  h6 {
+    font-size: 16px;
+    /* Adjust font size for h6 */
+    margin: 0;
+  }
+
+  a {
+    color: var(--senary-color);
+    list-style: none;
+    text-decoration: none;
+  }
+}
+
+.greenButton {
+  background-color: #72bc00;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 20px;
+  padding: 12px 20px;
+  cursor: pointer;
+  display: flex;
+  gap: 5px;
+  outline: none;
+  align-items: center;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.greenButton:hover {
+  /* background-color: #000; */
+  border: 1px solid #fff;
+}
+
+.OrangeButton {
+  border-radius: 8px;
+  background: linear-gradient(90deg, #e95407 0%, #d74900 100%);
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 25px;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+.blackButton {
+  background-color: #000;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 20px;
+  padding: 12px 20px;
+  cursor: pointer;
+  display: flex;
+  gap: 5px;
+  outline: none;
+  align-items: center;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 800;
+  border: 1px solid #fff;
+}
+
+.blackButton:hover {
+  background-color: #72bc00;
+  border: none;
+}
+
+.button {
+  padding: 12px 30px;
+  outline: none;
+  background-color: var(--primary-color);
+  color: white;
+  cursor: pointer;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  border-radius: 4px;
+  font-size: 16px;
+  border: 1px solid var(--primary-color);
+}
+
+.button:hover {
+  border: 1px solid var(--primary-color);
+  background-color: white;
+  color: var(--primary-color);
+}
+
+.outLineBtn,
+.ButtonWhiteBg,
+.outLineBtn1 {
+  padding: 12px 20px;
+  border: 1px solid var(--primary-color);
+  color: #fff;
+  background-color: var(--primary-color);
+  cursor: pointer;
+  display: flex;
+  gap: 5px;
+  outline: none;
+  align-items: center;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.outLineBtn:hover,
+.ButtonWhiteBg:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.ButtonWhiteBg {
+  color: var(--primary-color);
+  background-color: #fff;
+  font-weight: 400;
+}
+
+.nobannerButton,
+.whiteBgButton {
+  padding: 14px 85px;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  gap: 5px;
+  outline: none;
+  align-items: center;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.nobannerButton:hover,
+.whiteBgButton:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.whiteBgButton {
+  background-color: #fff;
+  color: var(--primary-color);
+}
+
+.bannerButton {
+  padding: 14px 65px;
+  outline: none;
+  background-color: var(--primary-color);
+  color: white;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  gap: 5px;
+  outline: none;
+  align-items: center;
+  border-radius: 4px;
+  font-size: 12px;
+  border: 1px solid var(--primary-color);
+}
+
+.bannerButton:hover {
+  border: 1px solid var(--primary-color);
+  background-color: white;
+  color: var(--primary-color);
+}
+
+@media (max-width: 1281px) {
+  .button,
+  .outLineBtn {
+    padding: 10px 20px;
+  }
+
+  .outLineBtn {
+    position: relative;
+    top: 0px;
+    flex-flow: row-reverse;
+  }
+
+  .containerWidth {
+    /* max-width: 1120px; */
+  }
+}
+
+@media (max-width: 1181px) {
+}
+
+@media (max-width: 1081px) {
+  .containerWidth {
+    /* max-width: 960px; */
+  }
+}
+
+@media (max-width: 1024px) {
+  .button,
+  .outLineBtn {
+    font-size: 14px;
+  }
+
+  .containerWidth {
+    /* max-width: 904px; */
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 968px) {
+  .containerWidth {
+    width: 90%;
+  }
+  .RightPopup h5 {
+    font-size: 17px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 841px) {
+  .containerWidth {
+    width: 90%;
+  }
+
+  .OrangeButton {
+    font-size: 16px;
+    padding: 10px 15px;
+  }
+
+  .button,
+  .outLineBtn {
+    padding: 10px 15px;
+  }
+}
+
+@media (max-width: 761px) {
+  .OrangeButton {
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+
+  .containerWidth {
+    /* max-width: 680px; */
+  }
+
+  .button {
+    padding: 10px;
+    /* font-size: 15px; */
+  }
+}
+
+@media (max-width: 641px) {
+  .containerWidth {
+    /* width: 600px; */
+    /* width: 510px; */
+    width: 85%;
+  }
+}
+
+@media (max-width: 481px) {
+  .containerWidth {
+    /* max-width: 441px; */
+  }
+  .OrangeButton {
+    font-size: 12px;
+  }
+  .RightPopup h5 {
+    font-size: 20px;
+  }
+
+  .bannerButton {
+    padding: 14px 50px;
+  }
+
+  .nobannerButton {
+    padding: 14px 50px;
+  }
+
+  .whiteBgButton {
+    padding: 14px 73px;
+  }
+}
+
+@media (max-width: 431px) {
+  .containerWidth {
+    /* max-width: 380px; */
+  }
+}
+
+@media (max-width: 401px) {
+  .button {
+    line-height: 19.679px;
+    font-size: 13px;
+  }
+
+  .containerWidth {
+    /* max-width: 360px; */
+  }
+}
+
+@media (max-width: 361px) {
+  .containerWidth {
+    /* max-width: 320px; */
+  }
+
+  .button {
+    padding: 8px;
+  }
+}

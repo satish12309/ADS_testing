@@ -1,0 +1,52 @@
+[
+  {
+    "image": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/blue_why.webp",
+    "title": "iHUB DivyaSampark, IIT Roorkee Certification",
+    "description": "Stand out with a prestigious certification from iHUB DivyaSampark, IIT Roorkee.",
+    "subItems": [
+      {
+        "icon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/iHub-logos.webp",
+        "width": "180",
+        "height": "40"
+      }
+    ]
+  },
+  {
+    "image": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/purple_why.webp",
+    "title": "Project-Based Learning",
+    "description": "Gain hands-on experience with real-world Cyber Security projects, preparing you to tackle industry challenges.",
+    "subItems": [
+      {
+        "text": "Real Projects"
+      },
+      {
+        "text": "Real Experience"
+      }
+    ]
+  },
+  {
+    "image": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/green_light+(1).webp",
+    "title": "Learn from GenAI Industry Mentors",
+    "description": "Gain insights from top industry experts in Cyber Security. Our mentors bring real-world experience to help you master advanced skills.",
+    "subItems": []
+  },
+  {
+    "image": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/org_girl+(1).webp",
+    "title": "Personalised Support",
+    "description": "Get tailored guidance with 1:1 doubt-clearing sessions for a deeper understanding.",
+    "subItems": [
+      {
+        "text": "Placement Support"
+      },
+      {
+        "text": "Mock Interviews"
+      },
+      {
+        "text": "Resume BuildUp"
+      },
+      {
+        "text": "Ultimate Interview calls"
+      }
+    ]
+  }
+]

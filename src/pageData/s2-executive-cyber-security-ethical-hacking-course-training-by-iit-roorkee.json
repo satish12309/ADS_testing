@@ -1,0 +1,267 @@
+{
+  "MetaHead": {
+    "title": "Data Science Course with Certifications for BFSI Professionals - Learnbay",
+    "meta": [
+      {
+        "id": 1,
+        "name": "description",
+        "content": "Empower your BFSI career with Learnbay's Data Science course for BSFI professionals. Elevate skills, drive innovation in banking and finance. Enroll now!"
+      },
+      {
+        "id": 2,
+        "name": "robots",
+        "content": "index, follow"
+      },
+      {
+        "id": 3,
+        "name": "keywords",
+        "content": "Data Science for BFSI Professional course, Data Science for BFSI Professional certification course, Data Science for BFSI Professional certification, BFSI Professional Program training, hr analytics course, BFSI Professional Program course online, marketing analytics course, BFSI Professional Program certification course, best BFSI Professional Program course, best BFSI Professional Program certification"
+      }
+    ],
+    "link": [
+      {
+        "id": 1,
+        "rel": "icon",
+        "href": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
+      },
+      {
+        "id": 2,
+        "rel": "canonical",
+        "href": "https://course.learnbay.co/datascience/s2-data-science-banking"
+      }
+    ]
+  },
+  "header": {
+    "spanTag": "Curriculum Inclusive of Gen-AI",
+    "spanIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ada_AI_icon.webp",
+    "title": "Executive Certification in ",
+    "orgTitle": "Cyber Security & Ethical Hacking",
+    "descrption": "Successfully transition careers through our courses & real-time capstone projects. All while making your previous work experience count!",
+    "subtitle": "Only for Working Professionals",
+    "typeLogo": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/iit_guwati_logo.webp",
+    "collaborationImg": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/iHub-logos.webp",
+    "bgvideo": "/video/back-video.mp4",
+    "backgroundImg": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/dsa_backgrounds.webp",
+
+    "applicationIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/blue_Bots.webp",
+    "ProgramIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/blue_Cal_bots.webp",
+    "trainingIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/build_bots.webp",
+    "CloseDes": "Program Eligibility ",
+    "CloseBotDate": "Min 1 year",
+    "DurationBot": "Program Duration",
+    "DurationBotDate": "11 Months",
+    "TrainingBot": "Training Format",
+    "TrainingBotFormat": "Live Online / Hybrid",
+    "BotWidth": "70",
+    "BotHeight": "56"
+  },
+
+  "summary": [
+    {
+      "id": 1,
+      "title": "Domain Electives",
+      "description": "Work on Live projects from multiple domains like Retail, BFSI, Pharma etc.",
+      "imageSrc": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/work_experience_1+(1).webp",
+      "imageAlt": "DomainElectives"
+    },
+    {
+      "id": 2,
+      "title": "Real Project Experience",
+      "description": "Gain experience of managing analytics project from scratch.",
+      "imageSrc": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/experiences_2+(1).webp",
+      "imageAlt": "RealProjectExperience"
+    },
+    {
+      "id": 3,
+      "title": "Certification",
+      "description": "Get certified from renowned industries.",
+      "imageSrc": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/business_concept_1+(1).webp",
+      "imageAlt": "Certification",
+      "extraImageSrc": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IBM_MICROS.webp",
+      "extraImageAlt": "IBMLOGO"
+    },
+    {
+      "id": 4,
+      "title": "Placement Assistance",
+      "description": "Receive personalized placement assistance from our dedicated team.",
+      "imageSrc": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/research_1+(1).webp",
+      "imageAlt": "PlacementAssistance"
+    }
+  ],
+
+  "ProgramSection": [
+    {
+      "content": {
+        "BoldText": "Early to Mid",
+        "nonBold": "Level Professionals with min",
+        "yearExp": "1 Year of Experience",
+        "description": "This program is perfect for IT experts, security analysts and engineers , risk consultants, network admins, Compliance and Risk Management Professionals, Software Developers etc.",
+        "importantNote": "This program is not for fresh graduates. You must have at least 1 year of work experience. To know more, check eligibility.",
+        "points1": [
+          {
+            "id": 1,
+            "title": "Security Analyst"
+          },
+          {
+            "id": 2,
+            "title": "Risk Consultants"
+          }
+        ],
+        "points2": [
+          {
+            "id": 3,
+            "title": "Network Admins"
+          },
+          {
+            "id": 4,
+            "title": "IT Professionals"
+          }
+        ]
+      },
+      "rightImg": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ryt_programImg+(2).webp",
+      "popupTitle": "Eligibility Check",
+      "formProps": {}
+    }
+  ],
+
+  "sections": [
+    {
+      "id": "0",
+      "trackIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/python-icon-left.webp",
+      "width": 80,
+      "height": 80,
+      "title": "Module 0",
+      "toolsImg": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/python-right.webp",
+      "toolwidth": "100",
+      "toolheight": "30",
+      "description": "Fundamentals and Prerequisites",
+      "duration": "40-50 hrs",
+      "contentModule": "Topics Covered",
+      "contentDescription": "",
+      "contentDetails": [
+        "Operating System Basics",
+        "Networking Fundamentals",
+        "Cloud Security Basics"
+      ]
+    },
+
+    {
+      "id": "1",
+      "trackIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/user-setting.webp",
+      "width": 80,
+      "height": 80,
+      "title": "TERM 1",
+      "toolsImg": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/python-pandas-matplotlib.webp",
+      "toolwidth": "300",
+      "toolheight": "30",
+      "description": "Ethical Hacking and Penetration Testing",
+      "duration": "40-50 hrs",
+      "contentModule": "Topics Covered",
+      "contentDescription": "",
+      "contentDetails": [
+        "Introduction to Ethical Hacking",
+        "Footprinting,Reconnaissance, &Social Engineering Attacks",
+        "Network Scanning and Enumeration"
+      ]
+    },
+
+    {
+      "id": "2",
+      "trackIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/visualization-icon.webp",
+      "width": 80,
+      "height": 80,
+      "title": "TERM 2",
+      "toolsImg": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/seaborn-numpy.webp",
+      "toolwidth": "200",
+      "toolheight": "30",
+      "description": "Advanced Cybersecurity Techniques",
+      "duration": "70-75 hrs",
+      "contentModule": "Topics Covered",
+      "contentDescription": "",
+      "contentDetails": [
+        "Vulnerability,Assessment and Denial-of-Service (DoS) Attacks",
+        "System Hacking,Privilege Escalation,& Session Hijacking",
+        "Malware Threats and Protection"
+      ]
+    },
+
+    {
+      "id": "3",
+      "trackIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/brainMans.webp",
+      "width": 80,
+      "height": 80,
+      "title": "TERM 3",
+      "toolsImg": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/sql-tableu-powerbi-mongoDB.webp",
+      "toolwidth": "300",
+      "toolheight": "30",
+      "description": "Cybersecurity and Information Security Essentials",
+      "duration": "80-85 hrs",
+      "contentModule": "Topics Covered",
+      "contentDescription": "",
+      "contentDetails": [
+        "Cybersecurity Basics and Fundamentals",
+        "Cybersecurity Frameworks & Compliance Standards",
+        "Network Security Essentials"
+      ]
+    },
+
+    {
+      "id": "4",
+      "trackIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/brain-setting.webp",
+      "width": 80,
+      "height": 80,
+      "title": "TERM 4",
+      "toolsImg": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/tensorflow-openai-docker.webp",
+      "toolwidth": "300",
+      "toolheight": "40",
+      "description": "Advanced Cybersecurity and Threat Intelligence",
+      "duration": "70-75 hrs",
+      "contentModule": "Topics Covered",
+      "contentDescription": "",
+      "contentDetails": [
+        "Cloud Security and IAM",
+        "Identity and Access Management (IAM) & Endpoint Security",
+        "Advanced Cyber Threats and Threat Intelligence"
+      ]
+    },
+
+    {
+      "id": "5",
+      "trackIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/excel-icon.webp",
+      "width": 80,
+      "height": 80,
+      "title": "BONUS",
+      "toolsImg": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/excel-single.webp",
+      "toolwidth": "80",
+      "toolheight": "40",
+      "description": "Generative AI in Cybersecurity",
+      "duration": "30-35 hrs",
+      "contentModule": "Topics Covered",
+      "contentDescription": "",
+      "contentDetails": [
+        "Introduction to Generative AI in Cybersecurity",
+        "Generative AI for Threat Detection",
+        "Incident Response Automation with Generative AI"
+      ]
+    }
+  ],
+
+  "FeeSection": {
+    "Fee": "₹1,10,000",
+    "FeeEmi": "₹7,211/month",
+    "emiType": "NO COST EMI",
+    "duration1": "18 Months",
+    "totalAmount1": "₹1,10,000",
+    "monthlyPayment1": "₹7,211",
+    "greenDown1": "10%",
+    "duration2": "12 months",
+    "totalAmount2": "₹1,10,000",
+    "monthlyPayment2": "₹10,816",
+    "greenDown2": "5%",
+    "dataScience": true,
+    "iitGuwatiGen": false,
+    "dataScienceCounselling": true,
+    "interstedInHide": false,
+    "isHybrid": false
+  }
+}

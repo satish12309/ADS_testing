@@ -1,0 +1,509 @@
+.first p {
+  margin: 0;
+  color: #484848c2;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.feesmain h2 {
+  color: var(--light-black);
+  text-align: center;
+  font-size: 42px;
+  font-weight: 600;
+  margin: 70px 0 45px;
+}
+
+.feesmain {
+  background: linear-gradient(180deg,
+      var(--white) 0%,
+      #eff3f6 42.69%,
+      #eff3f6 66.46%,
+      var(--white) 98.82%);
+}
+
+.feesmain span {
+  color: var(--light-orange);
+}
+
+.Emipopup {
+  position: absolute;
+  inset: 40px;
+  border: 1px solid rgb(204, 204, 204);
+  background: rgb(255, 255, 255);
+  overflow: auto;
+  border-radius: 4px;
+  outline: none;
+  padding: 10px 40px;
+  margin-top: 100px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: right;
+  height: 35%;
+  width: 60%;
+  margin: auto;
+}
+
+.emiPopupWrapper {
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 99999;
+  overflow: hidden;
+}
+
+.mainContainer {
+  border-radius: 38.262px;
+}
+
+.innerContainer {
+  display: flex;
+  gap: 42px;
+  justify-content: center;
+}
+
+.divTop {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.divTop span {
+  border-radius: 33px;
+  border: 1px solid var(--light-bluee);
+  background: rgba(3, 131, 255, 0.15);
+  color: var(--light-bluee);
+  font-size: 14px;
+  font-weight: 500;
+  padding: 3px 10px;
+}
+
+.firstContainer,
+.secondContainer {
+  display: flex;
+  flex-flow: column;
+  gap: 15px;
+  padding: 50px 40px 30px 40px;
+  border-radius: 39.625px;
+  border: 4px solid #f3f3f3;
+  background: var(--white);
+  font-size: 30px;
+}
+
+
+.headOrange,
+.headBlue {
+  color: var(--light-black);
+  font-size: 36px;
+  font-weight: 500;
+}
+
+
+.firstContainer {
+  margin: 0;
+  width: 46%;
+}
+
+.secondContainer {
+  width: 48%;
+}
+
+.firstContainer .iconDiv {
+  border-bottom: 1px solid var(--black);
+}
+
+.secondContainer {
+  margin: 0;
+}
+
+.iconDiv {
+  display: grid;
+  gap: 28px;
+  padding-bottom: 34px;
+  border-bottom: 1px solid var(--black);
+}
+
+.innerIconDiv {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+
+.iconContent span {
+  color: var(--black);
+  font-weight: 500;
+}
+
+.iconDiv p {
+  color: var(--light-black);
+  font-weight: 400;
+  margin: 0;
+  font-size: 16px;
+}
+
+.firstP,
+.fadedText {
+  font-weight: 500;
+  font-size: 20px;
+  margin: 0;
+}
+
+.secondContainer>.innerIconDiv {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.innerIconDiv img {
+  width: auto;
+  height: 24px;
+}
+
+.emiButton button,
+.emiButtonBlue button {
+  text-align: center;
+  border-radius: 10px;
+  background: var(--white);
+  margin-top: 24px;
+  padding: 14px 40px;
+  border: none;
+}
+
+.emiButtonBlue button {
+  border-radius: 10px;
+  background: var(--deep-blue);
+}
+
+.emiButton button {
+  color: var(--primary-color);
+  font-weight: 600;
+  background: #eff3f6;
+}
+
+.emiButton button:hover {
+  background: var(--white);
+  color: var(--black);
+}
+
+.feeContentContainer p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.feeContentContainer h4 {
+  color: var(--black);
+  font-size: 36px;
+  font-weight: 500;
+  margin-top: 4px;
+}
+
+.border {
+  padding: 24px 0px 40px 0px;
+}
+
+.border h4 {
+  color: #838383;
+  font-size: 24px;
+  margin-top: 5px;
+  font-weight: 600;
+}
+
+.border span {
+  font-size: 14px;
+  font-weight: 500;
+  color: #838383;
+}
+
+.border p {
+  font-weight: 500;
+  font-size: 20px;
+  margin: 0;
+}
+
+.btnone {
+  border-radius: 30px;
+  background: var(--primary-color);
+  color: var(--white);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 8px 20px 8px 10px;
+  cursor: pointer;
+}
+
+.btnDown {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0 70px 0;
+}
+
+@media (max-width: 1281px) {
+  .btnDown {
+    margin: 4% 0 7% 0;
+  }
+
+  .feesmain h2 {
+    margin: 7% 0 4%;
+  }
+
+  .mainContainer {
+    width: auto;
+  }
+}
+
+@media (max-width: 1181px) {
+  .iconDiv p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1081px) {
+
+  .headBlue,
+  .headOrange {
+    font-size: 33px;
+  }
+
+  .firstContainer,
+  .secondContainer {
+    padding: 40px 30px 30px 30px;
+  }
+
+  .innerContainer {
+    gap: 20px;
+  }
+
+  .Emipopup {
+    padding: 10px 15px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .headOrange {
+    font-size: 29px;
+  }
+
+  .headBlue {
+    font-size: 27px;
+  }
+
+  .secondContainer {
+    padding: 24px;
+  }
+}
+
+@media (max-width: 968px) {
+
+  .headBlue,
+  .headOrange {
+    font-size: 28px;
+  }
+
+  .iconDiv p {
+    font-size: 14px;
+  }
+
+  .emiButton button,
+  .emiButtonBlue button {
+    padding: 11px;
+  }
+
+  .iconDiv {
+    gap: 17px;
+  }
+}
+
+@media (max-width: 841px) {
+
+  .headBlue,
+  .headOrange {
+    font-size: 24px;
+  }
+
+  .feeContentContainer h4 {
+    font-size: 24px;
+  }
+
+  .feesmain h2 {
+    font-size: 34px;
+  }
+
+  .border {
+    padding: 18px 0 25px 0;
+  }
+
+  .firstContainer,
+  .secondContainer {
+    gap: 10px;
+  }
+
+  .secondContainer {
+    padding: 26px;
+  }
+
+  .iconDiv {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 761px) {
+
+  .firstContainer,
+  .secondContainer {
+    padding: 20px;
+  }
+
+  .innerContainer {
+    gap: 10px;
+  }
+
+  .headBlue,
+  .headOrange {
+    font-size: 21px;
+  }
+
+  .border p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 641px) {
+
+  .feesmain h2 {
+    font-size: 28px;
+  }
+
+  .iconDiv {
+    padding-bottom: 26px;
+  }
+
+  .emiButtonBlue button {
+    padding: 10px 20px;
+  }
+
+  .feesmain span {
+    color: var(--light-black);
+    font-weight: 700;
+  }
+
+  .box {
+    padding: 20px 10px;
+  }
+
+  .Emipopup {
+    padding: 1px 9px;
+    height: 30%;
+    width: 81%;
+  }
+
+
+  .mainContainer {
+    width: 100%;
+    height: 100%;
+  }
+
+  .innerMainContainer {
+    top: 20px;
+  }
+
+  .innerContainer {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+  }
+
+  .firstContainer .iconDiv {
+    grid-template-columns: 100%;
+  }
+
+  .feesmain {
+    margin-top: 50px;
+  }
+
+  .border {
+    padding: 0px 0px 20px 0px;
+  }
+
+  .feeContentContainer h4 {
+    font-size: 32px;
+  }
+
+  .firstContainer,
+  .secondContainer {
+    padding: 30px;
+    width: 100%;
+  }
+
+  .fadedText {
+    font-size: 18px;
+  }
+
+  .headOrange,
+  .headBlue {
+    font-size: 26px;
+  }
+
+
+  .firstP {
+    font-size: 18px;
+  }
+
+  .innerIconDiv img {
+    height: 20px;
+  }
+
+  .iconDiv {
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+
+  .border p {
+    font-size: 18px;
+  }
+
+  .border h4 {
+    font-size: 22px !important;
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  .emiButton {
+    margin-top: 10px;
+  }
+
+
+  .divTop {
+    gap: 10px;
+    position: relative;
+  }
+}
+
+@media (max-width: 481px) {
+
+  .headBlue,
+  .headOrange {
+    font-size: 19px;
+  }
+
+  .firstContainer,
+  .secondContainer {
+    padding: 25px 21px;
+  }
+
+  .headBlue,
+  .headOrange {
+    font-size: 18px;
+  }
+}

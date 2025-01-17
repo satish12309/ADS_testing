@@ -1,0 +1,571 @@
+.whyChooseSection {
+    background: radial-gradient(circle at 10% 10%,
+            /* Blue circle positioned at the top left */
+            rgba(2, 49, 82, 0.9) 1%,
+            /* Larger blue circle */
+            transparent 40%
+            /* Smoother transition */
+        ),
+        radial-gradient(circle at 90% 80%,
+            /* Orange circle positioned at the bottom right */
+            rgba(142, 54, 7, 0.3) 2%,
+            /* Glowing orange circle */
+            transparent 30%
+            /* Smoother transition */
+        ),
+        var(--light-black);
+    position: relative;
+    overflow: hidden;
+    padding: 60px 0;
+    margin: 60px 0;
+}
+
+.containerMain {
+    width: 100%;
+}
+
+.header p {
+    color: var(--deep-cyann);
+    text-align: center;
+    font-size: var(--desktop_p-font-size);
+    font-style: normal;
+    font-weight: 500;
+}
+
+.header h2 {
+    color: rgba(255, 241, 234, 1);
+    text-align: center;
+    font-size: var(--desktop_h1-font-size);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.header span {
+    font-size: var(--desktop_h1-font-size);
+    font-weight: bold;
+    color: transparent;
+    -webkit-text-stroke: 1px rgba(255, 241, 234, 1);
+}
+
+.columnDiv {
+    width: 785px;
+    margin: 115px auto;
+}
+
+.customAnimationSection {
+    display: flex;
+    /* gap: 30px; */
+    margin: 30px 0;
+    background: rgba(0, 114, 188, .12);
+    width: max-content;
+    border-radius: 55px;
+    padding: 16px 20px;
+}
+
+.subItemTextP {
+    color: #fff !important;
+    font-size: 16px !important;
+    font-style: normal;
+    font-weight: 600 !important;
+    line-height: 126.5%;
+}
+
+.subItemText:nth-child(1) p {
+    padding-right: 20px;
+    border-right: 2px solid #0072bc;
+}
+
+.subItemText:nth-child(2) p {
+    padding-left: 20px;
+}
+
+.specialSectionForIndex3{
+    margin: 30px 0;
+    display: flex;
+    gap: 15px;
+}
+
+.specialSectionForIndex3 p{
+    display: flex;
+    gap: 5px;
+    font-size: 12px !important;
+    padding: 8px;
+    border-radius: 34px;
+    background: rgba(254, 122, 54, .15);
+}
+
+.divContainer {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    /* Rem-based margin for better scaling */
+    opacity: 0.1;
+    /* Initially dim the divs */
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    will-change: opacity, transform;
+    /* Performance optimization */
+}
+
+.divContainerANI {
+    gap: 2rem;
+    /* Rem-based gap for flexibility */
+    align-items: flex-start;
+}
+
+.divContainer h4 {
+    color: var(--white);
+    font-size: var(--desktop_h4-font-size);
+    /* Use rem for responsiveness */
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.divContainer p {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 20px;
+    /* Responsive font size */
+    font-style: normal;
+    font-weight: 300;
+    /* line-height: 1.875rem; */
+}
+
+.highlight {
+    opacity: 1;
+    /* Highlight the div */
+    transform: scale(1.05);
+    /* Scale effect */
+}
+
+.domains {
+    display: none;
+}
+
+.Head {
+    text-align: center;
+    color: var(--white-deep);
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.Head span {
+    font-weight: 600;
+}
+
+.container {
+    position: relative;
+    z-index: 1;
+    background: rgba(10, 10, 10, 0.9);
+    width: 100%;
+    margin: auto;
+    margin-top: 70px;
+    color: var(--black);
+    padding: 4.375rem 0 0;
+    overflow: hidden;
+}
+
+.svglogo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Animation Section */
+
+.downBox {
+    margin: 20px 0;
+}
+
+.Contents h5 {
+    color: var(--white);
+    font-size: var(--desktop_h3-font-size);
+    /* Responsive font size */
+    font-style: normal;
+    font-weight: 600;
+}
+
+.pTag {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: var(--desktop_p-font-size);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.45;
+}
+
+.insideBox {
+    display: flex;
+    gap: 1.25rem;
+    align-items: center;
+}
+
+.insideBoxDesign1 .insideBoxImgWrapper,
+.insideBoxDesign2 .insideBoxImgWrapper {
+    position: relative;
+}
+
+.insideBoxDesign1 .insideBoxImgWrapper {
+    width: 250px;
+    height: 60px;
+}
+
+.insideBoxDesign2 .insideBoxImgWrapper {
+    position: relative;
+    width: 25px;
+    height: 25px;
+}
+
+.insideBoxDesign1 .insideBoxImgWrapper img,
+.insideBoxDesign2 .insideBoxImgWrapper img {
+    position: absolute;
+}
+
+.insideBox p {
+    color: var(--white);
+    font-size: var(--desktop_p-font-size);
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.3;
+    text-wrap: balance;
+}
+
+.noteP {
+    color: var(--white);
+    font-size: var(--desktop_p-font-size);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.45;
+}
+
+.orgText {
+    color: var(--light-orange);
+    font-weight: 700;
+    line-height: 1.45;
+}
+
+.mainDivS {
+    display: flex;
+    gap: 1.25rem;
+}
+
+.smalDiv {
+    padding: 6px 10px;
+    border-radius: 63px;
+    background: rgba(3, 131, 255, 0.2);
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+    align-items: center;
+}
+
+.smalDiv span {
+    color: var(--white);
+    text-align: center;
+    font-size: var(--desktop_span-font-size);
+    font-weight: 500;
+}
+
+.IBMDiv {
+    border-radius: 15px;
+    background: rgba(255, 196, 54, 0.1);
+    width: 250px;
+    padding: 1px 20px;
+    display: flex;
+    gap: 1.25rem;
+    margin: 20px 0;
+}
+
+.IBMDiv span {
+    color: var(--white);
+    font-size: var(--desktop_span-font-size);
+    font-weight: 500;
+}
+
+.downBoxDesign2 {
+    display: flex;
+    background: none;
+    width: 100%;
+    gap: 10px;
+}
+
+.downBoxDesign3 {
+    border-radius: 15px;
+    background: rgba(255, 196, 54, 0.1);
+    width: 200px;
+}
+
+.downBoxDefault {
+    display: none;
+}
+
+.insideBoxDesign2 {
+    border-radius: 63px;
+    background: rgba(3, 131, 255, 0.2);
+    padding: 4px 10px;
+    gap: 4px;
+}
+
+.insideBoxDesign2 p {
+    font-size: var(--desktop_p-font-size);
+    margin: 0;
+}
+
+.insideBoxDefault {
+    background-color: var(--cementtt);
+    /* Default style for other insideBox elements */
+    padding: 5px;
+}
+
+.customSection {
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    background: rgba(255, 196, 54, 0.1);
+    width: -moz-fit-content;
+    width: 320px;
+    padding: 4px 20px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 60px;
+    margin: 30px 0;
+}
+
+.customSection p {
+    width: 200px;
+    margin: 0;
+    color: var(--white);
+    font-size: var(--desktop_p-font-size);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-wrap: balance;
+}
+
+.leftText {
+    width: 50%;
+    /* Adjust as per your layout */
+}
+
+.imageSection {
+    position: relative;
+    width: 90px;
+    height: 50px;
+    /* Adjust as per your layout */
+}
+
+.imageSection img {
+    position: absolute;
+}
+
+.leftText p {
+    font-size: var(--desktop_p-font-size);
+    /* Adjust text size */
+    line-height: 1.5;
+    /* margin-right: 20px; */
+}
+
+/* Media Queries for smaller screens */
+
+@media screen and (max-width: 1281px) {
+    .whyChooseSection {
+        margin: 7% 0;
+    }
+}
+
+@media screen and (max-width: 1181px) {
+    .columnDiv {
+        width: 830px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .downBoxDesign2 {
+        gap: 18px;
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+}
+
+@media screen and (max-width: 968px) {
+    .imageSection {
+        width: 70px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 841px) {
+    .columnDiv {
+        width: 670px;
+    }
+}
+
+@media screen and (max-width: 761px) {
+    .Contents {
+        padding-right: 40px;
+    }
+
+    .insideBox {
+        gap: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 641px) {
+    .whyChooseSection {
+        background: radial-gradient(circle at 10% 10%,
+                rgba(6, 59, 92, 0.8) 1%,
+                transparent 30%),
+            radial-gradient(circle at 90% 80%,
+                rgba(254, 122, 54, 0.2) 1%,
+                transparent 40%),
+            var(--light-black);
+        /* margin-bottom: 60px; */
+    }
+
+    .header p {
+        font-size: var(--desktop_p-font-size);
+        /* Adjusted for smaller screens */
+    }
+
+    .header h2 {
+        font-size: var(--desktop_h2-font-size);
+    }
+
+    .divContainer {
+        margin-left: 15px;
+        gap: 10px;
+    }
+
+    .divContainer h4 {
+        font-size: var(--desktop_h4-font-size);
+    }
+
+    .Contents h5 {
+        font-size: var(--desktop_h5-font-size);
+    }
+
+    .divContainer p {
+        font-size: var(--desktop_p-font-size);
+        /* line-height: 1.5; */
+    }
+
+    .columnDiv {
+        width: 100%;
+    }
+
+    .svglogo img {
+        width: 50px;
+        height: auto;
+    }
+
+    .downBoxDesign1 {
+        width: 100%;
+        height: fit-content;
+        padding: 4px;
+    }
+
+    .insideBoxDesign1 .insideBoxImgWrapper {
+        width: 60px;
+    }
+
+    .downBoxDesign2 {
+        gap: 8px;
+    }
+
+    .downBoxDesign2 p {
+        font-size: var(--desktop_p-font-size);
+    }
+
+    /* .downBoxDesign1 img {
+      height: auto;
+    } */
+
+    /* .insideBoxDesign1 {
+      gap: 4px;
+    } */
+
+    .insideBoxDesign1 p {
+        font-size: var(--desktop_p-font-size);
+    }
+
+    /* .insideBoxDesign2 {
+      gap: 4px;
+    } */
+
+    .customSection {
+        width: 100%;
+        padding: 10px 3px;
+        gap: 10px;
+        justify-content: space-around;
+    }
+
+    .customSection p {
+        width: 100%;
+    }
+
+    /* .imageSection {
+      width: auto;
+    } */
+
+    .Contents {
+        padding-right: 0px;
+    }
+}
+
+@media screen and (max-width: 481px) {
+    .whyChooseSection {
+        padding: 30px 0;
+    }
+
+    .columnDiv {
+        margin: 80px auto;
+    }
+
+    .downBox {
+        grid-template-columns: 50% 45%;
+        gap: 10px;
+    }
+
+    /* .insideBoxDesign1 p,
+    .noteP {
+      font-size: 12px;
+    } */
+
+    .header h2,
+    .header span {
+        font-size: 28px;
+    }
+
+    .Contents h5 {
+        font-size: 18px;
+    }
+
+    .divContainer p,
+    .noteP {
+        font-size: 11px;
+    }
+
+    .imageSection {
+        width: 50px;
+        height: 30px;
+    }
+}
+
+@media screen and (max-width: 361px) {
+    .insideBoxDesign1 .insideBoxImgWrapper {
+        height: 35px;
+    }
+
+    .divContainer {
+        margin: 0;
+    }
+
+    .divContainerANI {
+        padding-right: 0;
+        margin-top: 25px;
+    }
+
+    .columnDiv {
+        margin: 60px auto;
+    }
+}

@@ -1,0 +1,332 @@
+{
+  "MetaHead": {
+    "title": "Data Structures Algorithms and System Design Course - Learnbay",
+    "meta": [
+      {
+        "id": 1,
+        "name": "description",
+        "content": "Elevate your tech skills through our Software development Certification Program and switch from service-based to product-based companies. Earn globally recoganized IBM and Microsoft Certifications."
+      },
+      {
+        "id": 2,
+        "name": "robots",
+        "content": "index, follow"
+      },
+      {
+        "id": 3,
+        "name": "keywords",
+        "content": "software development course, software development program, software engineering course, software engineer certification, software developer certifications, software developer training, software engineer online course"
+      }
+    ],
+    "link": [
+      {
+        "id": 1,
+        "rel": "icon",
+        "href": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
+      },
+      {
+        "id": 2,
+        "rel": "canonical",
+        "href": "https://www.learnbay.co/fullstack/full-stack-software-development-program"
+      }
+    ]
+  },
+  "header": {
+    "spanTag": "Ace PRODUCT-BASED interviews in Top MNCs",
+    "spanIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ada_AI_icon.webp",
+    "title": "Data Structure Algorithms &",
+    "orgTitle": "System Design",
+    "descrption": "Successfully transition careers through our courses & real-time capstone projects. All while making your previous work experience count!",
+    "subtitle": "with Gen-AI for Software Developers",
+    "typeLogo": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/iit_guwati_logo.webp",
+    "bgvideo": "/video/back-video.mp4",
+    "content": " how are you amit jadidifwjiw",
+
+    "applicationIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/blue_Bots.webp",
+    "ProgramIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/blue_Cal_bots.webp",
+    "trainingIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/build_bots.webp",
+    "CloseDes": "Program Eligibility ",
+    "CloseBotDate": "Min 1 year",
+    "DurationBot": "Program Duration",
+    "DurationBotDate": "10 Months",
+    "TrainingBot": "Training Format",
+    "TrainingBotFormat": "Live Online / Hybrid",
+    "BotWidth": "70",
+    "BotHeight": "56"
+  },
+
+  "summary": [
+    {
+      "id": 1,
+      "title": "Domain Electives",
+      "description": "Work on Live projects from multiple domains like Retail, BFSI, Pharma etc.",
+      "imageSrc": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/work_experience_1+(1).webp",
+      "imageAlt": "DomainElectives"
+    },
+    {
+      "id": 2,
+      "title": "Real Project Experience",
+      "description": "Gain experience of managing analytics project from scratch.",
+      "imageSrc": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/experiences_2+(1).webp",
+      "imageAlt": "RealProjectExperience"
+    },
+    {
+      "id": 3,
+      "title": "Certification",
+      "description": "Get certified from renowned industries.",
+      "imageSrc": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/business_concept_1+(1).webp",
+      "imageAlt": "Certification",
+      "extraImageSrc": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IBM_MICROS.webp",
+      "extraImageAlt": "IBMLOGO"
+    },
+    {
+      "id": 4,
+      "title": "Placement Assistance",
+      "description": "Receive personalized placement assistance from our dedicated team.",
+      "imageSrc": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/research_1+(1).webp",
+      "imageAlt": "PlacementAssistance"
+    }
+  ],
+
+  "ProgramSection": [
+    {
+      "content": {
+        "BoldText": "Early to Mid",
+        "nonBold": "Level Professionals with min",
+        "yearExp": "1 Year of Experience",
+        "description": "This program is perfect for Marketing/ Sales Associate, HR Assistant, Entry-Level Financial Analyst, Project Coordinator, Customer Service Representative, QA Tester, Web Developer.",
+        "importantNote": "This program is not for fresh graduates. You must have at least 1 year of work experience. To know more, check eligibility.",
+        "points1": [
+          {
+            "id": 1,
+            "title": "Data Engineer"
+          },
+          {
+            "id": 2,
+          "title": "Data Analyst"
+          }
+        ],
+        "points2": [
+          {
+            "id": 3,
+            "title": "Business Analyst"
+          },
+          {
+            "id": 4,
+            "title": "Systems Admin"
+          }
+        ]
+      },
+      "rightImg": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ryt_programImg+(2).webp",
+      "popupTitle": "Eligibility Check",
+      "formProps": {}
+    }
+  ],
+
+  "sections": [
+    {
+      "id": "0",
+      "trackIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/python-icon-left.webp",
+      "width": 80,
+      "height": 80,
+      "title": "Module 0",
+      "toolsImg": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/python-pandas-matplotlib.webp",
+      "imageSizes": {
+        "sm": { "width": 170, "height": 16},
+        "md": { "width": 230, "height": 24 },
+        "lg": { "width": 300, "height": 30 }
+      },
+      "description": "Programming Fundamentals",
+      "duration": "2-3 weeks",
+      "contentModule": "Topics Covered",
+      "contentDescription": "",
+      "contentDetails": [
+        "Introduction to Programming",
+        "Object-Oriented Programming (OOP)",
+        "OOP practice problems (e.g., real-world object modeling)"
+      ]
+    },
+
+    {
+      "id": "1",
+      "trackIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/user-setting.webp",
+      "width": 80,
+      "height": 80,
+      "title": "TERM 1",
+      "toolsImg": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/java-networkX.webp",
+      "imageSizes": {
+        "sm": { "width": 170, "height": 16},
+        "md": { "width": 230, "height": 24 },
+        "lg": { "width": 300, "height": 30 }
+      },
+      "description": "Data Structures & Algorithms",
+      "duration": "3.5 Months",
+      "contentModule": "Topics Covered",
+      "contentDescription": "",
+      "contentDetails": [
+        "Foundations of Data Structures and Algorithms",
+        "Time and Space Complexity",
+        "Advanced Data Structures and Algorithms"
+      ]
+    },
+
+    {
+      "id": "2",
+      "trackIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/visualization-icon.webp",
+      "width": 80,
+      "height": 80,
+      "title": "TERM 2",
+      "toolsImg": "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/python+git_11zon.webp",
+      "imageSizes": {
+        "sm": { "width": 140, "height": 44 },
+        "md": { "width": 170, "height": 50},
+        "lg": { "width": 190, "height": 57 }
+      },
+      "description": "Computer Fundamentals",
+      "duration": "1 Month",
+      "contentModule": "Topics Covered",
+      "contentDescription": "",
+      "contentDetails": [
+        "Networking Fundamentals(Network Security: Firewalls, NAT)",
+        "Programming Concepts and Problem-Solving(Complexity Analysis Basics)",
+        "Version Control Systems(Git and GitHub Essentials)"
+      ]
+    },
+
+    {
+      "id": "3",
+      "trackIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/brainMans.webp",
+      "width": 80,
+      "height": 80,
+      "title": "TERM 3",
+      "toolsImg": "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/kafta+sql+mongodb_11zon.webp",
+      "imageSizes": {
+        "sm": { "width": 200, "height": 27 },
+        "md": { "width": 260, "height": 32 },
+        "lg": { "width": 280, "height": 36 }
+      },
+      "description": "System Design : LLD + HLD",
+      "duration": "2.5 Months",
+      "contentModule": "Topics Covered",
+      "contentDescription": "",
+      "contentDetails": [
+        "Low-Level Design (LLD) - 9 Chapters",
+        "SOLID Principles for Effective Design",
+        "Introduction to System Architecture and Design"
+      ]
+    },
+
+    {
+      "id": "4",
+      "trackIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/brain-setting.webp",
+      "width": 80,
+      "height": 80,
+      "title": "Elective 1",
+      "toolsImg": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/chatGpt-syntesia-githubCopilot.webp",
+      "imageSizes": {
+        "sm": { "width": 170, "height": 16},
+        "md": { "width": 230, "height": 24 },
+        "lg": { "width": 300, "height": 30 }
+      },
+      "description": "GenAI for Software Developers",
+      "duration": "70-75 hrs",
+      "contentModule": "Topics Covered",
+      "contentDescription": "",
+      "contentDetails": [
+        "GenAI for Software Developers",
+        "Integration of OpenAI APIs",
+        "Prompt Engineering"
+      ]
+    },
+
+    {
+      "id": "5",
+      "trackIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/excel-icon.webp",
+      "width": 80,
+      "height": 80,
+      "title": "Elective 2",
+      "toolsImg": "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/powerbi+tableu+sql_11zon.webp",
+"imageSizes": {
+        "sm": { "width": 195, "height": 34 },
+        "md": { "width": 220, "height": 37},
+        "lg": { "width": 230, "height": 39 }
+      },
+      "description": "Product Management for Tech Professionals",
+      "duration": "30-35 hrs",
+      "contentModule": "Topics Covered",
+      "contentDescription": "",
+      "contentDetails": [
+        "Product Life Cycle & Development",
+        "Feature Prioritization Techniques",
+        "Product Design Basics for Engineers"
+      ]
+    },
+
+    {
+      "id": "6",
+      "trackIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/DSA-systemDesign.webp",
+      "width": 80,
+      "height": 80,
+      "title": "Elective 3",
+      "toolsImg": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/numpy-matplotlib-seaborn.webp",
+      "imageSizes": {
+        "sm": { "width": 210, "height": 23 },
+        "md": { "width": 270, "height": 26 },
+        "lg": { "width": 300, "height": 32 }
+      },
+      "description": "Data Engineering Essentials for Software Engineers",
+      "duration": "40-45 hrs",
+      "contentModule": "Topics Covered",
+      "contentDescription": "",
+      "contentDetails": [
+        "Data Pipelines & Workflow Orchestration",
+        "Database Management & Optimization",
+        "ETL/ELT: Data extraction, transformation, and load processes"
+      ]
+    },
+    {
+      "id": "7",
+      "trackIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/DSA-systemDesign.webp",
+      "width": 80,
+      "height": 80,
+      "title": "Elective 4",
+      "toolsImg": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/java-networkX.webp",
+      "imageSizes": {
+        "sm": { "width": 160, "height": 23 },
+        "md": { "width": 170, "height": 26 },
+        "lg": { "width": 200, "height": 32 }
+      },
+      "description": "DevOps Essentials for Software Engineers",
+      "duration": "40-45 hrs",
+      "contentModule": "Topics Covered",
+      "contentDescription": "",
+      "contentDetails": [
+        "Programming & Scripting for Automation",
+        "CI/CD Integration",
+        "Containerization & Orchestration"
+      ]
+    }
+  ],
+  
+    "FeeSection": {
+      "Fee": "₹95,000",
+      "FeeEmi": "₹6,333/month",
+      "hybridFee": "₹70,000",
+      "hybridEmi": "₹6,000/month",
+      "emiType": "NO COST EMI",
+      "duration1": "12 months",
+      "totalAmount1": "₹95,000",
+      "monthlyPayment1": "₹9,228",
+      "greenDown1": "10%",
+      "duration2": "18 months",
+      "totalAmount2": "₹95,000",
+      "monthlyPayment2": "₹6,333",
+      "greenDown2": "5%",
+      "dataScience": true,
+      "iitGuwatiGen": false,
+      "dataScienceCounselling": true,
+      "interstedInHide": false,
+      "isHybrid":false
+    }
+  }
+  

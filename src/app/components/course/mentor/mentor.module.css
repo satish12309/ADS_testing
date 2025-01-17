@@ -1,0 +1,165 @@
+.container {
+  text-align: center;
+  margin: 70px 0;
+}
+
+.container h4 {
+  color: var(--black);
+  font-size: 32px;
+}
+
+.container p {
+  font-size: 15px;
+  margin: 10px 0;
+}
+
+.SliderDiv {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sliderTrack {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: calc(100% * 14);
+  /* Adjust width based on duplicated slides */
+}
+
+.slide {
+  /* flex: 1 0 18%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.prevBtn,
+.nextBtn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.prevBtn {
+  left: 0;
+}
+
+.nextBtn {
+  right: 0;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0px 0px 1.8px rgba(0, 0, 0, 0.25);
+  padding: 8px;
+  text-align: center;
+  margin: 20px;
+  gap: 16px;
+}
+
+.mentorImg img {
+  border-radius: 20px;
+}
+
+.spans {
+  font-weight: 600;
+  border-bottom: 4px solid var(--light-orange);
+}
+
+/* .hrLine {
+  background: #FE7A36;
+  width: 125px;
+  height: 3px;
+  border: none;
+  border-radius: 20px;
+  position: relative;
+  left: 51%;
+} */
+
+.Name {
+  color: var(--black);
+  font-size: 15px;
+  font-weight: 700;
+  /* margin-top: 10px; */
+}
+
+.sliderTrack {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 100%;
+}
+
+.slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  /* This can adjust dynamically based on `slidesPerView` */
+}
+
+@media (max-width: 1281px) {
+  .container {
+    margin: 13% 0;
+  }
+}
+@media (max-width: 768px) {
+  /* .slide {
+      flex: 1 0 100%;
+    } */
+
+  .prevBtn,
+  .nextBtn {
+    width: 30px;
+    height: 30px;
+  }
+
+  /* .hrLine {
+    width: 126px;
+    left: 52%;
+  } */
+}
+
+@media (max-width: 481px) {
+  .container p {
+    margin-top: 15px;
+  }
+
+  /* .hrLine{
+      left: 53%;
+      width: 130px;
+    } */
+
+  /* .hrLine {
+    display: none;
+  } */
+
+  .container h4 {
+    font-size: 26px;
+    font-weight: 400;
+  }
+
+  .spans {
+    font-weight: bold !important;
+    border: none;
+  }
+
+  .container p {
+    font-size: 13px;
+  }
+}

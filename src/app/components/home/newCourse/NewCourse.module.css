@@ -1,0 +1,1089 @@
+/* Additional styling for container */
+.section {
+  background: linear-gradient(
+    180deg,
+    var(--white) 1.26%,
+    var(--senary-color) 17.6%,
+    var(--senary-color) 90.85%,
+    var(--white) 100%
+  );
+  /* padding: 0 20px 20px; */
+  /* margin-top: 0; */
+  /* Add some margin to avoid overlap */
+  /* padding-top: 0; */
+  margin: 0 auto 80px auto;
+}
+
+.container {
+}
+
+.newSection {
+  display: grid;
+  grid-template-columns: 18% 70%;
+  justify-content: center;
+  gap: 20px;
+}
+
+.tabdiv.active {
+  border-radius: 8.984px;
+  background: var(--deep-blue);
+}
+
+.tabdiv.active p {
+  color: var(--white);
+
+  font-size: var(--desktop_p-font-size);
+  font-style: normal;
+  font-weight: 300;
+  line-height: 126.5%;
+  /* 25.3px */
+}
+
+.tabMain p {
+  margin-top: 0;
+  color: var(--light-black);
+  font-size: var(--desktop_p-font-size);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 126.5%;
+  /* 25.3px */
+}
+
+.tabdiv {
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: var(--white);
+  padding: 10px;
+  margin: 4px;
+}
+
+.sliders {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.imgText {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.CourseCardHead {
+  display: flex;
+  grid-template-columns: 30% 30% 30%;
+  margin: 50px 0;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.courseCard {
+  width: 100%;
+  max-width: 300px;
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 0 0 35px 35px;
+  background: var(--white);
+  padding: 10px 10px 20px;
+}
+
+.cardContent h3 {
+  color: var(--light-black);
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 126.5%;
+  letter-spacing: -0.32px;
+}
+
+.lists {
+  display: flex;
+  flex-direction: column;
+  /* margin: 24px 0; */
+  gap: 5px;
+}
+
+.lists span {
+  color: var(--deeep-grey);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155%;
+  /* 31px */
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-start;
+  gap: 18px;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+
+.brochurebtn {
+  border-radius: 25px;
+  background: var(--light-black);
+  color: var(--white);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155%;
+  /* 34.1px */
+  padding: 9px 18px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+.brochurebtnMaster {
+  border-radius: 25px;
+  background: var(--light-orange);
+  color: var(--white);
+  color: var(--white);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155%;
+  /* 34.1px */
+  padding: 9px 18px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+.viewDetailsButton {
+  border-radius: 26px;
+  background: transparent;
+  color: var(--black);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155%;
+  /* 34.1px */
+  padding: 9px 20px;
+  cursor: pointer;
+  border: 1px solid var(--black);
+}
+
+.viewDetailsButtonmaster {
+  border-radius: 26px;
+  background: transparent;
+  color: var(--white);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155%;
+  /* 34.1px */
+  padding: 9px 28px;
+  cursor: pointer;
+  border: 1px solid var(--white);
+}
+
+.mainImage {
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 10px;
+}
+
+.viewMoreContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: -40px 40px 40px;
+  /* margin-top: -100px; */
+}
+
+.viewMoreButton {
+  border-radius: 12px;
+  background: transparent;
+  color: #666;
+  border: 1px solid #666;
+  padding: 10px 50px;
+  /* border: none; */
+  /* color: var(--white); */
+  text-align: center;
+
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 126.5%;
+  /* 31.625px */
+  cursor: pointer;
+}
+
+.tabMain {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+  margin-top: 50px;
+  position: sticky;
+  top: 80px;
+  /* This will make the tabMain sticky with a top margin of 20px */
+}
+
+.tabdiv {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  color: var(--black);
+  transition: color 0.3s ease;
+  justify-content: space-between;
+}
+
+.active {
+  color: var(--white);
+}
+
+.listicondiv {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.MasterCard {
+  width: 80%;
+  /* max-width: 1200px; */
+  margin: 40px auto 0 auto;
+  position: relative;
+}
+
+.contentConteiner {
+  position: absolute;
+  top: 30px;
+  padding: 10px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contentConteiner h2 {
+  font-size: var(--desktop_h2-font-size);
+  font-weight: 600;
+  line-height: 126.5%;
+  color: var(--white);
+  letter-spacing: -0.4px;
+}
+
+.contentConteiner p {
+  font-size: var(--desktop_p-font-size);
+  font-style: normal;
+  margin-top: 0;
+  color: var(--secondary-color);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155%;
+  /* 34.1px */
+}
+
+.mastericon {
+  display: flex;
+  gap: 6px;
+}
+
+.absloute {
+  float: right;
+  position: absolute;
+  right: 90px;
+  bottom: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.absloute h4 {
+  color: var(--white);
+  text-align: center;
+  font-size: var(--desktop_h4-font-size);
+  font-style: normal;
+  font-weight: 800;
+  display: flex;
+  flex-direction: column;
+}
+
+.absloute span {
+  color: var(--white);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 155%;
+}
+
+.bgImageMaster {
+  width: 100%;
+  max-width: 1200px;
+}
+
+@media screen and (max-width: 1381px) {
+  .brochurebtn,
+  .viewDetailsButton {
+    font-size: 16px;
+  }
+
+  .viewDetailsButton {
+    padding: 9px 23px;
+  }
+
+  /* .courseCard {
+    max-width: 380px;
+  } */
+
+  .mainImage {
+    width: 100%;
+  }
+
+  .CourseCardHead {
+    width: 100%;
+    /* justify-content: center; */
+  }
+
+  .brochurebtn svg {
+    width: 12px;
+  }
+
+  /* .MasterCard {
+    max-width: 1280px;
+  } */
+
+  .cardContent h3 {
+    font-size: 19px;
+  }
+
+  .lists span {
+    font-size: 17px;
+  }
+
+  .tabdiv.active p {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 1281px) {
+  /* .viewDetailsButton {
+    font-size: 12px;
+  } */
+
+  .courseCard {
+    max-width: 280px;
+  }
+  .cardContent h3 {
+    font-size: 17px;
+  }
+  .lists span {
+    font-size: 14px;
+  }
+  .brochurebtn,
+  .viewDetailsButton {
+    font-size: 13px;
+  }
+  .CourseCardHead {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 1181px) {
+  /* .section {
+    margin: 0 auto 80px auto;
+  } */
+
+  .newSection {
+    grid-template-columns: 22% 70%;
+  }
+
+  .MasterCard {
+    width: 85%;
+  }
+
+  .courseCard {
+    max-width: 350px;
+  }
+
+  .CourseCardHead {
+    gap: 20px;
+    justify-content: left;
+  }
+
+  .contentConteiner h2 {
+    font-size: 34px;
+  }
+
+  .lists span {
+    font-size: 15px;
+  }
+
+  .viewDetailsButton {
+    /* font-size: 12px; */
+    padding: 9px 16px;
+  }
+
+  /* .brochurebtn {
+    font-size: 12px;
+  } */
+}
+
+@media screen and (max-width: 1081px) {
+  /* .cardContent h3 {
+    font-size: 14px;
+  } */
+
+  .cardContent {
+    gap: 15px;
+  }
+
+  /* .section {
+    padding: 0;
+  } */
+
+  /* .MasterCard {
+    max-width: 960px;
+  } */
+
+  .contentConteiner h2 {
+    font-size: 33px;
+  }
+
+  /* .courseCard {
+    max-width: 220px;
+  }
+
+
+  .lists span {
+    font-size: 11px;
+  }
+
+  .viewDetailsButton,
+  .brochurebtn {
+    font-size: 10px;
+
+  } */
+
+  .viewDetailsButton {
+    padding: 9px 12px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  /* .MasterCard {
+    max-width: 904px;
+  } */
+
+  .courseCard {
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 968px) {
+  /* .MasterCard {
+    max-width: 888px;
+  } */
+
+  .newSection {
+    grid-template-columns: 25% 68%;
+  }
+
+  .contentConteiner h2 {
+    font-size: 28px;
+  }
+
+  .cardContent h3 {
+    font-size: 17px;
+  }
+
+  .lists span {
+    font-size: 13px;
+  }
+
+  .buttons {
+    gap: 10px;
+  }
+
+  .brochurebtn,
+  .viewDetailsButton {
+    font-size: 14px;
+  }
+
+  .courseCard {
+    max-width: 270px;
+  }
+
+  .absloute {
+    right: 25px;
+  }
+
+  /* .lists span,
+  .brochurebtn,
+  .viewDetailsButton {
+    font-size: 13px;
+  } */
+
+  .bgImageMaster {
+    /* max-width: 920px; */
+  }
+}
+
+@media screen and (max-width: 841px) {
+  .newSection {
+    grid-template-columns: 25% 71%;
+    gap: 10px;
+  }
+
+  /* .section {
+    margin: 0 auto 50px auto;
+  } */
+
+  .MasterCard {
+    /* max-width: 761px; */
+    width: 90%;
+  }
+
+  .bgImageMaster {
+    /* max-width: 800px; */
+  }
+
+  .contentConteiner h2 {
+    font-size: 28px;
+  }
+
+  .courseCard {
+    max-width: 260px;
+  }
+
+  .absloute {
+    right: 40px;
+  }
+
+  .brochurebtn,
+  .viewDetailsButton {
+    font-size: 14px;
+    padding: 9px 12px;
+  }
+
+  .viewMoreButton {
+    font-size: 20px;
+  }
+
+  .viewMoreContainer {
+    margin: 0px auto 20px;
+  }
+
+  .tabMain p {
+    font-size: 14px;
+  }
+
+  .tabdiv.active p {
+    font-size: 15px;
+  }
+
+  .cardContent h3 {
+    font-size: 19px;
+  }
+
+  .lists span {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 761px) {
+  /* .newSection {
+    grid-template-columns: 25% 68%;
+  } */
+
+  /* .section {
+    margin-top: 30px;
+  } */
+
+  .tabMain {
+    margin: 0;
+  }
+
+  /* .CourseCardHead {
+    margin: 20px 0;
+  } */
+
+  .MasterCard {
+    /* max-width: 680px; */
+  }
+
+  .contentConteiner h2 {
+    font-size: 24px;
+  }
+
+  .absloute {
+    right: 20px;
+  }
+
+  .absloute span {
+    font-size: 14px;
+  }
+
+  .absloute h4 {
+    font-size: 24px;
+  }
+
+  .bgImageMaster {
+    height: 180px;
+  }
+
+  .newSection {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .CourseCardHead {
+    width: 100%;
+    gap: 50px;
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+
+  .tabMain {
+    width: 100%;
+    max-width: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+    overflow-x: auto;
+    padding: 10px 0;
+    scrollbar-color: #0072bc black;
+  }
+
+  .tabHead {
+    background: linear-gradient(
+      180deg,
+      var(--white) 1.26%,
+      var(--senary-color) 17.6%,
+      var(--senary-color) 90.85%,
+      var(--white) 100%
+    );
+
+    padding: 0 20px;
+  }
+
+  .tabMain::-webkit-scrollbar {
+    height: 1px;
+  }
+
+  .tabMain::-webkit-scrollbar-track {
+    background: var(--black);
+    border-radius: 10px;
+  }
+
+  .tabMain::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    border-radius: 10px;
+    border: 10px solidvar(--black);
+  }
+
+  .tabMain::-webkit-scrollbar-thumb:hover {
+    background: var(--dark-blue);
+  }
+
+  .tabdiv {
+    flex: 0 0 auto;
+    border-radius: 4px;
+    cursor: pointer;
+    min-width: 150px;
+    padding: 10px 20px;
+    background-color: var(--white);
+  }
+
+  .tabMain p {
+    font-size: var(--desktop_p-font-size);
+    font-weight: 600;
+    margin-right: 10px;
+  }
+
+  .tabMain p :nth-child(2) {
+    background-color: var(--red-official);
+    color: var(--primary-color);
+  }
+
+  .courseCard {
+    /* width: 100%; */
+    max-width: 95%;
+    /* padding: 0 20px; */
+    margin: 0 0 40px auto;
+  }
+
+  .swiperContainer {
+    padding: 0px 20px 0;
+  }
+
+  /* .buttons {
+    justify-content: space-around;
+  } */
+
+  .buttonsMaster {
+    justify-content: flex-start;
+  }
+
+  /* .courseCard img {
+    width: 100%;
+  } */
+}
+
+@media screen and (max-width: 641px) {
+  .MasterCard {
+    /* width: 600px; */
+    width: 85%;
+  }
+  .section {
+    margin: 0 auto 35px auto;
+  }
+  .bgImageMaster {
+    /* width: 100%; */
+    height: 320px;
+  }
+
+  .courseCard {
+    margin: 0 auto 40px auto;
+    max-width: 92%;
+  }
+
+  /* .section {
+    margin: 40px auto 50px auto;
+  } */
+
+  .buttonsMaster {
+    justify-content: space-around;
+    font-size: 18px;
+  }
+
+  /* .newSection {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .CourseCardHead {
+    width: 100%;
+    gap: 50px;
+    display: flex;
+    padding: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+
+  }
+
+  .tabMain {
+    width: 100%;
+    max-width: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+    overflow-x: auto;
+    padding: 10px 0;
+    scrollbar-color: #0072bc black;
+  }
+
+  .tabMain::-webkit-scrollbar {
+    height: 1px;
+  }
+
+  .tabMain::-webkit-scrollbar-track {
+    background: var(--black);
+    border-radius: 10px;
+  }
+
+  .tabMain::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    border-radius: 10px;
+    border: 10px solidvar(--black);
+  }
+
+  .tabMain::-webkit-scrollbar-thumb:hover {
+    background: var(--dark-blue)
+  }
+
+  .tabdiv {
+    flex: 0 0 auto;
+    border-radius: 4px;
+    cursor: pointer;
+    min-width: 150px;
+    padding: 10px 20px;
+    background-color: var(--white);
+  }
+
+
+
+  .tabMain p {
+    font-size: var(--desktop_p-font-size);
+    font-weight: 600;
+    margin-right: 10px;
+  }
+
+  .tabMain p :nth-child(2) {
+    background-color: var(--red-official);
+    color: var(--primary-color);
+  }
+
+  .courseCard {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+  .courseCard img {
+    width: 100%;
+  } */
+  .CourseCardHead {
+    width: 100%;
+  }
+  /* .mainImage {
+    width: 97.3%;
+  } */
+  .lists span {
+    font-size: 14px;
+  }
+
+  .viewDetailsButton,
+  .brochurebtn {
+    font-size: 12px;
+    padding: 7px 19px;
+  }
+
+  /* .buttons button {
+    font-size: 17px;
+    padding: 7px 19px;
+  } */
+
+  .buttons {
+    /* gap: 10px; */
+  } /* .section {
+    padding: 0;
+  } */
+
+  .listicondiv img {
+    width: 30px;
+    height: auto;
+  }
+
+  /* .tabHead {
+    background: linear-gradient(180deg,
+         var(--white) 1.26%,
+        var(--senary-color) 17.6%,
+        var(--senary-color) 90.85%,
+         var(--white) 100%);
+
+    padding: 0 20px;
+  } */
+
+  .container {
+    padding-bottom: 0;
+  }
+
+  /* .MasterCard {
+    max-width: 100%;
+    padding: 20px;
+  } */
+
+  .contentConteiner h2 {
+    font-size: 26px;
+    letter-spacing: -0.22px;
+    text-wrap: balance;
+  }
+
+  .contentConteiner {
+    top: 50px;
+    padding: 10px 20px;
+    gap: 20px;
+  }
+
+  .contentConteiner img {
+    width: 30px;
+    height: auto;
+  }
+
+  .absloute {
+    top: 115px;
+    left: 30px;
+    height: fit-content;
+  }
+
+  .absloute h4 {
+    color: var(--dark-grey);
+    text-align: center;
+    font-size: var(--desktop_h4-font-size);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 155%;
+    text-wrap: balance;
+  }
+
+  .absloute span {
+    color: var(--white);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 155%;
+  }
+
+  .mastericon {
+    margin-top: 80px;
+    align-items: center;
+  }
+
+  .contentConteiner p {
+    font-size: var(--desktop_p-font-size);
+  }
+
+  .swiperContainer {
+    padding-bottom: 30px;
+  }
+
+  .accordionContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .accordionItem {
+    margin-bottom: 10px;
+    border: 1px solid var(--medium-grey);
+    border-radius: 5px;
+  }
+
+  .accordionHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: var(--light-white);
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  .accordionContent {
+    padding: 15px;
+    display: none;
+    background-color: var(--white);
+  }
+
+  .expanded .accordionContent {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 481px) {
+  /* .section {
+    margin: 0 auto 40px auto;
+  } */
+
+  /* .buttons {
+    justify-content: space-between;
+  } */
+
+  .MasterCard {
+    /* max-width: 441px; */
+  }
+
+  .mastericon {
+    margin-top: 80px;
+  }
+
+  .contentConteiner {
+    top: 70px;
+  }
+
+  .contentConteiner h2 {
+    font-size: 19px;
+  }
+
+  .absloute {
+    top: 125px;
+    bottom: 0;
+    left: 0;
+    right: 95px;
+    gap: 0;
+  }
+
+  .absloute h4 {
+    font-size: 20px;
+  }
+
+  .absloute span {
+    line-height: 1.2;
+  }
+
+  .contentConteiner img {
+    width: 22px;
+  }
+
+  .contentConteiner p {
+    font-size: 13px;
+  }
+
+  .bgImageMaster {
+    height: 320px;
+  }
+}
+
+@media screen and (max-width: 431px) {
+  .contentConteiner {
+    font-size: 20px;
+    padding: 0 20px;
+  }
+
+  .absloute span {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 361px) {
+  .contentConteiner {
+    top: 55px;
+  }
+
+  .buttons button {
+    font-size: 12px;
+  }
+
+  .absloute {
+    top: 110px;
+  }
+
+  .mastericon {
+    margin-top: 45px;
+  }
+
+  .contentConteiner {
+    gap: 30px;
+  }
+
+  .absloute h4 {
+    font-size: 18px;
+  }
+
+  .bgImageMaster {
+    height: 280px;
+  }
+
+  .buttonsMaster {
+    top: -20px;
+  }
+
+  .cardContent h3 {
+    font-size: 15px;
+  }
+
+  .listicondiv img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .lists span {
+    font-size: 12px;
+  }
+}

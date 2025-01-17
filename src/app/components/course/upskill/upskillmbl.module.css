@@ -1,0 +1,226 @@
+.section {
+  display: none;
+}
+
+
+@media screen and (max-width: 641px) {
+  .section {
+    display: block;
+    /* padding: 20px; */
+  }
+
+  .section h2 {
+    color: var(--white-deep);
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+  }
+
+  .span {
+    color: var(--white-deep);
+    font-weight: 700;
+    line-height: 125%;
+  }
+
+  .Container {
+    background: radial-gradient(circle at 90% 90%,
+        rgba(6, 59, 92, 0.9) 1%,
+        transparent 30%),
+      radial-gradient(circle at 10% 10%,
+        rgba(254, 122, 54, 0.3) 1%,
+        transparent 40%),
+      var(--light-black);
+    border-radius: 30px;
+    padding: 20px;
+  }
+
+  .sliderMain {
+    display: flex;
+    justify-content: flex-start;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    position: relative;
+    /* padding-bottom: 20px; */
+    gap: 10px;
+    align-items: baseline;
+    margin: 40px 0 40px;
+  }
+
+  .Box {
+    min-width: 280px;
+    width: 300px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .contentBox {
+    width: 100%;
+    max-width: 240px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .termBox {
+    border-radius: 8px;
+    border: 1px solid #826f65;
+    background: rgba(254, 122, 54, 0.13);
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 10px;
+    width: 100%;
+    /* margin-bottom: 24px; */
+  }
+
+  .termBox h5 {
+    color: var(--light-orange);
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .termBox span {
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .Box:nth-child(6) .svglineDiv .termBox {
+    max-width: 215px;
+  }
+
+  .contentBox h4 {
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0;
+    line-height: 1.2;
+  }
+
+  .contentBox p {
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .ToolsBox {
+    width: 100%;
+    max-width: 250px;
+    height: 55px;
+    border-radius: 6.137px;
+    background: rgba(0, 114, 188, 0.15);
+    padding: 10px;
+    /* margin: 28px 0; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .ToolsBox p {
+    color: var(--white);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    /* 17.5px */
+    margin: 0;
+  }
+
+  .ToolsBox img {
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+  }
+
+  .svgLine {
+    margin: 0;
+    width: 100px;
+    flex-shrink: 0;
+  }
+
+  .svglineDiv {
+    display: flex;
+    align-items: baseline;
+    gap: 20px;
+  }
+
+  .pagination {
+    display: flex;
+    justify-content: center;
+    /* margin-top: 20px; */
+    align-items: center;
+  }
+
+  .dot {
+    height: 12px;
+    width: 12px;
+    border-radius: 19px;
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border: none;
+    padding: 12px;
+    position: relative;
+  }
+
+  .activeDot {
+    width: 50px;
+    height: 20px;
+    border-radius: 50%;
+    position: relative;
+    padding: 12px 20px;
+    border-radius: 20px;
+  }
+
+  .arrow {
+    font-size: 30px;
+    /* Adjust size of the arrow */
+    color: var(--white);
+    /* Arrow color */
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Center the arrow inside the dot */
+    transition: transform 0.3s;
+    /* Smooth rotation transition */
+  }
+
+  .rotate {
+    transform: translate(-50%, -50%) rotate(180deg);
+    /* Rotate the arrow when scrolling right */
+    position: absolute;
+    top: 60%;
+    left: 50%;
+  }
+
+  .rotateLeft {
+    transform: translate(-50%, -50%) rotate(0deg);
+    /* Keep it normal when scrolling left */
+  }
+
+  /* Hide the scrollbar */
+  .sliderMain::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 481px) {
+  .section h2 {
+    padding: 0 20px;
+  }
+
+  .Box {
+    gap: 15px;
+  }
+
+  .sliderMain {
+    margin: 40px 0 25px;
+  }
+}

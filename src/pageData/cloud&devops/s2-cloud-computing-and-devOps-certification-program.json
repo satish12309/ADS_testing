@@ -1,0 +1,352 @@
+{
+  "MetaHead": {
+    "title": "Master Cloud Computing and DevOps with Advanced Certification Programs - Learnbay",
+    "meta": [
+      {
+        "id": 1,
+        "name": "description",
+        "content": "Upskill yourself with cutting edge Artificial Intelligence and Data Science Skills, Techniques by enrolling into the Learnbay's Advanced Data Science Course."
+      },
+      {
+        "id": 2,
+        "name": "robots",
+        "content": "index, follow"
+      },
+      {
+        "id": 3,
+        "name": "keywords",
+        "content": "Data Science Generic"
+      }
+    ],
+    "link": [
+      {
+        "id": 1,
+        "rel": "icon",
+        "href": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
+      },
+      {
+        "id": 2,
+        "rel": "canonical",
+        "href": "https://www.learnbay.co/cloud&devops/s2-cloud-computing-and-devOps-certification-program"
+      }
+    ]
+  },
+  "header": {
+    "spanTag": "Crack Interview in top MNCs",
+    "spanIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ada_AI_icon.webp",
+    "title": "Cloud Computing & DevOps",
+    "orgTitle": "Certification Program",
+    "descrption": "Successfully transition careers through our courses & real-time capstone projects. All while making your previous work experience count!",
+    "subtitle": "Gen-AI for Business Leaders",
+    "typeLogo": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/iit_guwati_logo.webp",
+    "bgvideo": "/video/back-video.mp4",
+    "content": " how are you amit jadidifwjiw",
+
+    "applicationIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/blue_Bots.webp",
+    "ProgramIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/blue_Cal_bots.webp",
+    "trainingIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/build_bots.webp",
+    "CloseDes": "Program Eligibility ",
+    "CloseBotDate": "Min 1 year",
+    "DurationBot": "Program Duration",
+    "DurationBotDate": "7 Months",
+    "TrainingBot": "Training Format",
+    "TrainingBotFormat": "Live Online / Hybrid",
+    "BotWidth": "70",
+    "BotHeight": "56"
+  },
+
+  "summary": [
+    {
+      "id": 1,
+      "title": "Domain Electives",
+      "description": "Work on Live projects from multiple domains like Retail, BFSI, Pharma etc.",
+      "imageSrc": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/work_experience_1+(1).webp",
+      "imageAlt": "DomainElectives"
+    },
+    {
+      "id": 2,
+      "title": "Real Project Experience",
+      "description": "Gain experience of managing analytics project from scratch.",
+      "imageSrc": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/experiences_2+(1).webp",
+      "imageAlt": "RealProjectExperience"
+    },
+    {
+      "id": 3,
+      "title": "Certification",
+      "description": "Get certified from renowned industries.",
+      "imageSrc": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/business_concept_1+(1).webp",
+      "imageAlt": "Certification",
+      "extraImageSrc": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IBM_MICROS.webp",
+      "extraImageAlt": "IBMLOGO"
+    },
+    {
+      "id": 4,
+      "title": "Placement Assistance",
+      "description": "Receive personalized placement assistance from our dedicated team.",
+      "imageSrc": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/research_1+(1).webp",
+      "imageAlt": "PlacementAssistance"
+    }
+  ],
+
+  "ProgramSection": [
+    {
+      "content": {
+        "BoldText": "Early to Mid",
+        "nonBold": "Level Professionals with min",
+        "yearExp": "1 Year of Experience",
+        "description": "This program is perfect for Marketing/ Sales Associate, HR Assistant, Entry-Level Financial Analyst, Project Coordinator, Customer Service Representative, QA Tester, Web Developer.",
+        "importantNote": "This program is not for fresh graduates. You must have at least 1 year of work experience. To know more, check eligibility.",
+        "points1": [
+          {
+            "id": 1,
+            "title": "Data Engineer"
+          },
+          {
+            "id": 2,
+            "title": "Data Analyst"
+          }
+        ],
+        "points2": [
+          {
+            "id": 3,
+            "title": "Business Analyst"
+          },
+          {
+            "id": 4,
+            "title": "Systems Admin"
+          }
+        ]
+      },
+      "rightImg": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ryt_programImg+(2).webp",
+      "popupTitle": "Eligibility Check",
+      "formProps": {}
+    }
+  ],
+
+  "sections": [
+    {
+      "id": "0",
+      "trackIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/python-icon-left.webp",
+      "width": 80,
+      "height": 80,
+      "title": "Module 0",
+      "toolsImg": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/python-right.webp",
+     "imageSizes": {
+        "sm": { "width": 100, "height": 25 },
+        "md": { "width": 100, "height": 26 },
+        "lg": { "width": 100, "height": 30 }
+      },
+      "description": "Linux Fundamentals and Introduction",
+      "duration": "40-50 hrs",
+      "contentModule": "Topics Covered",
+      "contentDescription": "",
+      "contentDetails": [
+        "Linux Basics and System Administration",
+        "Practical exercises and assignments for mastering Linux commands"
+      ]
+    },
+
+    {
+      "id": "1",
+      "trackIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/user-setting.webp",
+      "width": 80,
+      "height": 80,
+      "title": "TERM 1",
+      "toolsImg": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/python-pandas.webp",
+     "imageSizes": {
+        "sm": { "width": 120, "height": 24 },
+        "md": { "width": 180, "height": 27 },
+        "lg": { "width": 200, "height": 30 }
+      },
+      "description": "Python Programming Essentials",
+      "duration": "40-50 hrs",
+      "contentModule": "Topics Covered",
+      "contentDescription": "",
+      "contentDetails": [
+        "Introduction to Python and Environment Setup",
+        "Python Programming Foundations",
+        "Data Handling and Structures"
+      ]
+    },
+
+    {
+      "id": "2",
+      "trackIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/visualization-icon.webp",
+      "width": 80,
+      "height": 80,
+      "title": "TERM 2",
+      "toolsImg": "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/azure+aws+git_11zon.webp",
+      "imageSizes": {
+        "sm": { "width": 190, "height": 26 },
+        "md": { "width": 230, "height": 29 },
+        "lg": { "width": 260, "height": 32 }
+      },
+      "description": "AWS Cloud Mastery",
+      "duration": "70-75 hrs",
+      "contentModule": "Topics Covered",
+      "contentDescription": "",
+      "contentDetails": [
+        "AWS Administration Level",
+        "Transitioning to Solution Architect"
+      ]
+    },
+    {
+      "id": "3",
+      "trackIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/brainMans.webp",
+      "width": 80,
+      "height": 80,
+      "title": "TERM 3",
+      "toolsImg": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/java-networkX.webp",
+      "imageSizes": {
+        "sm": { "width": 160, "height": 23 },
+        "md": { "width": 170, "height": 26 },
+        "lg": { "width": 200, "height": 32 }
+      },
+      "description": "DevOps Expertise",
+      "duration": "40-45 hrs",
+      "contentModule": "Topics Covered",
+      "contentDescription": "",
+      "contentDetails": [
+        "DevOps Tools and Practices",
+        "Evolution of DevOps and its significance in modern software development.",
+        "Fundamental Git commands and workflows."
+      ]
+    },
+    {
+      "id": "4",
+      "trackIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/brain-setting.webp",
+      "width": 80,
+      "height": 80,
+      "title": "TERM 4",
+      "toolsImg": "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/Splunk_logo_11zon.webp",
+    "imageSizes": {
+        "sm": { "width": 55, "height": 24 },
+        "md": { "width": 87, "height": 25},
+        "lg": { "width": 100, "height": 28 }
+      },
+      "description": "Splunk Development and Admin",
+      "duration": "40-45 hrs",
+      "contentModule": "Topics Covered",
+      "contentDescription": "",
+      "contentDetails": [
+        "Splunk Developer and Administration Esentials",
+        "Advanced Splunk Skills",
+        "Splunk Data Analysis Techniques"
+      ]
+    },
+
+    {
+      "id": "5",
+      "trackIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/excel-icon.webp",
+      "width": 80,
+      "height": 80,
+      "title": "TERM 5",
+      "toolsImg": "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/azure+aws_11zon.webp",
+"imageSizes": {
+        "sm": { "width": 125, "height": 32 },
+        "md": { "width": 140, "height": 33},
+        "lg": { "width": 170, "height": 35 }
+      },
+      "description": "Server and Application virtualization",
+      "duration": "30-35 hrs",
+      "contentModule": "Topics Covered",
+      "contentDescription": "",
+      "contentDetails": [
+        "Server Virtualization",
+        "Detailed Look at Virtual Machine Instances: Public Cloud Specificities",
+        "Allocating Resources and Networking in Unikernels"
+      ]
+    },
+
+    {
+      "id": "6",
+      "trackIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/DSA-systemDesign.webp",
+      "width": 80,
+      "height": 80,
+      "title": "TERM 6",
+      "toolsImg": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/java-networkX.webp",
+      "imageSizes": {
+        "sm": { "width": 160, "height": 23 },
+        "md": { "width": 170, "height": 26 },
+        "lg": { "width": 200, "height": 32 }
+      },
+      "description": "Data Migration and Resilience",
+      "duration": "40-45 hrs",
+      "contentModule": "Topics Covered",
+      "contentDescription": "",
+      "contentDetails": [
+        "Data Migration Strategies and Best Practices",
+        "Building Resilience and High Availability in Cloud",
+        "Integrating Data Migration with DevOps Practices"
+      ]
+    },
+    {
+      "id": "7",
+      "trackIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/DSA-systemDesign.webp",
+      "width": 80,
+      "height": 80,
+      "title": "TERM 7",
+      "toolsImg": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/sql-tableu-powerbi-mongoDB.webp",
+      "imageSizes": {
+        "sm": { "width": 200, "height": 19 },
+        "md": { "width": 290, "height": 25 },
+        "lg": { "width": 370, "height": 29 }
+      },
+      "description": "Microsoft Azure Proficiency (optional)",
+      "duration": "80-85 hrs",
+      "contentModule": "Topics Covered",
+      "contentDescription": "",
+      "contentDetails": [
+        "Azure Administration Level",
+        "Transitioning to Solution Architect",
+        "Advanced Course: Azure Solutions Architect Expert"
+      ]
+    },
+
+    {
+      "id": "8",
+      "trackIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/DSA-systemDesign.webp",
+      "width": 80,
+      "height": 80,
+      "title": "TERM 8",
+      "toolsImg": "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/Google_Cloud_logo.svg.webp",
+"imageSizes": {
+        "sm": { "width": 190, "height": 21 },
+        "md": { "width": 230, "height": 24 },
+        "lg": { "width": 300, "height": 40 }
+      },
+      "description": "Google Cloud Platform (optional)",
+      "duration": "70-75 hrs",
+      "contentModule": "Topics Covered",
+      "contentDescription": "",
+      "contentDetails": [
+        "GCP Administration Level",
+        "Machine Learning and Artificial Intelligence",
+        "Case Studies and Projects"
+      ]
+    }
+  ],
+  
+    "FeeSection": {
+      "Fee": "₹80,000",
+      "FeeEmi": "₹5,244/month",
+      "hybridFee": "₹70,000",
+      "hybridEmi": "₹6,000/month",
+      "emiType": "NO COST EMI",
+      "duration1": "18 months",
+      "totalAmount1": "₹80,000",
+      "monthlyPayment1": "₹5,244",
+      "greenDown1": "10%",
+      "duration2": "12 months",
+      "totalAmount2": "₹80,000",
+      "monthlyPayment2": "₹7,866",
+      "greenDown2": "5%",
+      "dataScience": true,
+      "iitGuwatiGen": false,
+      "dataScienceCounselling": true,
+      "interstedInHide": false,
+      "isHybrid":false
+
+    }
+  }
+  

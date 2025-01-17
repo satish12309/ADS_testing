@@ -1,0 +1,417 @@
+/* General Styles */
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 50px auto auto;
+}
+
+.swiperContainer {
+  width: 100%;
+  padding: 16px 0;
+}
+
+.mainImage {
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 10px;
+}
+
+.sectionTitle {
+  color: var(--deeep-grey);
+  /* margin-top: 50px; */
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.cardTitle {
+  color: var(--light-black);
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 126.5%;
+  letter-spacing: -0.32px;
+}
+
+.lists {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.listicondiv {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.lists span {
+  color: var(--deeep-grey);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 155%;
+}
+
+.desktopContainer {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.maindiv {
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  flex-flow: column;
+  gap: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border-radius: 0 0 35px 35px;
+  background: var(--white);
+  padding: 10px 10px 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-start;
+  gap: 18px;
+  align-items: center;
+}
+
+.brochurebtn {
+  border-radius: 26px;
+  background: var(--light-black);
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 155%;
+  padding: 9px 18px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+.viewDetailsButton {
+  border-radius: 26px;
+  background: transparent;
+  color: var(--black);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 155%;
+  padding: 8px 16px;
+  cursor: pointer;
+  border: 1px solid var(--black);
+}
+
+@media screen and (max-width: 1381px) {
+  .desktopContainer {
+    gap: 60px 42px;
+    /* justify-content: center; */
+  }
+
+  .mainImage {
+    width: 100%;
+  }
+
+  .brochurebtn,
+  .viewDetailsButton {
+    font-size: 14px;
+  }
+
+  .viewDetailsButton {
+    /* padding: 9px 23px; */
+  }
+
+  .cardTitle {
+    font-size: 19px;
+  }
+
+  .lists span {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 1281px) {
+  /* .maindiv {
+    max-width: 274px;
+  } */
+
+  .sectionTitle {
+    font-size: 26px;
+    /* margin-top: 50px; */
+    /* font-weight: 600; */
+  }
+
+  .desktopContainer {
+    justify-content: left;
+    gap: 20px;
+  }
+
+  .cardTitle {
+    font-size: 17px;
+  }
+  .maindiv {
+    max-width: 279px;
+  }
+  .lists span {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 1181px) {
+  .maindiv {
+    max-width: 350px;
+  }
+
+  /* .cardTitle {
+    font-size: 16px;
+  } */
+
+  /* .brochurebtn {
+    font-size: 18px;
+  } */
+
+  /* .viewDetailsButton {
+    padding: 9px 16px;
+  } */
+
+  /* .brochurebtn {
+    font-size: 10px;
+  } */
+}
+
+@media screen and (max-width: 1081px) {
+  .card {
+    gap: 15px;
+  }
+
+  /* .viewDetailsButton {
+    padding: 9px 12px;
+    font-size: 10px;
+  }
+
+   .maindiv {
+    max-width: 220px;
+  }
+
+  .viewDetailsButton {
+    font-size: 8px;
+  }
+
+  .brochurebtn {
+    font-size: 8px;
+  }
+
+  .cardTitle {
+    font-size: 14px;
+  }
+
+  .lists span {
+    font-size: 11px;
+  } */
+}
+
+@media screen and (max-width: 1024px) {
+  .maindiv {
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 968px) {
+  .maindiv {
+    max-width: 270px;
+  }
+
+  .sectionTitle {
+    text-align: center;
+  }
+
+  .cardTitle {
+    font-size: 17px;
+  }
+
+  .lists span {
+    font-size: 13px;
+  }
+
+  .buttons {
+    gap: 10px;
+  }
+
+  .brochurebtn,
+  .viewDetailsButton {
+    font-size: 14px;
+  }
+
+  /* .lists span,
+  .brochurebtn,
+  .viewDetailsButton {
+    font-size: 13px;
+  } */
+}
+
+@media (max-width: 841px) {
+  .maindiv {
+    max-width: 260px;
+  }
+
+  /* .cardTitle {
+    font-size: 17px;
+  } */
+
+  /* .lists span {
+    font-size: 13px;
+  } */
+
+  .brochurebtn,
+  .viewDetailsButton {
+    /* font-size: 14px; */
+    padding: 9px 12px;
+  }
+
+  .sectionTitle {
+    font-size: 22px;
+  }
+}
+
+/* Media Queries for Mobile View */
+@media (max-width: 761px) {
+  .maindiv {
+    max-width: 94%;
+    margin: 0 3px 40px auto;
+  }
+
+  .sectionTitle {
+    font-size: 24px;
+  }
+
+  .cardContainer {
+    margin: 0;
+  }
+
+  .cardContainer {
+    gap: 10px;
+  }
+
+  .desktopContainer {
+    display: none;
+    /* Hide desktop container on mobile */
+  }
+
+  .swiperContainer {
+    padding: 16px 20px;
+  }
+
+  /* .buttons {
+    justify-content: space-around;
+  } */
+}
+
+@media screen and (max-width: 641px) {
+  .maindiv {
+    max-width: 89%;
+    margin: 0 auto 40px auto;
+  }
+
+  .mainImage {
+    width: 100%;
+  }
+
+  .cardTitle {
+    font-size: 19px;
+  }
+
+  .sectionTitle {
+    font-size: 22px;
+    /* text-align: center; */
+    padding: 0 30px;
+    /* margin-top: 20px; */
+    text-align: left;
+  }
+
+  /* .brochurebtn {
+    font-size: 16px;
+  } */
+
+  .viewDetailsButton,
+  .brochurebtn {
+    font-size: 12px;
+    padding: 7px 19px;
+  }
+
+  /* .maindiv {
+    max-width: 100%;
+  } */
+
+  /* .card {
+    margin-bottom: 40px;
+  } */
+
+  /* .swiperContainer {
+    padding: 0px;
+  } */
+
+  .lists span {
+    font-size: 14px;
+  }
+
+  /* .cardContainer {
+    gap: 0;
+  } */
+
+  .swiperContainer {
+    padding-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 481px) {
+  .sectionTitle {
+    font-size: 18px;
+    padding: 0 20px;
+  }
+  .swiper-wrapper {
+    margin: 15px;
+  }
+
+  .swiperContainer {
+    padding: 5px 20px 0;
+  }
+
+  /* .buttons {
+    justify-content: space-between;
+  } */
+}
+
+/* @media screen and (max-width: 401px) {
+  .sectionTitle {
+    font-size: 15px;
+  }
+
+  .cardTitle {
+    font-size: 15px;
+  }
+
+  .listicondiv img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .lists span {
+    font-size: 12px;
+  }
+} */
+
+/* @media screen and (max-width:361px) {
+
+
+} */

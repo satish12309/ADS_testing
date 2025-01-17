@@ -1,0 +1,251 @@
+{
+  "MetaHead": {
+    "title": "Best Data Analytics Course Online | Data Analytics Online Training",
+    "meta": [
+      {
+        "id": 1,
+        "name": "description",
+        "content": "Learn data analytics course online with Learnbay and Gain in-demand skills and boost your career. we are providing the best online data analytics courses. Enroll now!"
+      },
+      {
+        "id": 2,
+        "name": "robots",
+        "content": "index, follow"
+      },
+      {
+        "id": 3,
+        "name": "keywords",
+        "content": "data analytics certification course, data analytics certification, data analytics course, best data analytics course, data analyst course online, data analyst training, data analyst certification online, data analyst certification course"
+      }
+    ],
+    "link": [
+      {
+        "id": 1,
+        "rel": "icon",
+        "href": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
+      },
+      {
+        "id": 2,
+        "rel": "canonical",
+        "href": "https://course.learnbay.co/datascience/s2-data-analytics-generic"
+      }
+    ]
+  },
+  "header": {
+    "spanTag": "Get in-demand skills to stay competitive",
+    "spanIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ada_AI_icon.webp",
+    "title": "Data Analytics Course",
+    "orgTitle": "for Working Professionals",
+    "descrption": "Training based on real-time projects specially designed for working professionals who aspire of having a lucrative career.",
+    "subtitle": "Gen-AI for Business Leaders",
+    "typeLogo": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/iit_guwati_logo.webp",
+    "bgvideo": "/video/back-video.mp4",
+    "content": " how are you amit jadidifwjiw",
+
+    "applicationIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/blue_Bots.webp",
+    "ProgramIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/blue_Cal_bots.webp",
+    "trainingIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/build_bots.webp",
+    "CloseDes": "Program Eligibility ",
+    "CloseBotDate": "Min 1 year",
+    "DurationBot": "Program Duration",
+    "DurationBotDate": "5 Months",
+    "TrainingBot": "Training Format",
+    "TrainingBotFormat": "Live Online / Hybrid",
+    "BotWidth": "70",
+    "BotHeight": "56"
+  },
+
+  "summary": [
+    {
+      "id": 1,
+      "title": "Domain Electives",
+      "description": "Work on Live projects from multiple domains like Retail, BFSI, Pharma etc.",
+      "imageSrc": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/work_experience_1+(1).webp",
+      "imageAlt": "DomainElectives"
+    },
+    {
+      "id": 2,
+      "title": "Real Project Experience",
+      "description": "Gain experience of managing analytics project from scratch.",
+      "imageSrc": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/experiences_2+(1).webp",
+      "imageAlt": "RealProjectExperience"
+    },
+    {
+      "id": 3,
+      "title": "Certification",
+      "description": "Get certified from renowned industries.",
+      "imageSrc": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/business_concept_1+(1).webp",
+      "imageAlt": "Certification",
+      "extraImageSrc": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IBM_MICROS.webp",
+      "extraImageAlt": "IBMLOGO"
+    },
+    {
+      "id": 4,
+      "title": "Placement Assistance",
+      "description": "Receive personalized placement assistance from our dedicated team.",
+      "imageSrc": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/research_1+(1).webp",
+      "imageAlt": "PlacementAssistance"
+    }
+  ],
+
+  "ProgramSection": [
+    {
+      "content": {
+        "BoldText": "Early to Mid",
+        "nonBold": "Level Professionals with min",
+        "yearExp": "1 Year of Experience",
+        "description": "This program is perfect for Marketing/ Sales Associate, HR Assistant, Entry-Level Financial Analyst, Project Coordinator, Customer Service Representative, QA Tester, Web Developer.",
+        "importantNote": "This program is not for fresh graduates. You must have at least 1 year of work experience. To know more, check eligibility.",
+        "points1": [
+          {
+            "id": 1,
+            "title": "Data Engineer"
+          },
+          {
+            "id": 2,
+          "title": "Data Analyst"
+          }
+        ],
+        "points2": [
+          {
+            "id": 3,
+            "title": "Business Analyst"
+          },
+          {
+            "id": 4,
+            "title": "Systems Admin"
+          }
+        ]
+      },
+      "rightImg": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ryt_programImg+(2).webp",
+      "popupTitle": "Eligibility Check",
+      "formProps": {}
+    }
+  ],
+
+  "sections": [
+    {
+      "id": "0",
+      "trackIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/python-icon-left.webp",
+      "width": 80,
+      "height": 80,
+      "title": "Module 0",
+     "toolsImg": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/python-pandas-matplotlib.webp",
+    "imageSizes": {
+        "sm": { "width": 210, "height": 25 },
+        "md": { "width": 270, "height": 26 },
+        "lg": { "width": 300, "height": 30 }
+      },
+      "description": "Preparatory Classes (Programming + Maths)",
+      "duration": "40-50 hrs",
+      "contentModule": "Topics Covered",
+      "contentDescription": "",
+      "contentDetails": ["Cohort Orientation", "Fundamentals of Programming"," Fundamentals of Statistics"]
+    },
+
+    {
+      "id": "1",
+      "trackIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/user-setting.webp",
+      "width": 80,
+      "height": 80,
+      "title": "TERM 1",
+      "toolsImg": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/python-right.webp",
+"imageSizes": {
+        "sm": { "width": 100, "height": 25 },
+        "md": { "width": 100, "height": 26 },
+        "lg": { "width": 100, "height": 30 }
+      },
+      "description": "Python Programming",
+      "duration": "40-50 hrs",
+      "contentModule": "Topics Covered",
+      "contentDescription": "",
+      "contentDetails": [
+        "Basic Python",
+        "Advance Python"
+      ]
+    },
+
+    {
+      "id": "2",
+      "trackIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/visualization-icon.webp",
+      "width": 80,
+      "height": 80,
+      "title": "TERM 2",
+      "toolsImg": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/seaborn-numpy.webp",
+      "imageSizes": {
+        "sm": { "width": 160, "height": 23 },
+        "md": { "width": 170, "height": 26 },
+        "lg": { "width": 200, "height": 32 }
+      },
+      "description": "Statistics and Machine Learning",
+      "duration": "70-75 hrs",
+      "contentModule": "Topics Covered",
+      "contentDescription": "",
+      "contentDetails": [
+        "Statistics",
+        "Machine Learning"
+      ]
+    },
+
+    {
+      "id": "3",
+      "trackIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/brainMans.webp",
+      "width": 80,
+      "height": 80,
+      "title": "TERM 3",
+      "toolsImg": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/sql-tableu-powerbi-mongoDB.webp",
+      "imageSizes": {
+        "sm": { "width": 200, "height": 19 },
+        "md": { "width": 290, "height": 25 },
+        "lg": { "width": 370, "height": 29 }
+      },
+      "description": "Data Analytics Tools",
+      "duration": "80-85 hrs",
+      "contentModule": "Topics Covered",
+      "contentDescription": "",
+      "contentDetails": ["SQL", " MongoDB"]
+    },
+
+    {
+      "id": "4",
+      "trackIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/brain-setting.webp",
+      "width": 80,
+      "height": 80,
+      "title": "TERM 4",
+      "toolsImg": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/excel-single.webp",
+"imageSizes": {
+        "sm": { "width": 55, "height": 32 },
+        "md": { "width": 70, "height": 33},
+        "lg": { "width": 70, "height": 35 }
+      },
+      "description": "Excel",
+      "duration": "30-35 hrs",
+      "contentModule": "Topics Covered",
+      "contentDescription": "",
+      "contentDetails": [
+        "Getting started with Excel","Using Excel Toolbars: Hiding, Displaying, and Moving Toolbars","Switching Between Sheets in a Workbook"
+      ]
+    }
+  ],
+
+  "FeeSection": {
+      "Fee": "₹85,000",
+      "FeeEmi": "₹5,572/month",
+      "hybridFee": "₹70,000",
+      "hybridEmi": "₹6,000/month",
+      "emiType": "NO COST EMI",
+      "duration1": "18 Months",
+      "totalAmount1": "₹85,000",
+      "monthlyPayment1": "₹5,572",
+      "greenDown1": "10%",
+      "duration2": "12 months",
+      "totalAmount2": "₹85,000",
+      "monthlyPayment2": "₹8,358",
+      "greenDown2": "5%",
+      "dataScience": true,
+      "iitGuwatiGen": false,
+      "dataScienceCounselling": true,
+      "interstedInHide": false,
+      "isHybrid":false
+    }
+}

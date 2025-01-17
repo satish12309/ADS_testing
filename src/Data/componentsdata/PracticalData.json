@@ -1,0 +1,82 @@
+{
+  "title": "Practical Project Experience",
+  "description": "Work on projects based on real-world scenarios",
+  "points": [
+    { "svg": "svgRight", "text": "Live mentorship" },
+    { "svg": "svgRight", "text": "1:1 Doubt Clearing" },
+    { "svg": "svgRight", "text": "Hybrid Learning" },
+    { "svg": "svgRight", "text": "Interactive sessions" }
+  ],
+  "boxes": [
+    {
+      "imgSrc": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/one_Practials.webp",
+      "imgAlt": "Practical",
+      "title": "Work with real data",
+      "description": "Leverage your skills with advanced datasets and industry-relevant scenarios in finance, healthcare, and e-commerce.",
+      "width": "80",
+      "height": "80"
+    },
+    {
+      "imgSrc": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/two%2Bpractiacals.webp",
+      "imgAlt": "Practical",
+      "title": "Learn from top 1% experts",
+      "description": "Learn directly from the top 1% experts for unmatched expertise and guidance.",
+      "width": "80",
+      "height": "80"
+    },
+    {
+      "imgSrc": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/three_practicals.webp",
+      "imgAlt": "Practical",
+      "title": "World-Class Certification",
+      "description": "Upon successful project completion, earn an IBM-endorsed certification recognized across industries.",
+      "width": "80",
+      "height": "80"
+    }
+  ],
+  "svgRight": {
+    "width": "40",
+    "height": "20",
+    "fill": "none",
+    "viewBox": "0 0 40 22",
+    "xmlns": "http://www.w3.org/2000/svg",
+    "mask": {
+      "height": "28",
+      "width": "42",
+      "id": "mask0_2250_2342",
+      "maskUnits": "userSpaceOnUse",
+      "style": "maskType: alpha",
+      "rect": {
+        "height": "28",
+        "width": "42",
+        "fill": "url(#pattern0_2250_2342)"
+      }
+    },
+    "g": {
+      "mask": "url(#mask0_2250_2342)",
+      "rect": {
+        "height": "28",
+        "width": "42",
+        "fill": "#04C988",
+        "y": "-2.24023"
+      }
+    },
+    "defs": {
+      "pattern": {
+        "height": "1",
+        "id": "pattern0_2250_2342",
+        "width": "1",
+        "patternContentUnits": "objectBoundingBox",
+        "use": {
+          "transform": "matrix(0.00666667 0 0 0.01 0.166667 0)",
+          "xlinkHref": "#image0_2250_2342"
+        }
+      },
+      "image": {
+        "height": "100",
+        "id": "image0_2250_2342",
+        "width": "100",
+        "xlinkHref": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAHFkl... (base64 data)"
+      }
+    }
+  }
+}

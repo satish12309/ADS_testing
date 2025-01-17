@@ -1,0 +1,283 @@
+{  
+  "MetaHead": {
+    "title": "Business Analytics Generic - Learnbay",
+    "meta": [
+      {
+        "id": 1,
+        "name": "description",
+        "content": "Upskill yourself with cutting edge Artificial Intelligence and Data Science Skills, Techniques by enrolling into the Learnbay's Advanced Data Science Course."
+      },
+      {
+        "id": 2,
+        "name": "robots",
+        "content": "index, follow"
+      },
+      {
+        "id": 3,
+        "name": "keywords",
+        "content": "Data Science Generic"
+      }
+    ],
+    "link": [
+      {
+        "id": 1,
+        "rel": "icon",
+        "href": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/website-icon.webp"
+      },
+      {
+        "id": 2,
+        "rel": "canonical",
+        "href": "https://www.learnbay.co/datascience/s2-business-analytics-generic"
+      }
+    ]
+  },
+  "header": {
+    "spanTag": "Develop Work-Ready Skills You Can Use Right Away",
+    "spanIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ada_AI_icon.webp",
+    "title": "Business Analytics Course in",
+    "orgTitle": "Bangalore",
+    "descrption": "Training based on real-time projects specially designed for working professionals who aspire of having a lucrative career.",
+    "subtitle": "Gen-AI for Business Leaders",
+    "typeLogo": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/iit_guwati_logo.webp",
+    "bgvideo": "/video/back-video.mp4",
+    "content": " how are you amit jadidifwjiw",
+
+    "applicationIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/blue_Bots.webp",
+    "ProgramIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/blue_Cal_bots.webp",
+    "trainingIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/build_bots.webp",
+    "CloseDes": "Program Eligibility ",
+    "CloseBotDate": "Min 1 year",
+    "DurationBot": "Program Duration",
+    "DurationBotDate": "7 Months",
+    "TrainingBot": "Training Format",
+    "TrainingBotFormat": "Live Online / Hybrid",
+    "BotWidth": "70",
+    "BotHeight": "56"
+  },
+
+  "summary": [
+    {
+      "id": 1,
+      "title": "Domain Electives",
+      "description": "Work on Live projects from multiple domains like Retail, BFSI, Pharma etc.",
+      "imageSrc": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/work_experience_1+(1).webp",
+      "imageAlt": "DomainElectives"
+    },
+    {
+      "id": 2,
+      "title": "Real Project Experience",
+      "description": "Gain experience of managing analytics project from scratch.",
+      "imageSrc": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/experiences_2+(1).webp",
+      "imageAlt": "RealProjectExperience"
+    },
+    {
+      "id": 3,
+      "title": "Certification",
+      "description": "Get certified from renowned industries.",
+      "imageSrc": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/business_concept_1+(1).webp",
+      "imageAlt": "Certification",
+      "extraImageSrc": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IBM_MICROS.webp",
+      "extraImageAlt": "IBMLOGO"
+    },
+    {
+      "id": 4,
+      "title": "Placement Assistance",
+      "description": "Receive personalized placement assistance from our dedicated team.",
+      "imageSrc": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/research_1+(1).webp",
+      "imageAlt": "PlacementAssistance"
+    }
+  ],
+
+  "ProgramSection": [
+    {
+      "content": {
+        "BoldText": "Early to Mid",
+        "nonBold": "Level Professionals with min",
+        "yearExp": "1 Year of Experience",
+        "description": "This program is perfect for Marketing/ Sales Associate, HR Assistant, Entry-Level Financial Analyst, Project Coordinator, Customer Service Representative, QA Tester, Web Developer.",
+        "importantNote": "This program is not for fresh graduates. You must have at least 1 year of work experience. To know more, check eligibility.",
+        "points1": [
+          {
+            "id": 1,
+            "title": "Data Engineer"
+          },
+          {
+            "id": 2,
+        "title": "Data Analyst"
+          }
+        ],
+        "points2": [
+          {
+            "id": 3,
+            "title": "Business Analyst"
+          },
+          {
+            "id": 4,
+            "title": "Systems Admin"
+          }
+        ]
+      },
+      "rightImg": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ryt_programImg+(2).webp",
+      "popupTitle": "Eligibility Check",
+      "formProps": {}
+    }
+  ],
+
+  "sections": [
+    {
+      "id": "0",
+      "trackIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/python-icon-left.webp",
+      "width": 80,
+      "height": 80,
+      "title": "Module 0",
+      "toolsImg": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/python-right.webp",
+     "imageSizes": {
+        "sm": { "width": 100, "height": 25 },
+        "md": { "width": 100, "height": 26 },
+        "lg": { "width": 100, "height": 30 }
+      },
+      "description": "Intro to Business Analytics",
+      "duration": "40-50 hrs",
+      "contentModule": "Topics Covered",
+      "contentDescription": "",
+      "contentDetails": [
+        "Stakeholders in Business Analysis",
+        "Flowchart and Modelling",
+        "Analyzing and Transforming Requirements"
+      ]
+    },
+
+    {
+      "id": "1",
+      "trackIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/user-setting.webp",
+      "width": 80,
+      "height": 80,
+      "title": "TERM 1",
+      "toolsImg": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/excel-single.webp",
+     "imageSizes": {
+        "sm": { "width": 55, "height": 32 },
+        "md": { "width": 70, "height": 33},
+        "lg": { "width": 70, "height": 35 }
+      },
+      "description": "Excel & Business Statistics",
+      "duration": "40-50 hrs",
+      "contentModule": "Topics Covered",
+      "contentDescription": "",
+      "contentDetails": [
+        "Excel",
+        "Statistics",
+        "Introduction to Statistics, Statistical Thinking"
+      ]
+    },
+
+    {
+      "id": "2",
+      "trackIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/visualization-icon.webp",
+      "width": 80,
+      "height": 80,
+      "title": "TERM 2",
+      "toolsImg": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/seaborn-numpy.webp",
+      "imageSizes": {
+        "sm": { "width": 160, "height": 23 },
+        "md": { "width": 170, "height": 26 },
+        "lg": { "width": 200, "height": 32 }
+      },
+      "description": "Data Science & AI",
+      "duration": "70-75 hrs",
+      "contentModule": "Topics Covered",
+      "contentDescription": "",
+      "contentDetails": [
+        "Key components of Data Science and AI",
+        "Bias-variance tradeoff, overfitting, and underfitting"
+      ]
+    },
+
+    {
+      "id": "3",
+      "trackIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/brainMans.webp",
+      "width": 80,
+      "height": 80,
+      "title": "TERM 3",
+      "toolsImg": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/sql-tableau-powerbi-hadoop-spark.webp",
+      "imageSizes": {
+        "sm": { "width": 200, "height": 19 },
+        "md": { "width": 290, "height": 25 },
+        "lg": { "width": 370, "height": 29 }
+      },
+      "description": "Big Data Analytics and Visualization",
+      "duration": "80-85 hrs",
+      "contentModule": "Topics Covered",
+      "contentDescription": "",
+      "contentDetails": ["SQL and RDBMS", "MongoDB", "Tableau"]
+    },
+
+    {
+      "id": "4",
+      "trackIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/brain-setting.webp",
+      "width": 80,
+      "height": 80,
+      "title": "TERM 4",
+      "toolsImg": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/tensorflow-openai-docker.webp",
+"imageSizes": {
+        "sm": { "width": 190, "height": 21 },
+        "md": { "width": 230, "height": 24 },
+        "lg": { "width": 300, "height": 40 }
+      },
+      "description": "AI Tools and Deployment",
+      "duration": "70-75 hrs",
+      "contentModule": "Topics Covered",
+      "contentDescription": "",
+      "contentDetails": [
+        "Introduction to Deep Learning and TensorFlow",
+        "TensorFlow Classification Examples",
+        "Deployment AWS+Azure"
+      ]
+    },
+
+    {
+      "id": "5",
+      "trackIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/excel-icon.webp",
+      "width": 80,
+      "height": 80,
+      "title": "BONUS",
+      "toolsImg": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/chatGpt-syntesia-githubCopilot.webp",
+      "imageSizes": {
+        "sm": { "width": 170, "height": 16},
+        "md": { "width": 230, "height": 24 },
+        "lg": { "width": 300, "height": 30 }
+      },
+      "description": "AI Generative Tools and Future Trends",
+      "duration": "30-35 hrs",
+      "contentModule": "Topics Covered",
+      "contentDescription": "",
+      "contentDetails": [
+        "Emerging Trends in AI and Generative Modeling",
+        "Natural Language Processing and ChatGPT",
+        "DALL·E: Image Generation with AI"
+      ]
+    }
+  ],
+
+  "FeeSection": {
+    "Fee": "₹95,000",
+    "FeeEmi": "₹5,277/month",
+    "hybridFee": "₹1,05,000",
+    "hybridEmi": "₹5,833/month",
+    "hybridemi1":"₹8,750/month",
+    "hybridemi2":"₹5,833/month",
+    "emiType": "Flexible",
+    "duration1": "12 months",
+    "totalAmount1": "₹1,05,000",
+    "monthlyPayment1": "₹7,916",
+    "greenDown1": "10%",
+    "duration2": "18 months",
+    "totalAmount2": "₹1,05,000",
+    "monthlyPayment2": "₹5,277",
+    "greenDown2": "5%",
+    "dataScience": true,
+    "iitGuwatiGen": false,
+    "dataScienceCounselling": true,
+    "interstedInHide": false,
+    "isHybrid":true
+  }
+}
