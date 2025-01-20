@@ -3,7 +3,6 @@ import "./globals.css";
 import { Nunito, Nunito_Sans } from "next/font/google";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/react";
-import { GoogleTagManager } from "@next/third-parties/google";
 import Script from "next/script";
 
 const nunito = Nunito({
@@ -39,7 +38,6 @@ export default function RootLayout({ children }) {
           }}
         />
       </head>
-      <GoogleTagManager gtmId="GTM-NN8XWH8" />
       <body className={nunito.className}>
         <main>
           {children}
