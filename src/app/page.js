@@ -17,7 +17,7 @@ const CLogo = dynamic(() => import("./components/home/Company/Clogo"), {
 const ContactUs = dynamic(() =>
   import("./components/home/contactUs/ContactUs")
 );
-
+''
 const InfinityLogo = dynamic(
   () => import("./components/home/Infinity/Infinity"),
   { ssr: false, loading: () => <div>Loading...</div> }
