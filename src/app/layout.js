@@ -4,6 +4,7 @@ import { Nunito, Nunito_Sans } from "next/font/google";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/react";
 import Script from "next/script";
+import { GoogleTagManager } from "@next/third-parties/google";
 
 const nunito = Nunito({
   subsets: ["latin"],
@@ -64,6 +65,7 @@ f=false,w=window,d=document,vwoCodeEl=d.querySelector('#vwoCode'),code={use_exis
       <body className={nunito.className}>
         <main>
           {children}
+          <GoogleTagManager gtmId="GTM-NN8XWH8" />
           <SpeedInsights />
           <Analytics />
         </main>
