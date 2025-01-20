@@ -17,6 +17,17 @@ const nunito = Nunito({
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+      <meta
+          name="facebook-domain-verification"
+          content="dborjxjhu9kiklk06c38hf5v5raay4"
+        />
+        <meta name="robots" content="noindex, nofollow" />
+        <meta
+          name="facebook-domain-verification"
+          content="xzlsit1skwzpjhylrt0y96nn3nbksu"
+        />
+      </head>
       <GoogleTagManager gtmId="GTM-NN8XWH8" />
       <body className={nunito.className}>
         <main>
