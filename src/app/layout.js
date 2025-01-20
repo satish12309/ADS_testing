@@ -38,6 +38,11 @@ export default function RootLayout({ children }) {
           }}
         />
 
+        <Script
+          strategy="lazyOnload"
+          src="https://www.googleoptimize.com/optimize.js?id=OPT-NQHBZ7H"
+        ></Script>
+
         <link rel="preconnect" href="https://dev.visualwebsiteoptimizer.com" />
         {/* Start VWO Async SmartCode */}
         <Script id="vwoCode" strategy="beforeInteractive">
