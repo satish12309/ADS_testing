@@ -5,6 +5,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/react";
 import Script from "next/script";
 import { GoogleTagManager } from "@next/third-parties/google";
+import { useEffect, useState } from "react";
 
 const nunito = Nunito({
   subsets: ["latin"],
@@ -16,6 +17,16 @@ const nunito = Nunito({
 });
 
 export default function RootLayout({ children }) {
+  const [showGTM, setShowGTM] = useState(false);
+
+  useEffect(() => {
+    // Delay GTM by 2 seconds
+    const timer = setTimeout(() => {
+      setShowGTM(true);
+    }, 2000);
+
+    return () => clearTimeout(timer);
+  }, []);
   return (
     <html lang="en">
       <head>
@@ -65,7 +76,8 @@ f=false,w=window,d=document,vwoCodeEl=d.querySelector('#vwoCode'),code={use_exis
       <body className={nunito.className}>
         <main>
           {children}
-          <GoogleTagManager gtmId="GTM-NN8XWH8" />
+          {showGTM && <GoogleTagManager gtmId="GTM-NN8XWH8" />}
+
           <SpeedInsights />
           <Analytics />
         </main>
