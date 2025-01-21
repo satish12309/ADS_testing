@@ -98,11 +98,11 @@
       "height": 80,
       "title": "Module 0",
      "toolsImg": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/python-pandas-matplotlib.webp",
-    "imageSizes": {
-        "sm": { "width": 210, "height": 25 },
-        "md": { "width": 270, "height": 26 },
-        "lg": { "width": 300, "height": 30 }
-      },
+     "imageSizes": {
+      "sm": { "width": 190, "height": 21 },
+      "md": { "width": 270, "height": 26 },
+      "lg": { "width": 300, "height": 30 }
+    },
       "description": "Preparatory Classes (Programming + Maths)",
       "duration": "40-50 hrs",
       "contentModule": "Topics Covered",
