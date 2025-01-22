@@ -131,7 +131,7 @@
       "height": 80,
       "title": "Module 0",
       "toolsImg": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/python-right.webp",
-     "imageSizes": {
+"imageSizes": {  "vsm": { "width": 90, "height": 23 },
         "sm": { "width": 100, "height": 25 },
         "md": { "width": 100, "height": 26 },
         "lg": { "width": 100, "height": 30 }
@@ -197,7 +197,7 @@
       "height": 80,
       "title": "TERM 3",
       "toolsImg": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/java-networkX.webp",
-      "imageSizes": {
+      "imageSizes": {  "vsm": { "width": 150, "height": 21 },
         "sm": { "width": 160, "height": 23 },
         "md": { "width": 170, "height": 26 },
         "lg": { "width": 200, "height": 32 }
@@ -265,7 +265,7 @@
       "height": 80,
       "title": "TERM 6",
       "toolsImg": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/java-networkX.webp",
-      "imageSizes": {
+      "imageSizes": {  "vsm": { "width": 150, "height": 21 },
         "sm": { "width": 160, "height": 23 },
         "md": { "width": 170, "height": 26 },
         "lg": { "width": 200, "height": 32 }
@@ -288,7 +288,8 @@
       "title": "TERM 7",
       "toolsImg": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/sql-tableu-powerbi-mongoDB.webp",
       "imageSizes": {
-        "sm": { "width": 200, "height": 19 },
+        "vsm": { "width": 200, "height": 17 },
+        "sm": { "width": 210, "height": 19 },
         "md": { "width": 290, "height": 25 },
         "lg": { "width": 370, "height": 29 }
       },

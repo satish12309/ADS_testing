@@ -7,7 +7,7 @@
         "height": 80,
         "title": "Module 0",
         "toolsImg": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/python-right.webp",
-        "imageSizes": {
+"imageSizes": {  "vsm": { "width": 90, "height": 23 },
         "sm": { "width": 100, "height": 25 },
         "md": { "width": 100, "height": 26 },
         "lg": { "width": 100, "height": 30 }
