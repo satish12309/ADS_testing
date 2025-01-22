@@ -39,7 +39,8 @@ const SyllabusSection = ({
     if (!sizes) {
       return { width: 100, height: 100 }; // Fallback to default size
     }
-    if (windowWidth < 640) return sizes.sm; // Mobile
+    if (windowWidth < 361) return sizes.vsm;
+    if (windowWidth < 641) return sizes.sm;
     if (windowWidth < 1024) return sizes.md; // Tablet
     return sizes.lg; // Desktop
   };

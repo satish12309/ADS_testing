@@ -132,8 +132,9 @@
       "title": "Module 0",
      "toolsImg": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/python-pandas-matplotlib.webp",
      "imageSizes": {
-      "sm": { "width": 190, "height": 21 },
-      "md": { "width": 270, "height": 26 },
+      "vsm": { "width": 190, "height": 18 },
+      "sm": { "width": 210, "height": 21},
+      "md": { "width": 230, "height": 24 },
       "lg": { "width": 300, "height": 30 }
     },
       "description": "Preparatory Classes (Programming + Maths)",
@@ -150,7 +151,7 @@
       "height": 80,
       "title": "TERM 1",
       "toolsImg": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/python-right.webp",
-      "imageSizes": {
+"imageSizes": {  "vsm": { "width": 90, "height": 23 },
         "sm": { "width": 100, "height": 25 },
         "md": { "width": 100, "height": 26 },
         "lg": { "width": 100, "height": 30 }
@@ -172,11 +173,11 @@
       "height": 80,
       "title": "TERM 2",
       "toolsImg": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/seaborn-numpy.webp",
-      "imageSizes": {
-        "sm": { "width": 160, "height": 23 },
-        "md": { "width": 170, "height": 26 },
-        "lg": { "width": 200, "height": 32 }
-      },
+      "imageSizes": {  "vsm": { "width": 140, "height": 23 },
+      "sm": { "width": 160, "height": 23 },
+      "md": { "width": 170, "height": 26 },
+      "lg": { "width": 200, "height": 32 }
+    },
       "description": "Statistics and Machine Learning",
       "duration": "70-75 hrs",
       "contentModule": "Topics Covered",
@@ -194,11 +195,11 @@
       "height": 80,
       "title": "TERM 3",
       "toolsImg": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/sql-tableau-powerbi-hadoop-spark.webp",
-      "imageSizes": {
-        "sm": { "width": 200, "height": 19 },
-        "md": { "width": 290, "height": 25 },
-        "lg": { "width": 370, "height": 29 }
-      },
+      "imageSizes": {  "vsm": { "width": 190, "height": 13 },
+      "sm": { "width": 210, "height": 16 },
+      "md": { "width": 290, "height": 25 },
+      "lg": { "width": 370, "height": 29 }
+    },
       "description": "Big Data Analytics and Visualization",
       "duration": "80-85 hrs",
       "contentModule": "Topics Covered",
@@ -213,8 +214,8 @@
       "height": 80,
       "title": "TERM 4",
       "toolsImg": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/tensorflow-openai-docker.webp",
-"imageSizes": {
-        "sm": { "width": 190, "height": 21 },
+"imageSizes": {  "vsm": { "width": 189, "height": 24 },
+        "sm": { "width": 210, "height": 24 },
         "md": { "width": 230, "height": 24 },
         "lg": { "width": 300, "height": 40 }
       },
@@ -233,11 +234,11 @@
       "height": 80,
       "title": "TERM 5",
       "toolsImg": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/sql-tableau-powerbi-hadoop-spark.webp",
-      "imageSizes": {
-        "sm": { "width": 200, "height": 19 },
-        "md": { "width": 290, "height": 25 },
-        "lg": { "width": 370, "height": 29 }
-      },
+      "imageSizes": {  "vsm": { "width": 190, "height": 13 },
+      "sm": { "width": 210, "height": 16 },
+      "md": { "width": 290, "height": 25 },
+      "lg": { "width": 370, "height": 29 }
+    },
       "description": "Essentials",
       "duration": "30-35 hrs",
       "contentModule": "Topics Covered",
@@ -253,11 +254,11 @@
       "height": 80,
       "title": "TERM 6",
       "toolsImg": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/chatGpt-syntesia-githubCopilot.webp",
-      "imageSizes": {
-        "sm": { "width": 170, "height": 16},
-        "md": { "width": 230, "height": 24 },
-        "lg": { "width": 300, "height": 30 }
-      },
+      "imageSizes": {  "vsm": { "width": 190, "height": 18 },
+      "sm": { "width": 210, "height": 20},
+      "md": { "width": 230, "height": 24 },
+      "lg": { "width": 300, "height": 30 }
+    },
       "description": "AI Generative Tools and Future Trends",
       "duration": "30-35 hrs",
       "contentModule": "Topics Covered",
