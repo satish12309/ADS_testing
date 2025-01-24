@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
     // Delay GTM by 2 seconds
     const timer = setTimeout(() => {
       setShowGTM(true);
-    }, 2000);
+    }, 3100);
 
     return () => clearTimeout(timer);
   }, []);
