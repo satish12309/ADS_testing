@@ -75,7 +75,6 @@ function AnimationNew() {
         styles.downBoxDesign3,
         styles.downBoxDesign4,
       ];
-      // Return a default style if index exceeds the array
       return classes[index] || styles.downBoxDesign4;
     },
     []
@@ -88,10 +87,10 @@ function AnimationNew() {
         : sectionIndex === 1
         ? styles.insideBoxDesign2
         : sectionIndex === 2
-        ? styles.insideBoxDesign3 // Add for index === 2
+        ? styles.insideBoxDesign3 
         : sectionIndex === 3
         ? styles.insideBoxDesign4
-        : styles.insideBoxDefault; // Default for out-of-bounds indices
+        : styles.insideBoxDefault; 
     },
     []
   );

@@ -1,18 +1,10 @@
 .whyChooseSection {
     background: radial-gradient(circle at 10% 10%,
-            /* Blue circle positioned at the top left */
             rgba(2, 49, 82, 0.9) 1%,
-            /* Larger blue circle */
-            transparent 40%
-            /* Smoother transition */
-        ),
+            transparent 40%),
         radial-gradient(circle at 90% 80%,
-            /* Orange circle positioned at the bottom right */
             rgba(142, 54, 7, 0.3) 2%,
-            /* Glowing orange circle */
-            transparent 30%
-            /* Smoother transition */
-        ),
+            transparent 30%),
         var(--light-black);
     position: relative;
     overflow: hidden;
@@ -55,7 +47,6 @@
 
 .customAnimationSection {
     display: flex;
-    /* gap: 30px; */
     margin: 30px 0;
     background: rgba(0, 114, 188, .12);
     width: max-content;
@@ -80,13 +71,13 @@
     padding-left: 20px;
 }
 
-.specialSectionForIndex3{
+.specialSectionForIndex3 {
     margin: 30px 0;
     display: flex;
     gap: 15px;
 }
 
-.specialSectionForIndex3 p{
+.specialSectionForIndex3 p {
     display: flex;
     gap: 5px;
     font-size: 12px !important;
@@ -99,24 +90,19 @@
     display: flex;
     gap: 1rem;
     margin-bottom: 2rem;
-    /* Rem-based margin for better scaling */
     opacity: 0.1;
-    /* Initially dim the divs */
     transition: opacity 0.5s ease, transform 0.5s ease;
     will-change: opacity, transform;
-    /* Performance optimization */
 }
 
 .divContainerANI {
     gap: 2rem;
-    /* Rem-based gap for flexibility */
     align-items: flex-start;
 }
 
 .divContainer h4 {
     color: var(--white);
     font-size: var(--desktop_h4-font-size);
-    /* Use rem for responsiveness */
     font-style: normal;
     font-weight: 500;
     line-height: 1.2;
@@ -125,17 +111,13 @@
 .divContainer p {
     color: rgba(255, 255, 255, 0.7);
     font-size: 20px;
-    /* Responsive font size */
     font-style: normal;
     font-weight: 300;
-    /* line-height: 1.875rem; */
 }
 
 .highlight {
     opacity: 1;
-    /* Highlight the div */
     transform: scale(1.05);
-    /* Scale effect */
 }
 
 .domains {
@@ -172,7 +154,6 @@
     align-items: center;
 }
 
-/* Animation Section */
 
 .downBox {
     margin: 20px 0;
@@ -181,7 +162,6 @@
 .Contents h5 {
     color: var(--white);
     font-size: var(--desktop_h3-font-size);
-    /* Responsive font size */
     font-style: normal;
     font-weight: 600;
 }
@@ -313,7 +293,6 @@
 
 .insideBoxDefault {
     background-color: var(--cementtt);
-    /* Default style for other insideBox elements */
     padding: 5px;
 }
 
@@ -344,14 +323,12 @@
 
 .leftText {
     width: 50%;
-    /* Adjust as per your layout */
 }
 
 .imageSection {
     position: relative;
     width: 90px;
     height: 50px;
-    /* Adjust as per your layout */
 }
 
 .imageSection img {
@@ -360,12 +337,9 @@
 
 .leftText p {
     font-size: var(--desktop_p-font-size);
-    /* Adjust text size */
     line-height: 1.5;
-    /* margin-right: 20px; */
 }
 
-/* Media Queries for smaller screens */
 
 @media screen and (max-width: 1281px) {
     .whyChooseSection {
@@ -398,6 +372,10 @@
     .columnDiv {
         width: 670px;
     }
+
+    .specialSectionForIndex3 {
+        flex-wrap: wrap;
+    }
 }
 
 @media screen and (max-width: 761px) {
@@ -419,12 +397,10 @@
                 rgba(254, 122, 54, 0.2) 1%,
                 transparent 40%),
             var(--light-black);
-        /* margin-bottom: 60px; */
     }
 
     .header p {
         font-size: var(--desktop_p-font-size);
-        /* Adjusted for smaller screens */
     }
 
     .header h2 {
@@ -446,7 +422,6 @@
 
     .divContainer p {
         font-size: var(--desktop_p-font-size);
-        /* line-height: 1.5; */
     }
 
     .columnDiv {
@@ -464,10 +439,6 @@
         padding: 4px;
     }
 
-    .insideBoxDesign1 .insideBoxImgWrapper {
-        width: 60px;
-    }
-
     .downBoxDesign2 {
         gap: 8px;
     }
@@ -476,21 +447,10 @@
         font-size: var(--desktop_p-font-size);
     }
 
-    /* .downBoxDesign1 img {
-      height: auto;
-    } */
-
-    /* .insideBoxDesign1 {
-      gap: 4px;
-    } */
-
     .insideBoxDesign1 p {
         font-size: var(--desktop_p-font-size);
     }
 
-    /* .insideBoxDesign2 {
-      gap: 4px;
-    } */
 
     .customSection {
         width: 100%;
@@ -503,9 +463,6 @@
         width: 100%;
     }
 
-    /* .imageSection {
-      width: auto;
-    } */
 
     .Contents {
         padding-right: 0px;
@@ -526,10 +483,6 @@
         gap: 10px;
     }
 
-    /* .insideBoxDesign1 p,
-    .noteP {
-      font-size: 12px;
-    } */
 
     .header h2,
     .header span {
@@ -553,7 +506,25 @@
 
 @media screen and (max-width: 361px) {
     .insideBoxDesign1 .insideBoxImgWrapper {
-        height: 35px;
+        width: 200px;
+        height: 45px;
+    }
+
+    .customAnimationSection {
+        width: 100%;
+        padding: 10px 4px;
+    }
+
+    .subItemTextP {
+        font-size: 14px;
+    }
+
+    .subItemText:nth-child(2) p {
+        padding-left: 10px;
+    }
+
+    .subItemText:nth-child(1) p {
+        padding-right: 10px;
     }
 
     .divContainer {
