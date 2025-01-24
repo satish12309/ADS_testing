@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
   const [showGTM, setShowGTM] = useState(false);
 
   useEffect(() => {
-    // Delay GTM by 2 seconds
+    // Delay GTM by 3 seconds
     const timer = setTimeout(() => {
       setShowGTM(true);
     }, 3100);
@@ -30,6 +30,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        {/* facebook verification meta (pixel) */}
         <meta
           name="facebook-domain-verification"
           content="dborjxjhu9kiklk06c38hf5v5raay4"
@@ -39,7 +40,24 @@ export default function RootLayout({ children }) {
           name="facebook-domain-verification"
           content="xzlsit1skwzpjhylrt0y96nn3nbksu"
         />
+
+        {/* Font Preload */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
+        />
+
+        {/* Tracker Script */}
         <Script
+          strategy="lazyOnload"
+          src="https://web-in21.mxradon.com/t/Tracker.js"
+          onLoad={() => {
+            if (window.pidTracker) window.pidTracker("57020");
+          }}
+        />
+        {/* <Script
           strategy="lazyOnload"
           src="https://web-in21.mxradon.com/t/Tracker.js"
         ></Script>
@@ -48,18 +66,21 @@ export default function RootLayout({ children }) {
           dangerouslySetInnerHTML={{
             __html: `pidTracker('57020');`,
           }}
-        />
+        /> */}
 
+        {/* googleoptimize script */}
         <Script
           strategy="lazyOnload"
           src="https://www.googleoptimize.com/optimize.js?id=OPT-NQHBZ7H"
         ></Script>
 
+        {/* zoho crm script */}
         <Script
           strategy="afterInteractive"
           src="https://crmplus.zoho.in/crm/javascript/zcga.js"
         ></Script>
 
+        {/* VWO link connect and script */}
         <link rel="preconnect" href="https://dev.visualwebsiteoptimizer.com" />
         {/* Start VWO Async SmartCode */}
         <Script id="vwoCode" strategy="beforeInteractive">
