@@ -3,7 +3,7 @@
 import React, { memo, useEffect, useRef, useMemo, useCallback } from "react";
 import styles from "./AnimationNew.module.css";
 import Image from "next/image";
-import whyChooseData from "./AnimationNewData"; 
+import whyChooseData from "./Data/AnimationNewData"; 
 
 function AnimationNew() {
   const divRefs = useRef([]);
