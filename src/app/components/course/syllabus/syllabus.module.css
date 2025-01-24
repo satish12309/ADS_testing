@@ -845,15 +845,15 @@
   .rytmain {
     padding: 16px;
   }
-
+  
   .leftinside h3 {
     font-size: 19px;
   }
-
+  
   .mainConteiner {
     padding: 0;
   }
-
+  
   .titleH,
   .rytdiv p {
     font-size: 13px;
@@ -863,13 +863,20 @@
   .rotateText {
     font-size: 10px;
   }
-
+  
   .card {
     width: 85%;
   }
-
+  
   .tools {
     padding: 10px;
     gap: 10px;
   }
+}
+
+@media screen and (max-width: 361px) {
+  .tools p{
+    font-size:var(--desktop_p-font-size);
+  }
+  
 }
