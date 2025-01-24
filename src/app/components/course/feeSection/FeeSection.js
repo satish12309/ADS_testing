@@ -70,26 +70,32 @@ const FeeContent = ({
         <h2>Course Fee</h2>
         <div className={styles.mainContainer}>
           <div className={styles.innerContainer}>
-            <div className={styles.firstContainer}>
-              <h4 className={styles.headOrange}>{liveClasses.title}</h4>
-              <p className={styles.firstP}>Benefits :</p>
-              <div className={styles.iconDiv}>
-                {liveClasses.benefits.map((item, index) => (
-                  <div className={styles.innerIconDiv} key={index}>
-                    <Image
-                      src={liveClasses.imgSrc}
-                      alt={liveClasses.imgAlt}
-                      width="45"
-                      height="45"
-                      loading="lazy"
-                      quality={40}
-                    />
-                    <p className={styles.iconContent}>{item}</p>
-                  </div>
-                ))}
+            <div
+              className={
+                isHybrid ? styles.firstContainer : styles.alternateContainer
+              }
+            >
+              <div className={styles.firstwrapper}>
+                <h4 className={styles.headOrange}>{liveClasses.title}</h4>
+                <p className={styles.firstP}>Benefits :</p>
+                <div className={isHybrid ? styles.iconDiv : styles.sideborder}>
+                  {liveClasses.benefits.map((item, index) => (
+                    <div className={styles.innerIconDiv} key={index}>
+                      <Image
+                        src={liveClasses.imgSrc}
+                        alt={liveClasses.imgAlt}
+                        width="45"
+                        height="45"
+                        loading="lazy"
+                        quality={40}
+                      />
+                      <p className={styles.iconContent}>{item}</p>
+                    </div>
+                  ))}
+                </div>
               </div>
               <div className={styles.feeContentContainer}>
-                <div className={styles.border}>
+                <div className={isHybrid ? styles.border : styles.borders}>
                   <p>Program Fee</p>
                   <h4>
                     {Fee}
