@@ -80,6 +80,25 @@ export default function RootLayout({ children }) {
           src="https://crmplus.zoho.in/crm/javascript/zcga.js"
         ></Script>
 
+        {/* gtag script */}
+        <Script
+          strategy="lazyOnload"
+          onError={(err) => {
+            console.error("Error", err);
+          }}
+          onLoad={() => {
+            // Function to perform after loading the script
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+              dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
+            gtag("config", "GTM-NN8XWH8", {
+              page_path: window.location.pathname,
+            });
+          }}
+        />
+
         {/* VWO link connect and script */}
         <link rel="preconnect" href="https://dev.visualwebsiteoptimizer.com" />
         {/* Start VWO Async SmartCode */}
