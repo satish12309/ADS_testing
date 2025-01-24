@@ -55,6 +55,11 @@ export default function RootLayout({ children }) {
           src="https://www.googleoptimize.com/optimize.js?id=OPT-NQHBZ7H"
         ></Script>
 
+        <Script
+          strategy="afterInteractive"
+          src="https://crmplus.zoho.in/crm/javascript/zcga.js"
+        ></Script>
+
         <link rel="preconnect" href="https://dev.visualwebsiteoptimizer.com" />
         {/* Start VWO Async SmartCode */}
         <Script id="vwoCode" strategy="beforeInteractive">
