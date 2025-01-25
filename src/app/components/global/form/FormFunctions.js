@@ -29,7 +29,7 @@ const getValidation = (formEntries) => {
   }
 
   // Validate course preference if applicable
-  if (formEntries.coursePreference && formEntries.coursePreference === "Course Preference *") {
+  if (formEntries.platform && formEntries.platform === "Course Preference *") {
     errors.push("Please select a valid course preference.");
   }
 
@@ -37,7 +37,7 @@ const getValidation = (formEntries) => {
   return errors.length > 0 ? errors.join(" ") : null;
 };
 
-const getFormFields = (coursePreference) => {
+const getFormFields = (platform) => {
   return [
 
     //name field
@@ -130,7 +130,7 @@ const getFormFields = (coursePreference) => {
 
     //Course Preference field
     {
-      name: "coursePreference",
+      name: "platform",
       label: "Course Preference",
       type: "select",
       options: [
@@ -156,8 +156,8 @@ const getFormFields = (coursePreference) => {
           label: "Master in CS: Data Science and AI",
         },
       ],
-      required: coursePreference,
-      showField: coursePreference,
+      required: platform,
+      showField: platform,
     },
   ];
 };

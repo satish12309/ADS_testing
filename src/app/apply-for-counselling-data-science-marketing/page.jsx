@@ -61,7 +61,7 @@ const Counselling = () => {
             </div>
             <div className={styles.formr}>
               <p>Free Career Counselling</p>
-              <Form coursePreference={true}/>
+              <Form platform={true}/>
             </div>
           </div>
           <div className={styles.botCont}>

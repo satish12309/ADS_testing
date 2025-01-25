@@ -12,7 +12,7 @@ const Form = ({
   setTrigger,
   downloadBrochure,
   brochurePdfLink,
-  coursePreference,
+  platform,
   isCyberSecurity,//for button type manipulation
 }) => {
   //form submission end point
@@ -26,7 +26,7 @@ const Form = ({
   const currentUrl = usePathname();
 
   //for generating dynamic form fields
-  const [formFields, setFormFields] = useState(getFormFields(coursePreference));
+  const [formFields, setFormFields] = useState(getFormFields(platform));
 
   //for phone input storing
   const [value, setValue] = useState();
@@ -42,7 +42,7 @@ const Form = ({
     name: "",
     email: "",
     phone: "",
-    coursePreference: "",
+    platform: "",
     WorkExperience: "",
     dateTime: "",
     currentDesignation: "",
@@ -156,7 +156,7 @@ const Form = ({
           name: "",
           email: "",
           phone: "",
-          coursePreference: "",
+          platform: "",
           WorkExperience: "",
           dateTime: "",
           currentDesignation: "",
