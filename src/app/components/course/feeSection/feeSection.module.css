@@ -14,11 +14,13 @@
 }
 
 .feesmain {
-  background: linear-gradient(180deg,
-      var(--white) 0%,
-      #eff3f6 42.69%,
-      #eff3f6 66.46%,
-      var(--white) 98.82%);
+  background: linear-gradient(
+    180deg,
+    var(--white) 0%,
+    #eff3f6 42.69%,
+    #eff3f6 66.46%,
+    var(--white) 98.82%
+  );
 }
 
 .feesmain span {
@@ -86,6 +88,7 @@
   padding: 3px 10px;
 }
 
+.alternateContainer,
 .firstContainer,
 .secondContainer {
   display: flex;
@@ -97,15 +100,22 @@
   background: var(--white);
   font-size: 30px;
 }
-
-
+.firstwrapper {
+  display: flex;
+  flex-flow: column;
+  gap: 15px;
+}
+.alternateContainer {
+  flex-flow: row;
+  gap: 125px;
+  padding: 50px 90px 40px 50px;
+}
 .headOrange,
 .headBlue {
   color: var(--light-black);
   font-size: 36px;
   font-weight: 500;
 }
-
 
 .firstContainer {
   margin: 0;
@@ -130,7 +140,16 @@
   padding-bottom: 34px;
   border-bottom: 1px solid var(--black);
 }
+.borders {
+  padding: 75px 0 25px 0;
+}
 
+.sideborder {
+  border-right: 1px solid var(--black);
+  display: grid;
+  gap: 28px;
+  padding: 0 110px 34px 0;
+}
 .innerIconDiv {
   display: flex;
   gap: 14px;
@@ -142,6 +161,7 @@
   font-weight: 500;
 }
 
+.sideborder p,
 .iconDiv p {
   color: var(--light-black);
   font-weight: 400;
@@ -156,7 +176,7 @@
   margin: 0;
 }
 
-.secondContainer>.innerIconDiv {
+.secondContainer > .innerIconDiv {
   text-align: center;
   margin-top: 30px;
 }
@@ -208,6 +228,7 @@
   padding: 24px 0px 40px 0px;
 }
 
+.borders h4,
 .border h4 {
   color: #838383;
   font-size: 24px;
@@ -215,12 +236,14 @@
   font-weight: 600;
 }
 
+.borders span,
 .border span {
   font-size: 14px;
   font-weight: 500;
   color: #838383;
 }
 
+.borders p,
 .border p {
   font-weight: 500;
   font-size: 20px;
@@ -264,13 +287,13 @@
 }
 
 @media (max-width: 1181px) {
+  .sideborder p,
   .iconDiv p {
     font-size: 14px;
   }
 }
 
 @media (max-width: 1081px) {
-
   .headBlue,
   .headOrange {
     font-size: 33px;
@@ -305,12 +328,12 @@
 }
 
 @media (max-width: 968px) {
-
   .headBlue,
   .headOrange {
     font-size: 28px;
   }
 
+  .sideborder p,
   .iconDiv p {
     font-size: 14px;
   }
@@ -320,13 +343,13 @@
     padding: 11px;
   }
 
+  .sideborder,
   .iconDiv {
     gap: 17px;
   }
 }
 
 @media (max-width: 841px) {
-
   .headBlue,
   .headOrange {
     font-size: 24px;
@@ -340,6 +363,7 @@
     font-size: 34px;
   }
 
+  .borders,
   .border {
     padding: 18px 0 25px 0;
   }
@@ -353,13 +377,19 @@
     padding: 26px;
   }
 
+  .sideborder {
+    padding: 0 15px;
+  }
+  .alternateContainer {
+    gap: 30px;
+  }
+  .sideborder,
   .iconDiv {
     font-size: 20px;
   }
 }
 
 @media (max-width: 761px) {
-
   .firstContainer,
   .secondContainer {
     padding: 20px;
@@ -374,19 +404,29 @@
     font-size: 21px;
   }
 
+  .borders p,
   .border p {
     font-size: 15px;
   }
 }
 
 @media (max-width: 641px) {
-
   .feesmain h2 {
     font-size: 28px;
   }
-
+  .alternateContainer {
+    flex-flow: column;
+    padding: 50px 40px 50px 40px;
+  }
+  .sideborder,
   .iconDiv {
     padding-bottom: 26px;
+  }
+  .sideborder {
+    /* display: none; */
+    border-right: none;
+    padding: 0 0 30px 0;
+    border-bottom: 1px solid var(--black);
   }
 
   .emiButtonBlue button {
@@ -407,7 +447,6 @@
     height: 30%;
     width: 81%;
   }
-
 
   .mainContainer {
     width: 100%;
@@ -432,6 +471,7 @@
     margin-top: 50px;
   }
 
+  .borders,
   .border {
     padding: 0px 0px 20px 0px;
   }
@@ -455,7 +495,6 @@
     font-size: 26px;
   }
 
-
   .firstP {
     font-size: 18px;
   }
@@ -469,10 +508,12 @@
     margin-bottom: 20px;
   }
 
+  .borders p,
   .border p {
     font-size: 18px;
   }
 
+  .borders h4,
   .border h4 {
     font-size: 22px !important;
     margin-bottom: 0;
@@ -483,7 +524,6 @@
     margin-top: 10px;
   }
 
-
   .divTop {
     gap: 10px;
     position: relative;
@@ -491,7 +531,6 @@
 }
 
 @media (max-width: 481px) {
-
   .headBlue,
   .headOrange {
     font-size: 19px;
