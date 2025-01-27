@@ -95,6 +95,7 @@ const Page = async ({ params }) => {
         spanTag={pageData.header?.spanTag}
         spanIcon={pageData.header?.spanIcon}
         descrption={pageData.header?.descrption}
+        collaborationImg={pageData.header?.collaborationImg}
         applicationIcon={pageData.header?.applicationIcon}
         BotWidth={pageData.header?.BotWidth}
         BotHeight={pageData.header?.BotHeight}

@@ -90,13 +90,14 @@
 }
 
 .collaborationDivWrapper{
-  display: flex;
-  flex-direction: column;
+  display: flex;  
   gap: 15px;
+  margin-top: 10px;
 }
 
 .collaborationDivWrapper p{
   color: white;
+  font-weight: 600;
 }
 
 /* .firstSectionAI h1 {
