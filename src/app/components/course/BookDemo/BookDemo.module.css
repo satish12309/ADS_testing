@@ -62,7 +62,6 @@
     font-weight: 600;
 }
 
-
 .PathStepsImg,
 .ClassroomImg,
 .LaptopCodingImg {
@@ -76,7 +75,6 @@
 
 .PathStepsImg {
     background: #0383FF;
-
 }
 
 .ClassroomImg {
@@ -85,4 +83,245 @@
 
 .LaptopCodingImg {
     background: #0383FF;
+}
+
+/* General Responsive Styles */
+@media (max-width: 768px) {
+    .demoContainer {
+        margin: 30px 0 0;
+    }
+
+    .contentsWrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        padding: 0 20px;
+    }
+
+    .leftSection {
+        gap: 30px;
+    }
+
+    .leftSectionDescription {
+        gap: 15px;
+        margin-top: -10px;
+    }
+
+    .leftSection h2 {
+        font-size: 28px;
+        line-height: 1.3;
+    }
+
+    .leftSection p {
+        font-size: 16px;
+    }
+
+    .demoPointsWrapper {
+        flex-direction: column;
+        gap: 20px;
+        justify-content: flex-start;
+    }
+
+    .demoPoint {
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .demoPoint p {
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .PathStepsImg,
+    .ClassroomImg,
+    .LaptopCodingImg {
+        width: 80px;
+        height: 80px;
+        padding: 8px;
+        border-radius: 50px;
+    }
+
+    .PathStepsImg {
+        background: #0383FF;
+    }
+
+    .ClassroomImg {
+        background: #022646;
+    }
+
+    .LaptopCodingImg {
+        background: #0383FF;
+    }
+}
+
+/* Styles for max-width 480px */
+@media (max-width: 480px) {
+    .demoContainer {
+        margin: 20px 0 0;
+    }
+
+    .contentsWrapper {
+        gap: 30px;
+        padding: 0 15px;
+    }
+
+    .leftSection {
+        gap: 20px;
+    }
+
+    .leftSectionDescription {
+        gap: 10px;
+        margin-top: -5px;
+    }
+
+    .leftSection h2 {
+        font-size: 24px;
+    }
+
+    .leftSection p {
+        font-size: 14px;
+    }
+
+    .demoPointsWrapper {
+        gap: 15px;
+    }
+
+    .demoPoint {
+        flex-direction: row;
+        gap: 8px;
+    }
+
+    .demoPoint p {
+        font-size: 14px;
+    }
+
+    .PathStepsImg,
+    .ClassroomImg,
+    .LaptopCodingImg {
+        width: 70px;
+        height: 70px;
+        padding: 6px;
+        border-radius: 40px;
+    }
+}
+
+/* Styles for max-width 360px */
+@media (max-width: 360px) {
+    .demoContainer {
+        margin: 15px 0 0;
+    }
+
+    .contentsWrapper {
+        gap: 20px;
+        padding: 0 10px;
+    }
+
+    .leftSection {
+        gap: 15px;
+    }
+
+    .leftSectionDescription {
+        gap: 8px;
+        margin-top: 0;
+    }
+
+    .leftSection h2 {
+        font-size: 20px;
+    }
+
+    .leftSection p {
+        font-size: 12px;
+    }
+
+    .demoPointsWrapper {
+        gap: 10px;
+    }
+
+    .demoPoint {
+        flex-direction: row;
+        gap: 6px;
+    }
+
+    .demoPoint p {
+        font-size: 12px;
+    }
+
+    .PathStepsImg,
+    .ClassroomImg,
+    .LaptopCodingImg {
+        width: 60px;
+        height: 60px;
+        padding: 5px;
+        border-radius: 30px;
+    }
+}
+
+/* Additional Breakpoints */
+@media (max-width: 1381px) {
+    .contentsWrapper {
+        gap: 150px;
+    }
+}
+
+@media (max-width: 1281px) {
+    .contentsWrapper {
+        gap: 120px;
+    }
+}
+
+@media (max-width: 1181px) {
+    .contentsWrapper {
+        gap: 100px;
+    }
+}
+
+@media (max-width: 1081px) {
+    .contentsWrapper {
+        padding: 0 40px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .contentsWrapper {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+}
+
+@media (max-width: 968px) {
+    .leftSection h2 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 841px) {
+    .demoPointsWrapper {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 761px) {
+    .contentsWrapper {
+        padding: 0 30px;
+    }
+}
+
+@media (max-width: 641px) {
+    .leftSection h2 {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 481px) {
+    .leftSection h2 {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 361px) {
+    .leftSection h2 {
+        font-size: 18px;
+    }
 }

@@ -1,21 +1,42 @@
 "use client";
-import React, { useCallback, useState } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import styles from "./BookDemo.module.css";
 import Image from "next/image";
 import PathSteps from "../../../../../public/asset/PathSteps.png";
 import Classroom from "../../../../../public/asset/Classroom.png";
 import Button from "../../global/button/Button";
 import LaptopCoding from "../../../../../public/asset/LaptopCoding.png";
-import DSADemoMan from "../../../../../public/asset/DSADemoMan.png";
 import Popup from "../../global/popup/Popup";
 import Form from "../../global/form/Form";
 
 const BookDemo = ({ DSAdownloadBrochure }) => {
   const [applyCounselingPopup, setApplyCounselingPopup] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
 
   const applyCounselingShow = useCallback(() => {
     setApplyCounselingPopup(true);
   }, []);
+
+  useEffect(() => {
+    const mediaQuery = window.matchMedia("(max-width: 641px)");
+
+    // Handler function to update `isMobile`
+    const handleMediaQueryChange = (e) => {
+      setIsMobile(e.matches);
+    };
+
+    // Set initial state based on media query
+    handleMediaQueryChange(mediaQuery);
+
+    // Add event listener for media query changes
+    mediaQuery.addEventListener("change", handleMediaQueryChange);
+
+    return () => {
+      // Clean up event listener
+      mediaQuery.removeEventListener("change", handleMediaQueryChange);
+    };
+  }, []);
+
   return (
     <section className={styles.demoContainer}>
       <Popup
@@ -66,9 +87,11 @@ const BookDemo = ({ DSAdownloadBrochure }) => {
                 <p>Practice class</p>
               </div>
             </div>
-            <div onClick={applyCounselingShow} style={{ display: "flex" }}>
-              <Button text="Request a Demo Class" greenButton={true} />
-            </div>
+            {!isMobile && (
+              <div onClick={applyCounselingShow}>
+                <Button text="Request a Demo Class" greenButton={true} />
+              </div>
+            )}
           </div>
           <div className={styles.rightSection}>
             <Image
@@ -76,6 +99,11 @@ const BookDemo = ({ DSAdownloadBrochure }) => {
               width={340}
               height={400}
             />
+            {isMobile && (
+              <div onClick={applyCounselingShow}>
+                <Button text="Request a Demo Class" greenButton={true} />
+              </div>
+            )}
           </div>
         </div>
       </div>
