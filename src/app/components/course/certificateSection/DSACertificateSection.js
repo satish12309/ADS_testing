@@ -1,6 +1,6 @@
 import React, { memo, useMemo } from "react";
 import styles from "./certificate.module.css";
-import certificateData from "../../../../Data/componentsdata/CyberSecurityCertificationData";
+import certificateData from "../../../../Data/componentsdata/DSACertificationData";
 import TopCertificate from "./TopCertificate";
 
 function CertificateSection() {

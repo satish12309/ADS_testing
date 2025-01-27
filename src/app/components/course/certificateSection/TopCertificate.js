@@ -63,7 +63,8 @@ const TopCertificate = ({ topCertificates, isCyberSecurity }) => {
               <div>
                 {certificate.description.map((item) => (
                   <div className={styles.certificateDescWrapper}>
-                    <p>{arrowSvg}{item}</p>
+                    <div className={styles.svgWrapper}>{arrowSvg}</div>
+                    <p>{item}</p>
                   </div>
                 ))}
               </div>
