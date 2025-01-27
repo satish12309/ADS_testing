@@ -108,6 +108,7 @@ const Page = async ({ params }) => {
         DurationBotDate={pageData.header?.DurationBotDate}
         TrainingBot={pageData.header?.TrainingBot}
         TrainingBotFormat={pageData.header?.TrainingBotFormat}
+        DSAdownloadBrochure={true}
       />
       <ProgramSection programSectionData={pageData.ProgramSection} />
       <Practical />
