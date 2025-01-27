@@ -58,17 +58,17 @@
     "mentorFromImg": [
       {
         "id": 1,
-        "img": "",
+        "img": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IBM_c+(1).webp",
         "imgAlt": ""
       },
       {
         "id": 2,
-        "img": "",
+        "img": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IBM_c+(1).webp",
         "imgAlt": ""
       },
       {
         "id": 3,
-        "img": "",
+        "img": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IBM_c+(1).webp",
         "imgAlt": ""
       }
     ],
