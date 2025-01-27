@@ -176,13 +176,6 @@
         margin-top: -5px;
     }
 
-    .leftSection h2 {
-        font-size: 24px;
-    }
-
-    .leftSection p {
-        font-size: 14px;
-    }
 
     .demoPointsWrapper {
         gap: 15px;
@@ -193,9 +186,6 @@
         gap: 8px;
     }
 
-    .demoPoint p {
-        font-size: 14px;
-    }
 
     .PathStepsImg,
     .ClassroomImg,
@@ -227,13 +217,7 @@
         margin-top: 0;
     }
 
-    .leftSection h2 {
-        font-size: 20px;
-    }
 
-    .leftSection p {
-        font-size: 12px;
-    }
 
     .demoPointsWrapper {
         gap: 10px;
@@ -244,9 +228,6 @@
         gap: 6px;
     }
 
-    .demoPoint p {
-        font-size: 12px;
-    }
 
     .PathStepsImg,
     .ClassroomImg,
@@ -304,7 +285,7 @@
 
 @media (max-width: 761px) {
     .contentsWrapper {
-        padding: 0 30px;
+        padding: 0 5px;
     }
 }
 
@@ -317,6 +298,11 @@
 @media (max-width: 481px) {
     .leftSection h2 {
         font-size: 22px;
+    }
+
+    .rightSection img{
+        width: 240px;
+        height: 300px;
     }
 }
 
