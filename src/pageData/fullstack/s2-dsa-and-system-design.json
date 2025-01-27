@@ -127,29 +127,29 @@
   "ProgramSection": [
     {
       "content": {
-        "BoldText": "Early to Mid",
-        "nonBold": "Level Professionals with min",
-        "yearExp": "1 Year of Experience",
-        "description": "This program is perfect for Marketing/ Sales Associate, HR Assistant, Entry-Level Financial Analyst, Project Coordinator, Customer Service Representative, QA Tester, Web Developer.",
-        "importantNote": "This program is not for fresh graduates. You must have at least 1 year of work experience. To know more, check eligibility.",
+        "BoldText": "Tech ",
+        "nonBold": "professional with min ",
+        "yearExp": "1+ Years of Experience",
+        "description": "This program is perfect for Data Analyst, Web Developer, QA, Technical Support Engineer, Junior Data Scientist, Cyber security Analyst, Cloud Support Engineer, DevOps Engineer (Junior Level)",
+        "importantNote": "This program is not for fresh graduates. You must have at least 1 year of work experience in tech and should know programming. To know more check eligibility",
         "points1": [
           {
             "id": 1,
-            "title": "Data Engineer"
+            "title": "Software Developer / Engineer"
           },
           {
             "id": 2,
-            "title": "Data Analyst"
+            "title": "MLOps Engineer"
           }
         ],
         "points2": [
           {
             "id": 3,
-            "title": "Business Analyst"
+            "title": "Machine Learning Engineer"
           },
           {
             "id": 4,
-            "title": "Systems Admin"
+            "title": "IT Support Specialist"
           }
         ]
       },

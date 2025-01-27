@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "icon": "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project/jpmorgan_logo.webp",
+      "number": 1,
+      "hours": "26 hours",
+      "title": "Fraud Detection",
+      "text": "Develop a fraud detection system Project Certification from IBM that uses machine learning algorithms to identify potential fraud in financial transactions",
+      "tool1": "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project/tesla_tech.webp",
+      "cta": "Reduced maintenance costs and downtime, improved vehicle reliability and customer satisfaction."
+    },
+    {
+      "id": 2,
+      "icon": "/asset/hsbc.png",
+      "number": 2,
+      "hours": "26 hours",
+      "title": "Anti-Money Laundering",
+      "text": "Develop an anti-money laundering Project Certification from IBM system that uses predictive analytics to detect and prevent money laundering",
+      "tool1": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/python-pandas-matplotlib.webp",
+      "cta": "Streamlined supply chain processes, reduced operational costs, and improved product availability."
+    },
+    {
+      "id": 3,
+      "icon": "/asset/citibank.png",
+      "number": 3,
+      "hours": "26 hours",
+      "title": "Customer Segmentation",
+      "text": "Develop a customer segmentation Project Certification from IBM system that uses data analytics to segment customers based on demographics and financial behavior",
+      "tool1": "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project/pfizer_tech.webp",
+      "cta": "Enhanced marketing strategies and personalized recommendations, leading to increased sales and customer satisfaction"
+    }
+  ]
+  

@@ -3,6 +3,8 @@ import dynamic from "next/dynamic";
 import { getPageData, generateStaticParams } from "@/utils/getDSPageData";
 import Header from "@/app/components/course/hero/Header";
 import BottomBar from "@/app/components/global/BottomBar/BottomBar";
+import HRAnalyticsProjectSection from "@/app/components/course/projectSection/HRAnalyticsProjectSection";
+import BFSIProjectSection from "@/app/components/course/projectSection/BFSIProjectSection";
 const Practical = dynamic(() =>
   import("@/app/components/course/practical/Practical")
 );
@@ -82,6 +84,9 @@ const Page = async ({ params }) => {
     return <div>{pageData.error}</div>;
   }
 
+  const isHrAnalyticsPage = id.join("/") === "s2-hr-analytics";
+  const isBFSIPage = id.join("/") === "s2-data-science-banking";
+
   return (
     <main>
       <Header
@@ -148,7 +153,13 @@ const Page = async ({ params }) => {
       />
       <ReviewSlider showVideoYt={false} />
       <MentorsSection />
-      <ProjectSection />
+      {isHrAnalyticsPage ? (
+        <HRAnalyticsProjectSection />
+      ) : isBFSIPage ? (
+        <BFSIProjectSection />
+      ) : (
+        <ProjectSection />
+      )}
       <NewSevenSection />
       <BottomBar />
     </main>

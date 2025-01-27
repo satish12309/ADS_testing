@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "icon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/image+674-min.png",
+    "number": 1,
+    "hours": "26 hours",
+    "title": "Compensation Analytics at Netflix",
+    "text": "Netflix uses analytics to determine employee compensation packages. By analyzing HR data such as market benchmarks, employee performance, and tenure, Netflix can offer compensation packages that are competitive and",
+    "tool1": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/mar-4-min.webp",
+    "cta": "Reduced maintenance costs and downtime, improved vehicle reliability and customer satisfaction."
+  },
+  {
+    "id": 2,
+    "icon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/at.webp",
+    "number": 2,
+    "hours": "26 hours",
+    "title": "Succession Planning at AT&T",
+    "text": "AT&T uses analytics to identify high-potential employees and develop them for future leadership roles. By analyzing HR data such as performance metrics, skills, and career aspirations, AT&T can create targeted development plans for its employees.",
+    "tool1": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/mar-3-min.webp",
+    "cta": "Streamlined supply chain processes, reduced operational costs, and improved product availability."
+  },
+  {
+    "id": 3,
+    "icon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/deloitte.webp",
+    "number": 3,
+    "hours": "26 hours",
+    "title": "Performance Management at Deloitte",
+    "text": "Deloitte uses a data-driven approach to performance management. The company utilizes analytics to measure employee performance, provide feedback, and identify areas for improvement.",
+    "tool1": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/mar-2-min.webp",
+    "cta": "Enhanced marketing strategies and personalized recommendations, leading to increased sales and customer satisfaction"
+  }
+]
