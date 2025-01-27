@@ -1,5 +1,5 @@
 import React, { memo } from "react";
-import styles from "./Practical.module.css";
+import styles from "./DSAPractical.module.css";
 import Image from "next/image";
 import practicalData from "../../../../Data/componentsdata/DSAPracticalData.json";
 
