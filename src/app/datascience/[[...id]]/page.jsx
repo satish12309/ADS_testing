@@ -42,6 +42,9 @@ const ProjectSection = dynamic(
 const CertificateSection = dynamic(() =>
   import("@/app/components/course/certificateSection/CertificateSection")
 );
+const DataAnalyticsCertificateSection = dynamic(() =>
+  import("@/app/components/course/certificateSection/DataAnalyticsCertificateSection")
+);
 
 // Dynamic Meta Data
 export async function generateMetadata({ params }) {
@@ -84,8 +87,30 @@ const Page = async ({ params }) => {
     return <div>{pageData.error}</div>;
   }
 
-  const isHrAnalyticsPage = id.join("/") === "s2-hr-analytics";
-  const isBFSIPage = id.join("/") === "s2-data-science-banking";
+  //Dynamic Project Component for different url
+  const projectSectionsMap = {
+    "s2-hr-analytics": HRAnalyticsProjectSection,
+    "s2-data-science-banking": BFSIProjectSection,
+  };
+  const ProjectSectionComponent =
+    projectSectionsMap[id.join("/")] || ProjectSection;
+
+  //Dynamic Certification Component for different url
+  const DataAnalyticsUrls = [
+    "bangalore/s2-data-analytics",
+    "s2-data-analytics-generic",
+    "pune/s2-data-analytics",
+    "s2-data-analytics-job-assistance-generic",
+    "s2-data-analytics-training-generic",
+    "s2-data-analytics-syllabus-generic",
+    "hyderabad/s2-data-analytics",
+    "chennai/s2-data-analytics",
+  ];
+  const isDataAnalyticsCertificate =
+  DataAnalyticsUrls.includes(id.join("/").toLowerCase());
+  const CertificateComponent = isDataAnalyticsCertificate
+    ? DataAnalyticsCertificateSection
+    : CertificateSection;
 
   return (
     <main>
@@ -95,6 +120,7 @@ const Page = async ({ params }) => {
         spanTag={pageData.header?.spanTag}
         spanIcon={pageData.header?.spanIcon}
         descrption={pageData.header?.descrption}
+        collaborationImg={pageData.header?.collaborationImg}
         applicationIcon={pageData.header?.applicationIcon}
         BotWidth={pageData.header?.BotWidth}
         BotHeight={pageData.header?.BotHeight}
@@ -118,7 +144,7 @@ const Page = async ({ params }) => {
         brochurePdf={pageData.brochurePdf}
         downloadBrochure={true}
       />
-      <CertificateSection />
+      <CertificateComponent />
       <FeeContent
         Fee={pageData.FeeSection?.Fee}
         hybridemi1={pageData.FeeSection?.hybridemi1}
@@ -153,13 +179,7 @@ const Page = async ({ params }) => {
       />
       <ReviewSlider showVideoYt={false} />
       <MentorsSection />
-      {isHrAnalyticsPage ? (
-        <HRAnalyticsProjectSection />
-      ) : isBFSIPage ? (
-        <BFSIProjectSection />
-      ) : (
-        <ProjectSection />
-      )}
+      <ProjectSectionComponent />
       <NewSevenSection />
       <BottomBar />
     </main>

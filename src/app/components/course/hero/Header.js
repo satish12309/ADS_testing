@@ -116,8 +116,8 @@ const Header = memo(
                           <div className={styles.collaborationImgWrapper}>
                             <Image
                               src={collaborationImg}
-                              height={40}
-                              width={180}
+                              height={30}
+                              width={70}
                               alt="Collaboration Image"
                               priority
                               quality={50}
