@@ -31,21 +31,21 @@ function Emipopup({
             <div className={Styles.secrow}>
               <p className={Styles.greencol}>{emiType}</p>
 
-              <span className={Styles.month}>{duration2}</span>
+              <span className={Styles.month}>{duration1}</span>
               <span className={Styles.Amount}>
                 {totalAmount1} <p className={Styles.gst}>+18% GST</p>
               </span>
-              <span className={Styles.Amount}>{monthlyPayment2}</span>
+              <span className={Styles.Amount}>{monthlyPayment1}</span>
 
               <p className={Styles.greenDown}>
                 Standard Interest Rates Applicable
               </p>
 
-              <span className={Styles.month}>{duration1}</span>
+              <span className={Styles.month}>{duration2}</span>
               <span className={Styles.Amount}>
                 {totalAmount2} <p className={Styles.gst}>+18% GST</p>
               </span>
-              <span className={Styles.Amount}>{monthlyPayment1}</span>
+              <span className={Styles.Amount}>{monthlyPayment2}</span>
             </div>
           </div>
         </div>
