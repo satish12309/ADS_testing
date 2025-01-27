@@ -1,0 +1,100 @@
+.mainContainer {
+    margin-top: 70px;
+    background: #212121;
+    padding: 30px 0 30px;
+    overflow: hidden;
+}
+
+.contentWrapper{
+    position: relative;
+}
+
+.contentTitleWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contentTitleWrapper h1 {
+    color: #FFF;
+    text-align: center;
+    font-size: var(--desktop_h1-font-size);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 109%;
+    /* 76.3px */
+}
+
+.contentTitleWrapper span {
+    background: linear-gradient(90deg, #FE7A36 21.44%, #FFC436 61.33%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 109%;
+}
+
+.contentTitleWrapper h5 {
+    color: #FFF;
+    text-align: center;
+    font-size: var(--desktop_h5-font-size);
+    font-style: normal;
+    font-weight: 600;
+    line-height: 109%;
+    background: rgb(50, 42, 74);
+    border: 1px solid rgb(59, 41, 115);
+    width: max-content;
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin: auto;
+}
+
+.svgWrapper{
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+
+.contentPointWrapper {
+    display: flex;
+    gap: 30px;
+}
+
+.pointWrapper {
+    display: flex;
+    gap: 10px;
+}
+
+
+.pointText {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 125%;
+}
+
+.pointTextBold {
+    font-weight: 700;
+}
+
+.mentorsWraper{
+    display: flex;
+    gap: 20px;
+}
+
+.mentorText {
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28.679px;
+    text-transform: capitalize;
+}
+
+.mentorFromImgWrapper{
+    display: flex;
+    gap: 10px;
+}

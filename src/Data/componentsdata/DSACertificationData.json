@@ -1,0 +1,26 @@
+{
+  "certificateNew": [
+    {
+      "id": 1,
+      "title": "Microsoft Course Completion Certificate",
+      "imageUrl": "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/microsoft_Cert_new.webp",
+      "imageWidth": 400,
+      "imageHeight": 400,
+      "description": [
+        "Industry-certified Microsoft certificates",
+        "Gain expertise & get recognized worldwide",
+        "Boost job opportunities and earnings with Microsoft’s certification"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Learnbay Course Completion Certificate",
+      "imageUrl": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/learnbay_cert_demo.webp",
+      "imageWidth": 400,
+      "imageHeight": 400,
+      "description": [
+        "The certification reflects not only theoretical knowledge but also the practical implementation of concepts through live projects and case studies."
+      ]
+    }
+  ]
+}

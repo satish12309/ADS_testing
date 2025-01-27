@@ -4,7 +4,7 @@ import {
   getPageData,
   generateStaticParams,
 } from "@/utils/getFullstackPageData";
-import Header from "@/app/components/course/hero/Header";
+import Header from "@/app/components/course/hero/DSAHeader";
 import BottomBar from "@/app/components/global/BottomBar/BottomBar";
 const Practical = dynamic(() =>
   import("@/app/components/course/practical/Practical")
@@ -14,7 +14,7 @@ const ProgramSection = dynamic(
   { ssr: false }
 );
 const AnimationNew = dynamic(() =>
-  import("@/app/components/course/whyChoose/AnimationNew")
+  import("@/app/components/course/whyChoose/DSAAnimationNew")
 );
 const ReviewSlider = dynamic(() =>
   import("@/app/components/global/reviewSlider/ReviewSlider")
@@ -37,11 +37,11 @@ const FeeContent = dynamic(() =>
   import("@/app/components/course/feeSection/FeeSection")
 );
 const ProjectSection = dynamic(
-  () => import("@/app/components/course/projectSection/ProjectSection"),
+  () => import("@/app/components/course/projectSection/DSAProjectSection"),
   { ssr: false }
 );
 const CertificateSection = dynamic(() =>
-  import("@/app/components/course/certificateSection/CertificateSection")
+  import("@/app/components/course/certificateSection/DSACertificateSection")
 );
 
 // Dynamic Meta Data
@@ -54,7 +54,7 @@ export async function generateMetadata({ params }) {
       title: "Error",
       description: "Page not found",
     };
-  } 
+  }
 
   const metadata = pageData.MetaHead || {};
   return {
@@ -88,10 +88,14 @@ const Page = async ({ params }) => {
   return (
     <main>
       <Header
-        title={pageData.header?.title}
+        title1={pageData.header?.title1}
         orgTitle={pageData.header?.orgTitle}
+        title2={pageData.header?.title2}
         spanTag={pageData.header?.spanTag}
         spanIcon={pageData.header?.spanIcon}
+        points={pageData.header?.points}
+        mentorText={pageData.header?.mentorText}
+        mentorFromImg={pageData.header?.mentorFromImg}
         descrption={pageData.header?.descrption}
         applicationIcon={pageData.header?.applicationIcon}
         BotWidth={pageData.header?.BotWidth}
@@ -147,9 +151,9 @@ const Page = async ({ params }) => {
       />
       <ReviewSlider showVideoYt={false} />
       <MentorsSection />
-      <ProjectSection  />
-      <NewSevenSection  />
-      <BottomBar/>
+      <ProjectSection />
+      <NewSevenSection />
+      <BottomBar />
     </main>
   );
 };
