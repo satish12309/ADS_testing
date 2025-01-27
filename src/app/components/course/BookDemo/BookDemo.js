@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useCallback, useState } from "react";
 import styles from "./BookDemo.module.css";
 import Image from "next/image";
@@ -10,26 +10,28 @@ import DSADemoMan from "../../../../../public/asset/DSADemoMan.png";
 import Popup from "../../global/popup/Popup";
 import Form from "../../global/form/Form";
 
-const BookDemo = ({DSAdownloadBrochure}) => {
-    const [applyCounselingPopup, setApplyCounselingPopup] = useState(false);
+const BookDemo = ({ DSAdownloadBrochure }) => {
+  const [applyCounselingPopup, setApplyCounselingPopup] = useState(false);
 
-    const applyCounselingShow = useCallback(() => {
-        setApplyCounselingPopup(true);
-      }, []);
+  const applyCounselingShow = useCallback(() => {
+    setApplyCounselingPopup(true);
+  }, []);
   return (
     <section className={styles.demoContainer}>
-        <Popup
-          trigger={applyCounselingPopup}
-          setTrigger={setApplyCounselingPopup}
-          className="popupModal"
-        >
-          <div className="RightPopup">
-            <h5>Book A Demo Session</h5>
-            <Form
-              DSAdownloadBrochure={applyCounselingPopup ? DSAdownloadBrochure : false}
-            />
-          </div>
-        </Popup>
+      <Popup
+        trigger={applyCounselingPopup}
+        setTrigger={setApplyCounselingPopup}
+        className="popupModal"
+      >
+        <div className="RightPopup">
+          <h5>Book A Demo Session</h5>
+          <Form
+            DSAdownloadBrochure={
+              applyCounselingPopup ? DSAdownloadBrochure : false
+            }
+          />
+        </div>
+      </Popup>
       <div className="containerWidth">
         <div className={styles.contentsWrapper}>
           <div className={styles.leftSection}>
@@ -64,12 +66,16 @@ const BookDemo = ({DSAdownloadBrochure}) => {
                 <p>Practice class</p>
               </div>
             </div>
-            <div onClick={applyCounselingShow} style={{display:"flex"}}>
+            <div onClick={applyCounselingShow} style={{ display: "flex" }}>
               <Button text="Request a Demo Class" greenButton={true} />
             </div>
           </div>
           <div className={styles.rightSection}>
-            <Image src={DSADemoMan} width={340} height={400} />
+            <Image
+              src="https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/DSADemoMan.webp"
+              width={340}
+              height={400}
+            />
           </div>
         </div>
       </div>

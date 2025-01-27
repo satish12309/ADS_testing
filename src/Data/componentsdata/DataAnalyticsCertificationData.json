@@ -1,0 +1,29 @@
+{
+    "certificateNew": [
+      {
+        "id": 1,
+        "title": "Course Completion Certificate from IBM",
+        "imageUrl": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/ibm-min.webp",
+        "imageWidth": 400,
+        "imageHeight": 400,
+        "description": [
+          "Complete your training with the internationally recognized certificate.",
+          "Validate your Data Science and AI skills with IBM Course Completion Certificate.",
+          "Get acknowledged in IT sector by adding IBM Certificate to your profile."
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Capstone Project Certificate from IBM",
+        "imageUrl": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/Certification-min.webp",
+        "imageWidth": 400,
+        "imageHeight": 400,
+        "description": [
+          "Globally recognized IBM certification based on industrial-level projects.",
+          "Earn 1 capstone project certification from IBM.",
+          "Individualized project experience with easy access to premium job opportunities."
+        ]
+      }
+    ]
+  }
+  
