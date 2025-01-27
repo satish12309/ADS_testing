@@ -248,3 +248,211 @@
         width: 300px;
     }
 }
+
+@media only screen and (max-width: 641px) {
+    .mainContainer {
+        margin-top: 50px;
+        padding: 20px 0 40px;
+    }
+
+    .contentWrapper {
+        width: 90%;
+        padding: 20px 90px;
+        gap: 60px;
+        border-radius: 0 0 40px 40px;
+    }
+
+    .contentTitleWrapper h1 {
+        font-size: 32px;
+    }
+
+    .contentTitleWrapper h5 {
+        font-size: 22px;
+        padding: 8px 15px;
+    }
+
+    /* .svgWrapper {
+        top: 50px;
+        right: -20px;
+    } */
+
+    .svgWrapper{
+        display: none;
+    }
+
+    .TableauSoftwareIconWrapper {
+        top: 230px;
+        left: 40px;
+    }
+
+    .ModuleIconWrapper {
+        top: 120px;
+        right: 20px;
+    }
+
+    .PieChartIconWrapper {
+        bottom: 180px;
+        left: 50px;
+    }
+
+    .HierarchyIconWrapper {
+        bottom: 210px;
+        right: 40px;
+    }
+
+    .contentPointWrapper {
+        gap: 15px;
+    }
+
+    .pointWrapper {
+        width: 260px;
+    }
+
+    .pointText {
+        font-size: 14px;
+    }
+
+    .mentorsWraper {
+        gap: 30px;
+    }
+
+    .mentorText {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 481px) {
+    .mainContainer {
+        margin-top: 40px;
+        padding: 15px 0 30px;
+    }
+
+    .contentWrapper {
+        width: 95%;
+        padding: 20px 50px;
+        gap: 40px;
+        border-radius: 0 0 30px 30px;
+    }
+
+    .contentTitleWrapper h1 {
+        font-size: 28px;
+    }
+
+    .contentTitleWrapper h5 {
+        font-size: 18px;
+        padding: 6px 12px;
+    }
+
+    /* .svgWrapper {
+        top: 40px;
+        right: -10px;
+    } */
+
+    .TableauSoftwareIconWrapper {
+        top: 200px;
+        left: 20px;
+    }
+
+    .ModuleIconWrapper {
+        top: 100px;
+        right: 10px;
+    }
+
+    .PieChartIconWrapper {
+        bottom: 150px;
+        left: 30px;
+    }
+
+    .HierarchyIconWrapper {
+        bottom: 180px;
+        right: 20px;
+    }
+
+    .contentPointWrapper {
+        gap: 10px;
+    }
+
+    .pointWrapper {
+        width: 220px;
+    }
+
+    .pointText {
+        font-size: 12px;
+    }
+
+    .mentorsWraper {
+        gap: 20px;
+    }
+
+    .mentorText {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 361px) {
+    .mainContainer {
+        margin-top: 30px;
+        padding: 10px 0 20px;
+    }
+
+    .contentWrapper {
+        width: 100%;
+        padding: 15px 30px;
+        gap: 30px;
+        border-radius: 0 0 20px 20px;
+    }
+
+    .contentTitleWrapper h1 {
+        font-size: 24px;
+    }
+
+    .contentTitleWrapper h5 {
+        font-size: 16px;
+        padding: 5px 10px;
+    }
+
+    /* .svgWrapper {
+        top: 30px;
+        right: -5px;
+    } */
+
+    .TableauSoftwareIconWrapper {
+        top: 180px;
+        left: 10px;
+    }
+
+    .ModuleIconWrapper {
+        top: 90px;
+        right: 5px;
+    }
+
+    .PieChartIconWrapper {
+        bottom: 130px;
+        left: 10px;
+    }
+
+    .HierarchyIconWrapper {
+        bottom: 160px;
+        right: 10px;
+    }
+
+    .contentPointWrapper {
+        gap: 8px;
+    }
+
+    .pointWrapper {
+        width: 200px;
+    }
+
+    .pointText {
+        font-size: 10px;
+    }
+
+    .mentorsWraper {
+        gap: 15px;
+    }
+
+    .mentorText {
+        font-size: 10px;
+    }
+}
