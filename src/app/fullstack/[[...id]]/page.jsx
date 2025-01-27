@@ -6,8 +6,9 @@ import {
 } from "@/utils/getFullstackPageData";
 import Header from "@/app/components/course/hero/DSAHeader";
 import BottomBar from "@/app/components/global/BottomBar/BottomBar";
+import BookDemo from "@/app/components/course/BookDemo/BookDemo";
 const Practical = dynamic(() =>
-  import("@/app/components/course/practical/Practical")
+  import("@/app/components/course/practical/DSAPractical")
 );
 const ProgramSection = dynamic(
   () => import("@/app/components/course/programsection/programSection"),
@@ -108,7 +109,9 @@ const Page = async ({ params }) => {
         DurationBotDate={pageData.header?.DurationBotDate}
         TrainingBot={pageData.header?.TrainingBot}
         TrainingBotFormat={pageData.header?.TrainingBotFormat}
+        DSAdownloadBrochure={true}
       />
+      <BookDemo DSAdownloadBrochure={true} />
       <ProgramSection programSectionData={pageData.ProgramSection} />
       <Practical />
       <AnimationNew />

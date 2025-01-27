@@ -36,7 +36,7 @@ const DSAHeader = ({
   backgroundGradient, // CSS for gradient
   purpleButton,
   descrption,
-  downloadBrochure,
+  DSAdownloadBrochure,
   collaborationImg,
   backgroundImg,
 }) => {
@@ -61,9 +61,10 @@ const DSAHeader = ({
           className="popupModal"
         >
           <div className="RightPopup">
-            <h5>{Popups ? "Download Syllabus" : "Apply For Counselling"}</h5>
+            <h5>{Popups ? "Download Syllabus" : "Book A Demo Session"}</h5>
             <Form
-              downloadBrochure={Popups ? downloadBrochure : false}
+              downloadBrochure={Popups ? true : false}
+              DSAdownloadBrochure={applyCounselingPopup ? DSAdownloadBrochure : false}
             />
           </div>
         </Popup>
@@ -124,10 +125,10 @@ const DSAHeader = ({
             </div>
           </div>
           <div className={styles.buttonsWrapper}>
-            <div onClick={popupShow}>
+            <div onClick={applyCounselingShow}>
               <Button text="Request A Demo Class" grayButton />
             </div>
-            <div onClick={applyCounselingShow}>
+            <div onClick={popupShow}>
               <Button text="Download Syllabus" purpleButton={purpleButton} />
             </div>
           </div>

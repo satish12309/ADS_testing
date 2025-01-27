@@ -11,6 +11,7 @@ const Form = ({
   popup,
   setTrigger,
   downloadBrochure,
+  DSAdownloadBrochure,
   brochurePdfLink,
   platform,
   isCyberSecurity,//for button type manipulation
@@ -53,6 +54,10 @@ const Form = ({
   let btnText = "Apply For Counselling";
   if (downloadBrochure) {
     btnText = "Download Now";
+  }
+  else if(DSAdownloadBrochure){
+    btnText = "Book Session";
+
   }
 
   //onchange function

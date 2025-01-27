@@ -1,0 +1,31 @@
+{
+    "title": "DSA + System Design + GenAI",
+    "description": "Master Proficiency in System Design ( HLD + LLD ) with real Projects",
+    "boxes": [
+      {
+        "imgSrc": "/asset/Sparkling.png",
+        "imgAlt": "Practical",
+        "title": "GenAI For Developers",
+        "description": "Harness Generative AI for app development and workflow automation using OpenAI APIs and LangChain.",
+        "width": "60",
+        "height": "60"
+      },
+      {
+        "imgSrc": "/asset/ProjectManagement.png",
+        "imgAlt": "Practical",
+        "title": "Product Management",
+        "description": "Streamline development, align technology with business goals, and drive product success effectively.",
+        "width": "60",
+        "height": "60"
+      },
+      {
+        "imgSrc": "/asset/IIT.png",
+        "imgAlt": "Practical",
+        "title": "Gen-AI Certification for Developers",
+        "description": "Get Gen-AI Developer Certification from E&ICT Academy IIT Guwahati",
+        "width": "60",
+        "height": "60"
+      }
+    ]
+  }
+  
