@@ -99,21 +99,21 @@
         "points1": [
           {
             "id": 1,
-            "title": "Data Engineer"
+            "title": "System Administrators"
           },
           {
             "id": 2,
-            "title": "Data Analyst"
+            "title": "Network Engineers"
           }
         ],
         "points2": [
           {
             "id": 3,
-            "title": "Business Analyst"
+            "title": "Software Developers"
           },
           {
             "id": 4,
-            "title": "Systems Admin"
+            "title": "IT Support Engineers"
           }
         ]
       },

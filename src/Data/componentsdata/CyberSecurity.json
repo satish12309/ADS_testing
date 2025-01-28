@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "icon": "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project/tesla_logo.webp",
+      "number": 1,
+      "hours": "26 hours",
+      "title": "Zero Trust Security Framework",
+      "text": "Design and deploy a zero trust security framework to restrict access based on verified identity and continuous authentication.",
+      "tool1": "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project/tesla_tech.webp",
+      "cta": "Implement a robust security model ensuring secure resource access"
+    },
+    {
+      "id": 2,
+      "icon": "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project/walmart_logo.webp",
+      "number": 2,
+      "hours": "26 hours",
+      "title": "AI-Powered Threat Detection System",
+      "text": "Build an AI-driven system to detect and analyze threats using anomaly detection and predictive models for proactive defense.",
+      "tool1": "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project/walmart_tech.webp",
+      "cta": ": Deliver a system that identifies and mitigates cyber threats in real time."
+    },
+    {
+      "id": 3,
+      "icon": "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project/amazon_logo.webp",
+      "number": 3,
+      "hours": "26 hours",
+      "title": "Web-Based Facial Authentication System",
+      "text": "Develop a facial recognition system to authenticate web users securely by leveraging advanced AI algorithms for real-time validation.",
+      "tool1": "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project/amazon_tech.webp",
+      "cta": "Enhance web security with an accurate and userfriendly authentication tool"
+    }
+  ]
+  
