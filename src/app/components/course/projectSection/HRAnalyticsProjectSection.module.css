@@ -1,0 +1,740 @@
+.projectSection {
+    /* margin-top: 4rem; */
+    width: 100%;
+    background: linear-gradient(
+      180deg,
+      var(--white) 8.58%,
+      #eff3f6 69.44%,
+      var(--white) 99.96%
+    );
+    position: relative;
+    margin-bottom: 10%;
+  }
+  
+  .headline {
+    /* margin-bottom: 30px; */
+    color: var(--black);
+    font-size: 36px;
+    font-style: normal;
+    text-align: center;
+    font-weight: 400;
+    line-height: 126.5%;
+  }
+  
+  .headline span {
+    font-weight: 600;
+    border-bottom: 4px solid var(--light-orange);
+  }
+  
+  .projectHeading {
+    text-align: center;
+    color: var(--black);
+    padding: 1.5rem 0;
+    font-size: 55px;
+    font-weight: 400;
+  }
+  
+  /* .boldHeading {
+    font-size: 55px;
+    font-weight: 700;
+    border-bottom: 4px solid var(--light-orange);
+  } */
+  
+  .botDiv img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .botDiv {
+    width: 100%;
+    max-width: 1150px;
+    margin: auto;
+  }
+  
+  .botDiv h4 {
+    color: var(--white);
+    margin-top: -90px;
+    margin-left: 40px;
+    position: absolute;
+  }
+  
+  .botDiv p {
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 30px;
+  }
+  
+  .spanOrange {
+    color: var(--light-orange);
+    font-weight: 700;
+  }
+  
+  .orangeLine {
+    height: 5px;
+    width: 212px;
+    background: var(--light-orange);
+    margin: auto;
+  }
+  
+  .subheadingContainer {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 30px;
+  }
+  
+  .orangeBox,
+  .blueBox,
+  .greenBox {
+    border-radius: 40.486px;
+    padding: 8px 30px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  
+  .orangeBox {
+    color: var(--light-orange);
+    background: #fff2eb;
+  }
+  
+  .blueBox {
+    background: #e5f2f8;
+    color: #0072bc;
+  }
+  
+  .greenBox {
+    background: #e6faf3;
+    color: #04c988;
+  }
+  
+  .mySwiper {
+    width: 100%;
+    margin: auto;
+    margin-top: 60px;
+  }
+  
+  .sliderWrapper {
+    margin-bottom: 2.6rem;
+  }
+  
+  .projectsContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 3.5rem;
+  }
+  
+  .upperProjectDataWrapper,
+  .bottomProjectDataWrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .projectCard {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 40px;
+    background: var(--white);
+    padding: 1.5rem 1.4rem;
+    height: 410px;
+  }
+  
+  .upperPart {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .upperRight {
+    display: flex;
+    gap: 1rem;
+    margin-top: -1.5rem;
+  }
+  
+  .boxNum {
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 6px;
+  }
+  
+  .hrsBox {
+    border-radius: 0px 40px 0px 10px;
+    background: #022646;
+    height: 40px;
+    padding: 0px 35px;
+    margin-right: -1.4rem;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  .cardTitle {
+    color: #0072bc;
+    font-size: 15px;
+    font-weight: 600;
+    /* margin: 14px auto; */
+  }
+  
+  .cardText {
+    color: #616161;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+  }
+  
+  .cardText span {
+    color: #0072bc;
+  }
+  
+  .upperPart .projectIcon {
+    width: auto;
+    height: 35px;
+    mix-blend-mode: multiply;
+  }
+  
+  /* tesla icon */
+  .sliderWrapper:nth-child(1) .projectCard .upperPart .projectIcon {
+    height: 50px;
+  }
+  
+  /* google icon */
+  .sliderWrapper:nth-child(9) .projectCard .upperPart .projectIcon {
+    height: 28px;
+  }
+  
+  /* netflix, jp morgan,  uber, meta*/
+  .sliderWrapper:nth-child(6) .projectCard .upperPart .projectIcon,
+  .sliderWrapper:nth-child(7) .projectCard .upperPart .projectIcon,
+  .sliderWrapper:nth-child(8) .projectCard .upperPart .projectIcon,
+  .sliderWrapper:nth-child(10) .projectCard .upperPart .projectIcon {
+    height: 23px;
+  }
+  
+  .lowerBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 0.6rem; */
+    border-radius: 12px;
+    background: rgba(254, 122, 54, 0.1);
+    /* padding: 0.7rem; */
+    /* margin: 1rem 0; */
+  }
+  
+  .lowerBox .projectIcon {
+    width: -webkit-fill-available;
+    /* height: 47px; */
+    height: -webkit-fill-available;
+    object-fit: contain;
+    mix-blend-mode: multiply;
+  }
+  
+  /* .sliderWrapper:nth-child(5) .projectCard .lowerBox .projectIcon, .sliderWrapper:nth-child(12) .projectCard .lowerBox .projectIcon{
+    width: 300px;
+  } */
+  
+  .sliderWrapper:nth-child(12) .projectCard .lowerBox .projectIcon {
+    height: 40px;
+  }
+  
+  /* .tableauIcon {
+    width: 120px;
+    height: 30px;
+  } */
+  
+  /* .sqlIcon {
+    width: 80px;
+    height: 25px;
+  } */
+  
+  .ctaText {
+    color: #0072bc;
+    font-weight: 400;
+  }
+  
+  .blueSpan {
+    color: #0072bc;
+    font-weight: 600;
+    text-decoration-line: underline;
+    font-style: italic;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .blueSpan:hover {
+    color: var(--light-orange);
+  }
+  
+  .botDivMobile {
+    display: none;
+  }
+  
+  .imagesIconDiv {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .MainDown {
+    width: 100%;
+    margin-top: 35px;
+  }
+  
+  .downDiv {
+    display: grid;
+    grid-template-columns: 34% 40%;
+    justify-content: space-around;
+    gap: 51px;
+    border-radius: 22px;
+    padding: 20px;
+    /* width: 960px; */
+  
+    align-items: center;
+    background: radial-gradient(
+        circle at 10% 10%,
+        /* Blue circle positioned at the top left */ rgba(218, 105, 44, 0.4) 4%,
+        /* Larger blue circle */ transparent 40% /* Smoother transition */
+      ),
+      radial-gradient(
+        circle at 90% 80%,
+        /* Orange circle positioned at the bottom right */ rgba(2, 54, 92, 0.9) 1%,
+        /* Glowing orange circle */ transparent 30% /* Smoother transition */
+      ),
+      #212121;
+  }
+  
+  .downDiv h6 {
+    font-size: 22px;
+    color: var(--white);
+    font-style: normal;
+    font-weight: 600;
+    line-height: 126.5%;
+    /* 44.275px */
+  }
+  
+  .ryticons {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .imagesIconDiv span {
+    color: var(--white);
+    text-align: center;
+    font-size: 14.594px;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .downDivIconWrapper {
+    position: relative;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .boxDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 50px; */
+    gap: 10px;
+  }
+  
+  .connectorSvg {
+    position: relative;
+    top: -28px;
+  }
+  
+  .connectorSvg svg {
+    width: 120px;
+    height: 150px;
+  }
+  
+  /* .imgside {
+    position: relative;
+    top: -70px;
+  } */
+  
+  .pBot {
+    margin-top: 20px;
+  }
+  
+  @media screen and (max-width: 1381px) {
+    .pBot {
+      width: 89%;
+    }
+  }
+  
+  @media screen and (max-width: 1281px) {
+    .cardText {
+      line-height: 19px;
+    }
+  
+    /* .lowerBox .projectIcon {
+      width: 235px;
+      height: 40px;
+    } */
+  
+    .projectHeading {
+      font-size: 45px;
+    }
+  
+    /* .boldHeading {
+      font-size: 45px;
+    } */
+  
+    .botDiv {
+      width: 90%;
+    }
+  
+    .lowerBox {
+      /* padding: 0.7rem 2rem; */
+    }
+  }
+  
+  @media screen and (max-width: 1081px) {
+    .downDiv {
+      grid-template-columns: 43% 50%;
+    }
+  
+    .lowerBox {
+      /* padding: 0.7rem 1rem; */
+    }
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .pBot {
+      width: 87%;
+    }
+  
+    .upperProjectDataWrapper,
+    .bottomProjectDataWrapper {
+      width: 1000px;
+    }
+  
+    .projectsContainer {
+      padding-left: 8rem;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      scrollbar-width: none;
+    }
+  
+    .projectsContainer::-webkit-scrollbar {
+      width: 0;
+      height: 0;
+    }
+  }
+  
+  @media screen and (max-width: 968px) {
+    .pBot {
+      width: 85%;
+    }
+  
+    .projectsContainer {
+      padding-left: 9rem;
+    }
+  }
+  
+  @media screen and (max-width: 841px) {
+    .orangeBox,
+    .blueBox,
+    .greenBox {
+      padding: 8px 15px;
+    }
+  
+    .headline {
+      font-size: 32px;
+    }
+  
+    .downDiv {
+      grid-template-columns: 43% 56%;
+      padding: 20px 10px;
+      justify-content: center;
+      gap: 10px;
+    }
+  
+    .downDiv h6 {
+      font-size: 20px;
+    }
+  
+    .projectsContainer {
+      padding-left: 15rem;
+    }
+  }
+  
+  @media screen and (max-width: 761px) {
+    .projectHeading {
+      font-size: 35px;
+    }
+  
+    .projectsContainer {
+      padding-left: 22rem;
+    }
+  
+    /* .boldHeading {
+      font-size: 35px;
+    } */
+  
+    /* .subheadingContainer {
+      gap: 0.5rem;
+    } */
+  
+    .orangeBox,
+    .blueBox,
+    .greenBox {
+      padding: 8px 15px;
+    }
+  
+    .lowerBox {
+      height: 42px;
+      /* padding: 0.7rem 1rem; */
+    }
+  
+    .downDiv {
+      grid-template-columns: 36% 58%;
+      gap: 35px;
+    }
+  
+    .downDiv h6 {
+      font-size: 16px;
+    }
+  
+    .imagesIconDiv span {
+      font-size: 12px;
+    }
+  
+    .downDivIconWrapper {
+      width: 35px;
+    }
+  
+    .pBot {
+      font-size: 14px;
+    }
+  
+    .MainDown {
+      margin-top: 40px;
+    }
+  
+    .connectorSvg {
+      top: -30px;
+    }
+  
+    .connectorSvg svg {
+      height: 120px;
+    }
+  
+    /* .imgside {
+      top: -55px;
+    } */
+  
+    /* .projectCard {
+      height: auto;
+      padding: 1rem;
+    }
+  
+    .lowerBox {
+      flex-direction: column;
+      align-items: flex-start;
+    } */
+  }
+  
+  @media screen and (max-width: 641px) {
+    .projectsContainer {
+      flex-direction: row;
+      padding: 0;
+    }
+  
+    /* .downDiv h6 {
+      font-size: 18px;
+    } */
+  
+    /* .headline {
+      margin: 0;
+      font-size: 28px;
+      line-height: 38px;
+    } */
+  
+    /* .headline span {
+      text-underline-offset: 10px;
+    } */
+  
+    .subheadingContainer {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin-top: 30px;
+    }
+  
+    /* .hrsBox {
+      margin-right: auto;
+      font-size: 30px;
+      height: 40px;
+    } */
+  
+    .botDiv {
+      display: none;
+    }
+  
+    .mySwiper {
+      width: 100%;
+      margin-top: 40px;
+      /* padding: 0px 20px !important; */
+    }
+  
+    .botDivMobile {
+      padding: 30px 24px 0px 24px;
+      display: block;
+    }
+  
+    /* .projectCard {
+      padding: 14px 10px 20px 14px;
+      height: 350px;
+    } */
+  
+    /* .cardText {
+      font-size: 14px;
+      line-height: 20px;
+    } */
+  
+    /* .cardTitle {
+      font-size: 14px;
+      margin: 14px 0px;
+    } */
+  
+    .botDivMobile img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .orangeBox,
+    .blueBox,
+    .greenBox {
+      padding: 8px 16px;
+      font-size: 14px;
+      border-radius: 25.962px;
+    }
+  
+    .MainDown {
+      width: 100%;
+      /* padding: 10px 30px; */
+    }
+  
+    /* .imgside {
+      display: none;
+    } */
+  
+    .connectorSvg svg {
+      display: none;
+    }
+  
+    .downDiv {
+      width: 100%;
+      display: flex;
+      gap: 20px;
+      flex-direction: column;
+      flex-direction: column;
+    }
+  
+    .pBot {
+      width: 100%;
+      /* font-size: 12px; */
+    }
+  }
+  
+  @media screen and (max-width: 481px) {
+    .headline {
+      text-align: left;
+      font-size: 26px;
+    }
+  
+    .headline span {
+      border: none;
+    }
+  
+    .orangeBox,
+    .blueBox,
+    .greenBox {
+      padding: 8px;
+      font-size: 11px;
+    }
+  
+    .lowerBox {
+      /* padding: 0.7rem 2rem; */
+    }
+  
+    .projectHeading {
+      font-size: 25px;
+    }
+  
+    .projectsContainer {
+      margin-top: 1rem;
+    }
+  
+    /* .boldHeading {
+        font-size: 25px;
+        } */
+  
+    .subheadingContainer {
+      font-size: 14px;
+      margin-top: 20px;
+    }
+  
+    .downDiv {
+      align-items: flex-start;
+    }
+  
+    .downDiv h6 {
+      font-size: 18px;
+    }
+  }
+  
+  @media screen and (max-width: 361px) {
+    .headline {
+      font-size: 23px;
+    }
+  
+    .projectCard {
+      gap: 10px;
+      padding: 1.5rem 0.5rem;
+    }
+  
+    .hrsBox {
+      margin-right: -0.4rem;
+    }
+  
+    .cardText {
+      font-size: 13px;
+    }
+  
+    .projectCard {
+      height: 355px;
+    }
+  
+    .mySwiper {
+      margin-top: 25px;
+    }
+  
+    .imagesIconDiv {
+      gap: 5px;
+    }
+  
+    .downDivIconWrapper {
+      width: 25px;
+      height: 30px;
+    }
+  }
+  
