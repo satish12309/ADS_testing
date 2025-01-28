@@ -344,6 +344,7 @@
 
   .pBot {
     margin: 0;
+    max-width: -webkit-fill-available;
   }
 
   .pTop {
