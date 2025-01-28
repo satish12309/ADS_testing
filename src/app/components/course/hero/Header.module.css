@@ -2,16 +2,20 @@
   color: var(--black);
   /* padding: 46px 0px; */
   margin-top: 70px;
-  background: radial-gradient(circle at 10% 10%,
+  background: radial-gradient(
+      circle at 10% 10%,
       rgba(6, 59, 92, 0.9) 1%,
-      transparent 30%),
-    radial-gradient(circle at 90% 80%,
+      transparent 30%
+    ),
+    radial-gradient(
+      circle at 90% 80%,
       rgba(254, 122, 54, 0.3) 1%,
-      transparent 40%),
+      transparent 40%
+    ),
     var(--light-black);
 }
 
-.backgroundImgContainer{
+.backgroundImgContainer {
   color: var(--black);
   margin-top: 70px;
 }
@@ -89,13 +93,14 @@
   margin-top: -8px;
 }
 
-.collaborationDivWrapper{
-  display: flex;  
+.collaborationDivWrapper {
+  display: flex;
   gap: 15px;
   margin-top: 10px;
+  flex-flow: column;
 }
 
-.collaborationDivWrapper p{
+.collaborationDivWrapper p {
   color: white;
   font-weight: 600;
 }
@@ -190,24 +195,26 @@
 }
 
 .span {
-  background: linear-gradient(90deg,
-      var(--light-orange) 24.09%,
-      var(--secondary-color) 88.26%);
+  background: linear-gradient(
+    90deg,
+    var(--light-orange) 24.09%,
+    var(--secondary-color) 88.26%
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: var(--light-orange);
 }
 
-.cyberSpan{
-  background: linear-gradient(270deg, #FFC6C6 5.73%, #8EC8FF 98.25%);
+.cyberSpan {
+  background: linear-gradient(270deg, #ffc6c6 5.73%, #8ec8ff 98.25%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: var(--light-orange);
 }
 
-.formdiv form{
+.formdiv form {
   gap: 15px !important;
 }
 
@@ -225,8 +232,6 @@
   color: var(--blue-grey);
   font-weight: 300;
 }
-
-
 
 .formdiv form input[type="tel"] {
   border-radius: 12px;
@@ -272,7 +277,7 @@
   border: none;
 } */
 
-.formdiv form>div {
+.formdiv form > div {
   display: flex;
   justify-content: center;
   margin-bottom: 10px;
@@ -307,7 +312,6 @@
   }
 }
 
-
 @media only screen and (max-width: 1181px) {
   .firstSection h1 {
     font-size: 31px;
@@ -316,11 +320,11 @@
   .firstSection {
     gap: 28px;
   }
-  
+
   .wrapper {
     height: 55px;
   }
-  
+
   .content h3 {
     font-size: 28px;
   }
@@ -330,13 +334,12 @@
 }
 
 @media only screen and (max-width: 1081px) {
-  .innerDiv{
-      grid-template-columns: 60% 40%;
-      padding: 30px 0 30px;
+  .innerDiv {
+    grid-template-columns: 60% 40%;
+    padding: 30px 0 30px;
   }
 }
 @media only screen and (max-width: 1024px) {
-
   .firstSection h1 {
     font-size: 29px;
   }
@@ -530,11 +533,11 @@
     /* font-weight: 200; */
   }
 
-  .starDiv img{
+  .starDiv img {
     height: 70%;
   }
 
-  .firstSection h5{
+  .firstSection h5 {
     font-size: 12px;
   }
 }
