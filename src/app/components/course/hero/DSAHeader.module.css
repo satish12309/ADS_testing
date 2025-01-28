@@ -479,19 +479,19 @@
     .contentWrapper {
         width: 100%;
         padding: 15px 10px;
-        gap: 30px;
+        /* gap: 30px; */
         border-radius: 0;
     }
 
-    .contentTitleWrapper h1 {
+    /* .contentTitleWrapper h1 {
         font-size: 24px;
-    }
+    } */
 
-    .contentTitleWrapper h5 {
+    /* .contentTitleWrapper h5 {
         font-size: 14px;
         padding: 5px 10px;
         width: -webkit-fill-available;
-    }
+    } */
 
 
 
