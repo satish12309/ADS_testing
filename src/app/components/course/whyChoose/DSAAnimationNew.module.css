@@ -265,10 +265,11 @@
   }
   
   .insideBoxDesign2 {
-    border-radius: 63px;
+    border-radius: 75px;
     background: rgba(3, 131, 255, 0.2);
     padding: 4px 10px;
-    gap: 4px;
+    gap: 10px;
+    width: 60%;
   }
   
   .insideBoxDesign2 p {

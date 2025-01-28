@@ -271,9 +271,9 @@
         padding: 8px 15px;
     }
 
-    .svgWrapper {
+    /* .svgWrapper {
         display: none;
-    }
+    } */
 
     .TableauSoftwareIconWrapper {
         top: 185px;
@@ -313,35 +313,64 @@
 }
 
 @media only screen and (max-width: 481px) {
+    .contentWrapper {
+        background: linear-gradient(to bottom,
+                #212121 0%,
+                #212121 50%,
+                rgba(0, 114, 188, 0.2) 80%,
+                rgba(0, 114, 188, 0.2) 100%);
+    }
+
     .mainContainer {
-        padding: 20px 0 0 0;
+        padding: 20px 0 40px 0;
     }
 
     .contentWrapper {
         width: 100%;
-        gap: 40px;
-        border-radius: 0;
+        gap: 55px;
     }
 
     .contentTitleWrapper h1 {
+        width: 73%;
+        margin: auto;
         font-size: 28px;
     }
 
+    .svgWrapper {
+        display: none;
+    }
+
+    .mobileSvgWrapper {
+        position: absolute;
+        display: block;
+        width: max-content;
+        top: 80px;
+        right: 86px;
+    }
+
+    .mobileSvgWrapper svg {
+        width: 50px;
+        height: 40px;
+    }
+
     .contentTitleWrapper h5 {
+        width: 65%;
         font-size: 18px;
-        padding: 6px 12px;
+        padding: 6px 30px;
     }
 
-    /* .svgWrapper {
-        top: 40px;
-        right: -10px;
-    } */
 
-    .TableauSoftwareIconWrapper {
-        top: 135px;
-        left: 3px;
+
+    .TableauSoftwareIconWrapper,
+    .HierarchyIconWrapper,
+    .ModuleIconWrapper,
+    .PieChartIconWrapper {
+        /* top: 135px;
+        left: 3px; */
+        display: none;
     }
 
+    /* 
     .TableauSoftwareIconWrapper img {
         width: 25px;
         height: 25px;
@@ -370,7 +399,7 @@
     .HierarchyIconWrapper img {
         width: 35px;
         height: 35px;
-    }
+    } */
 
     .contentPointWrapper {
         gap: 10px;
@@ -385,18 +414,21 @@
     }
 
     .mentorsWraper {
-        gap: 30px;
+        gap: 60px;
     }
 
     .mentorsContentsWraper {
         flex-direction: column;
-        align-items: flex-start;
+        justify-content: center;
+        align-items: center;
         gap: 10px;
     }
 
+    .mentorFromImgWrapper{width: 100%;
+        justify-content: space-evenly;}
+
     .contentPointWrapper {
         gap: 8px;
-        flex-direction: column;
         justify-content: center;
         align-items: flex-start;
     }
@@ -404,10 +436,24 @@
     .pointWrapper {
         width: -webkit-fill-available;
         justify-content: flex-start;
+        flex-direction: column;
+        gap: 0;
     }
 
     .pointText {
-        font-size: 16px;
+        display: none;
+    }
+
+    .staticPoints {
+        display: block;
+        text-align: center;
+    }
+
+    .staticPoints p {
+        color: #FFF;
+        font-style: normal;
+        line-height: 125%;
+        font-weight: 400;
     }
 
     .pointsImgWrapper img {
