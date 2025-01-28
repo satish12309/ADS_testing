@@ -2,7 +2,7 @@
 
 import { Suspense, memo, useCallback, useState } from "react";
 import Image from "next/image";
-import styles from "./Header.module.css";
+import styles from "./Cyber.module.css";
 import Button from "@/app/components/global/button/Button";
 import dynamic from "next/dynamic";
 
@@ -110,14 +110,6 @@ const Header = memo(
                       <p>{descrption}</p>
                     </div>
                   </div>
-                  <div className={styles.btnDiv}>
-                    <div onClick={popupShow} className={styles.btn}>
-                      <Button text="Download Syllabus" grayButton />
-                    </div>
-                    <div onClick={applyCounselingShow}>
-                      <Button text="Apply for Counseling" />
-                    </div>
-                  </div>
                   <div className={styles.imgBot}>
                     {collaborationImg ? (
                       <>
@@ -150,6 +142,14 @@ const Header = memo(
                         </div>
                       </>
                     )}
+                  </div>
+                  <div className={styles.btnDiv}>
+                    <div onClick={popupShow} className={styles.btn}>
+                      <Button text="Download Syllabus" grayButton />
+                    </div>
+                    <div onClick={applyCounselingShow}>
+                      <Button text="Apply for Counseling" />
+                    </div>
                   </div>
 
                   <div className={styles.btnDivM}>

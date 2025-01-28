@@ -1,0 +1,63 @@
+[
+    {
+      "id": 1,
+      "icon": "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project/tesla_logo.webp",
+      "number": 1,
+      "hours": "26 hours",
+      "title": "AWS Migration Project for E-Commerce",
+      "text": "This project focuses on migrating e- commerce systems to AWS, optimizing for scalability and reliability, and includes streamlining the checkout process and data storage solutions.",
+      "tool1": "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project/tesla_tech.webp",
+      "cta": "Implement a predictive maintenance system to forecast and prevent potential failures in electric vehicle components."
+    },
+    {
+      "id": 2,
+      "icon": "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project/walmart_logo.webp",
+      "number": 2,
+      "hours": "26 hours",
+      "title": "Finance Application CI/CD with Azure",
+      "text": "This project emphasizes secure, efficient software delivery and incorporates automated testing for reliability.",
+      "tool1": "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project/walmart_tech.webp",
+      "cta": "Aimed at automating the deployment cycle of a finance application."
+    },
+    {
+      "id": 3,
+      "icon": "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project/amazon_logo.webp",
+      "number": 3,
+      "hours": "26 hours",
+      "title": "Healthcare Data Management with Kubernetes",
+      "text": "This project focuses on enhancing data handling efficiency, ensuring security compliance, and improving patient data accessibility.",
+      "tool1": "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project/amazon_tech.webp",
+      "cta": "Deploying a Kubernetes solution for healthcare data"
+    },
+    {
+      "id": 4,
+      "icon": "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project/pfizer_logo.webp",
+      "number": 4,
+      "hours": "26 hours",
+      "title": "Educational Data Analytics on GCP",
+      "text": "The project involves developing a GCP- based analytics platform for educational data, aimed at improving learning outcomes through data-driven insights and personalized content recommendations.",
+      "tool1": "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project/pfizer_tech.webp",
+      "cta": "Faster time-to-market for new drugs and significant cost savings in research and development."
+    },
+    {
+      "id": 5,
+      "icon": "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/microsoft_icon_projct.webp",
+      "number": 5,
+      "hours": "26 hours",
+      "title": "Banking Cloud Security Enhancement",
+      "text": "This project strengthens the banking cloud infrastructure by implementing advanced security protocols and real- time threat detection mechanisms to protect sensitive financial data.",
+      "tool1": "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project/microsoft_tech.webp",
+      "cta": "Implementing advanced security protocols and real- time threat detection mechanisms"
+    },
+    {
+      "id": 6,
+      "icon": "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project/netflix_logo.webp",
+      "number": 6,
+      "hours": "26 hours",
+      "title": "Media Content Multi- Cloud Strategy",
+      "text": "Focusing on optimizing content delivery, this project implements a multi-cloud strategy to enhance media streaming efficiency and global accessibility.",
+      "tool1": "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project/netflix_tech.webp",
+      "cta": "Optimizing content delivery."
+    }
+  ]
+  

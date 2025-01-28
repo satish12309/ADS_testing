@@ -11,7 +11,7 @@ const ProgramSection = dynamic(
   { ssr: false }
 );
 const AnimationNew = dynamic(() =>
-  import("@/app/components/course/whyChoose/AnimationNew")
+  import("@/app/components/course/whyChoose/CloudAnimation")
 );
 const ReviewSlider = dynamic(() =>
   import("@/app/components/global/reviewSlider/ReviewSlider")
@@ -34,7 +34,7 @@ const FeeContent = dynamic(() =>
   import("@/app/components/course/feeSection/FeeSection")
 );
 const ProjectSection = dynamic(
-  () => import("@/app/components/course/projectSection/ProjectSection"),
+  () => import("@/app/components/course/projectSection/CloudProject"),
   { ssr: false }
 );
 const CertificateSection = dynamic(() =>
