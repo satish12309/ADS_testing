@@ -40,16 +40,16 @@
     "points": [
       {
         "id": 1,
-        "img": "",
-        "imgAlt": "",
+        "img": "/asset/firstPoint.png",
+        "imgAlt": "DSA First Point",
         "text1": "Integrated With ",
         "boldText": "Gen-AI ",
         "text2": "for Software Developers"
       },
       {
         "id": 2,
-        "img": "",
-        "imgAlt": "",
+        "img": "/asset/secondPoint.png",
+        "imgAlt": "DSA Second Point",
         "text1": "Practice ",
         "boldText": "200+ DSA Problems & System Design Projects"
       }
@@ -58,18 +58,24 @@
     "mentorFromImg": [
       {
         "id": 1,
-        "img": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IBM_c+(1).webp",
-        "imgAlt": ""
+        "img": "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/Google.webp",
+        "imgAlt": "Google Logo",
+        "width": "80",
+        "height": "30"
       },
       {
         "id": 2,
         "img": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IBM_c+(1).webp",
-        "imgAlt": ""
+        "imgAlt": "IBM Logo",
+        "width": "60",
+        "height": "30"
       },
       {
         "id": 3,
-        "img": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IBM_c+(1).webp",
-        "imgAlt": ""
+        "img": "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/Microsoft.webp",
+        "imgAlt": "",
+        "width": "130",
+        "height": "30"
       }
     ],
     "descrption": "Successfully transition careers through our courses & real-time capstone projects. All while making your previous work experience count!",
@@ -153,7 +159,7 @@
           }
         ]
       },
-      "rightImg": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ryt_programImg+(2).webp",
+      "rightImg": "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/DSAProgramRight.webp",
       "popupTitle": "Eligibility Check",
       "formProps": {}
     }

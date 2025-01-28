@@ -121,7 +121,7 @@ const ProgramSection = memo(
                   <Image
                     src={rightImg}
                     alt="Learnbay"
-                    quality={60}
+                    quality={100}
                     width={280}
                     height={270}
                     loading="lazy"
