@@ -89,9 +89,23 @@ const DSAHeader = ({
               />
             </svg>
           </div>
+          <div className={styles.mobileSvgWrapper}>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="38"
+              height="54"
+              viewBox="0 0 38 54"
+              fill="none"
+            >
+              <path
+                d="M0.901042 0.579744C0.373933 0.63361 -0.00970847 1.10458 0.0441578 1.63169C0.0980224 2.1588 0.568996 2.54244 1.09611 2.48858L0.901042 0.579744ZM21.0442 51.4008C20.9986 51.9287 21.3895 52.3936 21.9174 52.4392L30.5198 53.1826C31.0477 53.2282 31.5126 52.8373 31.5583 52.3094C31.6039 51.7815 31.2129 51.3166 30.685 51.271L23.0384 50.6102L23.6992 42.9636C23.7448 42.4357 23.3539 41.9708 22.826 41.9251C22.2981 41.8795 21.8332 42.2705 21.7876 42.7984L21.0442 51.4008ZM1.09611 2.48858C11.9302 1.38144 19.8261 2.83279 25.2728 5.79668C30.6934 8.74638 33.7597 13.2304 34.9074 18.3826C37.2208 28.7674 31.7449 42.0352 21.3825 50.7491L22.6175 52.2177C33.3617 43.1827 39.2912 29.2373 36.7803 17.9654C35.5158 12.2893 32.1124 7.33408 26.19 4.11129C20.2936 0.902689 11.973 -0.551707 0.901042 0.579744L1.09611 2.48858Z"
+                fill="#B887FC"
+              />
+            </svg>
+          </div>
         </div>
         <div className={styles.contentPointWrapper}>
-          {points.map((point) => (
+          {points.map((point, index) => (
             <div className={styles.pointWrapper} key={point.id}>
               <div className={styles.pointsImgWrapper}>
                 <Image
@@ -106,6 +120,22 @@ const DSAHeader = ({
                 <span className={styles.pointTextBold}>{point.boldText}</span>
                 {point.text2}
               </p>
+              {index === 0 && (
+                <div className={styles.staticPoints}>
+                  <p>Integrated </p>
+                  <p>
+                    With <b>Gen-AI</b> for{" "}
+                  </p>
+                  <p>Software Developers</p>
+                </div>
+              )}
+              {index === 1 && (
+                <div className={styles.staticPoints}>
+                  <p>Practice <b>200+</b> </p>
+                  <p><b>DSA Problems</b> &</p>
+                  <p><b>System Design Projects</b></p>
+                </div>
+              )}
             </div>
           ))}
         </div>
