@@ -43,9 +43,17 @@
     display: flex;
 }
 
+.horizontalConnectorWrapper {
+    position: absolute;
+    z-index: -1;
+    left: 32px;
+    top: 15px;
+}
+
 .demoPointsWrapper {
     gap: 15px;
     justify-content: space-between;
+    position: relative;
 }
 
 .demoPoint {
@@ -85,6 +93,12 @@
     background: #0383FF;
 }
 
+.rightSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Additional Breakpoints */
 @media (max-width: 1381px) {
     .contentsWrapper {
@@ -111,9 +125,9 @@
 }
 
 @media (max-width: 1024px) {
-    .contentsWrapper {
-        grid-template-columns: 1fr;
-        gap: 50px;
+    .rightSection img {
+        width: 300px;
+        height: 370px;
     }
 }
 
@@ -121,23 +135,38 @@
     .leftSection h2 {
         font-size: 30px;
     }
+
+    .contentsWrapper {
+        grid-template-columns: 56% 31%;
+    }
+
 }
 
 @media (max-width: 841px) {
+
     .demoPointsWrapper {
         gap: 20px;
+    }
+
+    .contentsWrapper {
+        gap: 50px;
+        grid-template-columns: 60% 33%;
+    }
+
+    .rightSection img {
+        width: 270px;
+        height: 340px;
     }
 }
 
 @media (max-width: 761px) {
     .contentsWrapper {
         padding: 0 5px;
-        display: flex;
-        flex-direction: column;
-        gap: 40px;
+
     }
+
     .demoContainer {
-        margin: 30px 0 0;
+        margin: 7% 0 0;
     }
 
 
@@ -157,6 +186,23 @@
 
     .leftSection p {
         font-size: 16px;
+    }
+
+    .rightSection img {
+        width: 250px;
+        height: 305px;
+    }
+
+}
+
+@media (max-width: 641px) {
+    .leftSection h2 {
+        font-size: 26px;
+    }
+
+    .contentsWrapper {
+        grid-template-columns: 1fr;
+        gap: 20px;
     }
 
     .demoPointsWrapper {
@@ -180,8 +226,8 @@
     .PathStepsImg,
     .ClassroomImg,
     .LaptopCodingImg {
-        width: 80px;
-        height: 80px;
+        width: 50px;
+        height: 50px;
         padding: 8px;
         border-radius: 50px;
     }
@@ -197,23 +243,21 @@
     .LaptopCodingImg {
         background: #0383FF;
     }
-}
 
-@media (max-width: 641px) {
-    .leftSection h2 {
-        font-size: 26px;
+    .rightSection {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .verticalConnectorWrapper {
+        position: absolute;
+        z-index: -1;
+        left: 23px;
     }
 }
 
-
-@media (max-width: 768px) {
-    
-}
 
 @media (max-width: 481px) {
-    .demoContainer {
-        margin: 20px 0 0;
-    }
 
     .contentsWrapper {
         gap: 30px;
@@ -231,7 +275,7 @@
 
 
     .demoPointsWrapper {
-        gap: 15px;
+        gap: 25px;
     }
 
     .demoPoint {
@@ -239,7 +283,7 @@
         gap: 8px;
     }
 
-    .rightSection img{
+    .rightSection img {
         width: 240px;
         height: 300px;
     }
@@ -248,17 +292,18 @@
     .PathStepsImg,
     .ClassroomImg,
     .LaptopCodingImg {
-        width: 70px;
-        height: 70px;
+        width: 40px;
+        height: 40px;
         padding: 6px;
         border-radius: 40px;
+    }
+
+    .verticalConnectorWrapper {
+        left: 21px;
     }
 }
 
 @media (max-width: 361px) {
-    .demoContainer {
-        margin: 15px 0 0;
-    }
 
     .contentsWrapper {
         gap: 20px;
@@ -275,24 +320,22 @@
     }
 
 
-
-    .demoPointsWrapper {
-        gap: 10px;
-    }
-
     .demoPoint {
         flex-direction: row;
         gap: 6px;
+    }
+
+    .verticalConnectorWrapper {
+        left: 19px;
     }
 
 
     .PathStepsImg,
     .ClassroomImg,
     .LaptopCodingImg {
-        width: 60px;
-        height: 60px;
+        width: 40px;
+        height: 40px;
         padding: 5px;
         border-radius: 30px;
     }
 }
-
