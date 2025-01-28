@@ -8,10 +8,21 @@ import Button from "../../global/button/Button";
 import LaptopCoding from "../../../../../public/asset/LaptopCoding.png";
 import Popup from "../../global/popup/Popup";
 import Form from "../../global/form/Form";
+import horizontalConnector from "../../../../../public/asset/HorizontalLineDotted.png";
+import verticalConnector from "../../../../../public/asset/VertialLineDotted.png";
 
 const BookDemo = ({ DSAdownloadBrochure }) => {
   const [applyCounselingPopup, setApplyCounselingPopup] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
+  const [connectorDimensions, setConnectorDimensions] = useState({
+    width: 500,
+    height: 2,
+  });
+  const [verticalConnectorDimensions, setVerticalConnectorDimensions] =
+    useState({
+      width: 5,
+      height: 180,
+    });
 
   const applyCounselingShow = useCallback(() => {
     setApplyCounselingPopup(true);
@@ -34,6 +45,56 @@ const BookDemo = ({ DSAdownloadBrochure }) => {
     return () => {
       // Clean up event listener
       mediaQuery.removeEventListener("change", handleMediaQueryChange);
+    };
+  }, []);
+
+  useEffect(() => {
+    const updateDimensions = () => {
+      if (window.matchMedia("(max-width: 761px)").matches) {
+        setConnectorDimensions({ width: 300, height: 2 });
+      } else if (window.matchMedia("(max-width: 841px)").matches) {
+        setConnectorDimensions({ width: 300, height: 2 });
+      } else if (window.matchMedia("(max-width: 1024px)").matches) {
+        setConnectorDimensions({ width: 330, height: 2 });
+      } else if (window.matchMedia("(max-width: 1181px)").matches) {
+        setConnectorDimensions({ width: 350, height: 2 });
+      } else if (window.matchMedia("(max-width: 1281px)").matches) {
+        setConnectorDimensions({ width: 400, height: 2 });
+      } else if (window.matchMedia("(max-width: 1381px)").matches) {
+        setConnectorDimensions({ width: 420, height: 2 });
+      } else {
+        setConnectorDimensions({ width: 470, height: 2 });
+      }
+    };
+
+    updateDimensions();
+
+    const resizeListener = () => updateDimensions();
+    window.addEventListener("resize", resizeListener);
+
+    return () => {
+      window.removeEventListener("resize", resizeListener);
+    };
+  }, []);
+
+  useEffect(() => {
+    const updateVerticalDimensions = () => {
+      if (window.matchMedia("(max-width: 481px)").matches) {
+        setVerticalConnectorDimensions({ width: 5, height: 160 });
+      } else if (window.matchMedia("(max-width: 361px)").matches) {
+        setVerticalConnectorDimensions({ width: 5, height: 140 });
+      } else {
+        setVerticalConnectorDimensions({ width: 5, height: 180 });
+      }
+    };
+
+    updateVerticalDimensions();
+
+    const resizeListener = () => updateVerticalDimensions();
+    window.addEventListener("resize", resizeListener);
+
+    return () => {
+      window.removeEventListener("resize", resizeListener);
     };
   }, []);
 
@@ -65,6 +126,24 @@ const BookDemo = ({ DSAdownloadBrochure }) => {
               <p>It’s an opportunity to understand the :</p>
             </div>
             <div className={styles.demoPointsWrapper}>
+              {!isMobile && (
+                <div className={styles.horizontalConnectorWrapper}>
+                  <Image
+                    src={horizontalConnector}
+                    width={connectorDimensions.width}
+                    height={connectorDimensions.height}
+                  />
+                </div>
+              )}
+              {isMobile && (
+                <div className={styles.verticalConnectorWrapper}>
+                  <Image
+                    src={verticalConnector}
+                    width={verticalConnectorDimensions.width}
+                    height={verticalConnectorDimensions.height}
+                  />
+                </div>
+              )}
               <div className={styles.demoPoint}>
                 <div className={styles.PathStepsImg}>
                   <Image src={PathSteps} width={40} height={40} />
