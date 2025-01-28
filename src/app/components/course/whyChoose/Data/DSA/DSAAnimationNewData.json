@@ -1,17 +1,17 @@
 [
   {
     "image": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/blue_why.webp",
-    "title": "Advance DSA + System Design With Projects",
-    "description": "Our program offers hands-on experience in system design and full-stack development, simulating real-world challenges. Participants learn to integrate GenAI into end-to-end projects, building skills for modern software development.",
+    "title": "Basic to Advance DSA with 200+ Problems",
+    "description": "Learn DSA from basics to advanced with 200+ problems and live coding sessions in class. Solve guided assignments covering intermediate to advanced-level challenges to build strong problem-solving skills.",
     "subItems": [
       {
-        "icon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/3dicons+(1).webp",
+        "icon": "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/ProjectManagement.webp",
         "text": "Live Projects from industry",
         "width": "50",
         "height": "50"
       },
       {
-        "icon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/3dicons_doll.webp",
+        "icon": "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/CheckedUserMale.webp",
         "text": "Dedicated Project Mentor",
         "width": "50",
         "height": "50"
@@ -20,45 +20,27 @@
   },
   {
     "image": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/purple_why.webp",
-    "title": "Electives & Specialization",
-    "description": "This program offers electives in GenAI, DevOps, Data Engineering, and Product Management (Tech) to prepare you for various roles in product-based companies.",
+    "title": "Master System Design (HLD + LLD)",
+    "description": "Build scalable, high-performance applications with real-world architectural patterns.Learn to design robust backend systems, optimize databases, caching, and load balancing, and solve real-world scalability challenges",
     "subItems": [
       {
-        "icon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/gen_blue.webp",
-        "text": "GenAI",
-        "width": "20",
-        "height": "20"
-      },
-      {
-        "icon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/green_eng.webp",
-        "text": "Data engineering",
-        "width": "20",
-        "height": "20"
-      },
-      {
-        "icon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/devops_pur.webp",
-        "text": "DevOps",
-        "width": "20",
-        "height": "20"
-      },
-      {
-        "icon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/product_group.webp",
-        "text": "Product management",
-        "width": "20",
-        "height": "20"
+        "icon": "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/New+Job.webp",
+        "text": "Crack System Design Interviews at Top Tech Companies",
+        "width": "45",
+        "height": "35"
       }
     ]
   },
   {
     "image": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/green_light+(1).webp",
-    "title": "Companywise Interview preparation",
+    "title": "Specialise in GenAI For Software Developer",
     "description": "Prepare with problems from top tech companies like <IBMLogo />, <GoogleLogo />, and <AmazonLogo /> covering coding, system design, and machine coding rounds.",
     "subItems": []
   },
   {
     "image": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/org_girl+(1).webp",
-    "title": "Reach your career goals ",
-    "description": "Crack Interview in Top Product based companies for SDE Role",
+    "title": "Gain Real Experience with Real Projects",
+    "description": "Gain hands-on experience by working on real-world software development projects in a structured DevLab environment. Learn by coding, and deploying like a real software developer.",
     "subItems": []
   }
 ]

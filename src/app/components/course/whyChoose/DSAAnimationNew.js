@@ -172,28 +172,45 @@ function AnimationDSA() {
 
                   {index === 2 ? (
                     <p className={styles.pTag}>
-                      Prepare with problems from top tech companies like{" "}
+                      Master{" "}
                       <Image
-                        src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/google_logo_dsa.webp"
-                        alt="Google"
-                        width={60}
-                        height={20}
+                        src="https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/LangChain.webp"
+                        alt="LangChain"
+                        width={70}
+                        height={30}
+                        quality={100}
+                        style={{ marginRight: "-5px", marginBottom: "-5px" }}
+                      />
+                      <b style={{ fontWeight: "700" }}>LangChain , </b>
+                      {/* <Image
+                        src="https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/LangChainText.webp"
+                        alt="LangChain Text"
+                        width={80}
+                        height={30}
+                        quality={100}
                       />{" "}
-                      ,{" "}
+                      ,{" "} */}
                       <Image
-                        src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/amazon_logo_white_1.webp"
-                        alt="Amazon"
-                        width={60}
-                        height={20}
+                        src="https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/HuggingFace.webp"
+                        alt="hugging face"
+                        width={140}
+                        height={30}
+                        quality={100}
+                        style={{ marginBottom: "-5px" }}
                       />{" "}
-                      , and{" "}
+                      ,and{" "}
                       <Image
-                        src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/mcrs.webp"
-                        alt="microsoft"
-                        width={90}
-                        height={20}
-                      />{" "}
-                      covering coding, system design, and machine coding rounds.
+                        src="https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/GithubCopilot.webp"
+                        alt="github copilot"
+                        width={50}
+                        height={35}
+                        quality={100}
+                        style={{ marginBottom: "-10px" }}
+                      />
+                      <b style={{ fontWeight: "700" }}>GitHub Copilot</b> to
+                      build AI-powered applications and enhance backend systems.
+                      Gain hands-on experience with real-world GenAI projects
+                      and stay ahead in AI-driven development.
                     </p>
                   ) : (
                     <p className={styles.pTag}>{item.description}</p>
@@ -230,23 +247,6 @@ function AnimationDSA() {
                           <p>{subItem.text}</p>
                         </div>
                       ))}
-                    </div>
-                  )}
-                  {/* Add four div points for the last item */}
-                  {index === whyChooseData.length - 1 && (
-                    <div className={styles.lastItemPoints}>
-                      <div className={styles.point}>
-                        {arrowSvg} Placement Support
-                      </div>
-                      <div className={styles.point}>
-                        {arrowSvg} Mock Interviews
-                      </div>
-                      <div className={styles.point}>
-                        {arrowSvg} Resume BuildUp
-                      </div>
-                      <div className={styles.point}>
-                        {arrowSvg} Ultimate Interview calls
-                      </div>
                     </div>
                   )}
 
