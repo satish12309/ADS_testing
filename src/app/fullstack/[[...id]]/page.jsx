@@ -111,9 +111,9 @@ const Page = async ({ params }) => {
         TrainingBotFormat={pageData.header?.TrainingBotFormat}
         DSAdownloadBrochure={true}
       />
-      <BookDemo DSAdownloadBrochure={true} />
+      {/*<BookDemo DSAdownloadBrochure={true} />*/}
       <ProgramSection programSectionData={pageData.ProgramSection} />
-      <Practical />
+       <Practical /> 
       <AnimationNew />
       <JobReadySection />
       <SyllabusSection
