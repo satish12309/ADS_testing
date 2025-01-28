@@ -113,7 +113,7 @@ const Page = async ({ params }) => {
       />
       <BookDemo DSAdownloadBrochure={true} />
       <ProgramSection programSectionData={pageData.ProgramSection} />
-      <Practical />
+       <Practical /> 
       <AnimationNew />
       <JobReadySection />
       <SyllabusSection
