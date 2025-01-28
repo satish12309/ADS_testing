@@ -461,6 +461,19 @@
 
 }
 
+@media only screen and (max-width: 419px) {
+    .contentTitleWrapper h1 {
+        width: 90%;
+    }
+
+    .mobileSvgWrapper {
+        right: 40px;
+    }
+
+    .contentTitleWrapper h5 {
+        width: 88%;
+    }
+}
 @media only screen and (max-width: 361px) {
 
     .contentWrapper {
