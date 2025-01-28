@@ -331,7 +331,7 @@
     }
 
     .contentTitleWrapper h1 {
-        width: 73%;
+        width: 77%;
         margin: auto;
         font-size: 28px;
     }
@@ -345,7 +345,7 @@
         display: block;
         width: max-content;
         top: 80px;
-        right: 86px;
+        right: 65px;
     }
 
     .mobileSvgWrapper svg {
@@ -354,8 +354,8 @@
     }
 
     .contentTitleWrapper h5 {
-        width: 65%;
-        font-size: 18px;
+        width: 70%;
+        font-size: 19px;
         padding: 6px 30px;
     }
 
@@ -409,9 +409,6 @@
         width: 220px;
     }
 
-    .pointText {
-        font-size: 12px;
-    }
 
     .mentorsWraper {
         gap: 60px;
@@ -454,6 +451,7 @@
         font-style: normal;
         line-height: 125%;
         font-weight: 400;
+        font-size: 12px;
     }
 
     .pointsImgWrapper img {
