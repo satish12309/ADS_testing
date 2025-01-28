@@ -64,7 +64,9 @@ const DSAHeader = ({
             <h5>{Popups ? "Download Syllabus" : "Book A Demo Session"}</h5>
             <Form
               downloadBrochure={Popups ? true : false}
-              DSAdownloadBrochure={applyCounselingPopup ? DSAdownloadBrochure : false}
+              DSAdownloadBrochure={
+                applyCounselingPopup ? DSAdownloadBrochure : false
+              }
             />
           </div>
         </Popup>
@@ -93,8 +95,7 @@ const DSAHeader = ({
             <div className={styles.pointWrapper} key={point.id}>
               <div className={styles.pointsImgWrapper}>
                 <Image
-                  //   src={point.img}
-                  src={firstPoint}
+                  src={point.img}
                   alt={point.imgAlt}
                   width={60}
                   height={60}
@@ -117,8 +118,10 @@ const DSAHeader = ({
                   <Image
                     src={fromImg.img}
                     alt={fromImg.imgAlt}
-                    width={60}
-                    height={30}
+                    width={fromImg.width}
+                    height={fromImg.height}
+                    quality={50}
+                    priority
                   />
                 </div>
               ))}
