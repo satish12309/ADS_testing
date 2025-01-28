@@ -18,7 +18,10 @@
   /* 35.42px */
 }
 .boxMain .box:nth-child(3) {
-  padding: 40px 15px 10px 20px;
+  padding: 34px 15px 10px 20px;
+}
+.boxMain .box:nth-child(3) > :nth-child(2) {
+  margin-top: 24px;
 }
 
 .spanDiv {
