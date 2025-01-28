@@ -160,7 +160,7 @@
   height: 50px;
   z-index: 1;
   top: 0;
-  left: 65.13%;
+  left: 66%;
   background: var(--white);
   border-top-right-radius: 40px;
 }
@@ -210,7 +210,7 @@
 
 @media only screen and (max-width: 1481px) {
   .secondSection {
-    padding: 0 0 35px 20px;
+    padding: 0 0 18px 20px;
   }
 }
 @media only screen and (max-width: 1381px) {
@@ -221,7 +221,7 @@
     padding: 0 0 32px 25px;
   }
   .topBorderDiv2 {
-    left: 62.5%;
+    left: 62.8%;
   }
 }
 @media only screen and (max-width: 1281px) {
@@ -333,6 +333,12 @@
   .firstSection {
     gap: 31px;
   }
+  .secondSection {
+    padding: 0 0 38px 25px;
+  }
+  .topBorderDiv2 {
+    left: 58.8%;
+  }
 }
 
 @media only screen and (max-width: 968px) {
@@ -341,7 +347,7 @@
   }
 
   .twoSection {
-    grid-template-columns: 56% 40.5%;
+    grid-template-columns: 54% 42.5%;
   }
 
   .pBot {
@@ -357,7 +363,7 @@
     left: 54%;
   }
   .secondSection {
-    padding: 0 0 27px 25px;
+    padding: 0 0 69px 58px;
   }
   .innerBoxDivWrapper {
     gap: 0;
@@ -365,9 +371,6 @@
   .topBorderDiv1,
   .topBorderDiv2 {
     left: 52%;
-  }
-  .secondSection {
-    padding: 0 0 51px 25px;
   }
   .firstSection {
     gap: 18px;
