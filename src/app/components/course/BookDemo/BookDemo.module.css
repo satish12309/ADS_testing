@@ -375,9 +375,9 @@
     }
 
     .rightSection img {
-        width: 300px;
-        height: 400px;
-        right: -28px;
+        width: 295px;
+        height: 395px;
+        right: -20px;
         position: relative;
     }
 }
