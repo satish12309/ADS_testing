@@ -11,7 +11,7 @@ const ProgramSection = dynamic(
   { ssr: false }
 );
 const AnimationNew = dynamic(() =>
-  import("@/app/components/course/whyChoose/CloudAnimation")
+  import("@/app/components/course/whyChoose/Animationcloud")
 );
 const ReviewSlider = dynamic(() =>
   import("@/app/components/global/reviewSlider/ReviewSlider")

@@ -22,65 +22,40 @@
     {
       "image": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/purple_why.webp",
       "title": "Project-Based Learning",
-      "description": "Gain hands-on experience with real-world cloud & DevOps projects, preparing you to tackle industry challenges.",
+      "description": "Gain hands-on experience with real-world Cyber Security projects, preparing you to tackle industry challenges.",
       "subItems": [
         {
-          "icon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ManZ_M+(1).webp",
-          "text": "Manufacturing",
-          "width": "20",
-          "height": "20"
+          "text": "Real Projects"
         },
         {
-          "icon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BFSI_M+(1).webp",
-          "text": "Technology",
-          "width": "20",
-          "height": "20"
-        },
-        {
-          "icon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Con_M+(1).webp",
-          "text": "Consulting",
-          "width": "20",
-          "height": "20"
-        },
-        {
-          "icon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/helth_m+(1).webp",
-          "text": "Healthcare",
-          "width": "20",
-          "height": "20"
-        },
-  
-        {
-          "icon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/BFSI_M+(1).webp",
-          "text": "BFSI",
-          "width": "20",
-          "height": "20"
-        },
-        {
-          "icon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/Retail_M+(1).webp",
-          "text": "Retail",
-          "width": "20",
-          "height": "20"
+          "text": "Real Experience"
         }
       ]
     },
     {
       "image": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/green_light+(1).webp",
       "title": "Learn from GenAI Industry Mentors",
-      "description": "Gain insights from top industry experts in Cloud & Devops. Our mentors bring real-world experience to help you master advanced skills.",
-      "subItems": [
-        {
-          "ibmLogo": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/IBM_c+(1).webp",
-          "text": "Get project Certification from:",
-          "width": "70",
-          "height": "40"
-        }
-      ]
+      "description": "Gain insights from top industry experts in Cyber Security. Our mentors bring real-world experience to help you master advanced skills.",
+      "subItems": []
     },
     {
       "image": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/org_girl+(1).webp",
-      "title": "Personalised Support ",
+      "title": "Personalised Support",
       "description": "Get tailored guidance with 1:1 doubt-clearing sessions for a deeper understanding.",
-      "subItems": []
+      "subItems": [
+        {
+          "text": "Placement Support"
+        },
+        {
+          "text": "Mock Interviews"
+        },
+        {
+          "text": "Resume BuildUp"
+        },
+        {
+          "text": "Ultimate Interview calls"
+        }
+      ]
     }
   ]
   
