@@ -156,7 +156,7 @@ const Page = async ({ params }) => {
       <MentorsSection />
       <ProjectSection />
       <NewSevenSection />
-      <BottomBar />
+      <BottomBar isDSA={true}/>
     </main>
   );
 };

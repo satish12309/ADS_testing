@@ -353,7 +353,8 @@
     }
   
     .pTag {
-      font-size: 8px;
+      font-size: 12px;
+        margin-top: -10px;
     }
   
     .box {
@@ -375,7 +376,7 @@
     }
   
     .box p {
-      font-size: 10px;
+      font-size: 12px;
     }
   }
   
