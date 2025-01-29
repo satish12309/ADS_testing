@@ -342,6 +342,12 @@
         width: 30px;
         height: 30px;
     }
+    .rightSection img {
+        width: 350px;
+        height: 430px;
+        right: -50px;
+        position: relative;
+    }
 }
 
 @media (max-width: 361px) {
