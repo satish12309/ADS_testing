@@ -276,6 +276,10 @@
         font-size: 30px;
     }
 
+    .leftSection p {
+        font-size: 18px;
+    }
+
     .leftSectionDescription {
         gap: 10px;
         margin-top: -5px;
@@ -320,9 +324,9 @@
     }
 }
 
-@media (max-width: 478px) {
+@media (max-width: 450px) {
     .leftSection h2{
-        width: 90%;
+        width: 80%;
     }
 
     .PathStepsImg img,
