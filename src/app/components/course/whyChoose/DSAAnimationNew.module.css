@@ -542,6 +542,16 @@
       width: 50px;
       height: 30px;
     }
+
+    .insideBox{
+      width: 100%;
+      gap: 0.7rem;
+    }
+
+    .insideBox p{
+      font-size: 10px;
+      font-weight: 500;
+    }
   }
   
   @media screen and (max-width: 361px) {
