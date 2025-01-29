@@ -90,11 +90,9 @@
 }
 
 .secondSectionImgWrapper {
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       rgba(8, 54, 83, 0.9) 0%,
-      transparent 100%
-    ),
+      transparent 100%),
     var(--light-black);
   padding: 30px 20px 20px 30px;
   border-radius: 40px;
@@ -211,18 +209,23 @@
   .secondSection {
     padding: 0 0 32px 20px;
   }
+
 }
+
 @media only screen and (max-width: 1381px) {
   .topBorderDiv1 {
     left: 64%;
   }
+
   .secondSection {
     padding: 0 0 32px 25px;
   }
+
   .topBorderDiv2 {
     left: 62.5%;
   }
 }
+
 @media only screen and (max-width: 1281px) {
   .topBorderDiv1 {
     left: 62.5%;
@@ -235,6 +238,7 @@
   .bottomBorderDiv1 {
     bottom: 16%;
   }
+
   .bottomBorderDiv2 {
     bottom: 16%;
   }
@@ -262,6 +266,7 @@
   .secondSection {
     padding: 0 0 30px 32px;
   }
+
   .topBorderDiv1,
   .topBorderDiv2 {
     left: 59%;
@@ -270,6 +275,7 @@
   .bottomBorderDiv1 {
     bottom: 12%;
   }
+
   .bottomBorderDiv2 {
     bottom: 11.5%;
   }
@@ -279,6 +285,7 @@
   .hrline {
     left: 30%;
   }
+
   .secondSection {
     padding: 0 0 56px 25px;
   }
@@ -323,10 +330,12 @@
   .twoSection {
     gap: 30px;
   }
+
   .secondSectionImgWrapper img {
     width: 100%;
     height: 100%;
   }
+
   .firstSection {
     gap: 31px;
   }
@@ -348,23 +357,29 @@
   .pTop {
     font-size: 14px;
   }
+
   .topBorderDiv1,
   .topBorderDiv2 {
     left: 54%;
   }
+
   .secondSection {
     padding: 0 0 27px 25px;
   }
+
   .innerBoxDivWrapper {
     gap: 0;
   }
+
   .topBorderDiv1,
   .topBorderDiv2 {
     left: 52%;
   }
+
   .secondSection {
     padding: 0 0 51px 25px;
   }
+
   .firstSection {
     gap: 18px;
   }
@@ -382,6 +397,7 @@
   .bottomBorderDiv1 {
     bottom: 6%;
   }
+
   .bottomBorderDiv2 {
     bottom: -1.5%;
   }
@@ -391,6 +407,7 @@
   .secondSection {
     padding: 0 0 35px 25px;
   }
+
   .bottomBorderDiv2 {
     right: 3px;
     bottom: 4.5%;
@@ -398,17 +415,21 @@
     height: 35px;
   }
 }
+
 @media only screen and (max-width: 821px) {
   .twoSection {
     grid-template-columns: 61% 38%;
     gap: 10px;
   }
+
   .H3 {
     font-size: 14px;
   }
+
   .container {
     padding: 7% 0;
   }
+
   .innerBoxDiv {
     gap: 4px;
   }
@@ -421,15 +442,18 @@
   .blackSpan {
     font-size: 25px;
   }
+
   .twoSection {
     grid-template-columns: 57% 44%;
   }
+
   .secondSection {
     padding: 0 0 73px 25px;
   }
 }
 
 @media only screen and (max-width: 769px) {
+
   /* .secondSectionImgWrapper img {
     width: 230px;
     height: 230px;
@@ -437,17 +461,21 @@
   .twoSection {
     grid-template-columns: 55% 44%;
   }
+
   .topBorderDiv1,
   .topBorderDiv2 {
     left: 49.5%;
   }
+
   .colors,
   .blackSpan {
     font-size: 22px;
   }
+
   .pTop span {
     font-size: 13px;
   }
+
   .innerBox1 h3,
   .innerBox2 h3 {
     font-size: 12px;
@@ -459,15 +487,18 @@
     grid-template-columns: 100%;
     margin-top: 30px;
   }
+
   .secondSection {
     padding: 0;
   }
+
   .topBorderDiv1,
   .topBorderDiv2,
   .bottomBorderDiv1,
   .bottomBorderDiv2 {
     display: none;
   }
+
   /* .secondSectionImgWrapper img {
     width: 100%;
     height: 100%;
@@ -475,17 +506,20 @@
   .secondSectionImgWrapper {
     padding: 30px 20px 20px 40px;
   }
+
   .innerDiv h2 {
     font-size: 25px;
   }
+
   .innerDiv {
     gap: 0;
   }
+
   .twoSection {
     background: transparent;
     gap: 20px;
   }
-  
+
   .innerBox1 h3,
   .innerBox2 h3 {
     font-size: 9px;
@@ -493,7 +527,12 @@
 }
 
 @media only screen and (max-width: 481px) {
-  .firstSection{
+  .firstSection {
     padding: 30px;
+  }
+
+  
+  .pTop span {
+    font-size: 15px;
   }
 }
