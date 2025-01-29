@@ -147,7 +147,7 @@ const Header = memo(
                     <div onClick={popupShow} className={styles.btn}>
                       <Button text="Download Syllabus" grayButton />
                     </div>
-                    <div onClick={applyCounselingShow}>
+                    <div onClick={applyCounselingShow} className={styles.btn}>
                       <Button text="Apply for Counseling" />
                     </div>
                   </div>
