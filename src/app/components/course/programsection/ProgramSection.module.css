@@ -84,7 +84,7 @@
 .secondSection {
   /* background: #E3E3E3; */
   background: #ebebeb;
-  padding: 0 0 30px 30px;
+  padding: 0 0 19px 30px;
   height: fit-content;
   border-radius: 0px 40px 0px 40px;
 }
@@ -126,7 +126,8 @@
 }
 
 .pBot {
-  font-size: 14px;
+  font-size: 15px;
+  width: 157%;
 }
 
 .twoSection {
@@ -157,7 +158,7 @@
   height: 50px;
   z-index: 1;
   top: 0;
-  left: 65.8%;
+  left: 66%;
   background: var(--white);
   border-top-right-radius: 40px;
 }
@@ -207,14 +208,14 @@
 
 @media only screen and (max-width: 1481px) {
   .secondSection {
-    padding: 0 0 32px 20px;
+    padding: 0 0 18px 20px;
   }
 
 }
 
 @media only screen and (max-width: 1381px) {
   .topBorderDiv1 {
-    left: 64%;
+    left: 65%;
   }
 
   .secondSection {
@@ -222,7 +223,7 @@
   }
 
   .topBorderDiv2 {
-    left: 62.5%;
+    left: 62.8%;
   }
 }
 
@@ -230,9 +231,11 @@
   .topBorderDiv1 {
     left: 62.5%;
   }
-
+  .secondSection {
+    padding: 0 0 35px 30px;
+  }
   .topBorderDiv2 {
-    left: 62.3%;
+    left: 62%;
   }
 
   .bottomBorderDiv1 {
@@ -264,7 +267,7 @@
 
 @media only screen and (max-width: 1181px) {
   .secondSection {
-    padding: 0 0 30px 32px;
+    padding: 0 0 58px 32px;
   }
 
   .topBorderDiv1,
@@ -287,7 +290,7 @@
   }
 
   .secondSection {
-    padding: 0 0 56px 25px;
+    padding: 0 0 47px 25px;
   }
 
   .twoSection {
@@ -339,6 +342,12 @@
   .firstSection {
     gap: 31px;
   }
+  .secondSection {
+    padding: 0 0 38px 25px;
+  }
+  .topBorderDiv2 {
+    left: 58.8%;
+  }
 }
 
 @media only screen and (max-width: 968px) {
@@ -347,11 +356,12 @@
   }
 
   .twoSection {
-    grid-template-columns: 56% 40.5%;
+    grid-template-columns: 54% 42.5%;
   }
 
   .pBot {
     margin: 0;
+    max-width: -webkit-fill-available;
   }
 
   .pTop {
@@ -364,7 +374,7 @@
   }
 
   .secondSection {
-    padding: 0 0 27px 25px;
+    padding: 0 0 69px 58px;
   }
 
   .innerBoxDivWrapper {
@@ -535,4 +545,5 @@
   .pTop span {
     font-size: 15px;
   }
+
 }

@@ -1,10 +1,10 @@
 import React from "react";
-import dynamic from "next/dynamic"; 
+import dynamic from "next/dynamic";
 import {
   getPageData,
   generateStaticParams,
 } from "@/utils/getCyberSecurityPageData";
-import Header from "@/app/components/course/hero/Header";
+import Header from "@/app/components/course/hero/Cyber";
 import BottomBar from "@/app/components/global/BottomBar/BottomBar";
 
 const CyberSecurityAnimationNew = dynamic(
@@ -12,7 +12,7 @@ const CyberSecurityAnimationNew = dynamic(
   { ssr: false }
 );
 const Practical = dynamic(() =>
-  import("@/app/components/course/practical/Practical")
+  import("@/app/components/course/practical/cybersecuritypractical")
 );
 const ProgramSection = dynamic(
   () => import("@/app/components/course/programsection/programSection"),
@@ -39,7 +39,7 @@ const FeeContent = dynamic(() =>
   import("@/app/components/course/feeSection/FeeSection")
 );
 const ProjectSection = dynamic(
-  () => import("@/app/components/course/projectSection/ProjectSection"),
+  () => import("@/app/components/course/projectSection/ProjectCyber"),
   { ssr: false }
 );
 
@@ -98,7 +98,6 @@ export const metadata = {
     ],
   },
 };
-
 
 const page = async () => {
   const pageData = await getPageData();

@@ -32,7 +32,7 @@ html,
   --sky-blue: #0070f3;
   --light-blue: #2d9cd7;
   --light-grey: #4f4b4b;
-  --light-grayy:#646464;
+  --light-grayy: #646464;
   --light-black: #212121;
   --light-green: #35d028;
   --deep-blue: #022646;
@@ -221,7 +221,7 @@ body {
 }
 
 .greenButton {
-  background-color: #04C988;
+  background-color: #04c988;
   color: white;
   border: none;
   border-radius: 75px;
@@ -486,18 +486,15 @@ body {
   .whiteBgButton {
     padding: 14px 73px;
   }
-}
 
-@media (max-width: 431px) {
-  .containerWidth {
-    /* max-width: 380px; */
+  .button {
+    padding: 3px 10px;
   }
 }
 
 @media (max-width: 401px) {
   .button {
-    line-height: 19.679px;
-    font-size: 13px;
+    padding: 5px 10px;
   }
 
   .containerWidth {

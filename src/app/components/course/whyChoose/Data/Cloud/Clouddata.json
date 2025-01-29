@@ -1,0 +1,61 @@
+[
+    {
+      "image": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/blue_why.webp",
+      "title": "Training mode",
+      "description": "You can choose from two flexible training modes to suit your needs and preferences:",
+      "subItems": [
+        {
+          "icon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/3dicons+(1).webp",
+          "text": "100% Live online classes",
+          "width": "50",
+          "height": "50"
+        },
+        {
+          "icon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/org_container+(1).webp",
+          "text": "Hybrid * classes",
+          "width": "50",
+          "height": "50"
+        }
+      ],
+      "note": "Hybrid mode allows learners to benefit from both flexible, remote learning and direct, face-to-face interaction."
+    },
+    {
+      "image": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/purple_why.webp",
+      "title": "Project-Based Learning",
+      "description": "Gain hands-on experience with real-world Cyber Security projects, preparing you to tackle industry challenges.",
+      "subItems": [
+        {
+          "text": "Real Projects"
+        },
+        {
+          "text": "Real Experience"
+        }
+      ]
+    },
+    {
+      "image": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/green_light+(1).webp",
+      "title": "Learn from GenAI Industry Mentors",
+      "description": "Gain insights from top industry experts in Cyber Security. Our mentors bring real-world experience to help you master advanced skills.",
+      "subItems": []
+    },
+    {
+      "image": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/org_girl+(1).webp",
+      "title": "Personalised Support",
+      "description": "Get tailored guidance with 1:1 doubt-clearing sessions for a deeper understanding.",
+      "subItems": [
+        {
+          "text": "Placement Support"
+        },
+        {
+          "text": "Mock Interviews"
+        },
+        {
+          "text": "Resume BuildUp"
+        },
+        {
+          "text": "Ultimate Interview calls"
+        }
+      ]
+    }
+  ]
+  

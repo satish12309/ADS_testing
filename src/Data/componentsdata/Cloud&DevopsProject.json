@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "icon": "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/aws.png",
+      "number": 1,
+      "hours": "26 hours",
+      "title": "AWS Migration Project for E-Commerce",
+      "text": "This project focuses on migrating e- commerce systems to AWS, optimizing for scalability .",
+      "tool1": "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/cloudfrontec2.webp",
+      "cta": "Implement a predictive maintenance system to forecast and prevent potential failures in EV components."
+    },
+    {
+      "id": 2,
+      "icon": "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/Microsoft%2BLogo.webp",
+      "number": 2,
+      "hours": "26 hours",
+      "title": "Finance Application CI/CD with Azure",
+      "text": "This project emphasizes secure, efficient software delivery and incorporates automated testing for reliability.",
+      "tool1": "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/awsazure.png",
+      "cta": "Aimed at automating the deployment cycle of a finance application."
+    },
+    {
+      "id": 3,
+      "icon": "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/apollopharma.webp",
+      "number": 3,
+      "hours": "26 hours",
+      "title": "Healthcare Data Management with Kubernetes",
+      "text": "This project focuses on enhancing data handling efficiency, ensuring security compliance, and improving patient data accessibility.",
+      "tool1": "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/dockerkubernatics.webp",
+      "cta": "Deploying a Kubernetes solution for healthcare data"
+    }
+  ]
+  

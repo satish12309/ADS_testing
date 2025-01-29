@@ -36,7 +36,6 @@
     "spanIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ada_AI_icon.webp",
     "title": "Executive Certification in ",
     "orgTitle": "Cyber Security & Ethical Hacking",
-    "descrption": "Successfully transition careers through our courses & real-time capstone projects. All while making your previous work experience count!",
     "subtitle": "Only for Working Professionals",
     "typeLogo": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/iit_guwati_logo.webp",
     "collaborationImg": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/iHub-logos.webp",
@@ -118,7 +117,7 @@
           }
         ]
       },
-      "rightImg": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ryt_programImg+(2).webp",
+      "rightImg": "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/cyber_security.webp",
       "popupTitle": "Eligibility Check",
       "formProps": {}
     }
@@ -154,12 +153,12 @@
       "width": 80,
       "height": 80,
       "title": "TERM 1",
-      "toolsImg": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/python-pandas-matplotlib.webp",
-      "imageSizes": {
-        "vsm": { "width": 190, "height": 18 },
-        "sm": { "width": 210, "height": 21},
-        "md": { "width": 230, "height": 24 },
-        "lg": { "width": 300, "height": 30 }
+      "toolsImg": "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/Splunk_logo.webp",
+     "imageSizes": {
+        "vsm": { "width": 75, "height": 20 },
+        "sm": { "width": 75, "height": 20 },
+        "md": { "width": 87, "height": 25},
+        "lg": { "width": 90, "height": 27 }
       },
       "description": "Ethical Hacking and Penetration Testing",
       "duration": "40-50 hrs",
