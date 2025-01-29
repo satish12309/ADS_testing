@@ -3,7 +3,7 @@
 import React, { memo, useEffect, useRef, useMemo, useCallback } from "react";
 import styles from "./cloudAnimationNew.module.css";
 import Image from "next/image";
-import whyChooseData from "./Data/Cloud/clouddata";
+import whyChooseData from "./Data/Cloud/Clouddata";
 
 function AnimationNew() {
   const arrowSvg = [
