@@ -151,12 +151,16 @@
     font-weight: 600;
   }
   
-  .pTag {
+  .pTag,.specialPTag {
     color: rgba(255, 255, 255, 0.7);
     font-size: var(--desktop_p-font-size);
     font-style: normal;
     font-weight: 400;
     line-height: 1.45;
+  }
+
+  .pTagMobile{
+    display: none;
   }
   
   .insideBox {
@@ -551,6 +555,19 @@
     .insideBox p{
       font-size: 10px;
       font-weight: 500;
+    }
+
+    .specialPTag{
+      display: none;
+    }
+
+    .pTagMobile{
+      display: block;
+    }
+
+    .insideBoxDesign1 img{
+      width: 45px;
+      height: 35px;
     }
   }
   
