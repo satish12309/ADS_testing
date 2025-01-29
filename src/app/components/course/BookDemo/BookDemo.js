@@ -187,6 +187,8 @@ const BookDemo = ({ DSAdownloadBrochure }) => {
               src="https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/DSADemoMan.webp"
               width={340}
               height={400}
+              quality={100}
+              priority
             />
             {isMobile && (
               <div onClick={applyCounselingShow}>
