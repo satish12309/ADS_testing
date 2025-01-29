@@ -157,6 +157,10 @@
     right: 150px;
 }
 
+.staticPoints,.mobileSvgWrapper{
+    display: none;
+}
+
 @media only screen and (max-width: 1381px) {
     .contentTitleWrapper h1 {
         font-size: 48px;

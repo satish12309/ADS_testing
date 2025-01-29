@@ -80,7 +80,7 @@ const BookDemo = ({ DSAdownloadBrochure }) => {
   useEffect(() => {
     const updateVerticalDimensions = () => {
       if (window.matchMedia("(max-width: 481px)").matches) {
-        setVerticalConnectorDimensions({ width: 5, height: 160 });
+        setVerticalConnectorDimensions({ width: 5, height: 180 });
       } else if (window.matchMedia("(max-width: 361px)").matches) {
         setVerticalConnectorDimensions({ width: 5, height: 140 });
       } else {
@@ -132,6 +132,8 @@ const BookDemo = ({ DSAdownloadBrochure }) => {
                     src={horizontalConnector}
                     width={connectorDimensions.width}
                     height={connectorDimensions.height}
+                    quality={100}
+                    loading="lazy"
                   />
                 </div>
               )}
@@ -141,6 +143,8 @@ const BookDemo = ({ DSAdownloadBrochure }) => {
                     src={verticalConnector}
                     width={verticalConnectorDimensions.width}
                     height={verticalConnectorDimensions.height}
+                    quality={100}
+                    loading="lazy"
                   />
                 </div>
               )}
@@ -148,22 +152,28 @@ const BookDemo = ({ DSAdownloadBrochure }) => {
                 <div className={styles.PathStepsImg}>
                   <Image src={PathSteps} width={40} height={40} />
                 </div>
-                <p>Course</p>
-                <p>Structure</p>
+                <div className={styles.pointWrapper}>
+                  <p>Course</p>
+                  <p>Structure</p>
+                </div>
               </div>
               <div className={styles.demoPoint}>
                 <div className={styles.ClassroomImg}>
                   <Image src={Classroom} width={40} height={40} />
                 </div>
-                <p>Interact</p>
-                <p>with mentors</p>
+                <div className={styles.pointWrapper}>
+                  <p>Interact</p>
+                  <p>with mentors</p>
+                </div>
               </div>
               <div className={styles.demoPoint}>
                 <div className={styles.LaptopCodingImg}>
                   <Image src={LaptopCoding} width={40} height={40} />
                 </div>
-                <p>Live</p>
-                <p>Practice class</p>
+                <div className={styles.pointWrapper}>
+                  <p>Live</p>
+                  <p>Practice class</p>
+                </div>
               </div>
             </div>
             {!isMobile && (
