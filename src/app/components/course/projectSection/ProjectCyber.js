@@ -7,7 +7,7 @@ import Image from "next/image";
 const PopupContent = dynamic(() =>
   import("@/app/components/global/popup/PopupContent")
 );
-import data from "@/Data/componentsdata/ProjectSectionData.json";
+import data from "@/Data/componentsdata/CyberSecurity.json";
 import { debounce } from "@/utils/debounce";
 const ProjectSection = ({}) => {
   const [popups, setPopups] = useState(false);

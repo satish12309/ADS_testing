@@ -95,23 +95,22 @@
 
 .collaborationDivWrapper {
   display: flex;
+  flex-direction: column;
   gap: 15px;
-  margin-top: 10px;
-  flex-flow: column;
 }
 
 .collaborationDivWrapper p {
   color: white;
-  font-weight: 600;
 }
 
 /* .firstSectionAI h1 {
-  text-wrap: balance;
-} */
+    text-wrap: balance;
+  } */
 
 .btnDiv {
   display: flex;
   gap: 30px;
+  margin-top: 45px;
 }
 
 .btn {
@@ -136,8 +135,8 @@
 }
 
 /* .imgwrapper {
-  position: absolute;
-} */
+    position: absolute;
+  } */
 
 .botWrapper {
   position: relative;
@@ -252,7 +251,7 @@
   padding: 10px;
   font-weight: 400;
   /* appearance: none;
-  -webkit-appearance: none; */
+    -webkit-appearance: none; */
   height: 42px;
 }
 
@@ -264,18 +263,18 @@
 }
 
 /* .formdiv form p {
-  margin: 0px 30px;
-} */
+    margin: 0px 30px;
+  } */
 
 /* .formdiv form button {
-  border-radius: 10.492px;
-  background: var(--primary-color);
-  margin-bottom: 10px;
-  padding: 10px 20px;
-  color: var(--white);
-  font-weight: 600;
-  border: none;
-} */
+    border-radius: 10.492px;
+    background: var(--primary-color);
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    color: var(--white);
+    font-weight: 600;
+    border: none;
+  } */
 
 .formdiv form > div {
   display: flex;
@@ -413,12 +412,12 @@
   }
 
   /* .innerDiv {
-    margin: 20px 0px;
-  } */
+      margin: 20px 0px;
+    } */
 
   /* .btnDivM {
-    display: none;
-  } */
+      display: none;
+    } */
 
   .container {
     margin-top: 61px;
@@ -487,9 +486,9 @@
   }
 
   /* .innerBotDiv img {
-    width: 60px;
-    height: auto;
-  } */
+      width: 60px;
+      height: auto;
+    } */
 
   .botDiv {
     align-items: flex-start;
@@ -501,12 +500,12 @@
   }
 
   /* .content p {
-    font-size: 13px;
-  }
-
-  .content h3 {
-    font-size: 19px;
-  } */
+      font-size: 13px;
+    }
+  
+    .content h3 {
+      font-size: 19px;
+    } */
 }
 
 @media only screen and (max-width: 481px) {

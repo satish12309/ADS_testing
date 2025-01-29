@@ -1,5 +1,5 @@
 .greenButton {
-  background-color: #72BC00;
+  background-color: #72bc00;
   color: white;
   border: none;
   border-radius: 4px;
@@ -14,18 +14,18 @@
   font-size: 16px;
   font-weight: 800;
 }
-.greenButton:hover{
+.greenButton:hover {
   border: 1px solid #fff;
 }
 
 .OrangeButton {
   border-radius: 8px;
-background: #F99600;
-color: #fff;
-font-size: 18px;
-padding: 10px 25px;
-border: 1px solid #000;
-cursor: pointer;
+  background: #f99600;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 25px;
+  border: 1px solid #000;
+  cursor: pointer;
 }
 
 .blackButton {
@@ -47,7 +47,7 @@ cursor: pointer;
 }
 
 .blackButton:hover {
-  background-color: #72BC00;
+  background-color: #72bc00;
   border: none;
 }
 .button {
