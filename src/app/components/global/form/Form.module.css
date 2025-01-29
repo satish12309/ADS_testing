@@ -26,20 +26,17 @@
 
 .FloatingLabel {
   position: absolute;
-  top: 50%;
+  top: 20%;
   left: 10px;
-  transform: translateY(-50%);
+  /* transform: translateY(-50%); */
   font-size: 1rem;
   color: #aaa;
-  transition: all 0.2s ease;
+  /* transition: all 0.2s ease; */
   pointer-events: none;
 }
 
 .InputWrapper .FloatingLabel.Active {
-  top: -10px;
-  left: 10px;
-  font-size: 1rem;
-  /* color: #333; */
+  display: none;
 }
 
 .spanLabel {
