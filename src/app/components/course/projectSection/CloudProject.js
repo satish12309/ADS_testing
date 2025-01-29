@@ -1,7 +1,7 @@
 "use client";
 
 import { memo, useState, useEffect, useCallback } from "react";
-import styles from "./projectSection.module.css";
+import styles from "./cloudproject.module.css";
 import dynamic from "next/dynamic";
 import Image from "next/image";
 const PopupContent = dynamic(() =>

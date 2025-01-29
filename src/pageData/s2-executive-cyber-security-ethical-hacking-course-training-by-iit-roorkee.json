@@ -117,7 +117,7 @@
           }
         ]
       },
-      "rightImg": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ryt_programImg+(2).webp",
+      "rightImg": "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/cyber_security.webp",
       "popupTitle": "Eligibility Check",
       "formProps": {}
     }
