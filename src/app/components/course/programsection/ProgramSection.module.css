@@ -231,9 +231,11 @@
   .topBorderDiv1 {
     left: 62.5%;
   }
+
   .secondSection {
     padding: 0 0 35px 30px;
   }
+
   .topBorderDiv2 {
     left: 62%;
   }
@@ -342,9 +344,11 @@
   .firstSection {
     gap: 31px;
   }
+
   .secondSection {
     padding: 0 0 38px 25px;
   }
+
   .topBorderDiv2 {
     left: 58.8%;
   }
@@ -541,9 +545,31 @@
     padding: 30px;
   }
 
-  
+
   .pTop span {
     font-size: 15px;
   }
 
+}
+
+@media only screen and (max-width: 481px) {
+  .innerDiv h2 {
+    font-size: 23px;
+  }
+
+  .H3 {
+    font-size: 16px;
+  }
+
+  .firstSection {
+    padding: 25px 20px;
+  }
+
+  .innerBox1 h3,
+  .innerBox2 h3 {
+    font-size: 11px;
+  }
+
+  .pBot {
+    font-size: 13px;}
 }
