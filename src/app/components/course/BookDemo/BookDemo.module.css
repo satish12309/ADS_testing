@@ -312,6 +312,7 @@
         right: -50px;
         position: relative;
     }
+
     .PathStepsImg,
     .ClassroomImg,
     .LaptopCodingImg {
@@ -337,6 +338,7 @@
         width: 30px;
         height: 30px;
     }
+
     .rightSection img {
         width: 350px;
         height: 430px;
@@ -345,6 +347,27 @@
     }
 }
 
+@media (max-width: 431px) {
+    .rightSection img {
+        right: -35px;
+    }
+}
+@media (max-width: 421px) {
+    .rightSection img {
+        right: -28px;
+    }
+}
+
+@media (max-width: 401px) {
+    .rightSection img {
+        right: -10px;
+    }
+}
+@media (max-width: 381px) {
+    .rightSection img {
+        right: 0px;
+    }
+}
 @media (max-width: 361px) {
 
     .leftSection h2 {
@@ -376,9 +399,6 @@
     }
 
     .rightSection img {
-        width: 295px;
-        height: 395px;
-        right: -18px;
-        position: relative;
+        right: 3px;
     }
 }
