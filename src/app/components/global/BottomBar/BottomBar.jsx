@@ -5,7 +5,7 @@ import PopupContent from "../popup/PopupContent";
 import { MdOutlineFileDownloadSvg } from "@/Data/svgData/MDIcons";
 import Button from "../button/Button";
 
-function BottomBar() {
+function BottomBar({isDSA}) {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -37,8 +37,8 @@ function BottomBar() {
         <PopupContent
           popups={popups}
           setPopups={setPopups}
-          heading="Download Syllabus"
-          downloadBrochure
+          heading={isDSA ? "Book Demo Session" : "Download Syllabus"}
+          downloadBrochure 
         />
         <div>
           <p className={styles.career}>
@@ -47,8 +47,8 @@ function BottomBar() {
         </div>
         <div onClick={popupShow} className={styles.btnInner}>
           <Button
-            text="Download Syllabus"
-            passIcon={<MdOutlineFileDownloadSvg className={styles.icon} />}
+            text={isDSA ? "Book Your Demo Session" : "Download Syllabus"}
+            passIcon={!isDSA && <MdOutlineFileDownloadSvg className={styles.icon} />}
             outline={true}
             invert
           />
