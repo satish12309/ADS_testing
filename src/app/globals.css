@@ -492,16 +492,9 @@ body {
   }
 }
 
-@media (max-width: 431px) {
-  .containerWidth {
-    /* max-width: 380px; */
-  }
-}
-
 @media (max-width: 401px) {
   .button {
-    line-height: 19.679px;
-    font-size: 13px;
+    padding: 5px 10px;
   }
 
   .containerWidth {
