@@ -181,6 +181,10 @@
     padding: 0;
   }
 
+  .innerdiv p{
+    font-size: 14px;
+  }
+
   .innerbox {
     position: relative;
   }
