@@ -184,9 +184,9 @@ const BookDemo = ({ DSAdownloadBrochure }) => {
           </div>
           <div className={styles.rightSection}>
             <Image
-              src="https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/DSADemoMan.webp"
-              width={340}
-              height={400}
+              src="https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/DSADemoRightImage.webp"
+              width={430}
+              height={530}
               quality={100}
               priority
             />
