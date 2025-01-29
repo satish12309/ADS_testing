@@ -38,7 +38,8 @@ function BottomBar({isDSA}) {
           popups={popups}
           setPopups={setPopups}
           heading={isDSA ? "Book Demo Session" : "Download Syllabus"}
-          downloadBrochure 
+          downloadBrochure={isDSA ? false : true} 
+          isDSA={isDSA}
         />
         <div>
           <p className={styles.career}>
