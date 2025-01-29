@@ -171,18 +171,19 @@ function AnimationDSA() {
                   <h5>{item.title}</h5>
 
                   {index === 2 ? (
-                    <p className={styles.pTag}>
-                      Master{" "}
-                      <Image
-                        src="https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/LangChain.webp"
-                        alt="LangChain"
-                        width={70}
-                        height={30}
-                        quality={100}
-                        style={{ marginRight: "-5px", marginBottom: "-5px" }}
-                      />
-                      <b style={{ fontWeight: "700" }}>LangChain , </b>
-                      {/* <Image
+                    <>
+                      <p className={styles.specialPTag}>
+                        Master{" "}
+                        <Image
+                          src="https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/LangChain.webp"
+                          alt="LangChain"
+                          width={70}
+                          height={30}
+                          quality={100}
+                          style={{ marginRight: "-5px", marginBottom: "-5px" }}
+                        />
+                        <b style={{ fontWeight: "700" }}>LangChain , </b>
+                        {/* <Image
                         src="https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/LangChainText.webp"
                         alt="LangChain Text"
                         width={80}
@@ -190,28 +191,32 @@ function AnimationDSA() {
                         quality={100}
                       />{" "}
                       ,{" "} */}
-                      <Image
-                        src="https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/HuggingFace.webp"
-                        alt="hugging face"
-                        width={140}
-                        height={30}
-                        quality={100}
-                        style={{ marginBottom: "-5px" }}
-                      />{" "}
-                      ,and{" "}
-                      <Image
-                        src="https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/GithubCopilot.webp"
-                        alt="github copilot"
-                        width={50}
-                        height={35}
-                        quality={100}
-                        style={{ marginBottom: "-10px" }}
-                      />
-                      <b style={{ fontWeight: "700" }}>GitHub Copilot</b> to
-                      build AI-powered applications and enhance backend systems.
-                      Gain hands-on experience with real-world GenAI projects
-                      and stay ahead in AI-driven development.
-                    </p>
+                        <Image
+                          src="https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/HuggingFace.webp"
+                          alt="hugging face"
+                          width={140}
+                          height={30}
+                          quality={100}
+                          style={{ marginBottom: "-5px" }}
+                        />{" "}
+                        ,and{" "}
+                        <Image
+                          src="https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/GithubCopilot.webp"
+                          alt="github copilot"
+                          width={50}
+                          height={35}
+                          quality={100}
+                          style={{ marginBottom: "-10px" }}
+                        />
+                        <b style={{ fontWeight: "700" }}>GitHub Copilot</b> to
+                        build AI-powered applications and enhance backend
+                        systems. Gain hands-on experience with real-world GenAI
+                        projects and stay ahead in AI-driven development.
+                      </p>
+                      <p className={styles.pTagMobile}>
+                      Master LangChain, Hugging Face, and GitHub Copilot to build AI-powered applications and enhance backend systems. Gain hands-on experience with real-world GenAI projects and stay ahead in AI-driven development.
+                      </p>
+                    </>
                   ) : (
                     <p className={styles.pTag}>{item.description}</p>
                   )}
