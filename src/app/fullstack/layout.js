@@ -5,7 +5,7 @@ export default function CourseLayout({ children }) {
     <div>
       <header>
         <nav>
-          <NavbarHome radio={false} interstedInHide={true} dataScience={true} ADS={true}/>
+          <NavbarHome isDSA={true} DSAdownloadBrochure={true}/>
         </nav>
       </header>
 
