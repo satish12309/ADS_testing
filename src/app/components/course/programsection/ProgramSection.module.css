@@ -583,3 +583,8 @@
     font-size: 18px;
   }
 }
+@media only screen and (max-width: 481px) {
+  .innerDiv h2 {
+    font-size: 26px;
+  }
+}
