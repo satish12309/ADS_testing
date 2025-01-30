@@ -279,11 +279,11 @@
       "width": 80,
       "height": 80,
       "title": "TERM 4",
-      "toolsImg": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/SyllabusIcon/tensorflow-openai-docker.webp",
-"imageSizes": {  "vsm": { "width": 189, "height": 24 },
-        "sm": { "width": 210, "height": 24 },
-        "md": { "width": 230, "height": 24 },
-        "lg": { "width": 300, "height": 40 }
+      "toolsImg": "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/tensorflow_openai.webp",
+"imageSizes": {  "vsm": { "width": 120, "height": 24 },
+        "sm": { "width": 120, "height": 24 },
+        "md": { "width": 170, "height": 31 },
+        "lg": { "width": 180, "height": 34 }
       },
       "description": "AI Tools and Deployment",
       "duration": "70-75 hrs",
