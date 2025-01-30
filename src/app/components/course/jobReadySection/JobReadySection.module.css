@@ -181,7 +181,7 @@
     padding: 0;
   }
 
-  .innerdiv div p{
+  .innerdiv div p {
     font-size: 18px;
     line-height: normal;
     word-spacing: 1px;
@@ -190,7 +190,7 @@
 
   .innerdiv div h4 {
     font-size: 22px;
-}
+  }
 
   .innerbox {
     position: relative;
@@ -200,5 +200,16 @@
     position: absolute;
     top: 15px;
     right: 20px;
+  }
+}
+@media only screen and (max-width: 376px) {
+  .innerdiv div p {
+    font-size: 18px;
+  }
+  .innerdiv div h4 {
+    font-size: 19px;
+  }
+  .headH2 {
+    font-size: 28px;
   }
 }

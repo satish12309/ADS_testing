@@ -665,11 +665,11 @@
     border: none;
   }
 
-  .cardTitle{
+  .cardTitle {
     font-size: 22px;
   }
 
-  .cardText{
+  .cardText {
     font-size: 18px;
   }
 
@@ -715,7 +715,12 @@
   .headline {
     font-size: 23px;
   }
-
+  .orangeBox,
+  .blueBox,
+  .greenBox {
+    padding: 7px;
+    font-size: 12px;
+  }
   .projectCard {
     gap: 10px;
     padding: 1.5rem 0.5rem;
