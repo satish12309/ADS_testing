@@ -36,7 +36,7 @@
     "spanIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ada_AI_icon.webp",
     "title": "Cloud Computing & DevOps",
     "orgTitle": "Certification Program",
-    "descrption": "Successfully transition careers through our courses & real-time capstone projects. All while making your previous work experience count!",
+    "descrption": "Successfully transition careers through our courses & real-time capstone projects.",
     "subtitle": "Gen-AI for Business Leaders",
     "typeLogo": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/iit_guwati_logo.webp",
     "bgvideo": "/video/back-video.mp4",
@@ -99,21 +99,37 @@
         "points1": [
           {
             "id": 1,
-            "title": "System Administrators"
+            "title": "HR Assistant"
           },
           {
             "id": 2,
-            "title": "Network Engineers"
+            "title": "QA Tester"
           }
         ],
         "points2": [
           {
             "id": 3,
             "title": "Software Developers"
-          },
+          }
+        ],
+        "points3": [
           {
             "id": 4,
+            "title": "Network Engineers"
+          },
+          {
+            "id": 5,
             "title": "IT Support Engineers"
+          }
+        ],
+        "points4": [
+          {
+            "id": 6,
+            "title": "System Administrators"
+          },
+          {
+            "id": 7,
+            "title": "Web Developer"
           }
         ]
       },
