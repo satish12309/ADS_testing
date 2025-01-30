@@ -39,7 +39,7 @@ const Popup = ({ message, onClose }) => {
                 Weekday Batch : <span>8:00 PM - 10:30 PM</span>
               </p>
             </div>
-            <Link href="/submit-info" target="_blank">
+            <Link href="/fullstack/s2-dsa-and-system-design" target="_blank">
               <div className={styles.buttonDiv}>
                 <button>Apply for Scholarship Now</button>
               </div>
