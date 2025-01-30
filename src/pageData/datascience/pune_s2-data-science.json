@@ -36,7 +36,7 @@
     "spanIcon": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/Course-home/ada_AI_icon.webp",
     "title": "Data Science Course",
     "orgTitle": "In Pune",
-    "descrption": "Successfully transition careers through our courses & real-time capstone projects. All while making your previous work experience count!",
+    "descrption": "Successfully transition careers through our courses & real-time capstone projects.",
     "subtitle": "Gen-AI for Business Leaders",
     "typeLogo": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/iit_guwati_logo.webp",
     "bgvideo": "/video/back-video.mp4",
@@ -103,17 +103,32 @@
           },
           {
             "id": 2,
-        "title": "Data Analyst"
+            "title": "Data Analyst"
           }
         ],
         "points2": [
           {
             "id": 3,
             "title": "Business Analyst"
-          },
+          }
+        ],
+        "points3": [
           {
             "id": 4,
             "title": "Systems Admin"
+          },
+          {
+            "id": 5,
+            "title": "QA Tester"
+          }
+        ],
+        "points4": [
+          {
+            "id": 6,
+            "title": "Web Developer"
+          },{
+            "id": 7,
+            "title": "HR Assistant"
           }
         ]
       },
