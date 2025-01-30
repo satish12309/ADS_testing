@@ -515,6 +515,10 @@
     font-size: 11px;
   }
 
+  .pTag,.noteP{
+    font-size: 14px !important;
+  }
+
   .imageSection {
     width: 50px;
     height: 30px;
