@@ -518,9 +518,12 @@
     font-size: 18px;
   }
 
-  .divContainer p,
-  .noteP {
+  .divContainer p {
     font-size: 11px;
+  }
+
+  .pTag,.noteP{
+    font-size: 14px !important;
   }
 
   .imageSection {
