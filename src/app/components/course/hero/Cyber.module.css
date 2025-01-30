@@ -15,6 +15,10 @@
     var(--light-black);
 }
 
+.formdiv form {
+  gap: 0 !important;
+}
+
 .backgroundImgContainer {
   color: var(--black);
   margin-top: 70px;
@@ -211,10 +215,6 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: var(--light-orange);
-}
-
-.formdiv form {
-  gap: 15px !important;
 }
 
 .formdiv form input {
