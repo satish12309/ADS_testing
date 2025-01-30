@@ -1,18 +1,30 @@
+"use client"
+import { useState, useEffect } from "react";
+import DSAPopupWrapper from "../components/global/DSAPopup/DSAPopup";
 import NavbarHome from "../components/home/navbar/NavbarHome";
 
 export default function CourseLayout({ children }) {
+  const [showPopup, setShowPopup] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowPopup(true);
+    }, 3000); // 3 seconds delay
+
+    return () => clearTimeout(timer); // Cleanup on unmount
+  }, []);
+
   return (
     <div>
       <header>
         <nav>
-          <NavbarHome isDSA={true} DSAdownloadBrochure={true}/>
+          <NavbarHome isDSA={true} DSAdownloadBrochure={true} />
         </nav>
       </header>
 
       <main>
-        <div className="content">
-          {children}{" "}
-        </div>
+        {showPopup && <DSAPopupWrapper />}
+        <div className="content">{children} </div>
       </main>
 
       {/* <footer>
