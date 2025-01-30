@@ -300,7 +300,7 @@
 
 @media only screen and (max-width: 481px) {
   .pTag {
-    font-size: 16px;
+    font-size: 20px;
   }
 
   .boxMain .box:nth-child(3),
@@ -313,13 +313,14 @@
   }
 
   .container h2 {
-    font-size: 23px;
+    font-size: 30px;
   }
 
   .boxMain {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 15px;
   }
 
   .spanDiv span {
@@ -327,12 +328,28 @@
   }
 
   .box p {
-    font-size: 14px;
+    font-size: 17px;
   }
 
   .box h5 {
-    font-size: 20px;
+    font-size: 22px;
   }
+
+  .pointItem{
+    flex-direction: row;
+    gap: 7px;
+  }
+
+  .spanDiv{
+    gap: 8px;
+  }
+  .spanDiv span {
+    font-size: 15px;
+    font-weight: 500;
+}
+.innerContainer{
+  border-radius: 25px;
+}
 }
 
 @media only screen and (max-width: 361px) {

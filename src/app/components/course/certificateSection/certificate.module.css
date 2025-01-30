@@ -371,11 +371,16 @@
 
 @media only screen and (max-width: 481px) {
   .upskillHeading {
-    font-size: 18px;
+    font-size: 28px;
+    margin: 0;
+  }
+
+  .mainBg{
+    gap: 45px;
   }
 
   .iconDivMain h4 {
-    font-size: 18px;
+    font-size: 22px;
   }
 
   .certBoxWrapperTop {
@@ -394,9 +399,22 @@
   .certBoxWrapperTop {
     padding: 0;
   }
+  .certBoxWrapperTop,.innerDiv {
+    gap: 55px;
+}
 
   .iconDivMain p {
-    font-size: 13px;
+    font-size: 16px;
+  }
+
+  .certBox img{
+    margin-left: -2px;
+  }
+  .iconDivMain{
+    margin: 0;
+  }
+  .AddonMbl{
+    margin-bottom: 0;
   }
 }
 

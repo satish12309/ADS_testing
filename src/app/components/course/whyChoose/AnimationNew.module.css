@@ -1,14 +1,17 @@
 .whyChooseSection {
-  background: radial-gradient(
-      circle at 10% 10%,
-      /* Blue circle positioned at the top left */ rgba(2, 49, 82, 0.9) 1%,
-      /* Larger blue circle */ transparent 40% /* Smoother transition */
+  background: radial-gradient(circle at 10% 10%,
+      /* Blue circle positioned at the top left */
+      rgba(2, 49, 82, 0.9) 1%,
+      /* Larger blue circle */
+      transparent 40%
+      /* Smoother transition */
     ),
-    radial-gradient(
-      circle at 90% 80%,
-      /* Orange circle positioned at the bottom right */ rgba(142, 54, 7, 0.3)
-        2%,
-      /* Glowing orange circle */ transparent 30% /* Smoother transition */
+    radial-gradient(circle at 90% 80%,
+      /* Orange circle positioned at the bottom right */
+      rgba(142, 54, 7, 0.3) 2%,
+      /* Glowing orange circle */
+      transparent 30%
+      /* Smoother transition */
     ),
     var(--light-black);
   position: relative;
@@ -378,16 +381,12 @@
 
 @media screen and (max-width: 641px) {
   .whyChooseSection {
-    background: radial-gradient(
-        circle at 10% 10%,
+    background: radial-gradient(circle at 10% 10%,
         rgba(6, 59, 92, 0.8) 1%,
-        transparent 30%
-      ),
-      radial-gradient(
-        circle at 90% 80%,
+        transparent 30%),
+      radial-gradient(circle at 90% 80%,
         rgba(254, 122, 54, 0.2) 1%,
-        transparent 40%
-      ),
+        transparent 40%),
       var(--light-black);
     /* margin-bottom: 60px; */
   }
@@ -496,6 +495,17 @@
     gap: 10px;
   }
 
+  .downBoxDesign1 {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    padding-left: 10px !important;
+  }
+
+  .downBoxDesign1 p {
+    font-size: 16px !important;
+  }
+
   /* .insideBoxDesign1 p,
   .noteP {
     font-size: 12px;
@@ -506,21 +516,65 @@
     font-size: 28px;
   }
 
-  .Contents h5 {
-    font-size: 18px;
-  }
-
   .divContainer p {
-    font-size: 11px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .insideBox{
+    gap: 0.3rem;
+  }
+  .insideBoxDesign2{
+    padding: 4px 10px;
   }
 
-  .pTag,.noteP{
-    font-size: 14px !important;
+  .pTag {
+    font-size: 18px !important;
+  }
+
+  .Contents {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .noteP {
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 15px;
   }
 
   .imageSection {
     width: 50px;
     height: 30px;
+  }
+
+  .header h2 {
+    line-height: 1.2;
+  }
+
+  .header h2,
+  .header span {
+    font-size: 36px;
+  }
+
+  .header span {
+    -webkit-text-stroke: 0.6px rgba(255, 241, 234, 1);
+  }
+
+  .Contents h5 {
+    font-size: 24px;
+  }
+
+  .divContainer:nth-child(1) .svglogo svg {
+    height: 400px;
+  }
+
+  .downBox{
+    padding: 0;
+    column-gap: 5px;
+  }
+
+  .customSection p{
+    font-size: 16px;
   }
 }
 

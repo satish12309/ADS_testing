@@ -337,6 +337,13 @@
     padding: 6px 10px;
     font-size: 14px;
   }
+
+  .button,
+  .grayButton {
+    font-weight: 400;
+    font-size: 14px;
+    padding: 17px;
+  }
 }
 
 @media (max-width: 361px) {

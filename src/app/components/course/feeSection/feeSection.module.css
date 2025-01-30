@@ -14,13 +14,11 @@
 }
 
 .feesmain {
-  background: linear-gradient(
-    180deg,
-    var(--white) 0%,
-    #eff3f6 42.69%,
-    #eff3f6 66.46%,
-    var(--white) 98.82%
-  );
+  background: linear-gradient(180deg,
+      var(--white) 0%,
+      #eff3f6 42.69%,
+      #eff3f6 66.46%,
+      var(--white) 98.82%);
 }
 
 .feesmain span {
@@ -100,16 +98,19 @@
   background: var(--white);
   font-size: 30px;
 }
+
 .firstwrapper {
   display: flex;
   flex-flow: column;
   gap: 15px;
 }
+
 .alternateContainer {
   flex-flow: row;
   gap: 125px;
   padding: 50px 90px 40px 50px;
 }
+
 .headOrange,
 .headBlue {
   color: var(--light-black);
@@ -140,6 +141,7 @@
   padding-bottom: 34px;
   border-bottom: 1px solid var(--black);
 }
+
 .borders {
   padding: 75px 0 25px 0;
 }
@@ -150,6 +152,7 @@
   gap: 28px;
   padding: 0 110px 34px 0;
 }
+
 .innerIconDiv {
   display: flex;
   gap: 14px;
@@ -176,7 +179,7 @@
   margin: 0;
 }
 
-.secondContainer > .innerIconDiv {
+.secondContainer>.innerIconDiv {
   text-align: center;
   margin-top: 30px;
 }
@@ -287,6 +290,7 @@
 }
 
 @media (max-width: 1181px) {
+
   .sideborder p,
   .iconDiv p {
     font-size: 14px;
@@ -294,6 +298,7 @@
 }
 
 @media (max-width: 1081px) {
+
   .headBlue,
   .headOrange {
     font-size: 33px;
@@ -328,6 +333,7 @@
 }
 
 @media (max-width: 968px) {
+
   .headBlue,
   .headOrange {
     font-size: 28px;
@@ -350,6 +356,7 @@
 }
 
 @media (max-width: 841px) {
+
   .headBlue,
   .headOrange {
     font-size: 24px;
@@ -380,9 +387,11 @@
   .sideborder {
     padding: 0 15px;
   }
+
   .alternateContainer {
     gap: 30px;
   }
+
   .sideborder,
   .iconDiv {
     font-size: 20px;
@@ -390,6 +399,7 @@
 }
 
 @media (max-width: 761px) {
+
   .firstContainer,
   .secondContainer {
     padding: 20px;
@@ -414,14 +424,17 @@
   .feesmain h2 {
     font-size: 28px;
   }
+
   .alternateContainer {
     flex-flow: column;
     padding: 50px 40px 50px 40px;
   }
+
   .sideborder,
   .iconDiv {
     padding-bottom: 26px;
   }
+
   .sideborder {
     /* display: none; */
     border-right: none;
@@ -531,6 +544,7 @@
 }
 
 @media (max-width: 481px) {
+
   .headBlue,
   .headOrange {
     font-size: 19px;
@@ -539,10 +553,43 @@
   .firstContainer,
   .secondContainer {
     padding: 25px 21px;
+    border-radius: 30px;
   }
 
   .headBlue,
   .headOrange {
+    font-size: 24px;
+  }
+
+  .feesmain h2 {
+    font-size: 30px;
+  }
+
+  .firstP,
+  .fadedText {
+    font-size: 22px;
+  }
+
+  .iconDiv p {
     font-size: 18px;
   }
+
+  .borders p,
+  .border p {
+    font-size: 20px !important;
+  }
+
+  .feesmain span {
+    font-size: 16px;
+  }
+
+  .feeContentContainer p {
+    font-size: 18px;
+  }
+
+  .btnDown {
+    margin: 8% 0 18% 0;
+  }
+
+  
 }

@@ -838,15 +838,23 @@
 
 @media screen and (max-width: 481px) {
   .headline {
-    font-size: 22px;
+    font-size: 30px;
+    margin: 19% auto 11%;
+    text-align: left;
+  }
+
+  .ryttop {
+    display: grid;
+    grid-template-columns: 67% 29%;
   }
 
   .rytmain {
     padding: 16px;
+    margin-bottom: 30px;
   }
 
   .leftinside h3 {
-    font-size: 19px;
+    font-size: 22px;
   }
 
   .mainConteiner {
@@ -873,7 +881,23 @@
   }
 
   .lists {
+    font-size: 18px;
+    gap: 0px;
+  }
+
+  .ryttop p {
+    font-size: 20px;
+  }
+  .date p{
     font-size: 16px;
+  }
+
+  .org {
+    font-size: 18px;
+  }
+
+  .popupbtn {
+    font-size: 18px;
   }
 }
 

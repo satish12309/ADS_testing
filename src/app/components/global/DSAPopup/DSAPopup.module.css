@@ -1,0 +1,240 @@
+
+
+.popupOverlay {
+    position: fixed;
+    bottom: 0; /* Align to the bottom */
+    left: 0; /* Align to the left */
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: flex-end; /* Align items to the bottom */
+    justify-content: flex-start; /* Align items to the left */
+    z-index: 1000;
+  }
+  /* @keyframes slideUp {
+    from {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  } */
+  
+  
+  .popupContainer {
+    background-color: white;
+    width: 500px;
+    max-width: 90%;
+    overflow: hidden;
+    position: relative;
+    border-radius: 24px;
+    background: #0a0b0b;
+    margin: 20px; /* Add some margin to keep it away from the edge */
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 26px;
+    cursor: pointer;
+  }
+  .close:hover {
+    color:#0383FF;
+  }
+  
+  .mainDiv {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .whiteDiv {
+    background-color: white;
+    padding: 20px 20px 50px 20px;
+    text-align: center;
+    border-bottom: 2px solid #e0e0e0;
+  }
+  
+  .whiteDiv h3 {
+    color: #353535;
+    text-align: center;
+    font-size: 38.882px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 160%;
+    letter-spacing: -0.259px;
+  }
+  
+  .gradientDiv {
+    background: linear-gradient(45deg, #0071bc81, #fe793673);
+    padding: 40px 20px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .tagLine {
+    position: absolute;
+    top: 37%;
+    left: 24%;
+    transform: translate(-50%, -50%);
+    padding: 8px 30px;
+    border-top: 3px solid #0072BC;
+    border-left: 3px solid #0072BC;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transform: rotate(-6deg);
+    border-radius: 8px;
+    border-right: 3px solid #0072BC;
+    border-bottom: 3px solid #0072BC;
+    background: #022646;
+    box-shadow: 3px -5px 4.9px -3px rgba(0, 0, 0, 0.45);
+  }
+  
+  .OFF {
+    color: #353535;
+    font-size: 50.804px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100%;
+    letter-spacing: -0.578px;
+  }
+  
+  .buttonDiv {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .buttonDiv button {
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 51px;
+    background: #0383FF;
+    font-size: 24px;
+  }
+  
+  .buttonDiv button:hover {
+    background-color: #0381ffa9;
+  }
+  
+  .offerText {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 126.5%; /* 22.77px */
+    letter-spacing: -0.18px;
+  }
+  
+  .offerText span {
+    color: #fff;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 126.5%; /* 27.83px */
+    letter-spacing: -0.22px;
+  }
+  .batch{
+    color: #fff;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 126.5%; /* 27.83px */
+    letter-spacing: -0.22px;
+  }
+  .batchDiv{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .tagLine p {
+    color: #FFF;
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 126.5%; /* 31.625px */
+    letter-spacing: -0.25px;
+    margin: 0;
+  }
+  
+  .tagLine span {
+    color: #FFF;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 126.5%;
+    letter-spacing: -0.25px;
+  }
+  
+  @media screen and (max-width:641px) {
+    .popupOverlay {
+      align-items: center; /* Center items vertically */
+      justify-content: center; /* Center items horizontally */
+    }
+    
+    .popupContainer {
+      width: 90%; /* Adjust width for mobile */
+      margin: 0; /* Remove margin for centering */
+      border-radius: 16px; /* Adjust border radius for mobile */
+    }
+  
+    
+    .whiteDiv h3 {
+      font-size: 30px;
+    }
+    .tagLine p {
+    font-size: 24px;
+    }
+    .tagLine {
+      left: 15%;
+      top: 34%;
+    }
+    .offerText span {
+      font-size: 18px;
+    }
+    .offerText {
+      font-size: 18px;
+    }
+    .OFF {
+      font-size: 40px;
+    }
+    .buttonDiv button {
+      font-size: 18px;
+    }
+  }
+  
+  @media screen and (max-width:360px) {
+  
+    .whiteDiv h3 {
+      font-size: 25px;
+    }
+    .tagLine p {
+    font-size: 20px;
+    }
+    .tagLine {
+      left: 15%;
+      top: 34%;
+    }
+    .offerText span {
+      font-size: 14px;
+    }
+    .offerText {
+      font-size: 14px;
+    }
+    .OFF {
+      font-size: 36px;
+    }
+    .buttonDiv button {
+      font-size: 14px;
+    }
+  
+  }
+  

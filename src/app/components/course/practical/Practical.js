@@ -49,7 +49,6 @@ const Practical = () => {
   ));
 
   return (
-    <div className="containerWidth">
       <div className={styles.container}>
         <div className={styles.innerContainer}>
           <h2>{title}</h2>
@@ -68,7 +67,6 @@ const Practical = () => {
           </div>
         </div>
       </div>
-    </div>
   );
 };
 

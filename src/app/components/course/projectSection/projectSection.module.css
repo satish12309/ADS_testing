@@ -658,18 +658,27 @@
 @media screen and (max-width: 481px) {
   .headline {
     text-align: left;
-    font-size: 26px;
+    font-size: 30px;
   }
 
   .headline span {
     border: none;
   }
 
+  .cardTitle{
+    font-size: 22px;
+  }
+
+  .cardText{
+    font-size: 18px;
+  }
+
   .orangeBox,
   .blueBox,
   .greenBox {
     padding: 8px;
-    font-size: 11px;
+    font-size: 14px;
+    font-weight: 400;
   }
 
   .lowerBox {
