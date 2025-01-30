@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "icon": "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project/tesla_logo.webp",
+    "icon": "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/Twitter.webp",
     "number": 1,
     "hours": "26 hours",
     "title": "Social Media Feed System",
@@ -11,7 +11,7 @@
   },
   {
     "id": 2,
-    "icon": "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project/walmart_logo.webp",
+    "icon": "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/Oyo.webp",
     "number": 2,
     "hours": "26 hours",
     "title": "Designing of Booking System for Hotel Rooms",
@@ -21,7 +21,7 @@
   },
   {
     "id": 3,
-    "icon": "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project/amazon_logo.webp",
+    "icon": "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/ProjectSwiggy.webp",
     "number": 3,
     "hours": "26 hours",
     "title": "Food Ordering System",
@@ -41,7 +41,7 @@
   },
   {
     "id": 5,
-    "icon": "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/microsoft_icon_projct.webp",
+    "icon": "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/Flipkart.webp",
     "number": 5,
     "hours": "26 hours",
     "title": "End-to-end Design of Flipkart-like Shopping Cart",
@@ -51,7 +51,7 @@
   },
   {
     "id": 6,
-    "icon": "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project/pfizer_logo.webp",
+    "icon": "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/makemytrip.webp",
     "number": 6,
     "hours": "26 hours",
     "title": "Developing Property Booking System",
