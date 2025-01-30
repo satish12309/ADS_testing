@@ -63,24 +63,39 @@
         "yearExp": "1 Year of Experience",
         "description": "This program is perfect for Marketing/ Sales Associate, HR Assistant, Entry-Level Financial Analyst, Project Coordinator, Customer Service Representative, QA Tester, Web Developer.",
         "importantNote": "This program is not for fresh graduates. You must have at least 1 year of work experience. To know more, check eligibility.",
-        "points1": [
+"points1": [
           {
             "id": 1,
             "title": "Data Engineer"
           },
           {
             "id": 2,
-          "title": "Data Analyst"
+            "title": "Data Analyst"
           }
         ],
         "points2": [
           {
             "id": 3,
             "title": "Business Analyst"
-          },
+          }
+        ],
+        "points3": [
           {
             "id": 4,
             "title": "Systems Admin"
+          },
+          {
+            "id": 5,
+            "title": "QA Tester"
+          }
+        ],
+        "points4": [
+          {
+            "id": 6,
+            "title": "Web Developer"
+          },{
+            "id": 7,
+            "title": "HR Assistant"
           }
         ]
       },
