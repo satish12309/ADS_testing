@@ -335,28 +335,24 @@
     font-size: 22px;
   }
 
-  .pointItem{
+  .pointItem {
     flex-direction: row;
     gap: 7px;
   }
 
-  .spanDiv{
+  .spanDiv {
     gap: 8px;
   }
   .spanDiv span {
     font-size: 15px;
     font-weight: 500;
-}
-.innerContainer{
-  border-radius: 25px;
-}
+  }
+  .innerContainer {
+    border-radius: 25px;
+  }
 }
 
 @media only screen and (max-width: 361px) {
-  .innerContainer {
-    max-width: 320px;
-  }
-
   .pTag {
     font-size: 8px;
   }

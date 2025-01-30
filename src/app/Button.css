@@ -3,7 +3,6 @@
     left: -100%;
   }
 
-
   100% {
     left: 100%;
   }
@@ -29,10 +28,12 @@
 .glassEffect:hover::before {
   left: 100%;
   animation: moveGlass 1s forwards;
-  background: linear-gradient(120deg,
-      rgba(255, 255, 255, 0.2) 0%,
-      rgba(255, 255, 255, 0.8) 50%,
-      rgba(255, 255, 255, 0.2) 100%);
+  background: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(255, 255, 255, 0.8) 50%,
+    rgba(255, 255, 255, 0.2) 100%
+  );
 }
 
 /* Button Styles */
@@ -238,10 +239,12 @@
 .grayButton:hover::before {
   left: 100%;
   animation: moveGlass 1s forwards;
-  background: linear-gradient(120deg,
-      rgba(255, 255, 255, 0.2) 0%,
-      rgba(255, 255, 255, 0.8) 50%,
-      rgba(255, 255, 255, 0.2) 100%);
+  background: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(255, 255, 255, 0.8) 50%,
+    rgba(255, 255, 255, 0.2) 100%
+  );
 }
 
 /* New Blue Button */
@@ -267,7 +270,6 @@
 
 /* Responsive Styles */
 @media (max-width: 1281px) {
-
   .button,
   .outLineBtn {
     padding: 10px 20px;
@@ -303,11 +305,9 @@
 }
 
 @media (max-width: 641px) {
-
   .button,
   .outLineBtn {
     font-size: 10px;
-
   }
 
   .button,
@@ -315,8 +315,6 @@
     /* font-size: 14px; */
     /* padding: 10px; */
     font-weight: 400;
-
-
   }
 }
 
@@ -346,6 +344,12 @@
   }
 }
 
+@media (max-width: 376px) {
+  .button,
+  .grayButton {
+    padding: 11px;
+  }
+}
 @media (max-width: 361px) {
   .grayButton {
     padding: 8px;
@@ -353,7 +357,6 @@
 }
 
 @media (max-width: 401px) {
-
   .grayButton {
     line-height: 19.679px;
     font-size: 13px;
