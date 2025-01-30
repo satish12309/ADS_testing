@@ -169,7 +169,7 @@
   color: #b7b5b5;
   font-size: 12px;
   text-align: center;
-  margin: 13px;
+  padding: 10px;
 }
 
 .formWrapper select::placeholder {
