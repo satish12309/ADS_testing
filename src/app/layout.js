@@ -1,6 +1,6 @@
 "use client";
 import "./globals.css";
-import { Nunito, Nunito_Sans } from "next/font/google";
+import { Georama } from "next/font/google";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/react";
 import Script from "next/script";
@@ -8,9 +8,9 @@ import { GoogleTagManager } from "@next/third-parties/google";
 import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 
-const nunito = Nunito({
+const georama = Georama({
   subsets: ["latin"],
-  weight: ["200", "400", "500", "700"],
+  weight: ["200","300", "400", "500","600", "700"],
   style: ["normal"],
   display: "swap",
   preload: true,
@@ -34,7 +34,7 @@ export default function RootLayout({ children }) {
     // Push the pageview event to the GTM dataLayer
     window.dataLayer = window.dataLayer || [];
     window.dataLayer.push({
-      event: 'pageview',
+      event: "pageview",
       page_path: pathname,
     });
   }, [pathname]);
@@ -109,10 +109,9 @@ export default function RootLayout({ children }) {
             });
           }}
         />
-
       </head>
 
-      <body className={nunito.className}>
+      <body className={georama.className}>
         <main>
           {children}
           {showGTM && <GoogleTagManager gtmId="GTM-NN8XWH8" />}

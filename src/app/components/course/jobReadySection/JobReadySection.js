@@ -9,7 +9,7 @@ function JobReadySection() {
       <div className="containerWidth">
         <h2 className={styles.headH2}>
           <span className={styles.grey}>
-            Achieve your career goals with our{" "}
+            Achieve career goals with {" "}
           </span>
           <span className={styles.orange}>Placement Support</span>
         </h2>

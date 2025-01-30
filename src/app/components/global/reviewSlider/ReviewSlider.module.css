@@ -482,7 +482,7 @@
 
 @media screen and (max-width: 481px) {
   .headingContainer h2 {
-    font-size: 26px;
+    font-size: 30px;
   }
 
   .headingContainer {
@@ -494,7 +494,7 @@
   }
 
   .subHeading {
-    font-size: 14px;
+    font-size: 18px;
   }
 
   /* .headingContainer h2 {
@@ -521,6 +521,9 @@
 
   .reviewBotSection {
     padding: 0;
+  }
+  .mainContiner {
+    gap: 15px;
   }
 }
 

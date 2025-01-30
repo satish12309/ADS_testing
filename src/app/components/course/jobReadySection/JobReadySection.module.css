@@ -173,7 +173,7 @@
   }
 
   .headH2 {
-    font-size: 23px;
+    font-size: 30px;
   }
 
   .innerdiv {
@@ -182,11 +182,14 @@
   }
 
   .innerdiv div p{
-    font-size: 16px;
+    font-size: 18px;
+    line-height: normal;
+    word-spacing: 1px;
+    font-weight: 300;
   }
 
   .innerdiv div h4 {
-    font-size: 18px;
+    font-size: 22px;
 }
 
   .innerbox {

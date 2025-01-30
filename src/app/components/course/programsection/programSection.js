@@ -73,8 +73,8 @@ const ProgramSection = memo(
                       {content?.nonBold}
                       <span className={styles.colors}> {content?.yearExp}</span>
                     </h3>
-                    <p className={styles.pTop}>
-                      {content?.description
+                    {/* <p className={styles.pTop}> */}
+                      {/* {content?.description
                         ?.split("not mandatory")
                         ?.map((segment, idx, array) => (
                           <span key={idx}>
@@ -84,9 +84,11 @@ const ProgramSection = memo(
                                 not mandatory
                               </span>
                             )}
+                            
                           </span>
-                        ))}
-                    </p>
+                        ))} */}
+                        {/* {content?.plainDesc}<b>{content?.boldDesc}</b> */}
+                    {/* </p> */}
 
                     <div className={styles.innerBoxDivWrapper}>
                       <div className={styles.innerBoxDiv}>
@@ -99,6 +101,20 @@ const ProgramSection = memo(
                       <div className={styles.innerBoxDiv}>
                         {content?.points2?.map((point) => (
                           <div key={point.id} className={styles.innerBox2}>
+                            <h3>{point.title}</h3>
+                          </div>
+                        ))}
+                      </div>
+                      <div className={styles.innerBoxDiv}>
+                        {content?.points3?.map((point) => (
+                          <div key={point.id} className={styles.innerBox2}>
+                            <h3>{point.title}</h3>
+                          </div>
+                        ))}
+                      </div>
+                      <div className={styles.innerBoxDiv}>
+                        {content?.points4?.map((point) => (
+                          <div key={point.id} className={styles.innerBox1}>
                             <h3>{point.title}</h3>
                           </div>
                         ))}

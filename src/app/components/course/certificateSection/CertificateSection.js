@@ -20,7 +20,6 @@ function CertificateSection() {
   }, [certificateNew]);
 
   return (
-    <section className="containerWidth">
       <div className={styles.mainBg}>
         <h2 className={styles.upskillHeading}>
           Get certified and accelerate your
@@ -34,7 +33,6 @@ function CertificateSection() {
           <BottomCertificate remainingCertificates={remainingCertificates} />
         </div>
       </div>
-    </section>
   );
 }
 
