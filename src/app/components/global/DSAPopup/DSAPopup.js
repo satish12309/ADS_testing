@@ -85,7 +85,7 @@ const Popup = ({ message, onClose }) => {
                   <Image
                     src="https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/MetaColor.webp"
                     width={87}
-                    height={19}
+                    height={20}
                     quality={100}
                     loading="lazy"
                     className={styles.metaLogo}
