@@ -520,7 +520,9 @@
     } */
 
 
-
+    .mentorsWraper {
+        gap: 40px;
+    }
 
     .mentorText {
         line-height: normal;
