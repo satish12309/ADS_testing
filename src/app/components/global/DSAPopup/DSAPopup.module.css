@@ -297,29 +297,31 @@
 
 @media screen and (max-width:361px) {
 
+  .mainDiv {
+    padding: 0 0 20px;
+  }
+
   .titleDiv h3 {
     font-size: 25px;
   }
 
-  .tagLine p {
-    font-size: 20px;
-  }
-
-  .tagLine {
-    left: 15%;
-    top: 34%;
-  }
-
-  .offerText span {
-    font-size: 14px;
-  }
-
-  .offerText {
-    font-size: 14px;
-  }
-
   .buttonDiv button {
     font-size: 14px;
+  }
+
+  .titleDiv {
+    padding: 20px 20px 0 20px;
+  }
+
+  .leftContentDiv {
+    padding-left: 30px;
+  }
+
+  .rightContentDiv {
+    gap: 25px;
+}
+  .mentorsFromDiv {
+    padding-left: 5px;
   }
 
 }
