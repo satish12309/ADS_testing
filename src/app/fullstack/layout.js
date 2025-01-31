@@ -23,7 +23,8 @@ export default function CourseLayout({ children }) {
       </header>
 
       <main>
-        {showPopup && <DSAPopupWrapper />}
+        {/* {showPopup && <DSAPopupWrapper />} */}
+        <DSAPopupWrapper />
         <div className="content">{children} </div>
       </main>
 
