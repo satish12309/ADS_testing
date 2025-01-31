@@ -1,7 +1,7 @@
 "use client";
 
 import { memo, useState, useEffect, useCallback } from "react";
-import styles from "./projectSection.module.css";
+import styles from "./DSAProjectSection.module.css";
 import dynamic from "next/dynamic";
 import Image from "next/image";
 const PopupContent = dynamic(() =>
@@ -112,7 +112,7 @@ const ProjectSection = ({}) => {
                     width={900}
                     height={200}
                     loading="lazy"
-                    quality={50}
+                    quality={100}
                     className={styles.projectIcon}
                   />
                 </div>
