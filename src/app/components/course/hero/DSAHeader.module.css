@@ -514,8 +514,14 @@
         width: -webkit-fill-available;
     } */
 
-  .mentorText {
-    line-height: normal;
-    font-size: 12px;
-  }
+
+    .mentorsWraper {
+        gap: 40px;
+    }
+
+    .mentorText {
+        line-height: normal;
+        font-size: 12px;
+    }
 }
+
