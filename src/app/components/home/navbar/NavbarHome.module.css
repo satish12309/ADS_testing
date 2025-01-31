@@ -455,6 +455,15 @@
     width: 145px;
     height: 35px;
   }
+
+  .logoWrapper img {
+    width: 160px !important;
+    height: 40px !important;
+  }
+
+  .nav{
+    height: 50px;
+  }
 }
 
 @media screen and (max-width: 361px) {
