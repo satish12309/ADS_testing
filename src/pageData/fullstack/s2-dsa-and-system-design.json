@@ -141,7 +141,7 @@
         "points1": [
           {
             "id": 1,
-            "title": "Software Developer / Engineer"
+            "title": "Software Engineer"
           },
           {
             "id": 2,
@@ -151,11 +151,27 @@
         "points2": [
           {
             "id": 3,
-            "title": "Machine Learning Engineer"
-          },
+            "title": "Support Engineer"
+          }
+        ],
+        "points3": [
           {
             "id": 4,
-            "title": "IT Support Specialist"
+            "title": "ML Engineer"
+          },
+          {
+            "id": 5,
+            "title": "IT Specialist"
+          }
+        ],
+        "points4": [
+          {
+            "id": 6,
+            "title": "DevOps Engineer"
+          },
+          {
+            "id": 7,
+            "title": "Web Developer"
           }
         ]
       },

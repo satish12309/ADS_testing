@@ -5,9 +5,9 @@
     "number": 1,
     "hours": "26 hours",
     "title": "Social Media Feed System",
-    "text": "Efficient real-time notification feed management system for Twitter.",
+    "text": "Efficient real-time notification feed management system for Twitter . Lightning speed time update and access during high volume data management per second.",
+    "cta": " Effective data Sharding and caching technique implementation."
     "tool1": "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/python+git_11zon.webp",
-    "cta": ": Lightning speed time update and access during high volume data management per second. Effective data Sharding and caching technique implementation."
   },
   {
     "id": 2,
@@ -16,8 +16,8 @@
     "hours": "26 hours",
     "title": "Designing of Booking System for Hotel Rooms",
     "text": "User reservation and room management focused booking management systems for business.",
+    "cta": "Infusion of a database schema for tracking room bookings, customer accounts etc."
     "tool1": "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/azuredevopspipeline.webp",
-    "cta": "Infusion of a normalized database schema for tracking room bookings, customer accounts, concurrent bookings, and cancellations."
   },
   {
     "id": 3,
@@ -26,8 +26,9 @@
     "hours": "26 hours",
     "title": "Food Ordering System",
     "text": "Build a platform connecting users to local restaurants for ordering and delivery.",
+    "cta": "Design a microservices architecture for managing restaurant listings, orders etc."
     "tool1": "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/azureawsjenkins.webp",
-    "cta": "Design a microservices architecture for managing restaurant listings, orders, and payments, with real-time tracking and user reviews."
+
   },
   {
     "id": 4,
@@ -36,8 +37,8 @@
     "hours": "26 hours",
     "title": "Netflix Content Streaming Service",
     "text": "Design a microservices-based architecture for Netflix’s streaming service, focusing on service decomposition.",
+    "cta": " Use CAP principles to manage data consistency."
     "tool1": "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/dockerkubernatics.webp",
-    "cta": " Use CAP principles to manage data consistency, availability, and partition tolerance for real-time streaming with resilience."
   },
   {
     "id": 5,
@@ -45,9 +46,9 @@
     "number": 5,
     "hours": "26 hours",
     "title": "End-to-end Design of Flipkart-like Shopping Cart",
-    "text": " High-quality user interaction, rich shopping cart system creation from scratch. Includes common features like add, replace, and delete items. The design focus remains on user experience and scalability.",
-    "tool1": "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/git_linux.webp",
-    "cta": " Normalization of database schema, Sequence diagrams, UML diagrams, and class."
+    "text": " High-quality user interaction, rich shopping cart system creation from scratch. Includes common features like add, replace, and delete items.",
+    "cta": " Normalization of database schema, Sequence diagrams ."
+  "tool1": "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/git_linux.webp",
   },
   {
     "id": 6,
@@ -56,7 +57,7 @@
     "hours": "26 hours",
     "title": "Developing Property Booking System",
     "text": "Create a booking management system for hotels that supports user reservations and room management.",
+    "cta": "Implement a normalized database schema for hotels, rooms ."
     "tool1": "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/promethusgrafna.png",
-    "cta": "Implement a normalized database schema for hotels, rooms, bookings, and user accounts, ensuring the system can handle concurrent bookings and cancellations efficiently."
   }
 ]
