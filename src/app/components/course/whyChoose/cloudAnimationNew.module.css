@@ -170,17 +170,7 @@
 }
 
 .downBox {
-  display: grid;
-  grid-template-columns: 45% 40%;
-  border-radius: 54px;
-  background: rgba(254, 122, 54, 0.1);
-  grid-gap: 20px;
-  grid-gap: 20px;
-  gap: 20px;
-  padding: 10px;
-  width: 434px;
-  justify-content: space-between;
-  margin: 20px 0;
+  display: none;
 }
 
 .Contents h5 {
@@ -504,9 +494,9 @@
     margin: 80px auto;
   }
 
-  .downBox {
-    grid-template-columns: 50% 45%;
-    gap: 10px;
+  .insideBoxImgWrapper {
+    width: 55px;
+    height: 20px;
   }
 
   .header h2,
@@ -522,7 +512,8 @@
     font-size: 11px;
   }
 
-  .pTag,.noteP{
+  .pTag,
+  .noteP {
     font-size: 14px !important;
   }
 
@@ -533,11 +524,6 @@
 }
 
 @media screen and (max-width: 361px) {
-  .insideBoxDesign1 .insideBoxImgWrapper {
-    width: 200px;
-    height: 45px;
-  }
-
   .customAnimationSection {
     width: 100%;
     padding: 10px 4px;

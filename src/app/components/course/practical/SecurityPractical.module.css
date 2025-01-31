@@ -181,7 +181,7 @@
   }
 
   .pointItem {
-    flex-flow: column;
+    flex-flow: row;
     gap: 0;
   }
 }
@@ -319,7 +319,7 @@
   }
 
   .container h2 {
-    font-size: 23px;
+    font-size: 30px;
   }
 
   .boxMain {
@@ -355,7 +355,7 @@
   }
 
   .container h2 {
-    font-size: 18px;
+    font-size: 28px;
   }
 
   .boxMain {
