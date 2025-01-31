@@ -5,6 +5,20 @@ import Link from "next/link";
 import styles from "./DSAPopup.module.css";
 
 const Popup = ({ message, onClose }) => {
+  const leftPoints = [
+    {
+      id: 1,
+      title: "Course Structure",
+    },
+    {
+      id: 2,
+      title: "Mentor guidance",
+    },
+    {
+      id: 3,
+      title: "Scholarship Opportunity",
+    },
+  ];
   return (
     <div className={styles.popupOverlay}>
       <div
@@ -16,34 +30,72 @@ const Popup = ({ message, onClose }) => {
         </span>
 
         <div className={styles.mainDiv}>
-          <div className={styles.whiteDiv}>
-            <h3>Get Scholarship upto</h3>
-            <span className={styles.OFF}>30% OFF</span>
+          <div className={styles.titleDiv}>
+            <Image
+              src="https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/Hourglass.webp"
+              quality={100}
+              width={76}
+              height={76}
+            />
+            <h3>Book Your Demo Class Now!</h3>
+            <span className={styles.desc}>
+              The demo session provides an overview of our Data Structures,
+              Algorithms, and System Design Program
+            </span>
           </div>
-
-          {/* Middle TagLine */}
-          <div className={styles.tagLine}>
-            <p>
-              on all Our <span>Course</span>
-            </p>
-          </div>
-
-          {/* Bottom Gradient Div */}
-          <div className={styles.gradientDiv}>
-            <p className={styles.batch}>Batch Details</p>
-            <div className={styles.batchDiv}>
-              <p className={styles.offerText}>
-                Weekend Batch : <span>9:30 AM - 1 PM</span>
-              </p>
-              <p className={styles.offerText}>
-                Weekday Batch : <span>8:00 PM - 10:30 PM</span>
-              </p>
+          <div className={styles.contentDiv}>
+            <div className={styles.leftContentDiv}>
+              {leftPoints.map((point) => (
+                <div className={styles.pointDiv} key={point.id}>
+                  <div className={styles.checkMarkDiv}>
+                    <Image
+                      src="https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/Check+Mark.webp"
+                      width={20}
+                      height={20}
+                      quality={100}
+                      loading="lazy"
+                    />
+                  </div>
+                  <p>{point.title}</p>
+                </div>
+              ))}
             </div>
-            <Link href="/fullstack/s2-dsa-and-system-design" target="_blank">
-              <div className={styles.buttonDiv}>
-                <button>Apply for Scholarship Now</button>
+            <div className={styles.middleLineDiv}></div>
+            <div className={styles.rightContentDiv}>
+              <span>Time : 8 pm , Date : 30 Jan</span>
+              <div className={styles.mentorsFromDiv}>
+                <p>Mentors from:</p>
+                <div className={styles.mentorsFromImageDiv}>
+                  <Image
+                    src="https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/Microsoft%2BLogo.webp"
+                    width={120}
+                    height={30}
+                    quality={100}
+                    loading="lazy"
+                    className={styles.microsoftLogo}
+                  />
+                  <Image
+                    src="https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/GoogleColor.webp"
+                    width={78}
+                    height={26}
+                    quality={100}
+                    loading="lazy"
+                    className={styles.googleLogo}
+                  />
+                  <Image
+                    src="https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/MetaColor.webp"
+                    width={87}
+                    height={19}
+                    quality={100}
+                    loading="lazy"
+                    className={styles.metaLogo}
+                  />
+                </div>
               </div>
-            </Link>
+            </div>
+          </div>
+          <div className={styles.buttonDiv}>
+            <button>Request a Demo Class</button>
           </div>
         </div>
       </div>
