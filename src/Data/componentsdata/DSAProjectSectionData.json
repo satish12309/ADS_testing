@@ -5,9 +5,9 @@
     "number": 1,
     "hours": "26 hours",
     "title": "Social Media Feed System",
-    "text": "Efficient real-time notification feed management system for Twitter.",
+    "text": "Efficient real-time notification feed management system for Twitter . Lightning speed time update and access during high volume data management per second.",
     "tool1": "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project/tesla_tech.webp",
-    "cta": ": Lightning speed time update and access during high volume data management per second. Effective data Sharding and caching technique implementation."
+    "cta": " Effective data Sharding and caching technique implementation."
   },
   {
     "id": 2,
@@ -17,7 +17,7 @@
     "title": "Designing of Booking System for Hotel Rooms",
     "text": "User reservation and room management focused booking management systems for business.",
     "tool1": "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project/walmart_tech.webp",
-    "cta": "Infusion of a normalized database schema for tracking room bookings, customer accounts, concurrent bookings, and cancellations."
+    "cta": "Infusion of a database schema for tracking room bookings, customer accounts etc."
   },
   {
     "id": 3,
@@ -27,7 +27,7 @@
     "title": "Food Ordering System",
     "text": "Build a platform connecting users to local restaurants for ordering and delivery.",
     "tool1": "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project/amazon_tech.webp",
-    "cta": "Design a microservices architecture for managing restaurant listings, orders, and payments, with real-time tracking and user reviews."
+    "cta": "Design a microservices architecture for managing restaurant listings, orders etc."
   },
   {
     "id": 4,
@@ -37,7 +37,7 @@
     "title": "Netflix Content Streaming Service",
     "text": "Design a microservices-based architecture for Netflix’s streaming service, focusing on service decomposition.",
     "tool1": "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project/pfizer_tech.webp",
-    "cta": " Use CAP principles to manage data consistency, availability, and partition tolerance for real-time streaming with resilience."
+    "cta": " Use CAP principles to manage data consistency."
   },
   {
     "id": 5,
@@ -45,9 +45,9 @@
     "number": 5,
     "hours": "26 hours",
     "title": "End-to-end Design of Flipkart-like Shopping Cart",
-    "text": " High-quality user interaction, rich shopping cart system creation from scratch. Includes common features like add, replace, and delete items. The design focus remains on user experience and scalability.",
+    "text": " High-quality user interaction, rich shopping cart system creation from scratch. Includes common features like add, replace, and delete items.",
     "tool1": "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project/microsoft_tech.webp",
-    "cta": " Normalization of database schema, Sequence diagrams, UML diagrams, and class."
+    "cta": " Normalization of database schema, Sequence diagrams ."
   },
   {
     "id": 6,
@@ -57,66 +57,6 @@
     "title": "Developing Property Booking System",
     "text": "Create a booking management system for hotels that supports user reservations and room management.",
     "tool1": "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project/netflix_tech.webp",
-    "cta": "Implement a normalized database schema for hotels, rooms, bookings, and user accounts, ensuring the system can handle concurrent bookings and cancellations efficiently."
-  },
-  {
-    "id": 7,
-    "icon": "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project/jpmorgan_logo.webp",
-    "number": 7,
-    "hours": "26 hours",
-    "title": "Fraud Detection System",
-    "text": "Implement an advanced fraud detection system to identify and prevent fraudulent transactions in real-time",
-    "tool1": "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project/jpmorgan_tech.webp",
-    "cta": " Reduced financial losses due to fraud and increased customer trust and security."
-  },
-  {
-    "id": 8,
-    "icon": "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project/uber_logo.webp",
-    "number": 8,
-    "hours": "26 hours",
-    "title": "Dynamic Pricing Optimization",
-    "text": "Develop a dynamic pricing model that adjusts fares based on demand, supply, and other external factors",
-    "tool1": "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project/uber_tech.webp",
-    "cta": "Maximised revenue and improved service availability during peak times."
-  },
-  {
-    "id": 9,
-    "icon": "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project/google_logo.webp",
-    "number": 9,
-    "hours": "26 hours",
-    "title": "Ad Spend Optimization",
-    "text": "Develop a machine learning model to predict customer purchase behavior based on historical data and browsing patterns",
-    "tool1": "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project/google_tech.webp",
-    "cta": "Increased ROI on advertising campaigns and more effective allocation of marketing budgets."
-  },
-  {
-    "id": 10,
-    "icon": "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project/meta_logo.webp",
-    "number": 10,
-    "hours": "26 hours",
-    "title": "User Sentiment Analysis",
-    "text": "Analyze user posts and comments to gauge public sentiment and identify trends and patterns",
-    "tool1": "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project/meta_tech.webp",
-    "cta": "Better understanding of user preferences and improved content and advertising strategies."
-  },
-  {
-    "id": 11,
-    "icon": "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project/capital_logo.webp",
-    "number": 11,
-    "hours": "26 hours",
-    "title": "AI-based Financial Portfolio Optimization",
-    "text": "Develop a machine learning model to predict customer purchase behavior based on historical data and browsing patterns",
-    "tool1": "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project/capital_tech.webp",
-    "cta": "A web app suggesting tailored financial portfolios for CapitalOne clients based on risk tolerance and goals."
-  },
-  {
-    "id": 12,
-    "icon": "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project/headspace_logo.webp",
-    "number": 12,
-    "hours": "26 hours",
-    "title": "AI tool for monitoring mental health",
-    "text": "Develop an AI tool to monitor user engagement with meditation and mental health content to offer personalized well-being suggestions",
-    "tool1": "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project/headspace_tech.webp",
-    "cta": "Tracks user interactions, sentiment, and usage patterns to offer personalized mental health advice, detect distress signs, and suggest interventions."
+    "cta": "Implement a normalized database schema for hotels, rooms ."
   }
 ]

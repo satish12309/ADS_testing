@@ -7,7 +7,7 @@
     "title": "Predictive Maintenance for Electric Vehicles",
     "text": "Implement a predictive maintenance system to forecast and prevent potential failures in electric vehicle components.",
     "tool1": "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project/tesla_tech.webp",
-    "cta": "Reduced maintenance costs and downtime, improved vehicle reliability and customer satisfaction."
+    "cta": "Reduced maintenance costs , improved vehicle reliability."
   },
   {
     "id": 2,
@@ -17,7 +17,7 @@
     "title": "Supply Chain Optimization",
     "text": "Analyze and optimize supply chain operations to reduce costs and improve efficiency using historical sales and logistics data.",
     "tool1": "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project/walmart_tech.webp",
-    "cta": "Streamlined supply chain processes, reduced operational costs, and improved product availability."
+    "cta": "Reduced operational costs, and improved product availability."
   },
   {
     "id": 3,
@@ -27,7 +27,7 @@
     "title": "Customer Purchase Prediction",
     "text": "Develop a machine learning model to predict customer purchase behaviour based on historical data and browsing patterns",
     "tool1": "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project/amazon_tech.webp",
-    "cta": "Enhanced marketing strategies and personalized recommendations, leading to increased sales and customer satisfaction"
+    "cta": "Enhanced marketing strategies and personalized recommendations."
   },
   {
     "id": 4,
@@ -37,7 +37,7 @@
     "title": "Drug Discovery Acceleration",
     "text": "Utilize AI and machine learning to accelerate the drug discovery process by predicting the efficacy of potential compounds",
     "tool1": "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project/pfizer_tech.webp",
-    "cta": "Faster time-to-market for new drugs and significant cost savings in research and development."
+    "cta": "Faster time-to-market for new drugs and significant cost."
   },
   {
     "id": 5,
@@ -47,7 +47,7 @@
     "title": "Employee Productivity Analysis",
     "text": "Analyze employee performance data to identify factors that impact productivity and develop strategies to enhance efficiency",
     "tool1": "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project/microsoft_tech.webp",
-    "cta": "Improved employee performance and productivity, leading to higher overall organizational effectiveness."
+    "cta": "Improved employee performance and productivity."
   },
   {
     "id": 6,
@@ -57,7 +57,7 @@
     "title": "Content Recommendation Engine Enhancement",
     "text": "Enhance the recommendation engine to provide more accurate and personalized content suggestions to users",
     "tool1": "https://d32and0ii3b8oy.cloudfront.net/web/V4/course_iit_guwahati/project/netflix_tech.webp",
-    "cta": "Increased user engagement and retention, leading to higher subscription rates."
+    "cta": "Increased user engagement and retention."
   },
   {
     "id": 7,
