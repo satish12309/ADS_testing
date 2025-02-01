@@ -14,7 +14,7 @@ const Form = ({
   DSAdownloadBrochure,
   brochurePdfLink,
   platform,
-  isCyberSecurity,//for button type manipulation
+  isCyberSecurity, //for button type manipulation
 }) => {
   //form submission end point
   const formEndPoint =
@@ -54,10 +54,8 @@ const Form = ({
   let btnText = "Apply For Counselling";
   if (downloadBrochure) {
     btnText = "Download Now";
-  }
-  else if(DSAdownloadBrochure){
+  } else if (DSAdownloadBrochure) {
     btnText = "Book Session";
-
   }
 
   //onchange function
@@ -267,7 +265,8 @@ const Form = ({
           <div className={styles.submitContainer}>
             <Button
               text={submitting ? "Submitting..." : btnText}
-              OrangeButton={!isCyberSecurity}
+              // OrangeButton={!isCyberSecurity}
+              newBlueButton={true}
               buttonType="submit"
             />
             {/* <button

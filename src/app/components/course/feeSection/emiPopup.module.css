@@ -317,7 +317,7 @@ line-height: 158%;
   }
 
   .greenDown {
-    font-size: 6px;
+    font-size: 8px;
     padding: 9px 0;
   }
 
@@ -326,14 +326,16 @@ line-height: 158%;
   }
 
   .gst {
-    font-size: 6px;
+    font-size: 9px;
   }
 
   .firstrow {
     margin-left: 61px;
     gap: 7px;
   }
-
+  .secrow span {
+    flex-flow: column;
+  }
   .para {
     font-size: 9px;
   }
