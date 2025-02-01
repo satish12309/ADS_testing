@@ -19,7 +19,6 @@ function CertificateSection() {
   }, [certificateNew]);
 
   return (
-    <section className="containerWidth">
       <div className={styles.mainBg}>
         <h2 className={styles.upskillHeading}>
           Get certified and accelerate your
@@ -30,7 +29,6 @@ function CertificateSection() {
           <TopCertificate topCertificates={topCertificates} isCyberSecurity={true}/>
         </div>
       </div>
-    </section>
   );
 }
 

@@ -445,17 +445,16 @@
     display: none;
   }
 
+    .staticPoints p {
+        color: #FFF;
+        font-style: normal;
+        line-height: 125%;
+        font-weight: 400;
+        font-size: 15px;
+    }
   .staticPoints {
     display: block;
     text-align: center;
-  }
-
-  .staticPoints p {
-    color: #fff;
-    font-style: normal;
-    line-height: 125%;
-    font-weight: 400;
-    font-size: 12px;
   }
 
   .pointsImgWrapper img {
