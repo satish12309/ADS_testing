@@ -117,7 +117,7 @@
 
 .slider::before,
 .slider::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   width: 20px; /* Adjust width for the blur area */
@@ -128,7 +128,11 @@
 
 .slider::before {
   left: 0;
-  background: linear-gradient(to right, rgba(50, 50, 50, 0.8), rgba(0, 0, 0, 0));
+  background: linear-gradient(
+    to right,
+    rgba(50, 50, 50, 0.8),
+    rgba(0, 0, 0, 0)
+  );
 }
 
 .slider::after {
@@ -200,7 +204,6 @@
   transition: 0.3s ease;
 }
 
-
 .RightSide form input,
 .RightSide form select,
 .RightSide form select option,
@@ -234,7 +237,7 @@
   font-weight: 400;
 }
 
-.RightSide form>div {
+.RightSide form > div {
   margin-bottom: 10px;
 }
 
@@ -415,10 +418,10 @@
   }
 
   .leftSideH2 {
-    font-size: 20px;
+    font-size: 24px;
   }
 
   .LeftSide p {
-    font-size: 13px;
+    font-size: 18px;
   }
 }
