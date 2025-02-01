@@ -110,10 +110,26 @@
           {
             "id": 3,
             "title": "Network Admins"
-          },
+          }
+        ],
+        "points3": [
           {
             "id": 4,
-            "title": "IT Professionals"
+            "title": "Risk Management"
+          },
+          {
+            "id": 5,
+            "title": "IT Specialist"
+          }
+        ],
+        "points4": [
+          {
+            "id": 6,
+            "title": "Software Developer"
+          },
+          {
+            "id": 7,
+            "title": "Web Developer"
           }
         ]
       },

@@ -14,11 +14,13 @@
 }
 
 .feesmain {
-  background: linear-gradient(180deg,
-      var(--white) 0%,
-      #eff3f6 42.69%,
-      #eff3f6 66.46%,
-      var(--white) 98.82%);
+  background: linear-gradient(
+    180deg,
+    var(--white) 0%,
+    #eff3f6 42.69%,
+    #eff3f6 66.46%,
+    var(--white) 98.82%
+  );
 }
 
 .feesmain span {
@@ -179,7 +181,7 @@
   margin: 0;
 }
 
-.secondContainer>.innerIconDiv {
+.secondContainer > .innerIconDiv {
   text-align: center;
   margin-top: 30px;
 }
@@ -290,7 +292,6 @@
 }
 
 @media (max-width: 1181px) {
-
   .sideborder p,
   .iconDiv p {
     font-size: 14px;
@@ -298,7 +299,6 @@
 }
 
 @media (max-width: 1081px) {
-
   .headBlue,
   .headOrange {
     font-size: 33px;
@@ -333,7 +333,6 @@
 }
 
 @media (max-width: 968px) {
-
   .headBlue,
   .headOrange {
     font-size: 28px;
@@ -356,7 +355,6 @@
 }
 
 @media (max-width: 841px) {
-
   .headBlue,
   .headOrange {
     font-size: 24px;
@@ -399,7 +397,6 @@
 }
 
 @media (max-width: 761px) {
-
   .firstContainer,
   .secondContainer {
     padding: 20px;
@@ -448,7 +445,7 @@
 
   .feesmain span {
     color: var(--light-black);
-    font-weight: 700;
+    font-weight: 500;
   }
 
   .box {
@@ -544,7 +541,6 @@
 }
 
 @media (max-width: 481px) {
-
   .headBlue,
   .headOrange {
     font-size: 19px;
@@ -580,7 +576,7 @@
   }
 
   .feesmain span {
-    font-size: 16px;
+    font-size: 10px;
   }
 
   .feeContentContainer p {
@@ -590,6 +586,4 @@
   .btnDown {
     margin: 8% 0 18% 0;
   }
-
-  
 }
