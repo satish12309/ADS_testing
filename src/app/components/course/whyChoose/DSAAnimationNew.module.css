@@ -541,11 +541,15 @@
 
   .header h2,
   .header span {
-    font-size: 28px;
+    font-size: 36px;
+  }
+
+  .header span {
+    -webkit-text-stroke: .6px #fff1ea;
   }
 
   .Contents h5 {
-    font-size: 18px;
+    font-size: 24px;
   }
 
   .insideBox p,
@@ -554,7 +558,9 @@
   }
 
   .pTag {
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.4;
   }
 
   .imageSection {
@@ -568,8 +574,8 @@
   }
 
   .insideBox p {
-    font-size: 10px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 400;
   }
 
   .specialPTag {
@@ -588,6 +594,22 @@
   .insideBoxDesign1 img {
     width: 45px;
     height: 35px;
+  }
+
+  .downBoxDesign1 {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    padding-left: 10px !important;
+    column-gap: 5px;
+  }
+
+  .insideBoxDesign2{
+    border-radius: 15px;
+  }
+
+  .divContainer:nth-child(1) .svglogo svg,.divContainer:nth-child(2) .svglogo svg{
+    height: 430px;
   }
 }
 

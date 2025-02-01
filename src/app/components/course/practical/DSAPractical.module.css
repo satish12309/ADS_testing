@@ -312,7 +312,7 @@
   
   @media only screen and (max-width: 481px) {
     .pTag {
-      font-size: 16px;
+      font-size: 20px;
     }
   
     .boxMain .box:nth-child(3),
@@ -325,7 +325,7 @@
     }
   
     .container h2 {
-      font-size: 23px;
+      font-size: 30px;
     }
   
     .boxMain {
@@ -339,11 +339,12 @@
     }
   
     .box p {
-      font-size: 14px;
+      font-size: 17px;
     }
   
     .box h5 {
-      font-size: 20px;
+      font-size: 22px;
+      line-height: 1.4;
     }
   }
   
