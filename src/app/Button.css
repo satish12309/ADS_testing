@@ -340,7 +340,7 @@
   .grayButton {
     font-weight: 400;
     font-size: 14px;
-    padding: 17px;
+    padding: 11px 10px;
   }
 
   .newBlueButton {
@@ -349,6 +349,33 @@
   }
 }
 
+@media (max-width: 431px) {
+  .button,
+  .grayButton {
+    font-weight: 400;
+    font-size: 14px;
+    padding: 17px 10px;
+  }
+}
+
+@media (max-width: 401px) {
+  .grayButton {
+    line-height: 19.679px;
+    font-size: 13px;
+  }
+}
+@media (max-width: 415px) {
+  .button,
+  .grayButton {
+    padding: 17px 10px;
+  }
+}
+@media (max-width: 391px) {
+  .button,
+  .grayButton {
+    padding: 11px;
+  }
+}
 @media (max-width: 376px) {
   .button,
   .grayButton {
@@ -358,12 +385,5 @@
 @media (max-width: 361px) {
   .grayButton {
     padding: 8px;
-  }
-}
-
-@media (max-width: 401px) {
-  .grayButton {
-    line-height: 19.679px;
-    font-size: 13px;
   }
 }
