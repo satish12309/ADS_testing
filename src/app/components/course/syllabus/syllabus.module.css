@@ -323,7 +323,8 @@
   /* Rounded corners for the scrollbar track */
 }
 
-.popup::-webkit-scrollbar-thumb:hover {}
+.popup::-webkit-scrollbar-thumb:hover {
+}
 
 /* For Firefox */
 .popup {
@@ -490,11 +491,13 @@
   position: relative;
   left: 40px;
   top: 4px;
-  background: repeating-linear-gradient(to bottom,
-      var(--primary-color),
-      var(--primary-color) 5px,
-      transparent 5px,
-      transparent 10px);
+  background: repeating-linear-gradient(
+    to bottom,
+    var(--primary-color),
+    var(--primary-color) 5px,
+    transparent 5px,
+    transparent 10px
+  );
 }
 
 .buttondiv {
@@ -569,7 +572,6 @@
 }
 
 @media (max-width: 1281px) {
-
   /* .mainConteiner {
     max-width: 1180px;
   } */
@@ -606,7 +608,6 @@
 }
 
 @media (max-width: 968px) {
-
   /* .card {
     width: 93%;
   } */
@@ -888,7 +889,7 @@
   .ryttop p {
     font-size: 20px;
   }
-  .date p{
+  .date p {
     font-size: 16px;
   }
 
@@ -905,5 +906,10 @@
   .tools p {
     font-size: var(--desktop_p-font-size);
   }
-
+  .date p {
+    font-size: 12px;
+  }
+  .ryttop p {
+    font-size: 15px;
+  }
 }

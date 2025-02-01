@@ -5,19 +5,17 @@
   /* margin-top: 100px; */
   flex-direction: column;
   border-radius: 54px;
-  background: radial-gradient(circle at 90% 20%,
-      /* Blue circle positioned at the top left */
-      rgba(6, 59, 92, 0.9) 1%,
-      /* Smaller blue circle */
-      transparent 30%
-      /* Smooth transition to black */
+  background: radial-gradient(
+      circle at 90% 20%,
+      /* Blue circle positioned at the top left */ rgba(6, 59, 92, 0.9) 1%,
+      /* Smaller blue circle */ transparent 30% /* Smooth transition to black */
     ),
-    radial-gradient(circle at 10% 80%,
+    radial-gradient(
+      circle at 10% 80%,
       /* Orange circle positioned at the bottom right */
-      rgba(254, 122, 54, 000.3) 1%,
-      /* Glowing orange circle */
-      transparent 40%
-      /* Smooth transition to black */
+        rgba(254, 122, 54, 000.3) 1%,
+      /* Glowing orange circle */ transparent 40%
+        /* Smooth transition to black */
     ),
     var(--light-black);
   background-color: rgba(15, 14, 14, 0.954);
@@ -157,7 +155,6 @@
 }
 
 @media only screen and (max-width: 1281px) {
-
   /* .certBoxDemo {
     grid-template-columns: 36% 49%;
     gap: 56px;
@@ -184,7 +181,8 @@
   }
 }
 
-@media only screen and (max-width: 1024px) {}
+@media only screen and (max-width: 1024px) {
+}
 
 @media only screen and (max-width: 968px) {
   .containerWidth {
@@ -236,7 +234,6 @@
 }
 
 @media only screen and (max-width: 841px) {
-
   /* .upskillHeading {
      font-size: 28px;
   } */
@@ -354,9 +351,11 @@
   }
 
   .AddonMbl p {
-    background: linear-gradient(90deg,
-        var(--light-orange) 7.69%,
-        var(--secondary-color) 93.08%);
+    background: linear-gradient(
+      90deg,
+      var(--light-orange) 7.69%,
+      var(--secondary-color) 93.08%
+    );
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -375,7 +374,7 @@
     margin: 0;
   }
 
-  .mainBg{
+  .mainBg {
     gap: 45px;
   }
 
@@ -399,21 +398,22 @@
   .certBoxWrapperTop {
     padding: 0;
   }
-  .certBoxWrapperTop,.innerDiv {
+  .certBoxWrapperTop,
+  .innerDiv {
     gap: 55px;
-}
+  }
 
   .iconDivMain p {
     font-size: 16px;
   }
 
-  .certBox img{
+  .certBox img {
     margin-left: -2px;
   }
-  .iconDivMain{
+  .iconDivMain {
     margin: 0;
   }
-  .AddonMbl{
+  .AddonMbl {
     margin-bottom: 0;
   }
 }
@@ -427,5 +427,8 @@
   .certBox img {
     height: auto;
     /* width: 100%; */
+  }
+  .upskillHeading {
+    font-size: 25px;
   }
 }

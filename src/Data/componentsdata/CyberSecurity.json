@@ -5,7 +5,7 @@
       "number": 1,
       "hours": "26 hours",
       "title": "Zero Trust Security Framework",
-      "text": "Design and deploy a zero trust security framework to restrict access based on verified identity and continuous authentication.",
+      "text": "Design and deploy a zero trust security framework to restrict access based on verified identity .",
       "tool1": "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/awsazure.png",
       "cta": "Implement a robust security model ensuring secure resource access"
     },
@@ -15,7 +15,7 @@
       "number": 2,
       "hours": "26 hours",
       "title": "AI-Powered Threat Detection System",
-      "text": "Build an AI-driven system to detect and analyze threats using anomaly detection and predictive models for proactive defense.",
+      "text": "Build an AI-driven system to detect and analyze threats using anomaly detection.",
       "tool1": "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/tensoeflowsplunk.png",
       "cta": ": Deliver a system that identifies and mitigates cyber threats in real time."
     },
@@ -25,7 +25,7 @@
       "number": 3,
       "hours": "26 hours",
       "title": "Web-Based Facial Authentication System",
-      "text": "Develop a facial recognition system to authenticate web users securely by leveraging advanced AI algorithms for real-time validation.",
+      "text": "Develop a facial recognition system to authenticate web users securely.",
       "tool1": "https://learnbay-s3.s3.us-east-2.amazonaws.com/adlearnbay/tensorflowazure.png",
       "cta": "Enhance web security with an accurate and userfriendly authentication tool"
     }
