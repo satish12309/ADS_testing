@@ -1,6 +1,6 @@
 .popupOverlay {
   position: fixed;
-  bottom: 0;
+  top: 0;
   /* Align to the bottom */
   left: 0;
   /* Align to the left */
@@ -235,6 +235,9 @@
 }
 
 @media screen and (max-width:481px) {
+  .popupContainer{
+    top: 0;
+  }
   .mainDiv {
     padding: 20px 0 40px;
   }
