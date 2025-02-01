@@ -639,4 +639,16 @@
   .columnDiv {
     margin: 60px auto;
   }
+
+  .Contents h5 {
+    font-size: 22px;
+  }
+
+  .pTag {
+    font-size: 16px;
+  }
+
+  .insideBox p{
+    font-size: 16px;
+  }
 }
