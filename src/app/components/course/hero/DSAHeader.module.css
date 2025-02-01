@@ -503,6 +503,11 @@
     border-radius: 0;
   }
 
+  
+  .staticPoints p {
+    font-size: 13px;
+}
+
   /* .contentTitleWrapper h1 {
         font-size: 24px;
     } */
