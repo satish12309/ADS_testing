@@ -618,4 +618,8 @@
   .firstSection h5 {
     font-size: 14px;
   }
+
+  .staticPoints p {
+    font-size: 13px;
+}
 }
