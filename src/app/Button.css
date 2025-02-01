@@ -340,7 +340,7 @@
   .grayButton {
     font-weight: 400;
     font-size: 14px;
-    padding: 11px 10px;
+    padding: 17px 10px;
   }
 
   .newBlueButton {
@@ -364,16 +364,10 @@
     font-size: 13px;
   }
 }
-@media (max-width: 415px) {
-  .button,
-  .grayButton {
-    padding: 17px 10px;
-  }
-}
 @media (max-width: 391px) {
   .button,
   .grayButton {
-    padding: 11px;
+    padding: 15px;
   }
 }
 @media (max-width: 376px) {
