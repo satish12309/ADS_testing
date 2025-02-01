@@ -90,9 +90,11 @@
 }
 
 .secondSectionImgWrapper {
-  background: linear-gradient(to bottom,
+  background: linear-gradient(
+      to bottom,
       rgba(8, 54, 83, 0.9) 0%,
-      transparent 100%),
+      transparent 100%
+    ),
     var(--light-black);
   padding: 30px 20px 20px 30px;
   border-radius: 40px;
@@ -210,7 +212,6 @@
   .secondSection {
     padding: 0 0 18px 20px;
   }
-
 }
 
 @media only screen and (max-width: 1381px) {
@@ -467,7 +468,6 @@
 }
 
 @media only screen and (max-width: 769px) {
-
   /* .secondSectionImgWrapper img {
     width: 230px;
     height: 230px;
@@ -545,13 +545,11 @@
     padding: 30px;
   }
 
-
   .pTop,
   .pTop span {
     font-size: 20px;
     line-height: 1;
   }
-
 }
 
 @media only screen and (max-width: 481px) {
@@ -572,16 +570,26 @@
 
   .innerBox1,
   .innerBox2 {
-    padding: 5px 15px;
+    padding: 5px 9px;
   }
 
   .innerBox1 h3,
   .innerBox2 h3 {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
   }
 
   .pBot {
     font-size: 18px;
+  }
+  .innerDiv h2 {
+    font-size: 26px;
+  }
+}
+@media only screen and (max-width: 361px) {
+  .innerBox1 h3,
+  .innerBox2 h3 {
+    font-size: 16px;
+    font-weight: 400;
   }
 }

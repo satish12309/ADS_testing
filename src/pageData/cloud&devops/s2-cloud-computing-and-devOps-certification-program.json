@@ -99,7 +99,7 @@
         "points1": [
           {
             "id": 1,
-            "title": "HR Assistant"
+            "title": "IT Specialist"
           },
           {
             "id": 2,
@@ -115,17 +115,17 @@
         "points3": [
           {
             "id": 4,
-            "title": "Network Engineers"
+            "title": "Network Engg."
           },
           {
             "id": 5,
-            "title": "IT Support Engineers"
+            "title": "IT Engineers"
           }
         ],
         "points4": [
           {
             "id": 6,
-            "title": "System Administrators"
+            "title": "System Admin"
           },
           {
             "id": 7,

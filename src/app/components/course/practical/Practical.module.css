@@ -335,38 +335,26 @@
     font-size: 22px;
   }
 
-  .pointItem{
+  .pointItem {
     flex-direction: row;
     gap: 7px;
   }
 
-  .spanDiv{
+  .spanDiv {
     gap: 8px;
   }
   .spanDiv span {
     font-size: 15px;
     font-weight: 500;
-}
-.innerContainer{
-  border-radius: 25px;
-}
-}
-
-@media only screen and (max-width: 361px) {
+  }
   .innerContainer {
-    max-width: 320px;
+    border-radius: 25px;
   }
+}
 
-  .pTag {
-    font-size: 8px;
-  }
-
+@media only screen and (max-width: 376px) {
   .box {
     max-width: 100%;
-  }
-
-  .container h2 {
-    font-size: 18px;
   }
 
   .boxMain {
@@ -376,10 +364,10 @@
   }
 
   .spanDiv span {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .box p {
-    font-size: 10px;
+    font-size: 15px;
   }
 }

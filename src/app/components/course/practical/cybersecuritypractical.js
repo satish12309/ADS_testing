@@ -49,23 +49,21 @@ const Practical = () => {
   ));
 
   return (
-    <div className="containerWidth">
-      <div className={styles.container}>
-        <div className={styles.innerContainer}>
-          <h2>{title}</h2>
-          <p className={styles.pTag}>{description}</p>
+    <div className={styles.container}>
+      <div className={styles.innerContainer}>
+        <h2>{title}</h2>
+        <p className={styles.pTag}>{description}</p>
 
-          <div className={styles.spanDiv}>
-            {points.map((point, index) => (
-              <PointItem key={index} point={point} />
-            ))}
-          </div>
+        <div className={styles.spanDiv}>
+          {points.map((point, index) => (
+            <PointItem key={index} point={point} />
+          ))}
+        </div>
 
-          <div className={styles.boxMain}>
-            {boxes.map((box, index) => (
-              <BoxItem key={index} box={box} />
-            ))}
-          </div>
+        <div className={styles.boxMain}>
+          {boxes.map((box, index) => (
+            <BoxItem key={index} box={box} />
+          ))}
         </div>
       </div>
     </div>

@@ -1,381 +1,379 @@
 .mainContainer {
-    margin-top: 70px;
-    background: #212121;
-    padding: 30px 0 60px;
-    overflow: hidden;
+  margin-top: 70px;
+  background: #212121;
+  padding: 30px 0 60px;
+  overflow: hidden;
 }
 
 .contentWrapper {
-    position: relative;
-    width: 85%;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 80px;
-    padding: 30px 180px;
-    border-radius: 0 0 60px 60px;
-    background: linear-gradient(to bottom,
-            #212121 0%,
-            rgba(0, 114, 188, 0.2) 60%,
-            rgba(0, 114, 188, 0.2) 100%);
+  position: relative;
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  padding: 30px 180px;
+  border-radius: 0 0 60px 60px;
+  background: linear-gradient(
+    to bottom,
+    #212121 0%,
+    rgba(0, 114, 188, 0.2) 60%,
+    rgba(0, 114, 188, 0.2) 100%
+  );
 }
-
 .contentTitleWrapper {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
 .contentTitleWrapper h1 {
-    color: #FFF;
-    text-align: center;
-    font-size: 50px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 109%;
-    /* width: 70%; */
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 109%;
+  /* width: 70%; */
 }
 
 .contentTitleWrapper span {
-    background: linear-gradient(90deg, #FE7A36 21.44%, #FFC436 61.33%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 109%;
+  background: linear-gradient(90deg, #fe7a36 21.44%, #ffc436 61.33%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 109%;
 }
 
 .contentTitleWrapper h5 {
-    color: #FFF;
-    text-align: center;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 109%;
-    background: rgb(50, 42, 74);
-    border: 1px solid white;
-    width: max-content;
-    padding: 10px 20px;
-    border-radius: 25px;
-    margin: auto;
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 109%;
+  background: rgb(50, 42, 74);
+  border: 1px solid white;
+  width: max-content;
+  padding: 10px 20px;
+  border-radius: 25px;
+  margin: auto;
 }
 
 .svgWrapper {
-    position: absolute;
-    top: 80px;
-    right: 70px;
-
+  position: absolute;
+  top: 80px;
+  right: 70px;
 }
 
 .contentPointWrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
 }
 
 .pointWrapper {
-    width: 310px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+  width: 310px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
-
 .pointText {
-    color: #FFF;
-    font-size: 17px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 125%;
+  color: #fff;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 125%;
 }
 
 .pointTextBold {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .mentorsWraper {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
 .mentorsContentsWraper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
 .mentorText {
-    color: #FFF;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 28.679px;
-    text-transform: capitalize;
+  color: #fff;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28.679px;
+  text-transform: capitalize;
 }
 
 .mentorFromImgWrapper {
-    display: flex;
-    gap: 20px;
+  display: flex;
+  gap: 20px;
 }
 
 .buttonsWrapper {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
 }
 
 .TableauSoftwareIconWrapper,
 .ModuleIconWrapper,
 .PieChartIconWrapper,
 .HierarchyIconWrapper {
-    position: absolute;
+  position: absolute;
 }
 
 .TableauSoftwareIconWrapper {
-    top: 295px;
-    left: 245px;
+  top: 295px;
+  left: 245px;
 }
 
 .ModuleIconWrapper {
-    top: 150px;
-    right: 65px;
+  top: 150px;
+  right: 65px;
 }
 
 .PieChartIconWrapper {
-    bottom: 205px;
-    left: 100px;
+  bottom: 205px;
+  left: 100px;
 }
 
 .HierarchyIconWrapper {
-    bottom: 260px;
-    right: 150px;
+  bottom: 260px;
+  right: 150px;
 }
 
 .staticPoints,
 .mobileSvgWrapper {
-    display: none;
+  display: none;
 }
 
 @media only screen and (max-width: 1381px) {
-    .contentTitleWrapper h1 {
-        font-size: 48px;
-    }
+  .contentTitleWrapper h1 {
+    font-size: 48px;
+  }
 
-    .svgWrapper {
-        right: 10px;
-    }
+  .svgWrapper {
+    right: 10px;
+  }
 
-    .TableauSoftwareIconWrapper {
-        left: 200px;
-    }
+  .TableauSoftwareIconWrapper {
+    left: 200px;
+  }
 
-    .HierarchyIconWrapper {
-        right: 120px;
-    }
+  .HierarchyIconWrapper {
+    right: 120px;
+  }
 }
 
 @media only screen and (max-width: 1281px) {
-    .contentTitleWrapper h1 {
-        font-size: 44px;
-    }
+  .contentTitleWrapper h1 {
+    font-size: 44px;
+  }
 
-    .svgWrapper {
-        top: 70px;
-        right: -35px;
-    }
+  .svgWrapper {
+    top: 70px;
+    right: -35px;
+  }
 
-    .TableauSoftwareIconWrapper {
-        left: 150px;
-    }
+  .TableauSoftwareIconWrapper {
+    left: 150px;
+  }
 
-    .HierarchyIconWrapper {
-        right: 100px;
-    }
+  .HierarchyIconWrapper {
+    right: 100px;
+  }
 }
 
 @media only screen and (max-width: 1181px) {
+  .contentWrapper {
+    padding: 30px 135px;
+  }
 
-    .contentWrapper {
-        padding: 30px 135px;
-    }
+  .TableauSoftwareIconWrapper {
+    left: 110px;
+  }
 
-    .TableauSoftwareIconWrapper {
-        left: 110px;
-    }
+  .ModuleIconWrapper {
+    right: 35px;
+  }
 
-    .ModuleIconWrapper {
-        right: 35px;
-    }
+  .PieChartIconWrapper {
+    left: 70px;
+  }
 
-    .PieChartIconWrapper {
-        left: 70px;
-    }
-
-    .HierarchyIconWrapper {
-        right: 85px;
-    }
+  .HierarchyIconWrapper {
+    right: 85px;
+  }
 }
 
 @media only screen and (max-width: 1081px) {
-    .contentTitleWrapper h1 {
-        font-size: 38px;
-    }
+  .contentTitleWrapper h1 {
+    font-size: 38px;
+  }
 
-    .contentTitleWrapper h5 {
-        font-size: 26px;
-    }
+  .contentTitleWrapper h5 {
+    font-size: 26px;
+  }
 
-    .svgWrapper {
-        top: 60px;
-        right: -10px;
-    }
+  .svgWrapper {
+    top: 60px;
+    right: -10px;
+  }
 
-    .TableauSoftwareIconWrapper {
-        top: 260px;
-        left: 60px;
-    }
+  .TableauSoftwareIconWrapper {
+    top: 260px;
+    left: 60px;
+  }
 
-    .HierarchyIconWrapper {
-        right: 60px;
-    }
+  .HierarchyIconWrapper {
+    right: 60px;
+  }
 
-    .contentPointWrapper {
-        gap: 20px;
-    }
+  .contentPointWrapper {
+    gap: 20px;
+  }
 
-    .pointWrapper {
-        width: 300px;
-    }
+  .pointWrapper {
+    width: 300px;
+  }
 }
 
 @media only screen and (max-width: 641px) {
-    .mainContainer {
-        margin-top: 50px;
-        padding: 20px 0 40px;
-    }
+  .mainContainer {
+    margin-top: 50px;
+    padding: 20px 0 40px;
+  }
 
-    .contentWrapper {
-        width: 90%;
-        padding: 20px 25px;
-        gap: 60px;
-        border-radius: 0 0 40px 40px;
-    }
+  .contentWrapper {
+    width: 90%;
+    padding: 20px 25px;
+    gap: 60px;
+    border-radius: 0 0 40px 40px;
+  }
 
-    .contentTitleWrapper h1 {
-        font-size: 32px;
-    }
+  .contentTitleWrapper h1 {
+    font-size: 32px;
+  }
 
-    .contentTitleWrapper h5 {
-        font-size: 22px;
-        padding: 8px 15px;
-    }
+  .contentTitleWrapper h5 {
+    font-size: 22px;
+    padding: 8px 15px;
+  }
 
-    /* .svgWrapper {
+  /* .svgWrapper {
         display: none;
     } */
 
-    .TableauSoftwareIconWrapper {
-        top: 185px;
-        left: 8px;
-    }
+  .TableauSoftwareIconWrapper {
+    top: 185px;
+    left: 8px;
+  }
 
-    .ModuleIconWrapper {
-        top: 120px;
-        right: 20px;
-    }
+  .ModuleIconWrapper {
+    top: 120px;
+    right: 20px;
+  }
 
-    .PieChartIconWrapper {
-        bottom: 180px;
-        left: 50px;
-    }
+  .PieChartIconWrapper {
+    bottom: 180px;
+    left: 50px;
+  }
 
-    .HierarchyIconWrapper {
-        bottom: 210px;
-        right: 40px;
-    }
+  .HierarchyIconWrapper {
+    bottom: 210px;
+    right: 40px;
+  }
 
-    .contentPointWrapper {
-        gap: 15px;
-    }
+  .contentPointWrapper {
+    gap: 15px;
+  }
 
-    .pointWrapper {
-        width: 260px;
-    }
+  .pointWrapper {
+    width: 260px;
+  }
 
-    .pointText {
-        font-size: 14px;
-    }
+  .pointText {
+    font-size: 14px;
+  }
 
-    .mentorsWraper {
-        gap: 30px;
-    }
+  .mentorsWraper {
+    gap: 30px;
+  }
 }
 
 @media only screen and (max-width: 481px) {
-    .contentWrapper {
-        background: linear-gradient(to bottom,
-                #212121 0%,
-                #212121 50%,
-                rgba(0, 114, 188, 0.2) 80%,
-                rgba(0, 114, 188, 0.2) 100%);
-    }
+  .contentWrapper {
+    background: linear-gradient(
+      to bottom,
+      #212121 0%,
+      #212121 50%,
+      rgba(0, 114, 188, 0.2) 80%,
+      rgba(0, 114, 188, 0.2) 100%
+    );
+  }
 
-    .mainContainer {
-        padding: 20px 0 40px 0;
-    }
+  .mainContainer {
+    padding: 20px 0 40px 0;
+  }
 
-    .contentWrapper {
-        width: 100%;
-        gap: 55px;
-    }
+  .contentWrapper {
+    width: 100%;
+    gap: 55px;
+  }
 
-    .contentTitleWrapper h1 {
-        width: 77%;
-        margin: auto;
-        font-size: 28px;
-    }
+  .contentTitleWrapper h1 {
+    width: 77%;
+    margin: auto;
+    font-size: 28px;
+  }
 
-    .svgWrapper {
-        display: none;
-    }
+  .svgWrapper {
+    display: none;
+  }
 
-    .mobileSvgWrapper {
-        position: absolute;
-        display: block;
-        width: max-content;
-        top: 80px;
-        right: 65px;
-    }
+  .mobileSvgWrapper {
+    position: absolute;
+    display: block;
+    width: max-content;
+    top: 80px;
+    right: 65px;
+  }
 
-    .mobileSvgWrapper svg {
-        width: 50px;
-        height: 40px;
-    }
+  .mobileSvgWrapper svg {
+    width: 50px;
+    height: 40px;
+  }
 
-    .contentTitleWrapper h5 {
-        width: 70%;
-        font-size: 19px;
-        padding: 6px 20px;
-    }
+  .contentTitleWrapper h5 {
+    width: 70%;
+    font-size: 19px;
+    padding: 6px 20px;
+  }
 
-
-
-    .TableauSoftwareIconWrapper,
-    .HierarchyIconWrapper,
-    .ModuleIconWrapper,
-    .PieChartIconWrapper {
-        /* top: 135px;
+  .TableauSoftwareIconWrapper,
+  .HierarchyIconWrapper,
+  .ModuleIconWrapper,
+  .PieChartIconWrapper {
+    /* top: 135px;
         left: 3px; */
-        display: none;
-    }
+    display: none;
+  }
 
-    /* 
+  /* 
     .TableauSoftwareIconWrapper img {
         width: 25px;
         height: 25px;
@@ -406,52 +404,46 @@
         height: 35px;
     } */
 
-    .contentPointWrapper {
-        gap: 10px;
-    }
+  .contentPointWrapper {
+    gap: 10px;
+  }
 
-    .pointWrapper {
-        width: 220px;
-    }
+  .pointWrapper {
+    width: 220px;
+  }
 
+  .mentorsWraper {
+    gap: 60px;
+  }
 
-    .mentorsWraper {
-        gap: 60px;
-    }
+  .mentorsContentsWraper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
 
-    .mentorsContentsWraper {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-    }
+  .mentorFromImgWrapper {
+    width: 100%;
+    justify-content: space-evenly;
+  }
 
-    .mentorFromImgWrapper {
-        width: 100%;
-        justify-content: space-evenly;
-    }
+  .contentPointWrapper {
+    gap: 8px;
+    justify-content: center;
+    align-items: flex-start;
+  }
 
-    .contentPointWrapper {
-        gap: 8px;
-        justify-content: center;
-        align-items: flex-start;
-    }
+  .pointWrapper {
+    width: -webkit-fill-available;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 0;
+  }
 
-    .pointWrapper {
-        width: -webkit-fill-available;
-        justify-content: flex-start;
-        flex-direction: column;
-        gap: 0;
-    }
-
-    .pointText {
-        display: none;
-    }
-
-    .staticPoints {
-        display: block;
-        text-align: center;
-    }
+  .pointText {
+    display: none;
+  }
 
     .staticPoints p {
         color: #FFF;
@@ -460,60 +452,62 @@
         font-weight: 400;
         font-size: 15px;
     }
+  .staticPoints {
+    display: block;
+    text-align: center;
+  }
 
-    .pointsImgWrapper img {
-        width: 40px;
-        height: 40px;
-    }
-
+  .pointsImgWrapper img {
+    width: 40px;
+    height: 40px;
+  }
 }
 
 @media only screen and (max-width: 433px) {
-    .contentTitleWrapper h5 {
-        width: 68%;
-        padding: 6px 15px;
-    }
+  .contentTitleWrapper h5 {
+    width: 68%;
+    padding: 6px 15px;
+  }
 }
 
 @media only screen and (max-width: 419px) {
-    .contentTitleWrapper h1 {
-        width: 90%;
-    }
+  .contentTitleWrapper h1 {
+    width: 90%;
+  }
 
-    .mobileSvgWrapper {
-        right: 40px;
-    }
+  .mobileSvgWrapper {
+    right: 40px;
+  }
 
-    .contentTitleWrapper h5 {
-        width: 74%;
-    }
+  .contentTitleWrapper h5 {
+    width: 74%;
+  }
 }
 
 @media only screen and (max-width: 401px) {
-    .contentTitleWrapper h5 {
-        font-size: 18px;
-    }
+  .contentTitleWrapper h5 {
+    font-size: 18px;
+  }
 }
 
 @media (max-width: 385px) {
-    .contentTitleWrapper h5{
-        font-weight: 500;
-    }
+  .contentTitleWrapper h5 {
+    font-weight: 500;
+  }
 }
 @media only screen and (max-width: 361px) {
+  .contentWrapper {
+    width: 100%;
+    padding: 15px 10px;
+    /* gap: 30px; */
+    border-radius: 0;
+  }
 
-    .contentWrapper {
-        width: 100%;
-        padding: 15px 10px;
-        /* gap: 30px; */
-        border-radius: 0;
-    }
-
-    /* .contentTitleWrapper h1 {
+  /* .contentTitleWrapper h1 {
         font-size: 24px;
     } */
 
-    /* .contentTitleWrapper h5 {
+  /* .contentTitleWrapper h5 {
         font-size: 14px;
         padding: 5px 10px;
         width: -webkit-fill-available;
@@ -529,3 +523,4 @@
         font-size: 12px;
     }
 }
+
