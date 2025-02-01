@@ -311,6 +311,10 @@
   }
   
   @media only screen and (max-width: 481px) {
+    .innerContainer{
+      max-width: 100%;
+      border-radius: 25px;
+    }
     .pTag {
       font-size: 20px;
     }
@@ -349,21 +353,17 @@
   }
   
   @media only screen and (max-width: 361px) {
-    .innerContainer {
-      max-width: 320px;
-    }
   
     .pTag {
-      font-size: 12px;
+      font-size: 18px;
         margin-top: -10px;
+    }
+    .container h2 {
+      font-size: 28px;
     }
   
     .box {
       max-width: 100%;
-    }
-  
-    .container h2 {
-      font-size: 18px;
     }
   
     .boxMain {
@@ -377,7 +377,7 @@
     }
   
     .box p {
-      font-size: 12px;
+      font-size: 15px;
     }
   }
   

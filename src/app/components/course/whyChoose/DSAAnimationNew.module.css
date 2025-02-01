@@ -544,6 +544,10 @@
     font-size: 36px;
   }
 
+  .header h2{
+    line-height: 1.2;
+  }
+
   .header span {
     -webkit-text-stroke: .6px #fff1ea;
   }
