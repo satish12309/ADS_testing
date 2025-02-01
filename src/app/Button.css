@@ -380,4 +380,8 @@
   .grayButton {
     padding: 8px;
   }
+
+  .newBlueButton {
+    padding: 11px 10px;
+  }
 }
