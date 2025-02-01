@@ -527,15 +527,6 @@
   }
 }
 
-@media screen and (max-width: 401px) {
-  .headingContainer h2 {
-    font-size: 23px;
-  }
-
-  .subHeading {
-    font-size: 14px;
-  }
-}
 
 @media screen and (max-width: 361px) {
   .firstBotImgWrapper {
