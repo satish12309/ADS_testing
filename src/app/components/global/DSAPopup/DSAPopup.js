@@ -1,10 +1,18 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./DSAPopup.module.css";
+import dynamic from "next/dynamic";
+const Popup = dynamic(() => import("../../global/popup/Popup"), { ssr: false });
+const Form = dynamic(() => import("../../global/form/Form"), { ssr: false });
 
-const Popup = ({ message, onClose }) => {
+const DSAPopup = ({ message, onClose }) => {
+  const [Popups, setPopup] = useState(false);
+
+  const popupShow = useCallback(() => {
+    setPopup(true);
+  }, []);
   const leftPoints = [
     {
       id: 1,
@@ -21,6 +29,12 @@ const Popup = ({ message, onClose }) => {
   ];
   return (
     <div className={styles.popupOverlay}>
+      <Popup trigger={Popups} setTrigger={setPopup} className="popupModal">
+        <div className="RightPopup">
+          <h5>Book Demo Session</h5>
+          <Form popup={true} setTrigger={setPopup} DSAdownloadBrochure={true} />
+        </div>
+      </Popup>
       <div
         className={styles.popupContainer}
         onClick={(e) => e.stopPropagation()} // Prevents propagation to the overlay
@@ -95,7 +109,7 @@ const Popup = ({ message, onClose }) => {
             </div>
           </div>
           <div className={styles.buttonDiv}>
-            <button>Request a Demo Class</button>
+            <button onClick={popupShow}>Request a Demo Class</button>
           </div>
         </div>
       </div>
@@ -107,16 +121,12 @@ const DSAPopupWrapper = () => {
   const [isPopupVisible, setPopupVisible] = useState(false);
 
   useEffect(() => {
-    // Check if the popup has already been shown for the session
-    const hasSeenPopup = sessionStorage.getItem("hasSeenPopup");
-
-    if (!hasSeenPopup) {
+    if (!sessionStorage.getItem("hasSeenPopup")) {
       // Show the popup if the user hasn't seen it yet during this session
       setPopupVisible(true);
 
       // Set a flag in sessionStorage to mark that the user has seen the popup
       sessionStorage.setItem("hasSeenPopup", "true");
-      console.log(`User has seen the popup: ${!hasSeenPopup}`);
     }
   }, []);
 
@@ -127,7 +137,10 @@ const DSAPopupWrapper = () => {
   return (
     <>
       {isPopupVisible && (
-        <Popup message="Get Scholarship" onClose={handleClosePopup} />
+        <DSAPopup
+          message="Book Your Demo Class Now!"
+          onClose={handleClosePopup}
+        />
       )}
     </>
   );
