@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { useState, useEffect } from "react";
 import DSAPopupWrapper from "../components/global/DSAPopup/DSAPopup";
 import NavbarHome from "../components/home/navbar/NavbarHome";
@@ -7,12 +7,32 @@ export default function CourseLayout({ children }) {
   const [showPopup, setShowPopup] = useState(false);
 
   useEffect(() => {
-    const timer = setTimeout(() => {
+    let timer = setTimeout(() => {
       setShowPopup(true);
-    }, 3000); // 3 seconds delay
+    }, 4000); // 4 seconds delay
 
-    return () => clearTimeout(timer); // Cleanup on unmount
-  }, []);
+    const handleScroll = () => {
+      if (showPopup) return; // Prevent setting state if popup is already shown
+
+      const scrollHeight = document.documentElement.scrollHeight;
+      const scrollTop = document.documentElement.scrollTop;
+      const clientHeight = document.documentElement.clientHeight;
+
+      const scrolledPercentage = (scrollTop + clientHeight) / scrollHeight;
+
+      if (scrolledPercentage >= 0.6) {
+        setShowPopup(true);
+        clearTimeout(timer); // Clear the timeout if scroll condition is met first
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      clearTimeout(timer); // Cleanup timeout on unmount
+      window.removeEventListener("scroll", handleScroll); // Cleanup scroll event
+    };
+  }, [showPopup]);
 
   return (
     <div>
@@ -23,14 +43,9 @@ export default function CourseLayout({ children }) {
       </header>
 
       <main>
-        {/* {showPopup && <DSAPopupWrapper />} */}
-        <DSAPopupWrapper />
-        <div className="content">{children} </div>
+        {showPopup && <DSAPopupWrapper />}
+        <div className="content">{children}</div>
       </main>
-
-      {/* <footer>
-        <p>© 2024 Your Course Platform. All rights reserved.</p>
-      </footer> */}
     </div>
   );
 }
