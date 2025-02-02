@@ -2,15 +2,36 @@
 import Image from "next/image";
 import styles from "./ProgramSection.module.css";
 import dynamic from "next/dynamic";
-import { useState, memo, useMemo } from "react";
+import { useState, memo, useMemo, useEffect } from "react";
 
 const Form = dynamic(() => import("../../global/form/Form"), { ssr: false });
 const Popup = dynamic(() => import("../../global/popup/Popup"), { ssr: false });
 
 const ProgramSection = memo(
   ({ designOverrides, popupProps, programSectionData }) => {
+    const [isMobile, setIsMobile] = useState(false);
     const [popups, setPopups] = useState(false);
     const popupShow = () => setPopups(true);
+
+    useEffect(() => {
+      const mediaQuery = window.matchMedia("(max-width: 768px)"); // Mobile breakpoint
+
+      // Function to update the state based on matchMedia
+      const handleMediaChange = (event) => {
+        setIsMobile(event.matches);
+      };
+
+      // Initial check
+      setIsMobile(mediaQuery.matches);
+
+      // Add event listener for changes
+      mediaQuery.addEventListener("change", handleMediaChange);
+
+      // Cleanup on unmount
+      return () => {
+        mediaQuery.removeEventListener("change", handleMediaChange);
+      };
+    }, []);
 
     const memoizedProgramSectionData = useMemo(() => {
       if (
@@ -73,38 +94,44 @@ const ProgramSection = memo(
                       {content?.nonBold}
                       <span className={styles.colors}> {content?.yearExp}</span>
                     </h3>
-                    {/* <p className={styles.pTop}> */}
-                      {/* {content?.description
-                        ?.split("not mandatory")
-                        ?.map((segment, idx, array) => (
-                          <span key={idx}>
-                            {segment}
-                            {idx < array.length - 1 && (
-                              <span className={styles.green}>
-                                not mandatory
-                              </span>
-                            )}
-                            
-                          </span>
-                        ))} */}
+                    {!isMobile && (
+                      <p className={styles.pTop}>
+                        {content?.description
+                          ?.split("not mandatory")
+                          ?.map((segment, idx, array) => (
+                            <span key={idx}>
+                              {segment}
+                              {idx < array.length - 1 && (
+                                <span className={styles.green}>
+                                  not mandatory
+                                </span>
+                              )}
+                            </span>
+                          ))}
                         {/* {content?.plainDesc}<b>{content?.boldDesc}</b> */}
-                    {/* </p> */}
+                      </p>
+                    )}
 
                     <div className={styles.innerBoxDivWrapper}>
-                      <div className={styles.innerBoxDiv}>
-                        {content?.points1?.map((point) => (
-                          <div key={point.id} className={styles.innerBox1}>
-                            <h3>{point.title}</h3>
+                      {isMobile && (
+                        <>
+                          <div className={styles.innerBoxDiv}>
+                            {content?.points1?.map((point) => (
+                              <div key={point.id} className={styles.innerBox1}>
+                                <h3>{point.title}</h3>
+                              </div>
+                            ))}
                           </div>
-                        ))}
-                      </div>
-                      <div className={styles.innerBoxDiv}>
-                        {content?.points2?.map((point) => (
-                          <div key={point.id} className={styles.innerBox2}>
-                            <h3>{point.title}</h3>
+                          <div className={styles.innerBoxDiv}>
+                            {content?.points2?.map((point) => (
+                              <div key={point.id} className={styles.innerBox2}>
+                                <h3>{point.title}</h3>
+                              </div>
+                            ))}
                           </div>
-                        ))}
-                      </div>
+                        </>
+                      )}
+
                       <div className={styles.innerBoxDiv}>
                         {content?.points3?.map((point) => (
                           <div key={point.id} className={styles.innerBox2}>

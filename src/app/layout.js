@@ -64,12 +64,12 @@ export default function RootLayout({ children }) {
         />
 
         {/* Font Preload */}
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        {/* <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
           href="https://fonts.gstatic.com"
           crossOrigin="anonymous"
-        />
+        /> */}
 
         {loadScripts && (
           <>
