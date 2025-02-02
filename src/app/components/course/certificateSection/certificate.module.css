@@ -119,9 +119,9 @@
 
 .certBoxDemo {
   display: grid;
-  grid-template-columns: 42% 47%;
+  grid-template-columns: 38% 40%;
   justify-content: center;
-  gap: 4%;
+  gap: 2%;
   align-items: center;
   margin-top: 4%;
 }
