@@ -10,11 +10,7 @@ import Link from "next/link";
 const PopupContent = dynamic(() => import("../popup/PopupContent"));
 
 const NewSevenSection = ({
-  dataScience,
-  radio,
-  dataScienceCounselling,
-  interstedInHide,
-  dataScienceGeneric,
+  platform
 }) => {
 
   const [popups, setPopups] = useState(false);
@@ -26,14 +22,10 @@ const NewSevenSection = ({
   return (
     <div className="containerWidth">
       <PopupContent
-        dataScience={dataScience}
-        radio={radio}
-        dataScienceCounselling={dataScienceCounselling}
-        dataScienceGeneric={dataScienceGeneric}
         popups={popups}
         setPopups={setPopups}
-        interstedInHide={interstedInHide}
         heading="Apply For Counselling"
+        platform={platform}
       />
       <div className={styles.NewSevenSection}>
         <div className={styles.griContiner}>

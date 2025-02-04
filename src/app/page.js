@@ -50,19 +50,19 @@ export default function Home() {
   return (
     <>
       <nav>
-        <NavbarHome />
+        <NavbarHome platform={true}/>
       </nav>
       <main className={styles.main}>
-        <HeroSection downloadBrochure={true} />
+        <HeroSection downloadBrochure={true} platform={true}/>
         <KickStart />
         <NewCourse downloadBrochure={true}/>
         <InfinityLogo />
         <AnimationNew />
         <ReviewSlider showVideoYt={true} />
-        <ContactUs />
+        <ContactUs platform={true}/>
         <CLogo />
-        <MobileTestimonial />
-        <NewSevenSection />
+        <MobileTestimonial platform={true}/>
+        <NewSevenSection platform={true}/>
         <BottomBar platform={true}/>
       </main>
     </>

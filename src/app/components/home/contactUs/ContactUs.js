@@ -7,7 +7,7 @@ import { debounce } from "@/utils/debounce";
 
 const Form = dynamic(() => import("../../global/form/Form"));
 
-function ContactUs() {
+function ContactUs({platform}) {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
@@ -130,7 +130,7 @@ function ContactUs() {
               <p className={styles.NormalPForm}>
                 Check Your <span className={styles.span}>Eligibility </span>
               </p>
-              <Form/>
+              <Form platform={platform}/>
               {/* <Form {...formProps} /> */}
             </div>
           </Suspense>

@@ -18,7 +18,7 @@ const Popup = dynamic(() => import("@/app/components/global/popup/Popup"), {
   loading: () => <div>Loading...</div>,
 });
 
-const MobileTestimonial = memo(() => {
+const MobileTestimonial = memo(({platform}) => {
   const [popups, setPopups] = useState(false);
   const [activeIndex, setActiveIndex] = useState(
     Math.floor(testimonials.length / 3)
@@ -60,7 +60,7 @@ const MobileTestimonial = memo(() => {
         <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
           <div className="RightPopup">
             <h5>Apply For Counselling</h5>
-            <Form />
+            <Form platform={platform}/>
           </div>
         </Popup>
         <div className={Styles.TestimonialContainer}>
