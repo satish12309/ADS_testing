@@ -6,9 +6,9 @@ import { courses, masterCourse, SvgArrow } from "./NewCourseData";
 import Link from "next/link";
 import dynamic from "next/dynamic";
 import DataScienceCard from "./DataScienceCard";
+import "swiper/css"; // Correct import for the CSS
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import { Navigation, Pagination } from "swiper";
+import { Navigation, Pagination } from "swiper/modules";
 import { MdOutlineFileDownloadSvg } from "@/Data/svgData/MDIcons";
 
 const Popup = dynamic(() => import("../../global/popup/Popup"));
@@ -624,7 +624,7 @@ const NewCourse = ({
 
           <div>
             {isMobile && activeTab === "all" && (
-              <DataScienceCard data={dataScience} radio={true} dataScience={true} />
+              <DataScienceCard />
             )}
             {/* Render DataScienceCard only on mobile */}
 
