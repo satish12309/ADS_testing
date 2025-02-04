@@ -23,11 +23,11 @@ const InfinityLogo = dynamic(
   { ssr: false, loading: () => <div>Loading...</div> }
 );
 const KickStart = dynamic(() =>
-  import("./components/home/kickStart/KickStart")
+  import("./components/home/KickStartSection/KickStart")
 );
 const NavbarHome = dynamic(() => import("./components/home/navbar/NavbarHome"));
 const NewCourse = dynamic(() =>
-  import("./components/home/newCourse/NewCourse")
+  import("./components/home/NewCourseSection/NewCourse")
 );
 const Animation = dynamic(
   () => import("./components/home/whyChoose/Animation"),
@@ -63,7 +63,7 @@ export default function Home() {
         <CLogo />
         <MobileTestimonial />
         <NewSevenSection />
-        <BottomBar />
+        <BottomBar platform={true}/>
       </main>
     </>
   );

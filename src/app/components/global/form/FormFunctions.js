@@ -151,10 +151,10 @@ const getFormFields = (platform) => {
           value: "Cyber Security & Ethical Hacking ",
           label: "Cyber Security & Ethical Hacking ",
         },
-        {
-          value: "Master in CS: Data Science and AI",
-          label: "Master in CS: Data Science and AI",
-        },
+        // {
+        //   value: "Master in CS: Data Science and AI",
+        //   label: "Master in CS: Data Science and AI",
+        // },
       ],
       required: platform,
       showField: platform,
