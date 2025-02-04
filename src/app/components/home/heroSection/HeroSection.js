@@ -31,7 +31,7 @@ const logoImages = [
     height: 90,
   },
 ];
-const HeroSection = memo(({ downloadBrochure }) => {
+const HeroSection = memo(({ downloadBrochure ,platform}) => {
   const [popups, setPopups] = useState(false);
   const [applyPopups, setApplyPopups] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -57,6 +57,7 @@ const HeroSection = memo(({ downloadBrochure }) => {
           setPopups={popups ? setPopups : setApplyPopups}
           heading={popups ? "Download Syllabus" : "Apply for Counselling"}
           downloadBrochure={popups ? downloadBrochure : false}
+          platform={platform}
         />
         <div className={styles.gridConteiner}>
           <div className={styles.leftside}>
