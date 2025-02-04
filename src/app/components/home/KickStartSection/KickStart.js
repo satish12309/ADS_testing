@@ -62,7 +62,7 @@ const KickStart = () => {
 </svg>
   ];
   return (
-    <div  className="containerWidth">
+    <div>
       <div className={styles.continer}>
         <h3>
           Kickstart your career with{" "}
@@ -78,7 +78,7 @@ const KickStart = () => {
       </div>
       <div className={styles.spantags}>
         <span>{SvgRightMark} 200-400 hours of learning</span>
-        <span>{SvgRightMark} Live, interactive sessions</span>
+        <span>{SvgRightMark} Live interactive sessions</span>
         <span>{SvgRightMark} Hybrid training mode</span>
       </div>
 
@@ -86,7 +86,7 @@ const KickStart = () => {
         <div className={styles.MblTop} >
           {" "}
           <span>{SvgRightMarkMbl} 200-400 hours of learning</span>
-          <span>{SvgRightMarkMbl} Live, interactive sessions</span>
+          <span>{SvgRightMarkMbl} Live interactive sessions</span>
         </div>
         <div className={styles.MblDown}>
           <span>{SvgRightMarkMbl} Hybrid training mode</span>
