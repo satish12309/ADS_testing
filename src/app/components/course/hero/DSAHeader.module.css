@@ -338,7 +338,7 @@
   .contentTitleWrapper h1 {
     width: 77%;
     margin: auto;
-    font-size: 28px;
+    font-size: 30px;
   }
 
   .svgWrapper {
@@ -463,6 +463,16 @@
   }
 }
 
+@media only screen and (max-width: 449px) {
+  .contentTitleWrapper h1{
+    width: 85%;
+  }
+}
+@media only screen and (max-width: 431px) {
+  .contentTitleWrapper h1{
+    width: 90%;
+  }
+}
 @media only screen and (max-width: 433px) {
   .contentTitleWrapper h5 {
     width: 68%;
@@ -472,7 +482,7 @@
 
 @media only screen and (max-width: 419px) {
   .contentTitleWrapper h1 {
-    width: 90%;
+    width: 100%;
   }
 
   .mobileSvgWrapper {
@@ -494,6 +504,11 @@
   .contentTitleWrapper h5 {
     font-weight: 500;
   }
+}
+@media only screen and (max-width: 387px) {
+  .staticPoints p {
+    font-size: 14px;
+}
 }
 @media only screen and (max-width: 361px) {
   .contentWrapper {
