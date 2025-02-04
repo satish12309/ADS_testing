@@ -41,7 +41,7 @@ const NavbarHome = ({ isThankYou, isDSA,DSAdownloadBrochure,platform }) => {
         ) : (
           <div onClick={popupShow}>
             <Button
-              text={isDSA ? "Book Demo Session" : "Apply for Counselling"}
+              text={isDSA ? "Book Demo Session" : "Apply Now"}
               newBlueButton={true}
             />
           </div>
