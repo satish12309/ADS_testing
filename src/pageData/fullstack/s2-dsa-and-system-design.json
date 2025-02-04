@@ -141,23 +141,23 @@
         "points1": [
           {
             "id": 1,
-            "title": "Software Engineer"
+            "title": "Software Engg."
           },
           {
             "id": 2,
-            "title": "MLOps Engineer"
+            "title": "MLOps Engg."
           }
         ],
         "points2": [
           {
             "id": 3,
-            "title": "Support Engineer"
+            "title": "Support Engg."
           }
         ],
         "points3": [
           {
             "id": 4,
-            "title": "ML Engineer"
+            "title": "ML Engg."
           },
           {
             "id": 5,
@@ -167,7 +167,7 @@
         "points4": [
           {
             "id": 6,
-            "title": "DevOps Engineer"
+            "title": "DevOps Engg."
           },
           {
             "id": 7,
