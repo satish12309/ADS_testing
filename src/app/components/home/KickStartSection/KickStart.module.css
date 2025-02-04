@@ -163,6 +163,7 @@
 
     .spantagsMbl {
         display: block;
+        margin-left: -10px;
     }
 
 }
@@ -173,9 +174,14 @@
 
 
     }
-
+    
     .MblTop span {
         font-size: 11.38px;
     }
 
 }
+/* @media screen and (max-width:361px) {
+    .spantagsMbl {
+        margin-left: -10px;
+    }
+} */
