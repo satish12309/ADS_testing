@@ -620,7 +620,7 @@ font-weight: 600;
     font-size: 20px;
   }
   .cardContent {
-    padding: 20px 30px;
+    padding: 16px 12px 21px 12px;
     margin-bottom: 40px;
   }
   .buttonsMaster button{
@@ -777,7 +777,7 @@ font-size: 16px;
 @media screen and (max-width: 481px) {
 
 .cardContent h3{
-font-size: 20px;
+font-size: 18px;
 }
 .lists span{
   font-size: 14px;
@@ -854,9 +854,9 @@ font-size: 20px;
 }
 
 @media screen and (max-width: 375px) {
-  .cardContent h3 {
+  /* .cardContent h3 {
     font-size: 20px;
-  }
+  } */
   .buttons button {
     font-size: 14px;
   }
