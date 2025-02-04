@@ -21,7 +21,7 @@
 
 .backgroundImgContainer {
   color: var(--black);
-  margin-top: 52px;
+  margin-top: 80px;
 }
 
 .innerDiv {
@@ -301,7 +301,9 @@
   .firstSection h1 {
     font-size: 36px;
   }
-
+  .backgroundImgContainer {
+    margin-top: 80px;
+  }
   .botDiv {
     margin-top: 6%;
   }
