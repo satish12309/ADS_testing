@@ -8,7 +8,7 @@ const Popup = dynamic(() => import("../../global/popup/Popup"), { ssr: false });
 const Form = dynamic(() => import("../../global/form/Form"), { ssr: false });
 import Button from "../../global/button/Button";
 
-const NavbarHome = ({ isThankYou, isDSA,DSAdownloadBrochure,platform }) => {
+const NavbarHome = ({ isThankYou, isDSA, DSAdownloadBrochure, platform }) => {
   const [Popups, setPopup] = useState(false);
 
   const popupShow = useCallback(() => {
@@ -21,7 +21,12 @@ const NavbarHome = ({ isThankYou, isDSA,DSAdownloadBrochure,platform }) => {
       <Popup trigger={Popups} setTrigger={setPopup} className="popupModal">
         <div className="RightPopup">
           <h5>{isDSA ? "Book Demo Session" : "Apply For Counselling"}</h5>
-          <Form popup={true} setTrigger={setPopup} DSAdownloadBrochure={isDSA?DSAdownloadBrochure:""} platform={platform}/>
+          <Form
+            popup={true}
+            setTrigger={setPopup}
+            DSAdownloadBrochure={isDSA ? DSAdownloadBrochure : ""}
+            platform={platform}
+          />
         </div>
       </Popup>
 
@@ -41,7 +46,7 @@ const NavbarHome = ({ isThankYou, isDSA,DSAdownloadBrochure,platform }) => {
         ) : (
           <div onClick={popupShow}>
             <Button
-              text={isDSA ? "Book Demo Session" : "Apply Now"}
+              text={isDSA ? "Book Demo" : "Apply Now"}
               newBlueButton={true}
             />
           </div>
