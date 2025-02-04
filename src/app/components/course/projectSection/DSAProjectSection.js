@@ -77,7 +77,7 @@ const ProjectSection = ({}) => {
                     className={styles.projectIcon}
                   />
                 </div>
-                <div className={styles.cardText}>
+                <div className={styles.outcome}>
                   <span>
                     <b>Outcome:</b>
                   </span>{" "}
@@ -116,7 +116,7 @@ const ProjectSection = ({}) => {
                     className={styles.projectIcon}
                   />
                 </div>
-                <div className={styles.cardText}>
+                <div className={styles.outcome}>
                   <span>
                     <b>Outcome:</b>
                   </span>{" "}

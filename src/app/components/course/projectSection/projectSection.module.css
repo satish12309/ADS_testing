@@ -186,15 +186,17 @@
   font-weight: 600;
   /* margin: 14px auto; */
 }
-
+.outcome span,
 .cardText {
   color: #616161;
   font-size: 15px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 21px;
 }
-
-.cardText span {
+.outcome {
+  font-size: 15px;
+}
+.outcome span {
   color: #0072bc;
 }
 
@@ -381,7 +383,7 @@
 
 @media screen and (max-width: 1281px) {
   .cardText {
-    line-height: 19px;
+    line-height: 24px;
   }
 
   /* .lowerBox .projectIcon {
