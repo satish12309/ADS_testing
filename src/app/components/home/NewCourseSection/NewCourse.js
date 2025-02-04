@@ -7,6 +7,8 @@ import Link from "next/link";
 import dynamic from "next/dynamic";
 import DataScienceCard from "./DataScienceCard";
 import "swiper/css"; // Correct import for the CSS
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 import { MdOutlineFileDownloadSvg } from "@/Data/svgData/MDIcons";
