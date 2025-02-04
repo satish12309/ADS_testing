@@ -5,7 +5,7 @@ import PopupContent from "../popup/PopupContent";
 import { MdOutlineFileDownloadSvg } from "@/Data/svgData/MDIcons";
 import Button from "../button/Button";
 
-function BottomBar({isDSA}) {
+function BottomBar({isDSA,platform}) {
   const [popups, setPopups] = useState(false);
 
   const popupShow = () => {
@@ -40,6 +40,7 @@ function BottomBar({isDSA}) {
           heading={isDSA ? "Book Demo Session" : "Download Syllabus"}
           downloadBrochure={isDSA ? false : true} 
           isDSA={isDSA}
+          platform={platform}
         />
         <div>
           <p className={styles.career}>

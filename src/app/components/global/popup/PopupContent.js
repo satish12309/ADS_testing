@@ -10,7 +10,8 @@ const PopupContent = ({
   downloadBrochure,
   brochureLink,
   brochurePdf,
-  isDSA
+  isDSA,
+  platform
 }) => {
   return (
     <Popup
@@ -26,6 +27,7 @@ const PopupContent = ({
           brochureLink={brochureLink}
           brochurePdf={brochurePdf}
           DSAdownloadBrochure={isDSA}
+          platform={platform}
         />
       </div>
     </Popup>

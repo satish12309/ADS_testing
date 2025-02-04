@@ -1,0 +1,336 @@
+/* General Styles */
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%; /* Make it responsive */
+  max-width: 1200px; /* Limit the max width */
+  margin: auto;
+}
+
+.swiperContainer {
+  width: 100%;
+  padding: 16px 0;
+}
+.mainImage {
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 10px;
+}
+
+.sectionTitle {
+  color: #666;
+  margin-top: 50px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.cardImage {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.cardTitle {
+  color: #212121;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 126.5%;
+  letter-spacing: -0.32px;
+}
+
+.lists {
+  display: flex;
+  flex-direction: column;
+  margin: 24px 0;
+  gap: 10px;
+}
+
+.listicondiv {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.lists span {
+  color: #666;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 155%;
+}
+
+.cardDuration,
+.cardCertification {
+  font-size: 1rem;
+  margin-bottom: 8px;
+}
+
+.cardDescription {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 16px;
+}
+
+.brochureLink,
+.downloadLink,
+.courseLink {
+  display: block;
+  margin: 8px 0;
+  text-decoration: none;
+  color: #007bff;
+  transition: color 0.3s ease;
+}
+
+.brochureLink:hover,
+.downloadLink:hover,
+.courseLink:hover {
+  color: #0056b3;
+}
+
+.desktopContainer {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  width: 100%; /* Make it responsive */
+  max-width: 1200px; /* Limit the max width */
+}
+
+.maindiv {
+  width: 100%;
+  max-width: 300px; /* Set max width */
+}
+
+.card {
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+  background: #fff;
+  padding: 16px 12px 21px 12px;
+}
+
+.mainContienr {
+  width: 100%;
+  max-width: 1200px; /* Limit the max width */
+  margin: 40px auto;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-start;
+  gap: 18px;
+  align-items: center;
+}
+
+.brochurebtn {
+  border-radius: 26px;
+  background: #212121;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 155%;
+  padding: 10px 18px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+.viewDetailsButton {
+  border-radius: 26px;
+  background: transparent;
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 155%;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 1px solid #000;
+}
+@media screen and (max-width: 1381px) {
+  .desktopContainer {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    gap: 20px;
+  }
+  .maindiv {
+    max-width: 380px;
+  }
+  .mainImage {
+    width: 100%;
+  }
+  .brochurebtn {
+    font-size: 14px;
+  }
+  .viewDetailsButton {
+    font-size: 14px;
+    padding: 10px 23px;
+  }
+}
+@media screen and (max-width: 1281px) {
+  .maindiv {
+    max-width: 274px;
+  }
+
+  .sectionTitle {
+    margin-top: 50px;
+    font-size: 26px;
+    font-weight: 600;
+  }
+
+  .desktopContainer {
+    justify-content: left;
+    gap: 20px;
+  }
+  .cardTitle {
+    font-size: 18px;
+  }
+  .brochurebtn,
+  .viewDetailsButton {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1181px) {
+  .maindiv {
+    max-width: 250px;
+  }
+  .cardTitle {
+    font-size: 16px;
+  }
+  .brochurebtn {
+    font-size: 18px;
+  }
+
+  .viewDetailsButton {
+    font-size: 18px;
+    padding: 10px 16px;
+  }
+  .lists span {
+    font-size: 12px;
+  }
+  .brochurebtn {
+    font-size: 10px;
+  }
+  .viewDetailsButton {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 1081px) {
+  .maindiv {
+    max-width: 100%;
+  }
+  .viewDetailsButton, .brochurebtn {
+    font-size: 10px;
+  }
+
+  .cardTitle {
+    font-size: 14px;
+  }
+  .lists span {
+    font-size: 12px;
+  }
+}
+
+
+@media screen and (max-width: 1024px) {
+
+  .desktopContainer {
+    grid-template-columns:48% 48%;
+  }
+
+
+  .cardTitle{
+    font-size: 18px;
+  }
+  .lists span {
+    font-size: 14px;
+  }
+  .viewDetailsButton, .brochurebtn{
+    font-size: 12px;
+  }
+  .newSection{
+    grid-template-columns: 24% 70%;
+  }
+}
+
+@media screen and (max-width: 961px) {
+}
+
+
+/* Media Queries for Mobile View */
+@media (max-width: 768px) {
+  .desktopContainer {
+    display: none; /* Hide desktop container on mobile */
+  }
+
+  .swiperContainer {
+    padding: 16px 0;
+  }
+}
+
+@media (min-width: 769px) {
+  .swiperContainer {
+    display: none; /* Hide swiper on desktop */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .maindiv {
+    padding: 0 20px;
+  }
+  .mainImage {
+    width: 100%;
+  }
+
+  .cardTitle {
+    font-size: 20px;
+  }
+  .sectionTitle {
+    font-size: 22px;
+    /* text-align: center; */
+    padding: 0 30px;
+    margin-top: 20px;
+    text-align: left;
+  }
+  .brochurebtn {
+    font-size: 16px;
+  }
+
+  .viewDetailsButton {
+    font-size: 15px;
+    padding: 10px 22px;
+  }
+  .maindiv {
+    max-width: 100%;
+  }
+
+  .card {
+    margin-bottom: 40px;
+  }
+  .swiperContainer {
+    padding-bottom: 30px;
+  }
+  .lists span {
+    font-size: 14px;
+  }
+}
+
+@media screen  and (max-width:451px) {
+  .brochurebtn {
+    font-size: 13px;
+  }
+
+  .viewDetailsButton {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .cardTitle {
+    font-size: 16px;
+  }
+}
