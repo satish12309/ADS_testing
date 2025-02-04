@@ -83,16 +83,12 @@ const Form = ({
         "https://ipinfo.io/json?token=bc89c2010abac0"
       );
       if (!response.ok) {
-        console.log(
-          `Failed to fetch location: ${response.status} ${response.statusText}`
-        );
 
         throw new Error(
           `Failed to fetch location: ${response.status} ${response.statusText}`
         );
       }
       const data = await response.json();
-      console.log("API Response:", data);
       const { country, region, city } = data;
 
       // If city is not available, provide a default value
@@ -102,7 +98,6 @@ const Form = ({
 
       return { country: finalCountry, region: finalRegion, city: finalCity };
     } catch (error) {
-      console.error("Error fetching location:", error.message);
       // If there's an error fetching location data, return default or placeholder values
       return {
         country: "Country Undefined",
@@ -136,20 +131,13 @@ const Form = ({
       formData.append("city", locationData.city);
       formData.append("region", locationData.region);
     } catch (error) {
-      console.error("Error fetching location:", error.message);
     }
 
     try {
       const endPoint = formEndPoint;
 
-      //   setError(getValidation(radio, Domain, interstedInHide, formEntries));
-      //   const validation = getValidation(radio, Domain, interstedInHide, formEntries);
 
       if (endPoint) {
-        // console.log("FormData before submission:");
-        // for (const [key, value] of formData.entries()) {
-        //   console.log(`${key}: ${value}`);
-        // }
         const sendData = await fetch(endPoint, {
           method: "POST",
           body: formData,
@@ -177,7 +165,6 @@ const Form = ({
       }
       setSubmitting(false); // Set submitting state to false after form submission
     } catch (error) {
-      console.error("Error submitting form:", error.message);
     }
   };
 
