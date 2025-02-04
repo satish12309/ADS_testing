@@ -149,7 +149,9 @@ const ProgramSection = memo(
                     </div>
 
                     <p className={styles.pBot}>
-                      <span className={styles.orangeSpan}>Important Note:</span>
+                      <span className={styles.orangeSpan}>
+                        Important Note:{" "}
+                      </span>
                       {content?.importantNote}
                       <span className={styles.blueSpan} onClick={popupShow}>
                         {""} check eligibility
