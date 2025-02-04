@@ -9,8 +9,7 @@ const PopupContent = dynamic(() =>
 );
 import data from "@/Data/componentsdata/HRAnalyticsProjectSectionData.json";
 import { debounce } from "@/utils/debounce";
-const ProjectSection = ({
-}) => {
+const ProjectSection = ({}) => {
   const [popups, setPopups] = useState(false);
   const [isMbile, setIsMobile] = useState(false);
 
@@ -78,7 +77,7 @@ const ProjectSection = ({
                     className={styles.projectIcon}
                   />
                 </div>
-                <div className={styles.cardText}>
+                <div className={styles.outcome}>
                   <span>
                     <b>Outcome:</b>
                   </span>{" "}
@@ -117,7 +116,7 @@ const ProjectSection = ({
                     className={styles.projectIcon}
                   />
                 </div>
-                <div className={styles.cardText}>
+                <div className={styles.outcome}>
                   <span>
                     <b>Outcome:</b>
                   </span>{" "}
