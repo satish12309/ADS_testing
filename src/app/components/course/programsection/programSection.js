@@ -161,17 +161,15 @@ const ProgramSection = memo(
                 );
               })}
 
-              <div className={styles.secondSection}>
-                <div className={styles.secondSectionImgWrapper}>
-                  <Image
-                    src={rightImg}
-                    alt="Learnbay"
-                    quality={100}
-                    width={280}
-                    height={270}
-                    loading="lazy"
-                  />
-                </div>
+              <div className={styles.secondSectionImgWrapper}>
+                <Image
+                  src={rightImg}
+                  alt="Learnbay"
+                  quality={100}
+                  width={250}
+                  height={230}
+                  loading="lazy"
+                />
               </div>
             </div>
           </div>
