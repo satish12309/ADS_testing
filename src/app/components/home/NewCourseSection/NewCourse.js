@@ -279,7 +279,7 @@ const NewCourse = ({
   };
 
   const renderMasterCourse = () => (
-    <div className={`${styles.MasterCard} width`}>
+    <div className={`${styles.MasterCard} containerWidth`}>
       <Popup
         trigger={popups}
         setTrigger={setPopups}
