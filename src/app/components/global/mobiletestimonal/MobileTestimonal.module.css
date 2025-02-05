@@ -7,6 +7,7 @@
   border-radius: 50px;
   background: var(--cyan);
   width: 80%;
+  max-width: 1200px;
   margin: 0 auto 120px auto;
 }
 
