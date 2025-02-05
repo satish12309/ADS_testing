@@ -10,6 +10,9 @@
   gap: 50px;
   width: 93%;
   margin: auto;
+  height: max-content;
+  justify-content: center;
+  align-items: center;
 }
 
 .innerDiv h2 {
@@ -36,8 +39,13 @@
   font-weight: 600;
 }
 
+.H3,
+.ptop span,
+.ptop {
+  width: 34rem;
+}
 .pTop {
-  width: 88%;
+  width: 64%;
   font-size: 18px;
   color: #212121;
   font-style: normal;
@@ -80,15 +88,6 @@
   font-size: var(--desktop_p-font-size);
   font-weight: 600;
 }
-
-.secondSection {
-  /* background: #E3E3E3; */
-  background: #ebebeb;
-  padding: 0 0 19px 30px;
-  height: fit-content;
-  border-radius: 0px 40px 0px 40px;
-}
-
 .secondSectionImgWrapper {
   background: linear-gradient(
       to bottom,
@@ -98,6 +97,8 @@
     var(--light-black);
   padding: 30px 20px 20px 30px;
   border-radius: 40px;
+  height: fit-content;
+  margin: 0.1rem 12.6rem 1rem -17rem;
 }
 
 .orangeSpan {
@@ -117,28 +118,34 @@
   color: var(--light-orange);
 }
 
-.firstSection {
-  display: flex;
-  flex-flow: column;
-  gap: 40px;
-  border-radius: 40px;
-  padding: 33px 60px 60px 37px;
-  background: var(--white);
-  position: relative;
-}
-
 .pBot {
   font-size: 15px;
-  width: 157%;
+  /* width: 157%; */
 }
 
 .twoSection {
   position: relative;
   display: flex;
   border-radius: 40px;
-  background: #fff;
+  background: url("/asset/Programsection.webp") no-repeat;
+  position: relative;
+  width: 111%;
+  height: max-content;
+  background-size: 70rem 29rem;
 }
-
+.topBorderDiv1,
+.topBorderDiv2,
+.bottomBorderDiv1,
+.bottomBorderDiv2 {
+  display: none;
+}
+.firstSection {
+  display: flex;
+  flex-flow: column;
+  gap: 38px;
+  border-radius: 40px;
+  padding: 33px 60px 60px 37px;
+}
 .topBorderDiv1 {
   position: absolute;
   width: 50px;
@@ -193,7 +200,7 @@
 }
 
 .H3 {
-  width: 88%;
+  /* width: 88%; */
   color: var(--light-grayy);
   font-size: var(--desktop_h3-font-size);
   font-style: normal;
@@ -207,26 +214,16 @@
   font-weight: 700;
   line-height: 114%;
 }
-
-@media only screen and (min-width: 1481px) {
-  .pBot {
-    width: 150%;
-  }
-}
-
-@media only screen and (max-width: 1481px) {
-  .secondSection {
-    padding: 0 0 18px 20px;
-  }
-}
-
 @media only screen and (max-width: 1381px) {
   .topBorderDiv1 {
     left: 65%;
   }
-
-  .secondSection {
-    padding: 0 0 32px 25px;
+  .twoSection {
+    background-size: 69rem 28rem;
+  }
+  .secondSectionImgWrapper {
+    background-size: 67rem 25rem;
+    margin: 0.1rem 8.2rem 1rem -17rem;
   }
 
   .topBorderDiv2 {
@@ -238,15 +235,13 @@
   .topBorderDiv1 {
     left: 62.5%;
   }
-
-  .secondSection {
-    padding: 0 0 35px 30px;
-  }
-
   .topBorderDiv2 {
     left: 62%;
   }
-
+  .secondSectionImgWrapper {
+    /* background-size: 62rem 24rem; */
+    margin: 0.1rem 2.2rem 1rem -17rem;
+  }
   .bottomBorderDiv1 {
     bottom: 16%;
   }
@@ -255,11 +250,11 @@
     bottom: 16%;
   }
 
-  .innerDiv,
+  /* .innerDiv,
   .H3,
   .pTop {
     width: 100%;
-  }
+  } */
 
   /* .hrline {
     left: 33%;
@@ -268,17 +263,12 @@
   .container {
     padding: 8% 0;
   }
-
-  /* .twoSection {
-    grid-template-columns: 64% 32%;
-  } */
 }
 
 @media only screen and (max-width: 1181px) {
-  .secondSection {
-    padding: 0 0 58px 32px;
+  .twoSection {
+    background-size: 63rem 27rem;
   }
-
   .topBorderDiv1,
   .topBorderDiv2 {
     left: 59%;
@@ -298,16 +288,16 @@
     left: 30%;
   }
 
-  .secondSection {
-    padding: 0 0 47px 25px;
-  }
-
   .twoSection {
-    display: grid;
-    grid-template-columns: 61% 38%;
-    gap: 32px;
+    background-size: 58rem 27rem;
   }
-
+  .secondSectionImgWrapper {
+    margin: 0.1rem 1.2rem 1rem -17rem;
+  }
+  .secondSectionImgWrapper img {
+    width: 220px;
+    height: 220px;
+  }
   .H3 {
     font-size: 22px;
   }
@@ -342,20 +332,16 @@
   .twoSection {
     gap: 30px;
   }
-
-  .secondSectionImgWrapper img {
-    width: 100%;
-    height: 100%;
+  .twoSection {
+    background-size: 55rem 27rem;
   }
 
+  .secondSectionImgWrapper {
+    margin: 0.1rem 0 1rem -17rem;
+  }
   .firstSection {
     gap: 31px;
   }
-
-  .secondSection {
-    padding: 0 0 38px 25px;
-  }
-
   .topBorderDiv2 {
     left: 58.8%;
   }
@@ -367,9 +353,16 @@
   }
 
   .twoSection {
-    grid-template-columns: 54% 42.5%;
+    background-size: 55rem 22rem;
   }
 
+  .secondSectionImgWrapper {
+    margin: -0.9rem 2rem 1rem -17rem;
+  }
+  .secondSectionImgWrapper img {
+    width: 205px;
+    height: 190px;
+  }
   .pBot {
     margin: 0;
     max-width: -webkit-fill-available;
@@ -384,10 +377,6 @@
     left: 54%;
   }
 
-  .secondSection {
-    padding: 0 0 69px 58px;
-  }
-
   .innerBoxDivWrapper {
     gap: 0;
   }
@@ -396,12 +385,10 @@
   .topBorderDiv2 {
     left: 52%;
   }
-
-  .secondSection {
-    padding: 0 0 51px 25px;
-  }
-
   .firstSection {
+    /* background: var(--white); */
+    position: relative;
+
     gap: 18px;
   }
 
@@ -425,10 +412,6 @@
 }
 
 @media only screen and (max-width: 921px) {
-  .secondSection {
-    padding: 0 0 35px 25px;
-  }
-
   .bottomBorderDiv2 {
     right: 3px;
     bottom: 4.5%;
@@ -439,11 +422,14 @@
 
 @media only screen and (max-width: 821px) {
   .twoSection {
-    grid-template-columns: 61% 38%;
-    gap: 10px;
+    background-size: 42rem 19rem;
   }
-
+  .secondSectionImgWrapper img {
+    width: 157px;
+    height: 162px;
+  }
   .H3 {
+    width: 22rem;
     font-size: 14px;
   }
 
@@ -463,14 +449,6 @@
   .blackSpan {
     font-size: 25px;
   }
-
-  .twoSection {
-    grid-template-columns: 57% 44%;
-  }
-
-  .secondSection {
-    padding: 0 0 116px 25px;
-  }
 }
 
 @media only screen and (max-width: 769px) {
@@ -478,10 +456,6 @@
     width: 230px;
     height: 230px;
   } */
-  .twoSection {
-    grid-template-columns: 55% 44%;
-  }
-
   .topBorderDiv1,
   .topBorderDiv2 {
     left: 49.5%;
@@ -504,12 +478,22 @@
 
 @media only screen and (max-width: 641px) {
   .twoSection {
-    grid-template-columns: 100%;
+    flex-flow: column;
+    background: white;
     margin-top: 30px;
   }
-
-  .secondSection {
-    padding: 0;
+  .secondSectionImgWrapper img {
+    width: 280px;
+    height: 270px;
+  }
+  .H3 {
+    width: auto;
+  }
+  .secondSectionImgWrapper {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .topBorderDiv1,
@@ -543,6 +527,9 @@
   .innerBox1 h3,
   .innerBox2 h3 {
     font-size: 9px;
+  }
+  .firstSection {
+    background: white;
   }
 }
 

@@ -118,7 +118,7 @@ html,
 }
 
 .containerWidth {
-  /* max-width: 1200px; */
+  max-width: 1200px;
   width: 85%;
   margin: auto;
 }
